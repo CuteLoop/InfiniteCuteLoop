@@ -1,3 +1,3 @@
 # InfiniteCuteLoop
 Hugo. Math Blog with latex support
-[](https://cuteloop.github.io/InfiniteCuteLoop/)
+[demo](https://cuteloop.github.io/InfiniteCuteLoop/)
