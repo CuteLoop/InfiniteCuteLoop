@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on A minimal Hugo website</title>
+    <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/markdown/</link>
+    <description>Recent content in Markdown on A minimal Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Mar 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog with LaTeX in 15 Minutes</title>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</link>
+      <pubDate>Thu, 13 Mar 2025 12:00:00 +0000</pubDate>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</guid>
+      <description>Blog with LaTeX in 15 Minutes Joel Maldonado Welcome to this infinite Cute Loop! In this post, I’m going to share my journey of setting up a Hugo blog with full LaTeX support and deploying it to GitHub Pages—all in just 15 minutes. If you’re curious about how to get your blog up and running quickly, read on!Below is the updated, comprehensive tutorial that incorporates all the details—including creating your GitHub repository, initializing your Hugo site with your final configuration, adding LaTeX support via the custom footer partial, and deploying your site from a dedicated branch (gh‑pages) using ghp‑import.</description>
+    </item>
+    <item>
+      <title>A Plain Markdown Post</title>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/my-first-post/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/my-first-post/</guid>
+      <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.&#xA;1. Markdown or R Markdown This post is written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The differences include:&#xA;You cannot run any R code in a plain Markdown document, whereas in R Markdown you can embed R code chunks. A plain Markdown post is rendered via Goldmark, while R Markdown is compiled with rmarkdown and Pandoc.</description>
+    </item>
+  </channel>
+</rss>

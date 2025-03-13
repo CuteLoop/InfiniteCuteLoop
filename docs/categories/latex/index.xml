@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LaTeX on A minimal Hugo website</title>
+    <link>https://cuteloop.github.io/InfiniteCuteLoop/categories/latex/</link>
+    <description>Recent content in LaTeX on A minimal Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Mar 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/categories/latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog with LaTeX in 15 Minutes</title>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</link>
+      <pubDate>Thu, 13 Mar 2025 12:00:00 +0000</pubDate>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</guid>
+      <description>Blog with LaTeX in 15 Minutes Joel Maldonado Welcome to this infinite Cute Loop! In this post, I’m going to share my journey of setting up a Hugo blog with full LaTeX support and deploying it to GitHub Pages—all in just 15 minutes. If you’re curious about how to get your blog up and running quickly, read on!Below is the updated, comprehensive tutorial that incorporates all the details—including creating your GitHub repository, initializing your Hugo site with your final configuration, adding LaTeX support via the custom footer partial, and deploying your site from a dedicated branch (gh‑pages) using ghp‑import.</description>
+    </item>
+  </channel>
+</rss>
