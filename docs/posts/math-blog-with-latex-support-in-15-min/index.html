@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog with LaTeX in 15 Minutes | A minimal Hugo website</title>
+    <link rel="stylesheet" href="/InfiniteCuteLoop/css/style.css" />
+    <link rel="stylesheet" href="/InfiniteCuteLoop/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/InfiniteCuteLoop/">Home</a></li>
+      
+      <li><a href="/InfiniteCuteLoop/about/">About</a></li>
+      
+      <li><a href="/InfiniteCuteLoop/categories/">Categories</a></li>
+      
+      <li><a href="/InfiniteCuteLoop/tags/">Tags</a></li>
+      
+      <li><a href="/InfiniteCuteLoop/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Blog with LaTeX in 15 Minutes</span></h1>
+<h2 class="author">Your Name Here</h2>
+<h2 class="date">2025/03/13</h2>
+</div>
+
+<main>
+<p>Welcome to <strong>Infinite Cute Loop</strong>! In this post, I’m going to share my journey of setting up a Hugo blog with full LaTeX support and deploying it to GitHub Pages—all in just 15 minutes. If you’re curious about how to get your blog up and running quickly, read on!</p>
+<h2 id="1-creating-the-github-repository-and-cloning-it">1. Creating the GitHub Repository and Cloning It</h2>
+<p>I started by creating a new public repository on GitHub called <strong>InfiniteCuteLoop</strong>. Once the repository was created, I cloned it locally:</p>
+<pre><code class="language-bash">git clone https://github.com/CuteLoop/InfiniteCuteLoop.git
+cd InfiniteCuteLoop
+</code></pre>
+<h2 id="2-initializing-the-hugo-site">2. Initializing the Hugo Site</h2>
+<p>Inside the cloned repository, I initialized a new Hugo site using:</p>
+<pre><code class="language-bash">hugo new site . --force
+</code></pre>
+<p>The <code>--force</code> flag ensures that Hugo creates the site in the current directory even if some files already exist.</p>
+<h2 id="3-adding-the-theme">3. Adding the Theme</h2>
+<p>I chose the minimal <a href="https://github.com/yihui/hugo-xmin">hugo‑xmin</a> theme for its simplicity and clean design. I added it as a submodule:</p>
+<pre><code class="language-bash">git submodule add https://github.com/yihui/hugo-xmin.git themes/hugo-xmin
+</code></pre>
+<p>Then, I updated my <code>config.toml</code> to use this theme and set up essential configuration:</p>
+<pre><code class="language-toml">baseURL = &quot;https://cuteloop.github.io/InfiniteCuteLoop/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;A minimal Hugo website&quot;
+theme = &quot;hugo-xmin&quot;
+googleAnalytics = &quot;&quot;
+disqusShortname = &quot;&quot;
+ignoreFiles = [&quot;\\.Rmd$&quot;, &quot;\\.Rmarkdown$&quot;, &quot;_cache$&quot;]
+footnotereturnlinkcontents = &quot;↩&quot;
+
+relativeURLs = true
+canonifyURLs = false
+
+[permalinks]
+note = &quot;/note/:year/:month/:day/:slug/&quot;
+post = &quot;/post/:year/:month/:day/:slug/&quot;
+
+[menu]
+  [[menu.main]]
+  name = &quot;Home&quot;
+  url = &quot;&quot;
+  weight = 1
+
+  [[menu.main]]
+  name = &quot;About&quot;
+  url = &quot;about/&quot;
+  weight = 2
+
+  [[menu.main]]
+  name = &quot;Categories&quot;
+  url = &quot;categories/&quot;
+  weight = 3
+
+  [[menu.main]]
+  name = &quot;Tags&quot;
+  url = &quot;tags/&quot;
+  weight = 4
+
+  [[menu.main]]
+  name = &quot;Subscribe&quot;
+  url = &quot;index.xml&quot;
+  weight = 5
+
+[params]
+description = &quot;A website built through Hugo and blogdown.&quot;
+footer = &quot;&amp;copy; [Yihui Xie](https://yihui.org) 2017 -- {Year} | [Github](https://github.com/CuteLoop) | [Twitter](https://twitter.com/CuteLoop)&quot;
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [ [&quot;\\[&quot;, &quot;\\]&quot;], [&quot;$$&quot;, &quot;$$&quot;] ]
+          inline = [ [&quot;\\(&quot;, &quot;\\)&quot;] ]
+</code></pre>
+<p>In the <code>[params]</code> section, I updated my GitHub and Twitter links so that visitors can easily connect with me on social media.</p>
+<h2 id="4-adding-latex-support">4. Adding LaTeX Support</h2>
+<p>To support LaTeX math rendering, I followed the theme author’s recommendation to use a custom footer partial. I created or updated the file:</p>
+<pre><code>layouts/partials/foot_custom.html
+</code></pre>
+<p>with the following content:</p>
+<pre><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.jsdelivr.net/npm/katex/dist/katex.min.css&quot;&gt;
+&lt;script src=&quot;//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.min.js&quot; defer&gt;&lt;/script&gt;
+&lt;script src=&quot;//cdn.jsdelivr.net/npm/katex/dist/katex.min.js&quot; defer&gt;&lt;/script&gt;
+&lt;script src=&quot;//cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js&quot; defer&gt;&lt;/script&gt;
+&lt;script src=&quot;//cdn.jsdelivr.net/npm/@xiee/utils/js/render-katex.js&quot; defer&gt;&lt;/script&gt;
+&lt;script src=&quot;//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js&quot; defer&gt;&lt;/script&gt;
+</code></pre>
+<p>Then, in my main footer layout (e.g., <code>layouts/partials/footer.html</code>), I ensured this partial was included:</p>
+<pre><code class="language-go-html-template">{{ partial &quot;foot_custom.html&quot; . }}
+</code></pre>
+<h2 id="5-customizing-the-header-for-correct-url-resolution">5. Customizing the Header for Correct URL Resolution</h2>
+<p>To avoid repeated subdirectory segments in the URLs, I updated my header partial (<code>layouts/partials/header.html</code>) to include a <code>&lt;base&gt;</code> tag and used Hugo’s <code>absURL</code> filter for all links:</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en-us&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;base href=&quot;https://cuteloop.github.io/InfiniteCuteLoop/&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;title&gt;{{ .Title }} | {{ .Site.Title }}&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/fonts.css&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.jsdelivr.net/npm/katex/dist/katex.min.css&quot;&gt;
+    {{ partial &quot;head_custom.html&quot; . }}
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;nav&gt;
+      &lt;ul class=&quot;menu&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;{{ &quot;&quot; | absURL }}&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;{{ &quot;about/&quot; | absURL }}&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;{{ &quot;categories/&quot; | absURL }}&quot;&gt;Categories&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;{{ &quot;tags/&quot; | absURL }}&quot;&gt;Tags&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;{{ &quot;index.xml&quot; | absURL }}&quot;&gt;Subscribe&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr/&gt;
+    &lt;/nav&gt;
+</code></pre>
+<p>This ensures that all links resolve to the proper absolute URL (for example, <code>https://cuteloop.github.io/InfiniteCuteLoop/about/</code>).</p>
+<h2 id="6-adding-content-programmatically-with-archetypes">6. Adding Content Programmatically with Archetypes</h2>
+<p>Hugo&rsquo;s built‑in archetypes automatically generate posts with the current date. For instance, I generated a new post with:</p>
+<pre><code class="language-bash">hugo new posts/my-first-post.md
+</code></pre>
+<p>This command created a post with front matter like:</p>
+<pre><code class="language-yaml">---
+title: &quot;A Plain Markdown Post&quot;
+author: &quot;Yihui Xie&quot;
+date: {{ .Date }}
+categories:
+  - Example
+  - Hugo
+tags:
+  - blogdown
+  - Markdown
+  - MathJax
+  - Pandoc
+  - RStudio
+draft: true
+---
+</code></pre>
+<p>I then edited the file to set <code>draft: false</code> and added my content. Here’s an example post with tags and categories explained:</p>
+<pre><code class="language-markdown">---
+title: &quot;A Plain Markdown Post&quot;
+author: &quot;Yihui Xie&quot;
+date: &quot;2016-02-14&quot;
+categories:
+  - Example
+  - Hugo
+tags:
+  - blogdown
+  - Markdown
+  - MathJax
+  - Pandoc
+  - RStudio
+draft: false
+---
+
+This sample post is mainly for [**blogdown**](https://github.com/rstudio/blogdown) users. It explains the differences between Markdown and R Markdown, and how LaTeX math is supported in this theme.
+
+## Markdown vs. R Markdown
+
+- **Markdown:**  
+  Plain Markdown (`*.md`) is rendered by [Goldmark](https://gohugo.io/overview/configuration/).
+- **R Markdown:**  
+  R Markdown (`*.Rmd`) allows you to embed R code and is processed with [rmarkdown](http://rmarkdown.rstudio.com) and Pandoc.
+
+*LaTeX Math Support:*  
+You can use inline math with `\( ... \)` and display math with `$$ ... $$`. For example, inline: \(S_n = \sum_{i=1}^n X_i\), and display:
+
+$$
+S_n = \sum_{i=1}^n X_i
+$$
+
+## Categories and Tags Explained
+
+- **Categories:**  
+  These are for broad topics (e.g., &quot;Example&quot;, &quot;Hugo&quot;) and help group similar posts.
+- **Tags:**  
+  Tags are more detailed keywords (e.g., &quot;blogdown&quot;, &quot;Markdown&quot;, &quot;MathJax&quot;) and help filter content by specific attributes.
+
+## Sample Content
+
+Here's a quick demonstration:
+
+### Headers and Footnotes
+
+This is a paragraph with a footnote.[^1]
+
+[^1]: This is the footnote text.
+
+### Blockquotes and Code
+
+&gt; This is a blockquote.
+
+```js
+(function() {
+  console.log(&quot;Hello, World!&quot;);
+})();
+</code></pre>
+<h3 id="tables-and-images">Tables and Images</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">Sepal.Length</th>
+<th style="text-align:right">Sepal.Width</th>
+<th style="text-align:right">Petal.Length</th>
+<th style="text-align:right">Petal.Width</th>
+<th style="text-align:left">Species</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">5.1</td>
+<td style="text-align:right">3.5</td>
+<td style="text-align:right">1.4</td>
+<td style="text-align:right">0.2</td>
+<td style="text-align:left">setosa</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://slides.yihui.org/gif/happy-elmo.gif" alt="Happy Elmo"></p>
+<pre><code>
+## 7. Testing Locally
+
+I tested the site on my local machine by running:
+
+```bash
+hugo server -D
+</code></pre>
+<p>I visited <a href="http://localhost:1313/">http://localhost:1313/</a> to ensure:</p>
+<ul>
+<li>CSS and fonts load correctly.</li>
+<li>Navigation links point to the correct absolute URLs.</li>
+<li>LaTeX math expressions are rendered using KaTeX.</li>
+<li>My custom footer (with all the necessary scripts) is included.</li>
+<li>Categories and tags are recognized.</li>
+</ul>
+<h2 id="8-deploying-to-github-pages">8. Deploying to GitHub Pages</h2>
+<p>Finally, I deployed my site to GitHub Pages. Since I’m using Hugo’s default output directory (<code>public/</code>), I used ghp-import to push the site to the <code>gh-pages</code> branch.</p>
+<ol>
+<li>
+<p><strong>Build the Site:</strong></p>
+<pre><code class="language-bash">hugo --cleanDestinationDir
+</code></pre>
+</li>
+<li>
+<p><strong>Deploy with ghp-import:</strong></p>
+<p>From the repository root, I ran:</p>
+<pre><code class="language-bash">ghp-import -n -p -f public
+</code></pre>
+</li>
+<li>
+<p><strong>Configure GitHub Pages:</strong><br>
+In my GitHub repository’s <strong>Settings → Pages</strong>, I set the source to the <code>gh-pages</code> branch.<br>
+My site is now live at <a href="https://Cuteloop.github.io/InfiniteCuteLoop/">https://Cuteloop.github.io/InfiniteCuteLoop/</a>.</p>
+</li>
+</ol>
+<hr>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>In just 15 minutes, I set up a Hugo blog with:</p>
+<ul>
+<li>A minimal, responsive theme.</li>
+<li>Automatic LaTeX rendering via KaTeX.</li>
+<li>Content creation with current dates using Hugo’s archetypes.</li>
+<li>Organized posts with categories and tags.</li>
+<li>Deployment on GitHub Pages.</li>
+</ul>
+<p>I hope this guide inspires you to build your own blog quickly and efficiently. Happy blogging with <strong>Infinite Cute Loop</strong>!</p>
+<hr>
+<p><em>Note: Replace placeholders like &ldquo;Your Name Here&rdquo; and update any links or social media info as needed.</em></p>
+<pre><code>
+---
+
+You can now copy and paste this entire markdown text into a new post file (e.g., `content/posts/blog-with-latex-in-15-min.md`) in your Hugo site. Then, run `hugo server -D` to preview it locally before deploying to GitHub Pages.
+
+Happy blogging! If you have any further questions or need adjustments, feel free to ask.</code></pre>
+
+</main>
+
+  <footer>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.min.js" defer></script>
+<script src="//cdn.jsdelivr.net/npm/katex/dist/katex.min.js" defer></script>
+<script src="//cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js" defer></script>
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/render-katex.js" defer></script>
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js" defer></script>
+  
+  <hr/>
+  ©  2024 &ndash; 2025 | <a href="https://github.com/CuteLoop">Github</a> |
+  
+  </footer>
+  </body>
+</html>
+
