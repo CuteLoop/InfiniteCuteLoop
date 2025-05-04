@@ -415,7 +415,7 @@ Now switch \(x\) and \(y\):
 \[
 f^{-1}(x) = \dfrac{3x+1}{1-2x}\]
 So the answer is \(f^{-1}(x) = \dfrac{3x+1}{1-2x}\).
-Answer E.
+Answer B.
 </details>
 
 ---
@@ -496,8 +496,6 @@ E. > 15 s
 Solve h(t) = 0.
 Use quadratic formula.
 </details>
-
-Thought for a second
 
 
 <details><summary><strong>Solution: Calculator version </strong></summary>
