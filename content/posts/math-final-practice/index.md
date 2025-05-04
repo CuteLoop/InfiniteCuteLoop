@@ -673,98 +673,86 @@ R(x) = (x-1)(2x+3)(x+2)
 \] 
 </details>
 
+
 ---
 
-### 20 End Behavior of \(f(t)=\dfrac{6t}{t+ 1.2}\)
+### 20 End Behavior of $f(t)=\dfrac{6t}{t + 1.2}$
 
-What happens as \(t\to\infty\)?
+As $t$ gets very large, what does $f(t)$ approach?
 
-
-A. \(f\to\infty\)
-
-B. \(f\to1.2\)
-
-C. \(f\to3.8\)  
-
-D. \(f\to6\) 
-
+A. $f(t)\to\infty$
+B. $f(t)\to1.2$
+C. $f(t)\to3.8$
+D. $f(t)\to6$
 E. None of these
 
-<details><summary><strong>Hint</strong></summary>
-As \(t\) increases, \(1.2^t\to\infty\). What does that do to\(\displaystyle f(t)=\frac{6t}{t+1.2}\)?
+<details><summary><strong>Hint</strong></summary>  
+For large \(t\), divide numerator and denominator by \(t\).  
 </details>
 
-<details><summary><strong>Solution</strong></summary>
-Compare leading terms:
+<details><summary><strong>Solution</strong></summary>  
+We compute
 \[
-\frac{6t}{t+1.2}\;\longrightarrow\;\frac{6t}{t}=6.
+\lim_{t\to\infty}\frac{6t}{t+1.2}
+=\lim_{t\to\infty}\frac{6}{1 + \tfrac{1.2}{t}}
+=6.
 \]
 \[
 \boxed{6}.
 \]  
-**Answer D.**
+**Answer D.**  
 </details>
 
 ---
 
-### 21 (***) Evaluate \(h^{-1}(5)\) for the Tree Model
+### 21 (\*\*\*) Evaluate $h^{-1}(5)$ and Interpret
 
-The height of a dwarf evergreen tree (in feet) is modeled by  
+The height (ft) of a dwarf evergreen tree after $t$ years is
+
+$$
+h(t) = \frac{6t}{1.2 + t}.
+$$
+
+Find $h^{-1}(5)$, i.e. the time $t$ when the tree reaches 5 ft.
+
+A. $h^{-1}(5)=4.84$. After 5 years, the height is 4.84 ft.
+B. $h^{-1}(5)=1.2$. After 5 years, the height is 1.2 ft.
+C. $h^{-1}(5)=6$. After 5 years, the height is 6 ft.
+D. $h^{-1}(5)=4.84$. When a tree is 5 ft tall, 4.84 years have passed.
+E. $h^{-1}(5)=6$. When a tree is 5 ft tall, 6 years have passed.
+
+<details><summary><strong>Hint</strong></summary>  
+Solve \(h(t) = 5\).  
+</details>
+
+<details><summary><strong>Solution</strong></summary>  
+We want \(t\) such that
 \[
-h(t)=\frac{6t}{1.2+t},
+\frac{6t}{1.2 + t} = 5.
 \]
-where \(t\) is years since sprouting. Evaluate \(h^{-1}(5)\), i.e. find \(t\) when \(h(t)=5\).
-
-
-A. \(t=-3\)  
-
-B. \(t=2\)  
-
-C. \(t=\frac{2}{3}\)  
-
-D. \(t= \frac{3}{2}\)  
-
-E. \(t=-1\)  
-
-
-<details><summary><strong>Solution</strong></summary>
-
-We want to solve for $t$ in
-
-$$
-h(t)=5
-\quad\text{where}\quad
-h(t)=\frac{6t}{1.2 + t}.
-$$
-
-Working step‑by‑step as a student might:
+Multiply both sides by \(1.2+t\), distribute, and isolate \(t\):
 
 $$
 \begin{aligned}
-\frac{6t}{1.2 + t} &= 5  
-&&\bigl|\times(1.2+t)\\
-6t &= 5\,(1.2 + t)  
-&&\bigl|\,\text{distribute}\bigr.\\
-6t &= 5\cdot1.2 + 5t \\
-6t &= \,6 + 5t  
-&&\bigl|\; -5t \;\bigr.\\
-6t - \cancel{5t} &= 6 + \cancel{5t} - 5t \\
+6t &= 5(1.2 + t) \quad\bigl|\times(1.2+t)\\
+6t &= 6 + 5t \quad\bigl|\,-5t\\
+6t - 5t &= 6\\
 t &= 6.
 \end{aligned}
 $$
 
-Hence,
+Thus $h^{-1}(5)=6$, and the practical interpretation is that **when the tree reaches 5 ft tall, 6 years have passed**.
 
 $$
 \boxed{t = 6}.
 $$
 
-**Answer B.**
+Choice **E**.
 
 </details>
 
-
 ---
+
 
 ### 22 (***) Horizontal Asymptote of \(\displaystyle p(x)=\frac{2-3x}{x+1}\)
 
