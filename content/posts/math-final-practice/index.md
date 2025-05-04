@@ -964,33 +964,49 @@ x=\frac85.
 
 ---
 
-### 30 Solve \(\bigl(\tfrac{140}{350}\bigr)^{t/4}=\tfrac12\)
+### 30 Solve for \(t\)
 
-A. \(t=\tfrac1{24}\log 5\)  
+$$
+140\Bigl(\tfrac12\Bigr)^{t/4} = 350
+$$
 
-B. \(t=\dfrac12\,\dfrac{\log 5}{\log 2}\)  
+A. \(t = 4\log_{1/2}(5)\)
 
-C. \(t=\dfrac52\,\dfrac{\log 1}{\log 2}\)  
+B. \(t = 4\log_{1/2}\!(\tfrac52)\)
 
-D. \(t=5\log_{4}2\)
+C. \(t = 4\log_{5/2}(\tfrac12)\)
+
+D. \(t = 4\log_{5}(2)\)
 
 <details><summary><strong>Solution</strong></summary>
-\[
-\Bigl(\tfrac{2}{5}\Bigr)^{t/4}=\frac{1}{2}
-\]
-\[
-\frac{t}{4}\ln\!\tfrac25 = \ln\tfrac12
-\;\Longrightarrow\;
-t =4\;\frac{\ln(1/2)}{\ln(2/5)}.
-\]
-\[
-\boxed{t = 4\,\frac{\ln(1/2)}{\ln(2/5)}}.
-\]
+
+We want to solve
+
+$$
+140\Bigl(\tfrac12\Bigr)^{t/4} = 350.
+$$
+
+Divide both sides by 140:
+
+$$
+\Bigl(\tfrac12\Bigr)^{t/4} = \frac{350}{140} = \frac{5}{2}.
+$$
+
+Now take logarithms in base $\tfrac12$:
+
+$$
+\frac{t}{4}
+= \log_{1/2}\!\Bigl(\tfrac{5}{2}\Bigr)
+\quad\Longrightarrow\quad
+t = 4\,\log_{1/2}\!\Bigl(\tfrac{5}{2}\Bigr).
+$$
+
+That matches choice **B**.
+
 </details>
-Thought for a second
 
+**Answer B.**
 
----
 
 ### 31 Solve  \( \displaystyle \frac{8}{1 + 100e^{-3t}} = 2\)
 
@@ -1147,7 +1163,8 @@ E. More than 80 %
 <details><summary><strong>Hint</strong></summary>  
 1. Use \(C e^{k\cdot18000}=\tfrac12C\) to find \(k\).  
 2. Compute \(e^{k\cdot1000}\times100\%\).
-</details>
+</details>t
+
 
 <details><summary><strong>Solution</strong></summary>  
 1. From \(Ce^{18000k}=\tfrac12C\):
