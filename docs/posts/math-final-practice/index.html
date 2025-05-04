@@ -6,7 +6,10 @@
     <title>MATH 112 – Final Exam Practice #3 | A minimal Hugo website</title>
     <link rel="stylesheet" href="/InfiniteCuteLoop/css/style.css" />
     <link rel="stylesheet" href="/InfiniteCuteLoop/css/fonts.css" />
-    
+    <link rel="stylesheet" href="/InfiniteCuteLoop/css/custom.css">
+
+    <link rel="stylesheet" href="/InfiniteCuteLoop/css/custom.css">
+
   </head>
 
   <body>
@@ -38,53 +41,84 @@
 <p>How to use this page<br>
 Try each problem first, then expand Hint or Solution as needed. (this is a draft. Currently in the process of checking and reviewing the solutions are correct. I hope It Helps you in your study.)</p>
 </blockquote>
+<ul>
+<li>
+<p><a href="#answers">Final Exam Practice Exam 3 Answers</a></p>
+</li>
+<li>
+<p><a href="https://www.math.arizona.edu/academics/courses/math112">Math 112 final exam resources</a></p>
+</li>
+</ul>
 <hr>
 <h2 id="formulas-provided-on-the-exam--formula-sheet-">Formulas Provided on the Exam  {: #formula-sheet }</h2>
+<h3 id="quadratics">Quadratics</h3>
 <table>
 <thead>
 <tr>
 <th style="text-align:left">Quadratic Formula</th>
 <th style="text-align:left">Vertex of Parabola</th>
-<th style="text-align:left">Factored Forms</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left">\(x = \dfrac{-b \pm \sqrt{b^{2}-4ac}}{2a}\)</td>
 <td style="text-align:left">\(x = -\dfrac{b}{2a}\)</td>
-<td style="text-align:left">\(y = a(x-p)(x-q)\)</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-<td style="text-align:left">\(y = a(x-h)^2 + k\)</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-<td style="text-align:left">\(y = a(x-r_1)(x-r_2)\)</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Factored Forms</strong></p>
 <table>
 <thead>
 <tr>
-<th style="text-align:left">Exponential / Logarithmic</th>
-<th style="text-align:left">Compound Interest</th>
+<th style="text-align:left">Form</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">\(A = P\!\left(1+\dfrac{r}{n}\right)^{nt}\)</td>
-<td style="text-align:left">\(A = Pe^{rt}\)</td>
+<td style="text-align:left">\(y = a(x-p)(x-q)\)</td>
 </tr>
 <tr>
+<td style="text-align:left">\(y = a(x-h)^2 + k\)</td>
+</tr>
+<tr>
+<td style="text-align:left">\(y = a(x-r_1)(x-r_2)\)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="exponentials--logs">Exponentials &amp; Logs</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Exponential Growth / Decay</th>
+<th style="text-align:left">Logs Conversion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">\(A = P\!\bigl(1+\tfrac{r}{n}\bigr)^{nt}\)</td>
 <td style="text-align:left">\(\log_b x = \dfrac{\ln x}{\ln b}\)</td>
+</tr>
+<tr>
+<td style="text-align:left">\(A = P e^{rt}\)</td>
 <td style="text-align:left"></td>
 </tr>
 </tbody>
 </table>
 <hr>
+<h3 id="compound-interest">Compound Interest</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Continuous Compounding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">\(A = P e^{rt}\)</td>
+</tr>
+</tbody>
+</table>
 <h2 id="problems">Problems</h2>
 <h3 id="1salestax-expression">1 Sales‑Tax Expression</h3>
 <p>In a certain city, sales tax is 9 %. Write an expression for the total cost of an item priced \(x\) dollars after tax is added.</p>
@@ -339,11 +373,11 @@ Hence the correct answer is **A. \((g\circ f)(x)\)**.
 ---
 <h3 id="12-inverse-function">12 (*) Inverse Function</h3>
 <p>Find \(f^{-1}(x)\) for \(f(x)=\dfrac{x-1}{2x+3}\).</p>
-<p>A. \(f^{-1}(x) = \dfrac{2x+3}{x-1}\)<br>
-B. \(f^{-1}(x) = \dfrac{-3x-1}{2x-1}\)<br>
-C. \(f^{-1}(x) = \dfrac{x+4}{2x+3}\)<br>
-D. \(f^{-1}(x) = \dfrac{-x+1}{x+2}\)<br>
-E. None of these</p>
+<p>A. \(f^{-1}(x) = \dfrac{2x+3}{x-1}\)</p>
+<p>B. \(f^{-1}(x) = \dfrac{-3x-1}{2x-1}\)</p>
+<p>C. \(f^{-1}(x) = \dfrac{x+4}{2x+3}\)</p>
+<p>D. \(f^{-1}(x) = \dfrac{-x+1}{x+2}\)</p>
+<p>E. None of these</p>
 <details><summary><strong>Hint</strong></summary>
 solve for x.
 </details>
@@ -380,8 +414,11 @@ Thus the answer is B.
 <hr>
 <h3 id="14find-a-quadratic-from-a-graph">14 Find a Quadratic from a Graph</h3>
 <p><img src="image14.png" alt="Graph of quadratic"></p>
-<p>A. \(y=(x+1)(x-2)\) B. \(y=-(x+1)(x-2)\) C. \(y=(x-2)(x-1)\)<br>
-D. \(y=-(x-2)(x-1)\) E. \(y=-(x+1)(x-2)-\)</p>
+<p>A. \(y=(x+1)(x-2)\)</p>
+<p>B. \(y=-(x+1)(x-2)\)</p>
+<p>C. \(y=(x-2)(x-1)\)</p>
+<p>D. \(y=-(x-2)(x-1)\)</p>
+<p>E. \(y=-(x+1)(x-2)-\)</p>
 <details><summary><strong>Hint</strong></summary>
 Identify zeros & orientation.
 </details>
@@ -402,7 +439,11 @@ Thus the answer is \(y=-(x+1)(x-2)\). Answer B.
 <h3 id="15time-for-projectile-to-land">15 Time for Projectile to Land</h3>
 <p>A stone’s height (m) after \(t\) s:<br>
 \(h(t)=-4.9t^{2}+49t+277.4\). When does it hit the ground?</p>
-<p>A. &lt; 9 s B. 9–11 s C. 11–13 s D. 13–15 s E. &gt; 15 s</p>
+<p>A. &lt; 9 s</p>
+<p>B. 9–11 s</p>
+<p>C. 11–13 s</p>
+<p>D. 13–15 s</p>
+<p>E. &gt; 15 s</p>
 <details><summary><strong>Hint</strong></summary>
 Solve h(t) = 0.
 Use quadratic formula.
@@ -465,7 +506,12 @@ Thus the answer is D
 <h3 id="16-profit-maximization">16 (*) Profit Maximization</h3>
 <p>Demand: \(p(x)=50-\dfrac{1}{4000}x\). Fixed cost $25 000; variable $3 per pair.<br>
 How many sunglasses maximize profit?</p>
-<p>A. 100 000 B. 87 000 C. 94 000 D. 200 000 E. 188 000</p>
+<p>A. 100 000</p>
+<p>B. 87 000</p>
+<p>C. 94 000</p>
+<p>D. 200 000
+ 
+E. 188 000</p>
 <details><summary><strong>Hint.</strong></summary>
 Combine formulas to obtain an equation for the profit:
 Revenue = demand x price
@@ -533,11 +579,11 @@ R(x)=2x^3 + 5x^2 - 6x - 1
 \]
 <p>
 on your calculator. Given that \((x-1)\) is a factor, what are the other linear factors?</p>
-<p>A. \((2x+3)\) and \((x+2)\)<br>
-B. \((2x-3)\) and \((x-2)\)<br>
-C. \((3x+1)\) and \((x-3)\)<br>
-D. \((3x-1)\) and \((x+3)\)<br>
-E. \((2x+1)\) and \((x+6)\)</p>
+<p>A. \((2x+3)\) and \((x+2)\)</p>
+<p>B. \((2x-3)\) and \((x-2)\)</p>
+<p>C. \((3x+1)\) and \((x-3)\)</p>
+<p>D. \((3x-1)\) and \((x+3)\)</p>
+<p>E. \((2x+1)\) and \((x+6)\)</p>
 <details><summary><strong>Hint</strong></summary>
 Divide \(R(x)\) by \((x-1)\) to obtain a quadratic, try graphing such quadratic to find its roots.
 </details>
@@ -557,10 +603,11 @@ R(x) = (x-1)(2x+3)(x+2)
 <hr>
 <h3 id="20end-behavior-of-ftdfrac6tt-12">20 End Behavior of \(f(t)=\dfrac{6t}{t+ 1.2}\)</h3>
 <p>What happens as \(t\to\infty\)?</p>
-<p>A. \(f\to\infty\)
- B. \(f\to1.2\)
- C. \(f\to3.8\)<br>
-D. \(f\to6\) E. None of these</p>
+<p>A. \(f\to\infty\)</p>
+<p>B. \(f\to1.2\)</p>
+<p>C. \(f\to3.8\)</p>
+<p>D. \(f\to6\) </p>
+<p>E. None of these</p>
 <details><summary><strong>Hint</strong></summary>
 As \(t\) increases, \(1.2^t\to\infty\). What does that do to\(\displaystyle f(t)=\frac{6t}{t+1.2}\)?
 </details>
@@ -583,34 +630,60 @@ h(t)=\frac{6t}{1.2+t},
 \]
 <p>
 where \(t\) is years since sprouting. Evaluate \(h^{-1}(5)\), i.e. find \(t\) when \(h(t)=5\).</p>
-<p>A. \(t=-3\)<br>
-B. \(t=2\)<br>
-C. \(t=\frac{2}{3}\)<br>
-D. \(t= \frac{3}{2}\)<br>
-E. \(t=-1\)</p>
-<details><summary><strong>Hint</strong></summary>
-</details>
+<p>A. \(t=-3\)</p>
+<p>B. \(t=2\)</p>
+<p>C. \(t=\frac{2}{3}\)</p>
+<p>D. \(t= \frac{3}{2}\)</p>
+<p>E. \(t=-1\)</p>
 <details><summary><strong>Solution</strong></summary>
-Set \(h(t)=5\):
+<p>We want to solve for $t$ in</p>
+$$
+h(t)=5
+\quad\text{where}\quad
+h(t)=\frac{6t}{1.2 + t}.
+$$
+<p>Working step‑by‑step as a student might:</p>
+$$
+\begin{aligned}
+\frac{6t}{1.2 + t} &= 5  
+&&\bigl|\times(1.2+t)\\
+6t &= 5\,(1.2 + t)  
+&&\bigl|\,\text{distribute}\bigr.\\
+6t &= 5\cdot1.2 + 5t \\
+6t &= \,6 + 5t  
+&&\bigl|\; -5t \;\bigr.\\
+6t - \cancel{5t} &= 6 + \cancel{5t} - 5t \\
+t &= 6.
+\end{aligned}
+$$
+<p>Hence,</p>
+$$
+\boxed{t = 6}.
+$$
+<p><strong>Answer B.</strong></p>
 </details>
 <hr>
 <h3 id="22-horizontal-asymptote-of-displaystyle-pxfrac2-3xx1">22 (***) Horizontal Asymptote of \(\displaystyle p(x)=\frac{2-3x}{x+1}\)</h3>
-<p>A. \(y=-3\) B. \(y=2\) C. \(y=\tfrac23\)<br>
-D. \(y=\tfrac32\) E. \(y=-1\)</p>
+<p>A. \(y=-3\)</p>
+<p>B. \(y=2\)</p>
+<p>C. \(y=\tfrac23\)</p>
+<p>D. \(y=\tfrac32\) </p>
+<p>E. \(y=-1\)</p>
 <details><summary><strong>Hint</strong></summary>
-For large \(\lvert x\rvert\), compare the leading terms \(2x\) over \(x\).
+For large \(\lvert x\rvert\), compare the leading terms \(-3x\) over \(x\).
 </details>
 <details><summary><strong>Solution</strong></summary>
-As \(x\to\pm\infty\), \(\frac{2x-3}{x+1}\to\frac{2x}{x}=2\).  
+As \(x\to\pm\infty\), \(\frac{2-3x}{x+1}\to\frac{2x}{x}=2\).  
 **Answer B.**
 </details>
 <hr>
 <h3 id="23range-of-displaystyle-px-frac13x-2">23 Range of \(\displaystyle p(x)= \frac{1}{3}^x +2\)</h3>
-<p>A. \([2,\infty)\) B. \((-\infty,2]\)<br>
-C. \((-\infty,2)\) D. \((-\infty,\infty)\)<br>
-E. \((-\infty,8)\cup(8,\infty)\)</p>
+<p>A. \([2,\infty)\)</p>
+<p>B. \((-\infty,2]\)</p>
+<p>C. \((-\infty,2)\) </p>
+<p>D. \((-\infty,\infty)\)</p>
+<p>E. \((-\infty,8)\cup(8,\infty)\)</p>
 <details><summary><strong>Hint</strong></summary>
-Let \(u=\tfrac1{x}+2\). Find the range of \(u\) (all real except 2), then cube.
 </details>
 <details><summary><strong>Solution</strong></summary>
 Since \((\tfrac13)^x>0\) for all real \(x\),
@@ -646,11 +719,11 @@ p(x)=(\tfrac13)^x+2\in(2,\infty).
 </tr>
 </tbody>
 </table>
-<p>A. \(C=3,\;b=2\)<br>
-B. \(C=\tfrac{16}{3},\;b=\tfrac23\)<br>
-C. \(C=8,\;b=\tfrac23\)<br>
-D. \(C=\tfrac{16}{3},\;b=\tfrac32\)<br>
-E. \(C=8,\;b=\tfrac32\)</p>
+<p>A. \(C=3,\;b=2\)</p>
+<p>B. \(C=\tfrac{16}{3},\;b=\tfrac23\)</p>
+<p>C. \(C=8,\;b=\tfrac23\)</p>
+<p>D. \(C=\tfrac{16}{3},\;b=\tfrac32\)</p>
+<p>E. \(C=8,\;b=\tfrac32\)</p>
 <details><summary><strong>Hint</strong></summary>
 Compute successive ratios \(y_{n+1}/y_n\) to find \(b\), then solve \(C=y_1/b\).
 </details>
@@ -665,9 +738,11 @@ C=\frac{8}{1.5}=\tfrac{16}{3}.
 <hr>
 <h3 id="25continuous-compounding">25 Continuous Compounding</h3>
 <p>Arturo wants $15 000 in 6 years with continuous compounding at 3.7 % APR. How much must he invest now?</p>
-<p>A. $12 061.98 B. $1 629.14<br>
-C. $138 109.96 D. $18 728.57<br>
-E. $12 013.73</p>
+<p>A. $12 061.98</p>
+<p>B. $1 629.14</p>
+<p>C. $138 109.96</p>
+<p>D. $18 728.57</p>
+<p>E. $12 013.73</p>
 <details><summary><strong>Hint</strong></summary>
 Use \(A=Pe^{rt}\) with \(A=15000\), \(r=0.037\), \(t=6\).
 </details>
@@ -682,11 +757,11 @@ P = 15000 e^{-0.222} \approx 12061.98.
 <hr>
 <h3 id="26population-prediction">26 Population Prediction</h3>
 <p>A city’s population is \(P(t)=12500e^{0.02t}\), where \(t\) is years after 1985. Predict in 2020.</p>
-<p>A. &lt; 10 000<br>
-B. 10 000–20 000<br>
-C. 20 000–30 000<br>
-D. 30 000–40 000<br>
-E. &gt; 40 000</p>
+<p>A. &lt; 10 000</p>
+<p>B. 10 000–20 000</p>
+<p>C. 20 000–30 000</p>
+<p>D. 30 000–40 000</p>
+<p>E. &gt; 40 000</p>
 <details><summary><strong>Hint</strong></summary>
 Set \(t=2020-1985=35\); compute \(P(35)\).
 </details>
@@ -704,11 +779,11 @@ which lies between 20 000 and 30 000.
 </details>
 <hr>
 <h3 id="28rewrite-6n13-in-logarithmic-form">28 Rewrite \(6^{N}=13\) in Logarithmic Form</h3>
-<p>A. \(\log_{6}13 = N\)<br>
-B. \(\log 6 = 13^{N}\)<br>
-C. \(\log_{13}6 = N\)<br>
-D. \(\log_{13}6 = N\)<br>
-E. \(\log_{6}13 = N\)</p>
+<p>A. \(\log_{6}13 = N\)</p>
+<p>B. \(\log 6 = 13^{N}\)</p>
+<p>C. \(\log_{13}6 = N\)</p>
+<p>D. \(\log_{13}6 = N\)</p>
+<p>E. \(\log_{6}13 = N\)</p>
 <details><summary><strong>Solution</strong></summary>
 By definition of log, \(a^{b}=c \iff \log_{a}c=b\). Hence \(\log_{6}13=N\). Answer A.
 </details>
@@ -738,10 +813,10 @@ x=\frac85.
 </details>
 <hr>
 <h3 id="30solve-bigltfrac140350bigrt4tfrac12">30 Solve \(\bigl(\tfrac{140}{350}\bigr)^{t/4}=\tfrac12\)</h3>
-<p>A. \(t=\tfrac1{24}\log 5\)<br>
-B. \(t=\dfrac12\,\dfrac{\log 5}{\log 2}\)<br>
-C. \(t=\dfrac52\,\dfrac{\log 1}{\log 2}\)<br>
-D. \(t=5\log_{4}2\)</p>
+<p>A. \(t=\tfrac1{24}\log 5\)</p>
+<p>B. \(t=\dfrac12\,\dfrac{\log 5}{\log 2}\)</p>
+<p>C. \(t=\dfrac52\,\dfrac{\log 1}{\log 2}\)</p>
+<p>D. \(t=5\log_{4}2\)</p>
 <details><summary><strong>Solution</strong></summary>
 \[
 \frac{140}{350}=\frac{2}{5}, 
@@ -782,11 +857,11 @@ t = -\tfrac13\,\ln\!\tfrac{33}{700}.
 <hr>
 <h3 id="32doubling-time-with-monthly-compounding">32 Doubling Time with Monthly Compounding</h3>
 <p>Suppose Matt initially invests $3000 in an account bearing 4 % interest compounded monthly. How long will it take for the deposit to double in value, rounded to the nearest 0.01 years?</p>
-<p>A. 17.33 years<br>
-B. 17.36 years<br>
-C. 19.22 years<br>
-D. 19.74 years<br>
-E. None of these</p>
+<p>A. 17.33 years</p>
+<p>B. 17.36 years</p>
+<p>C. 19.22 years</p>
+<p>D. 19.74 years</p>
+<p>E. None of these</p>
 <details><summary><strong>Hint</strong></summary>  
 Use the formula for monthly compounding:  
 \[
@@ -815,11 +890,11 @@ P(t)=\frac{10\,000}{1 + 9e^{-t/5}},
 \]
 <p><br>
 where \(t\) is months since stocking. After how many months will the fish population be 2000?</p>
-<p>A. Less than 2 months<br>
-B. Between 2 and 4 months<br>
-C. Between 4 and 6 months<br>
-D. Between 6 and 8 months<br>
-E. More than 8 months</p>
+<p>A. Less than 2 months</p>
+<p>B. Between 2 and 4 months</p>
+<p>C. Between 4 and 6 months</p>
+<p>D. Between 6 and 8 months</p>
+<p>E. More than 8 months</p>
 <details><summary><strong>Hint</strong></summary>  
 Set \(P(t)=2000\) and solve for \(t\):  
 \[
@@ -852,11 +927,11 @@ y = C e^{kt}.
 \]
 <p>
 If at \(t=18000\) ft the pressure is half of sea‑level (\(y=\tfrac12C\)), find \(k\) and then estimate the pressure at \(t=1000\) ft as a percentage of sea‑level.</p>
-<p>A. Less than 20 %<br>
-B. 20–40 %<br>
-C. 40–60 %<br>
-D. 60–80 %<br>
-E. More than 80 %</p>
+<p>A. Less than 20 %</p>
+<p>B. 20–40 %</p>
+<p>C. 40–60 %</p>
+<p>D. 60–80 %</p>
+<p>E. More than 80 %</p>
 <details><summary><strong>Hint</strong></summary>  
 1. Use \(C e^{k\cdot18000}=\tfrac12C\) to find \(k\).  
 2. Compute \(e^{k\cdot1000}\times100\%\).
@@ -889,11 +964,11 @@ f(t)=75\ln(t+1)+50,
 \]
 <p>
 where \(t\) is years since 2010. According to this model, in what year did the number of users reach 150 million?</p>
-<p>A. 2010<br>
-B. 2011<br>
-C. 2012<br>
-D. 2013<br>
-E. 2014</p>
+<p>A. 2010</p>
+<p>B. 2011</p>
+<p>C. 2012</p>
+<p>D. 2013</p>
+<p>E. 2014</p>
 <details><summary><strong>Hint</strong></summary>  
 Set \(75\ln(t+1)+50=150\) and solve for \(t\), then add to 2010.
 </details>
@@ -912,6 +987,157 @@ t=e^{4/3}-1\approx2.79.
 Year \(=2010+2.79\approx2012.79\), i.e.\ late 2012.  
 **Answer C.**
 </details>
+<h2 id="answers">Answers </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Problem</th>
+<th style="text-align:center">Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"> 1 </td>
+<td style="text-align:center"> A </td>
+</tr>
+<tr>
+<td style="text-align:center"> 2 </td>
+<td style="text-align:center"> A </td>
+</tr>
+<tr>
+<td style="text-align:center"> 3 </td>
+<td style="text-align:center"> B </td>
+</tr>
+<tr>
+<td style="text-align:center"> 4 </td>
+<td style="text-align:center"> A </td>
+</tr>
+<tr>
+<td style="text-align:center"> 5 </td>
+<td style="text-align:center"> E </td>
+</tr>
+<tr>
+<td style="text-align:center"> 6 </td>
+<td style="text-align:center"> A </td>
+</tr>
+<tr>
+<td style="text-align:center"> 7 </td>
+<td style="text-align:center"> B </td>
+</tr>
+<tr>
+<td style="text-align:center"> 8 </td>
+<td style="text-align:center"> C </td>
+</tr>
+<tr>
+<td style="text-align:center"> 9 </td>
+<td style="text-align:center"> D </td>
+</tr>
+<tr>
+<td style="text-align:center"> 10 </td>
+<td style="text-align:center"> E </td>
+</tr>
+<tr>
+<td style="text-align:center"> 11 </td>
+<td style="text-align:center"> A </td>
+</tr>
+<tr>
+<td style="text-align:center"> 12 </td>
+<td style="text-align:center"> B </td>
+</tr>
+<tr>
+<td style="text-align:center"> 13 </td>
+<td style="text-align:center"> C </td>
+</tr>
+<tr>
+<td style="text-align:center"> 14 </td>
+<td style="text-align:center"> E </td>
+</tr>
+<tr>
+<td style="text-align:center"> 15 </td>
+<td style="text-align:center"> D </td>
+</tr>
+<tr>
+<td style="text-align:center"> 16 </td>
+<td style="text-align:center"> C </td>
+</tr>
+<tr>
+<td style="text-align:center"> 17 </td>
+<td style="text-align:center"> C </td>
+</tr>
+<tr>
+<td style="text-align:center"> 18 </td>
+<td style="text-align:center"> B </td>
+</tr>
+<tr>
+<td style="text-align:center"> 19 </td>
+<td style="text-align:center"> A </td>
+</tr>
+<tr>
+<td style="text-align:center"> 20 </td>
+<td style="text-align:center"> D </td>
+</tr>
+<tr>
+<td style="text-align:center"> 21 </td>
+<td style="text-align:center"> E </td>
+</tr>
+<tr>
+<td style="text-align:center"> 22 </td>
+<td style="text-align:center"> A </td>
+</tr>
+<tr>
+<td style="text-align:center"> 23 </td>
+<td style="text-align:center"> E </td>
+</tr>
+<tr>
+<td style="text-align:center"> 24 </td>
+<td style="text-align:center"> D </td>
+</tr>
+<tr>
+<td style="text-align:center"> 25 </td>
+<td style="text-align:center"> E </td>
+</tr>
+<tr>
+<td style="text-align:center"> 26 </td>
+<td style="text-align:center"> C </td>
+</tr>
+<tr>
+<td style="text-align:center"> 27 </td>
+<td style="text-align:center"> B </td>
+</tr>
+<tr>
+<td style="text-align:center"> 28 </td>
+<td style="text-align:center"> E </td>
+</tr>
+<tr>
+<td style="text-align:center"> 29 </td>
+<td style="text-align:center"> C </td>
+</tr>
+<tr>
+<td style="text-align:center"> 30 </td>
+<td style="text-align:center"> B </td>
+</tr>
+<tr>
+<td style="text-align:center"> 31 </td>
+<td style="text-align:center"> E </td>
+</tr>
+<tr>
+<td style="text-align:center"> 32 </td>
+<td style="text-align:center"> B </td>
+</tr>
+<tr>
+<td style="text-align:center"> 33 </td>
+<td style="text-align:center"> C </td>
+</tr>
+<tr>
+<td style="text-align:center"> 34 </td>
+<td style="text-align:center"> E </td>
+</tr>
+<tr>
+<td style="text-align:center"> 35 </td>
+<td style="text-align:center"> C </td>
+</tr>
+</tbody>
+</table>
 
 </main>
 

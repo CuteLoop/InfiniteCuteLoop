@@ -10,22 +10,43 @@ math: true
 > How to use this page  
 > Try each problem first, then expand Hint or Solution as needed. (this is a draft. Currently in the process of checking and reviewing the solutions are correct. I hope It Helps you in your study.)
 
----
+- [Final Exam Practice Exam 3 Answers](#answers)
 
+- [Math 112 final exam resources](https://www.math.arizona.edu/academics/courses/math112)
+
+---
 ## Formulas Provided on the Exam  {: #formula-sheet }
 
-| Quadratic Formula | Vertex of Parabola | Factored Forms |
-| :---------------- | :----------------- | :------------- |
-| \(x = \dfrac{-b \pm \sqrt{b^{2}-4ac}}{2a}\) | \(x = -\dfrac{b}{2a}\) | \(y = a(x-p)(x-q)\) |
-|  |  | \(y = a(x-h)^2 + k\) |
-|  |  | \(y = a(x-r_1)(x-r_2)\) |
+### Quadratics
 
-| Exponential / Logarithmic | Compound Interest |
-| :------------------------ | :---------------- |
-| \(A = P\!\left(1+\dfrac{r}{n}\right)^{nt}\) | \(A = Pe^{rt}\) |
-| \(\log_b x = \dfrac{\ln x}{\ln b}\) | |
+| Quadratic Formula                               | Vertex of Parabola                |
+| :---------------------------------------------- | :-------------------------------- |
+| \(x = \dfrac{-b \pm \sqrt{b^{2}-4ac}}{2a}\)     | \(x = -\dfrac{b}{2a}\)            |
+
+**Factored Forms**  
+| Form                               |
+| :--------------------------------- |
+| \(y = a(x-p)(x-q)\)                |
+| \(y = a(x-h)^2 + k\)               |
+| \(y = a(x-r_1)(x-r_2)\)            |
 
 ---
+
+### Exponentials & Logs
+
+| Exponential Growth / Decay                  | Logs Conversion                         |
+| :-----------------------------------------  | :--------------------------------------  |
+| \(A = P\!\bigl(1+\tfrac{r}{n}\bigr)^{nt}\)  | \(\log_b x = \dfrac{\ln x}{\ln b}\)      |
+| \(A = P e^{rt}\)                            |                                         |
+
+---
+
+### Compound Interest
+
+| Continuous Compounding                      |
+| :------------------------------------------ |
+| \(A = P e^{rt}\)                            |
+
 
 ## Problems
 
@@ -369,9 +390,13 @@ Hence the correct answer is **A. \((g\circ f)(x)\)**.
 Find \(f^{-1}(x)\) for \(f(x)=\dfrac{x-1}{2x+3}\).
 
 A. \(f^{-1}(x) = \dfrac{2x+3}{x-1}\)  
+
 B. \(f^{-1}(x) = \dfrac{-3x-1}{2x-1}\)  
+
 C. \(f^{-1}(x) = \dfrac{x+4}{2x+3}\)  
+
 D. \(f^{-1}(x) = \dfrac{-x+1}{x+2}\)  
+
 E. None of these
 
 <details><summary><strong>Hint</strong></summary>
@@ -422,8 +447,15 @@ Thus the answer is B.
 
 ![Graph of quadratic](image14.png)
 
-A. \(y=(x+1)(x-2)\) B. \(y=-(x+1)(x-2)\) C. \(y=(x-2)(x-1)\)  
-D. \(y=-(x-2)(x-1)\) E. \(y=-(x+1)(x-2)-\)
+A. \(y=(x+1)(x-2)\)
+
+B. \(y=-(x+1)(x-2)\)
+
+C. \(y=(x-2)(x-1)\)  
+
+D. \(y=-(x-2)(x-1)\)
+
+E. \(y=-(x+1)(x-2)-\)
 
 <details><summary><strong>Hint</strong></summary>
 Identify zeros & orientation.
@@ -450,7 +482,15 @@ Thus the answer is \(y=-(x+1)(x-2)\). Answer B.
 A stone’s height (m) after \(t\) s:  
 \(h(t)=-4.9t^{2}+49t+277.4\). When does it hit the ground?
 
-A. < 9 s B. 9–11 s C. 11–13 s D. 13–15 s E. > 15 s
+A. < 9 s
+
+B. 9–11 s
+
+C. 11–13 s
+
+D. 13–15 s
+
+E. > 15 s
 
 <details><summary><strong>Hint</strong></summary>
 Solve h(t) = 0.
@@ -513,7 +553,15 @@ Thus the answer is D
 Demand: \(p(x)=50-\dfrac{1}{4000}x\). Fixed cost \$25 000; variable \$3 per pair.  
 How many sunglasses maximize profit?
 
-A. 100 000 B. 87 000 C. 94 000 D. 200 000 E. 188 000
+A. 100 000
+
+B. 87 000
+
+C. 94 000
+
+D. 200 000
+ 
+E. 188 000
 
 <details><summary><strong>Hint.</strong></summary>
 Combine formulas to obtain an equation for the profit:
@@ -597,9 +645,13 @@ R(x)=2x^3 + 5x^2 - 6x - 1
 on your calculator. Given that \((x-1)\) is a factor, what are the other linear factors?
 
 A. \((2x+3)\) and \((x+2)\)  
+
 B. \((2x-3)\) and \((x-2)\)  
+
 C. \((3x+1)\) and \((x-3)\)  
+
 D. \((3x-1)\) and \((x+3)\)  
+
 E. \((2x+1)\) and \((x+6)\)
 
 <details><summary><strong>Hint</strong></summary>
@@ -627,10 +679,16 @@ R(x) = (x-1)(2x+3)(x+2)
 
 What happens as \(t\to\infty\)?
 
+
 A. \(f\to\infty\)
- B. \(f\to1.2\)
- C. \(f\to3.8\)  
-D. \(f\to6\) E. None of these
+
+B. \(f\to1.2\)
+
+C. \(f\to3.8\)  
+
+D. \(f\to6\) 
+
+E. None of these
 
 <details><summary><strong>Hint</strong></summary>
 As \(t\) increases, \(1.2^t\to\infty\). What does that do to\(\displaystyle f(t)=\frac{6t}{t+1.2}\)?
@@ -657,33 +715,75 @@ h(t)=\frac{6t}{1.2+t},
 \]
 where \(t\) is years since sprouting. Evaluate \(h^{-1}(5)\), i.e. find \(t\) when \(h(t)=5\).
 
+
 A. \(t=-3\)  
+
 B. \(t=2\)  
+
 C. \(t=\frac{2}{3}\)  
+
 D. \(t= \frac{3}{2}\)  
+
 E. \(t=-1\)  
 
-<details><summary><strong>Hint</strong></summary>
-
-</details>
 
 <details><summary><strong>Solution</strong></summary>
-Set \(h(t)=5\):
+
+We want to solve for $t$ in
+
+$$
+h(t)=5
+\quad\text{where}\quad
+h(t)=\frac{6t}{1.2 + t}.
+$$
+
+Working step‑by‑step as a student might:
+
+$$
+\begin{aligned}
+\frac{6t}{1.2 + t} &= 5  
+&&\bigl|\times(1.2+t)\\
+6t &= 5\,(1.2 + t)  
+&&\bigl|\,\text{distribute}\bigr.\\
+6t &= 5\cdot1.2 + 5t \\
+6t &= \,6 + 5t  
+&&\bigl|\; -5t \;\bigr.\\
+6t - \cancel{5t} &= 6 + \cancel{5t} - 5t \\
+t &= 6.
+\end{aligned}
+$$
+
+Hence,
+
+$$
+\boxed{t = 6}.
+$$
+
+**Answer B.**
+
 </details>
+
 
 ---
 
 ### 22 (***) Horizontal Asymptote of \(\displaystyle p(x)=\frac{2-3x}{x+1}\)
 
-A. \(y=-3\) B. \(y=2\) C. \(y=\tfrac23\)  
-D. \(y=\tfrac32\) E. \(y=-1\)
+A. \(y=-3\)
+
+B. \(y=2\)
+
+C. \(y=\tfrac23\)  
+
+D. \(y=\tfrac32\) 
+
+E. \(y=-1\)
 
 <details><summary><strong>Hint</strong></summary>
-For large \(\lvert x\rvert\), compare the leading terms \(2x\) over \(x\).
+For large \(\lvert x\rvert\), compare the leading terms \(-3x\) over \(x\).
 </details>
 
 <details><summary><strong>Solution</strong></summary>
-As \(x\to\pm\infty\), \(\frac{2x-3}{x+1}\to\frac{2x}{x}=2\).  
+As \(x\to\pm\infty\), \(\frac{2-3x}{x+1}\to\frac{2x}{x}=2\).  
 **Answer B.**
 </details>
 
@@ -691,12 +791,18 @@ As \(x\to\pm\infty\), \(\frac{2x-3}{x+1}\to\frac{2x}{x}=2\).
 
 ### 23 Range of \(\displaystyle p(x)= \frac{1}{3}^x +2\)
 
-A. \([2,\infty)\) B. \((-\infty,2]\)  
-C. \((-\infty,2)\) D. \((-\infty,\infty)\)  
+A. \([2,\infty)\)
+
+B. \((-\infty,2]\)  
+
+C. \((-\infty,2)\) 
+
+D. \((-\infty,\infty)\)  
+
 E. \((-\infty,8)\cup(8,\infty)\)
 
 <details><summary><strong>Hint</strong></summary>
-Let \(u=\tfrac1{x}+2\). Find the range of \(u\) (all real except 2), then cube.
+
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -720,10 +826,15 @@ p(x)=(\tfrac13)^x+2\in(2,\infty).
 |:-----:|--:|---:|---:|---:|
 | \(y\) |  8 | 12 | 18 | 27 |
 
+
 A. \(C=3,\;b=2\)  
+
 B. \(C=\tfrac{16}{3},\;b=\tfrac23\)  
+
 C. \(C=8,\;b=\tfrac23\)  
+
 D. \(C=\tfrac{16}{3},\;b=\tfrac32\)  
+
 E. \(C=8,\;b=\tfrac32\)
 
 <details><summary><strong>Hint</strong></summary>
@@ -745,8 +856,14 @@ C=\frac{8}{1.5}=\tfrac{16}{3}.
 
 Arturo wants \$15 000 in 6 years with continuous compounding at 3.7 % APR. How much must he invest now?
 
-A. \$12 061.98 B. \$1 629.14  
-C. \$138 109.96 D. \$18 728.57  
+A. \$12 061.98
+
+B. \$1 629.14  
+
+C. \$138 109.96
+
+D. \$18 728.57  
+
 E. \$12 013.73
 
 <details><summary><strong>Hint</strong></summary>
@@ -768,10 +885,15 @@ P = 15000 e^{-0.222} \approx 12061.98.
 
 A city’s population is \(P(t)=12500e^{0.02t}\), where \(t\) is years after 1985. Predict in 2020.
 
+
 A. < 10 000  
+
 B. 10 000–20 000  
+
 C. 20 000–30 000  
+
 D. 30 000–40 000  
+
 E. > 40 000
 
 <details><summary><strong>Hint</strong></summary>
@@ -799,10 +921,15 @@ A. \(\tfrac13\) B. \(-3\) C. \(\tfrac14\) D. \(-4\) E. 0
 
 ### 28 Rewrite \(6^{N}=13\) in Logarithmic Form
 
+
 A. \(\log_{6}13 = N\)  
+
 B. \(\log 6 = 13^{N}\)  
+
 C. \(\log_{13}6 = N\)  
+
 D. \(\log_{13}6 = N\)  
+
 E. \(\log_{6}13 = N\)
 
 <details><summary><strong>Solution</strong></summary>
@@ -842,8 +969,11 @@ x=\frac85.
 ### 30 Solve \(\bigl(\tfrac{140}{350}\bigr)^{t/4}=\tfrac12\)
 
 A. \(t=\tfrac1{24}\log 5\)  
+
 B. \(t=\dfrac12\,\dfrac{\log 5}{\log 2}\)  
+
 C. \(t=\dfrac52\,\dfrac{\log 1}{\log 2}\)  
+
 D. \(t=5\log_{4}2\)
 
 <details><summary><strong>Solution</strong></summary>
@@ -896,9 +1026,13 @@ t = -\tfrac13\,\ln\!\tfrac{33}{700}.
 Suppose Matt initially invests \$3000 in an account bearing 4 % interest compounded monthly. How long will it take for the deposit to double in value, rounded to the nearest 0.01 years?
 
 A. 17.33 years  
+
 B. 17.36 years  
+
 C. 19.22 years  
+
 D. 19.74 years  
+
 E. None of these  
 
 <details><summary><strong>Hint</strong></summary>  
@@ -933,9 +1067,13 @@ P(t)=\frac{10\,000}{1 + 9e^{-t/5}},
 where \(t\) is months since stocking. After how many months will the fish population be 2000?
 
 A. Less than 2 months  
+
 B. Between 2 and 4 months  
+
 C. Between 4 and 6 months  
+
 D. Between 6 and 8 months  
+
 E. More than 8 months  
 
 <details><summary><strong>Hint</strong></summary>  
@@ -974,9 +1112,13 @@ y = C e^{kt}.
 If at \(t=18000\) ft the pressure is half of sea‑level (\(y=\tfrac12C\)), find \(k\) and then estimate the pressure at \(t=1000\) ft as a percentage of sea‑level.
 
 A. Less than 20 %  
+
 B. 20–40 %  
+
 C. 40–60 %  
+
 D. 60–80 %  
+
 E. More than 80 %  
 
 <details><summary><strong>Hint</strong></summary>  
@@ -1015,9 +1157,13 @@ f(t)=75\ln(t+1)+50,
 where \(t\) is years since 2010. According to this model, in what year did the number of users reach 150 million?
 
 A. 2010  
+
 B. 2011  
+
 C. 2012  
+
 D. 2013  
+
 E. 2014  
 
 <details><summary><strong>Hint</strong></summary>  
@@ -1039,3 +1185,44 @@ t=e^{4/3}-1\approx2.79.
 Year \(=2010+2.79\approx2012.79\), i.e.\ late 2012.  
 **Answer C.**
 </details>
+
+
+## Answers { #answers }
+
+| Problem | Answer |
+|:-------:|:------:|
+| 1 | A |
+| 2 | A |
+| 3 | B |
+| 4 | A |
+| 5 | E |
+| 6 | A |
+| 7 | B |
+| 8 | C |
+| 9 | D |
+| 10 | E |
+| 11 | A |
+| 12 | B |
+| 13 | C |
+| 14 | E |
+| 15 | D |
+| 16 | C |
+| 17 | C |
+| 18 | B |
+| 19 | A |
+| 20 | D |
+| 21 | E |
+| 22 | A |
+| 23 | E |
+| 24 | D |
+| 25 | E |
+| 26 | C |
+| 27 | B |
+| 28 | E |
+| 29 | C |
+| 30 | B |
+| 31 | E |
+| 32 | B |
+| 33 | C |
+| 34 | E |
+| 35 | C |
