@@ -967,9 +967,7 @@ D. \(t=5\log_{4}2\)
 
 <details><summary><strong>Solution</strong></summary>
 \[
-\frac{140}{350}=\frac{2}{5}, 
-\quad 
-\Bigl(\tfrac25\Bigr)^{t/4}=\frac12
+\Bigl(\tfrac{2}{5}\Bigr)^{t/4}=\frac{1}{2}
 \]
 \[
 \frac{t}{4}\ln\!\tfrac25 = \ln\tfrac12
@@ -985,21 +983,21 @@ Thought for a second
 
 ---
 
-### 31 Solve  $\displaystyle \frac{8}{1 + 100e^{-3t}} = 2$
+### 31 Solve  \( \displaystyle \frac{8}{1 + 100e^{-3t}} = 2\)
 
-A. $\displaystyle t = -\ln\!\bigl(\tfrac{1}{100}\bigr)$
+A. \(\displaystyle t = -\ln\!\bigl(\tfrac{1}{100}\bigr)\)
 
-B. $\displaystyle t = \tfrac{1}{3}\ln\!\bigl(\tfrac{1}{20}\bigr)$
+B. \(\displaystyle t = \tfrac{1}{3}\ln\!\bigl(\tfrac{1}{20}\bigr)\)
 
-C. $\displaystyle t = -\ln\!\bigl(\tfrac{3}{20}\bigr)$
+C. \(\displaystyle t = -\ln\!\bigl(\tfrac{3}{20}\bigr)\)
 
-D. $\displaystyle t = -3\ln\!\bigl(\tfrac{3}{100}\bigr)$
+D. \(\displaystyle t = -3\ln\!\bigl(\tfrac{3}{100}\bigr)\)
 
-E. $\displaystyle t = -\tfrac{1}{3}\ln\!\bigl(\tfrac{3}{100}\bigr)$
+E. \(\displaystyle t = -\tfrac{1}{3}\ln\!\bigl(\tfrac{3}{100}\bigr)\)
 
 <details><summary><strong>Solution</strong></summary>
 
-We want $t$ such that
+We want \(t\) such that
 
 $$
 \frac{8}{1 + 100e^{-3t}} = 2.
