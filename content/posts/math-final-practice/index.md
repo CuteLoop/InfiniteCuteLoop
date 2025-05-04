@@ -680,9 +680,13 @@ R(x) = (x-1)(2x+3)(x+2)
 As \(t\) gets very large, what does \(f(t)\) approach?
 
 A. \(f(t)\to\infty\)  
+
 B. \(f(t)\to1.2\)  
+
 C. \(f(t)\to3.8\)  
+
 D. \(f(t)\to6\)  
+
 E. None of these  
 
 
@@ -715,10 +719,15 @@ $$
 
 Find \(h^{-1}(5)\), i.e.\ the time \(t\) when the tree reaches 5 ft.
 
+
 A. \(h^{-1}(5)=4.84\). When a tree is 5 ft tall, 4.84 years have passed.
+
 B. \(h^{-1}(5)=1.2\). When a tree is 5 ft tall, 1.2 years have passed.
+
 C. \(h^{-1}(5)=6\). When a tree is 5 ft tall, 6 years have passed.
+
 D. \(h^{-1}(5)=4.84\). After 5 years, the height is 4.84 ft.
+
 E. \(h^{-1}(5)=6\). After 5 years, the height is 6 ft.
 
 <details><summary><strong>Hint</strong></summary>  
