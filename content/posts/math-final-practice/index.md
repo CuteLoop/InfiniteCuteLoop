@@ -34,9 +34,13 @@ math: true
 In a certain city, sales tax is 9 %. Write an expression for the total cost of an item priced \(x\) dollars after tax is added.
 
 A. \(C(x)=1.09x\)  
+
 B. \(C(x)=0.09x\)  
+
 C. \(C(x)=1.9x\)  
+
 D. \(C(x)=9x\)  
+
 E. \(C(x)=0.91x\)
 
 <details><summary><strong>Hint</strong></summary>
@@ -64,8 +68,16 @@ Graph A passes the vertical‑line test, so only Graph A is a function.
 
 ### 3 Domain of \(R(x)=\sqrt{2-5x}\)
 
-A. \([0.4,\infty)\) B. \((-\infty,0.4]\) C. \((0.4,\infty)\)  
-D. \((-\infty,0.4)\) E. \([0,\infty)\)
+
+A. \([0.4,\infty)\)
+
+B. \((-\infty,0.4]\)
+
+C. \((0.4,\infty)\)
+
+D. \((-\infty,0.4)\)
+
+E. \([0,\infty)\)
 
 <details><summary><strong>Hint</strong></summary>
 input of a Square roots cannot be negative.
@@ -90,7 +102,15 @@ Which can be written as \( (-\infty,0.4] \). Answer B.
 ![Piece‑wise curve for Q 4](image4.png)
 
 
-A. \((-\infty,3)\) B. \((-\infty,0)\) C. \((0,3)\) D. \([3,\infty)\) E. \((0,3)\cup(3,\infty)\)
+A. \((-\infty,3)\)
+
+B. \((-\infty,0)\)
+
+C. \((0,3)\)
+
+D. \([3,\infty)\)
+
+E. \((0,3)\cup(3,\infty)\)
 
 <details><summary><strong>Solution</strong></summary>
 From the sketch the function rises for all \(x \geq 3 \) so the answer is \( [3, \infty) \).
@@ -135,10 +155,15 @@ Thus Starbucks was adding **about 1650 locations each year** over the period sho
 
 Which linear function best models the number of Starbucks locations \(S(t)\) as a function of time \(t\) in years since 2012?
 
+
 A. \(S(t)=1650t+18\,066\)  
+
 B. \(S(t)=3300t+18\,066\)  
+
 C. \(S(t)=4950t+18\,066\)  
+
 D. \(S(t)=1650t+21\,366\)  
+
 E. \(S(t)=3300t+21\,366\)
 
 <details><summary><strong>Solution – TODO</strong></summary>
@@ -198,12 +223,15 @@ Identify input and output of the function  and the transformations.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
-Observe that the transformations are:
-1. **Horizontal** stretch by a factor of \(5\) (multiply \(x\) by \(\tfrac{1}{5}\)).
-2. **Vertical** stretch by a factor of \(2\) (multiply \(g(x)\) by \(2\)).
-3. **Vertical** shift up by \(3\) (add \(3\))
-
-So the point \((2,5)\) transforms to \(\bigl(10, 13\bigr)\).
+1.  To send the old input \(2\) through \(x/5\), set \(\frac{x}{5}=2\) ⇒ \(x=10\).  
+2.  The original output is \(g(2)=5\).  Then
+   \[
+     y = 2\cdot5 + 3 = 13.
+   \]
+Hence the image is  
+\[
+\boxed{(10,13)}.
+\]
 </details>
 ---
 
@@ -212,8 +240,16 @@ So the point \((2,5)\) transforms to \(\bigl(10, 13\bigr)\).
 \(d=f(x)\) gives distance (mi) for \(x\) gallons of gas. Point \((10,250)\) is on the graph.  
 In five years the same car travels twice as far per gallon. Which point lies on the new graph?
 
-A. \((20,250)\) B. \((20,500)\) C. \((10,125)\)  
-D. \((10,500)\) E. \((20,125)\)
+A. \((20,250)\)
+
+B. \((20,500)\)
+
+C. \((10,125)\)  
+
+D. \((10,500)\)
+
+ E. \((20,125)\)
+
 
 <details><summary><strong> Hint </strong></summary>
 Identify input and output of the function.
@@ -221,10 +257,10 @@ Which point is scaled by a factor of 2?
 </details>
 
 <details><summary><strong> Hint </strong></summary>
-Now the distance f(x) doubles with the same amount of fuel another way to see this is to say that 
-we go the same distance with half the amount of fuel.
-so the transformation is $$ d = f\left(\frac{x}{2}\right)$$
-SO the answer is \((10,500)\)
+Originally \(10\) gal ⇒ \(250\) mi.  Doubling fuel efficiency means the same \(10\) gal ⇒ \(2\times250=500\) mi.  
+\[
+\boxed{(10,500)}.
+\]
 </details>
 
 ---
@@ -241,10 +277,14 @@ g(x) = \frac{x - 2}{x + 5}.
 
 Find \((f\circ g)(x)\).
 
-A. \(\displaystyle (f\circ g)(x) = -\frac{7}{x^{2} + 5x}\)  
+A. \(\displaystyle (f\circ g)(x) = -\frac{7}{x^{2} + 5x}\)
+
 B. \(\displaystyle (f\circ g)(x) = \frac{x^{2} - 3x + 2}{x^{2} + 5x}\)  
+
 C. \(\displaystyle (f\circ g)(x) = -\frac{x - 1}{6x - 1}\)  
+
 D. \(\displaystyle (f\circ g)(x) = -\frac{x - 1}{x^{2} + 5x}\)  
+
 E. \(\displaystyle (f\circ g)(x) = -\frac{7}{x - 2}\)
 
 ---
@@ -537,15 +577,13 @@ According to this model, in what year did the number of monthly active Facebook 
 A. 2011 B. 2012 C. 2013 D. 2014 E. 2015
 
 <details><summary><strong>Hint</strong></summary>
-Solve \(f(t)=1000\) (millions) for \(t\), then add that to 2009.
+Solve \(f(t)=1000\) (millions) for \(t\), then add that to 2009. or alternative use calculator and intersect f(t) with y=1000.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
 Use calculator.
-graph $$f(t)=2.12\,t^3 \;-\;27.43\,t^2 \;+\;301.48\,t \;+\;180.4,$$
-and $$y=1000$$.
-Find intersection points.
-Answer is 
+We obtain 
+
 </details>
 
 ---
@@ -589,16 +627,24 @@ R(x) = (x-1)(2x+3)(x+2)
 
 What happens as \(t\to\infty\)?
 
-A. \(f\to\infty\) B. \(f\to1.2\) C. \(f\to3.8\)  
+A. \(f\to\infty\)
+ B. \(f\to1.2\)
+ C. \(f\to3.8\)  
 D. \(f\to6\) E. None of these
 
 <details><summary><strong>Hint</strong></summary>
-As \(t\) increases, \(1.2^t\to\infty\). What does that do to \(6/1.2^t\)?
+As \(t\) increases, \(1.2^t\to\infty\). What does that do to\(\displaystyle f(t)=\frac{6t}{t+1.2}\)?
 </details>
 
 <details><summary><strong>Solution</strong></summary>
-Since \(1.2^t\to\infty\), the fraction \(6/1.2^t\to0\).  
-**Answer E.**
+Compare leading terms:
+\[
+\frac{6t}{t+1.2}\;\longrightarrow\;\frac{6t}{t}=6.
+\]
+\[
+\boxed{6}.
+\]  
+**Answer D.**
 </details>
 
 ---
@@ -654,9 +700,16 @@ Let \(u=\tfrac1{x}+2\). Find the range of \(u\) (all real except 2), then cube.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
-Since \(\tfrac1{x}\) takes all real ≠ 0, \(u\neq2\). Cubing omits \(2^3=8\).  
-Range \(=(-\infty,8)\cup(8,\infty)\).  
-**Answer E.**
+Since \((\tfrac13)^x>0\) for all real \(x\),
+\[
+(\tfrac13)^x\in(0,\infty)
+\quad\Longrightarrow\quad
+p(x)=(\tfrac13)^x+2\in(2,\infty).
+\]
+\[
+\boxed{(2,\infty)}.
+\]  
+**Answer A.**
 </details>
 
 ---
@@ -753,7 +806,7 @@ D. \(\log_{13}6 = N\)
 E. \(\log_{6}13 = N\)
 
 <details><summary><strong>Solution</strong></summary>
-By definition, \(a^{b}=c \iff \log_{a}c=b\). Hence \(\log_{6}13=N\). Answer A.
+By definition of log, \(a^{b}=c \iff \log_{a}c=b\). Hence \(\log_{6}13=N\). Answer A.
 </details>
 
 ---
@@ -762,8 +815,26 @@ By definition, \(a^{b}=c \iff \log_{a}c=b\). Hence \(\log_{6}13=N\). Answer A.
 
 A. \(x=\tfrac12\) B. \(x=\tfrac14\) C. \(x=\tfrac32\) D. \(x=\tfrac38\)
 
-<details><summary><strong>Solution – TODO</strong></summary>
-Combine the RHS logs, exponentiate, apply domain \(x>1\), solve for \(x\).
+<details><summary><strong>Solution</strong></summary>
+Combine logs:
+\[
+\log_2(3x)=\log_2\bigl[5x(x-1)\bigr]
+\;\Longrightarrow\;
+3x=5x(x-1)
+\quad(x>1).
+\]
+\[
+3x =5x^2 -5x
+\;\Longrightarrow\;
+5x^2 -8x=0
+\;\Longrightarrow\;
+x(5x-8)=0
+\;\Longrightarrow\;
+x=\frac85.
+\]
+\[
+\boxed{x=\tfrac85}.
+\]
 </details>
 
 ---
@@ -775,18 +846,47 @@ B. \(t=\dfrac12\,\dfrac{\log 5}{\log 2}\)
 C. \(t=\dfrac52\,\dfrac{\log 1}{\log 2}\)  
 D. \(t=5\log_{4}2\)
 
-<details><summary><strong>Solution – TODO</strong></summary>
-Rewrite the base, take natural logs, solve for \(t\).
+<details><summary><strong>Solution</strong></summary>
+\[
+\frac{140}{350}=\frac{2}{5}, 
+\quad 
+\Bigl(\tfrac25\Bigr)^{t/4}=\frac12
+\]
+\[
+\frac{t}{4}\ln\!\tfrac25 = \ln\tfrac12
+\;\Longrightarrow\;
+t =4\;\frac{\ln(1/2)}{\ln(2/5)}.
+\]
+\[
+\boxed{t = 4\,\frac{\ln(1/2)}{\ln(2/5)}}.
+\]
 </details>
 
 ---
 
-### 31 Solve \(\dfrac{8}{1+100e^{-3t}}=1+\)
+### 31 Solve  \(\displaystyle \frac{8}{1+100e^{-3t}}=1+\frac25\)
 
 
 
-<details><summary><strong>Solution – TODO</strong></summary>
-Isolate \(e^{-3t}\), take \(\ln\), solve for \(t\).
+<details><summary><strong>Solution</strong></summary>
+\[
+\frac{8}{1 + 100e^{-3t}} = \frac75
+\;\Longrightarrow\;
+1 + 100e^{-3t} = \frac{8}{7/5} = \frac{40}{7}
+\]
+\[
+100e^{-3t} = \frac{40}{7}-1 = \frac{33}{7}
+\;\Longrightarrow\;
+e^{-3t} = \frac{33}{700}
+\]
+\[
+-3t = \ln\!\tfrac{33}{700}
+\;\Longrightarrow\;
+t = -\tfrac13\,\ln\!\tfrac{33}{700}.
+\]
+\[
+\boxed{t = -\tfrac13\,\ln\!\tfrac{33}{700}}.
+\]
 </details>
 
 ---
