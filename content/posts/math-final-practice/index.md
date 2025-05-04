@@ -783,8 +783,8 @@ For large \(\lvert x\rvert\), compare the leading terms \(-3x\) over \(x\).
 </details>
 
 <details><summary><strong>Solution</strong></summary>
-As \(x\to\pm\infty\), \(\frac{2-3x}{x+1}\to\frac{2x}{x}=2\).  
-**Answer B.**
+As \(x\to\pm\infty\), \(\frac{2-3x}{x+1}\to\frac{-3x}{x}=-3\).  
+**Answer A.**
 </details>
 
 ---
@@ -994,7 +994,7 @@ t =4\;\frac{\ln(1/2)}{\ln(2/5)}.
 
 ---
 
-### 31 Solve  \(\displaystyle \frac{8}{1+100e^{-3t}}=1+\frac25\)
+### 31 Solve  \(\displaystyle \frac{8}{1+100e^{-3t}}=2 \)
 
 
 
