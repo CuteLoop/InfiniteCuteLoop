@@ -689,11 +689,13 @@ E. None of these
 
 
 <details><summary><strong>Hint</strong></summary>  
-For large \(t\), divide numerator and denominator by \(t\).  
+Take a look at the leading terms.
 </details>
 
 <details><summary><strong>Solution</strong></summary>  
-We compute  
+The leading terms are \(\(6t\) and \(t\)).
+so as \(t\to\infty\), 
+
 \[
 \lim_{t\to\infty}\frac{6t}{t+1.2}
 =\lim_{t\to\infty}\frac{6}{1 + \tfrac{1.2}{t}}
@@ -785,7 +787,7 @@ As \(x\to\pm\infty\), \(\frac{2-3x}{x+1}\to\frac{-3x}{x}=-3\).
 
 ---
 
-### 23 Range of \(\displaystyle p(x)= \frac{1}{3}^x +2\)
+### 23 Range of \(\displaystyle p(x)= \left( \frac{1}{3} \right)^x +2\)
 
 A. \([2,\infty)\)
 
@@ -795,9 +797,11 @@ C. \((-\infty,2)\) 
 
 D. \((-\infty,\infty)\)  
 
-E. \((-\infty,8)\cup(8,\infty)\)
+E. \((2,\infty)\)
 
 <details><summary><strong>Hint</strong></summary>
+The function \((\tfrac13)^x\) is always positive. What does that tell you about the range of \(p(x)\)?
+What happens if \(x\) is very large or very small, negative?
 
 </details>
 
@@ -811,7 +815,7 @@ p(x)=(\tfrac13)^x+2\in(2,\infty).
 \[
 \boxed{(2,\infty)}.
 \]  
-**Answer A.**
+**Answer E.**
 </details>
 
 ---
@@ -834,23 +838,48 @@ D. \(C=\tfrac{16}{3},\;b=\tfrac32\)
 E. \(C=8,\;b=\tfrac32\)
 
 <details><summary><strong>Hint</strong></summary>
-Compute successive ratios \(y_{n+1}/y_n\) to find \(b\), then solve \(C=y_1/b\).
+Evaluate the function at points we know.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
+First evaluate the function at \(x=1\):
 \[
-\frac{12}{8}=\frac{18}{12}=\frac{27}{18}=1.5\;\Longrightarrow\;b=1.5,
-\quad
-C=\frac{8}{1.5}=\tfrac{16}{3}.
+y(1)=C b^1\]
+This gives us the equation
+\[
+8 = C b.\]
+We can solve for \(C\):
+\[
+C = \frac{8}{b}.\]
+Next evaluate the function at \(x=2\):
+\[
+y(2)=C b^2\]
+This gives us the equation
+\[
+12 = C b^2.\]
+
+Since we know \(C\), we can substitute:
+\[
+12 = \left(\frac{8}{b}\right) b^2
 \]
-**Answer D.**
+Cancel the \(b\) in the denominator:
+So we have
+\[
+12 = 8b\]
+Hence
+\[
+b = \frac{12}{8} = \frac{3}{2}.\]
+Now substitute \(b\) back into the equation for \(C\):
+\[
+C = \frac{8}{b} = \frac{8}{\frac{3}{2}} = \frac{16}{3}.\]   
+So the answer is D.
 </details>
 
 ---
 
 ### 25 Continuous Compounding
 
-Arturo wants \$15 000 in 6 years with continuous compounding at 3.7 % APR. How much must he invest now?
+Arturo wants \$15 000 in 6 years with continuous compounding at 3.7 % Continuously compounded. How much must he invest now?
 
 A. \$12 061.98
 
@@ -863,16 +892,20 @@ D. \$18 728.57
 E. \$12 013.73
 
 <details><summary><strong>Hint</strong></summary>
-Use \(A=Pe^{rt}\) with \(A=15000\), \(r=0.037\), \(t=6\).
+Use \(A=Pe^{rt}\) with the given data.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
+We want to solve for \(P\) in the equation
 \[
-15000 = P e^{0.037\cdot6}
-\;\Longrightarrow\;
-P = 15000 e^{-0.222} \approx 12061.98.
-\]
-**Answer A.**
+A=Pe^{rt}\]
+ with data given \(A=15000\), \(r=\frac{3.7}{100}=0.037\), and \(t=6\):
+\[
+15000=Pe^{0.037\cdot6}\]
+\[
+P=\frac{15000}{e^{6(0.037)}}\approx\frac{15000}{e^{0.222}}=\frac{15000}{1.248}\approx12013.73.\]
+So the answer is \(P\approx12013.73\).
+**Answer E.**
 </details>
 
 ---
@@ -897,8 +930,11 @@ Set \(t=2020-1985=35\); compute \(P(35)\).
 </details>
 
 <details><summary><strong>Solution</strong></summary>
+In 1985, \(t=0\). In 2020, \(t=35\).
+Substituting \(t=35\) into the population formula:
+
 \[
-P(35)=12500\,e^{0.7}\approx12500\times2.0138\approx25\,173,
+P(35)=12500\,e^{0.7}\approx12500\times2.0138\approx25\,171,
 \]
 which lies between 20 000 and 30 000.  
 **Answer C.**
@@ -909,8 +945,17 @@ which lies between 20 000 and 30 000.
 
 A. \(\tfrac13\) B. \(-3\) C. \(\tfrac14\) D. \(-4\) E. 0
 
+<details><summary><strong>Hint</strong></summary>
+Rewrite \(\tfrac18\) as a power of \(2\).
+</details>
+
+
 <details><summary><strong>Solution</strong></summary>
-\(\tfrac18 = 2^{-3}\) so the logarithm is \(-3\). Answer B.
+\(\tfrac18=2^{-3}\), so
+\[
+\log_{2}\!\bigl(\tfrac18\bigr)=\log_{2}\!\bigl(2^{-3}\bigr)=-3.\]
+Thus the answer is \(-3\).
+**Answer B.**
 </details>
 
 ---
@@ -927,37 +972,58 @@ C. \(\log_{13}6 = N\)
 D. \(\log_{13}6 = N\)  
 
 E. \(\log_{6}13 = N\)
+<details><summary><strong>Hint</strong></summary>
+Look at the answers and see which base logarithm makes sense to try.
+</details>
 
 <details><summary><strong>Solution</strong></summary>
-By definition of log, \(a^{b}=c \iff \log_{a}c=b\). Hence \(\log_{6}13=N\). Answer A.
+Remember the definition of logarithm with base \(b\):
+\[
+\log_{b}(x)\]
+asks to what number do we raise \(b\) to get \(x\)?
+so to put this in logarithm form it makes sense to use base 6.
+and recast the equation \(6^{N}=13\) as
+\[
+\log_{6} 6^{N} = \log_{6} 13\]
+The logarithm is the inverse of the exponentiation, so we can cancel the \(6\) on the left side
+to obtain.
+\[
+N = \log_{6} 13.\]  
+Thus the answer is **E.**
 </details>
 
 ---
 
-### 29 Solve \(\log_{2}(3x)=\log_{2}(5x)+\log_{2}(x-1)\)
+### 29 Solve \(\log_{2}(3)=\log_{2}(5x)-\log_{2}(x+1)\)
 
 A. \(x=\tfrac12\) B. \(x=\tfrac14\) C. \(x=\tfrac32\) D. \(x=\tfrac38\)
 
+<details><summary><strong>Hint</strong></summary>
+Review the rules for combining logarithms.
+</details>  
 <details><summary><strong>Solution</strong></summary>
 Combine logs:
 \[
-\log_2(3x)=\log_2\bigl[5x(x-1)\bigr]
-\;\Longrightarrow\;
-3x=5x(x-1)
-\quad(x>1).
-\]
+\log_{2}(3)=\log_{2}\!\left(\frac{5x}{x+1}\right).\]
+Exponentiate both sides:
 \[
-3x =5x^2 -5x
-\;\Longrightarrow\;
-5x^2 -8x=0
-\;\Longrightarrow\;
-x(5x-8)=0
-\;\Longrightarrow\;
-x=\frac85.
-\]
+3 = \frac{5x}{x+1}.\]
+Multiply both sides by \(x+1\):
 \[
-\boxed{x=\tfrac85}.
-\]
+3(x+1) = 5x.\]
+Distribute:
+\[
+3x + 3 = 5x.\]
+Subtract \(3x\) from both sides:
+\[
+3 = 5x - 3x\]
+\[
+3 = 2x.\]
+Divide both sides by \(2\):
+\[
+x = \frac{3}{2}.\]
+Thus the answer is \(x=\frac{3}{2}\).
+**Answer C.**
 </details>
 
 ---
