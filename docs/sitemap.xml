@@ -2,56 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</loc>
-    <lastmod>2025-03-13T12:00:00+00:00</lastmod>
+    <loc>http://localhost:46465/InfiniteCuteLoop/tags/collegealgebra/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/categories/</loc>
-    <lastmod>2025-03-13T12:00:00+00:00</lastmod>
+    <loc>http://localhost:46465/InfiniteCuteLoop/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/githubpages/</loc>
-    <lastmod>2025-03-13T12:00:00+00:00</lastmod>
+    <loc>http://localhost:46465/InfiniteCuteLoop/posts/math-final-practice/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/</loc>
-    <lastmod>2025-03-13T12:00:00+00:00</lastmod>
+    <loc>http://localhost:46465/InfiniteCuteLoop/posts/math116-exam-3/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/hugo/</loc>
-    <lastmod>2025-03-13T12:00:00+00:00</lastmod>
+    <loc>http://localhost:46465/InfiniteCuteLoop/posts/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/latex/</loc>
-    <lastmod>2025-03-13T12:00:00+00:00</lastmod>
+    <loc>http://localhost:46465/InfiniteCuteLoop/tags/practiceexam/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/categories/latex/</loc>
-    <lastmod>2025-03-13T12:00:00+00:00</lastmod>
+    <loc>http://localhost:46465/InfiniteCuteLoop/tags/studyguide/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/markdown/</loc>
-    <lastmod>2025-03-13T12:00:00+00:00</lastmod>
+    <loc>http://localhost:46465/InfiniteCuteLoop/tags/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/</loc>
-    <lastmod>2025-03-13T12:00:00+00:00</lastmod>
+    <loc>http://localhost:46465/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/</loc>
-    <lastmod>2025-03-13T12:00:00+00:00</lastmod>
+    <loc>http://localhost:46465/InfiniteCuteLoop/categories/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/categories/tutorial/</loc>
-    <lastmod>2025-03-13T12:00:00+00:00</lastmod>
+    <loc>http://localhost:46465/InfiniteCuteLoop/tags/githubpages/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/my-first-post/</loc>
+    <loc>http://localhost:46465/InfiniteCuteLoop/tags/hugo/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46465/InfiniteCuteLoop/categories/latex/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46465/InfiniteCuteLoop/tags/latex/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46465/InfiniteCuteLoop/tags/markdown/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46465/InfiniteCuteLoop/categories/tutorial/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46465/InfiniteCuteLoop/posts/my-first-post/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/categories/example/</loc>
+    <loc>http://localhost:46465/InfiniteCuteLoop/categories/example/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/mathjax/</loc>
+    <loc>http://localhost:46465/InfiniteCuteLoop/tags/mathjax/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/about/</loc>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/collegealgebra/</loc>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-final-practice/</loc>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/practiceexam/</loc>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/studyguide/</loc>
+    <loc>http://localhost:46465/InfiniteCuteLoop/about/</loc>
   </url>
 </urlset>

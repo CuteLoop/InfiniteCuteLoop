@@ -2,7 +2,7 @@
 ---
 title: "Blog with LaTeX in 15 Minutes"
 author: "Your Name Here"
-date: "2025-03-13T12:00:00Z"
+date: "2025-03-12"
 categories:
   - Tutorial
   - LaTeX

@@ -1,9 +1,9 @@
 ---
-title: "MATH 112 – Final Exam Practice"
+title: "MATH 116 Exam 3"
 date:  2025-05-03
 tags: ["college‑algebra", "study‑guide", "practice‑exam"]
 draft: false
-description: "35‑question self‑check for MATH 112."
+description: "35‑question self‑check for MATH 116."
 math: true
 ---
 
@@ -12,7 +12,7 @@ math: true
 
 - [Final Exam Practice Exam Answers](#answers)
 
-- [Math 112 final exam resources](https://www.math.arizona.edu/academics/courses/math112)
+- [Math 116 final exam resources](https://www.math.arizona.edu/academics/courses/math112)
 
 ---
 ## Formulas Provided on the Exam  {: #formula-sheet }

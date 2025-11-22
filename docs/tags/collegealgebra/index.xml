@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>college‑algebra on A minimal Hugo website</title>
-    <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/collegealgebra/</link>
-    <description>Recent content in college‑algebra on A minimal Hugo website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>College‑algebra on A minimal Hugo website</title>
+    <link>http://localhost:46465/InfiniteCuteLoop/tags/collegealgebra/</link>
+    <description>Recent content in College‑algebra on A minimal Hugo website</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/tags/collegealgebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:46465/InfiniteCuteLoop/tags/collegealgebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MATH 112 – Final Exam Practice #3</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-final-practice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-final-practice/</guid>
-      <description>How to use this page&#xA;Try each problem first, then expand Hint or Solution as needed. (this is a draft. Currently in the process of checking and reviewing the solutions are correct. I hope It Helps you in your study.)&#xA;Final Exam Practice Exam 3 Answers&#xA;Math 112 final exam resources&#xA;Formulas Provided on the Exam {: #formula-sheet } Quadratics Quadratic Formula Vertex of Parabola \(x = \dfrac{-b \pm \sqrt{b^{2}-4ac}}{2a}\) \(x = -\dfrac{b}{2a}\) Factored Forms</description>
+      <title>MATH 112 – Final Exam Practice</title>
+      <link>http://localhost:46465/InfiniteCuteLoop/posts/math-final-practice/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46465/InfiniteCuteLoop/posts/math-final-practice/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;How to use this page&lt;br&gt;&#xA;Try each problem first, then expand Hint or Solution as needed. (this is a draft. Currently in the process of checking and reviewing the solutions are correct. I hope It Helps you in your study.)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;#answers&#34;&gt;Final Exam Practice Exam Answers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.math.arizona.edu/academics/courses/math112&#34;&gt;Math 112 final exam resources&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formulas-provided-on-the-exam--formula-sheet-&#34;&gt;Formulas Provided on the Exam  {: #formula-sheet }&lt;/h2&gt;&#xA;&lt;h3 id=&#34;quadratics&#34;&gt;Quadratics&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Quadratic Formula&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Vertex of Parabola&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;\(x = \dfrac{-b \pm \sqrt{b^{2}-4ac}}{2a}\)&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;\(x = -\dfrac{b}{2a}\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Factored Forms&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATH 116 Exam 3</title>
+      <link>http://localhost:46465/InfiniteCuteLoop/posts/math116-exam-3/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46465/InfiniteCuteLoop/posts/math116-exam-3/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;How to use this page&lt;br&gt;&#xA;Try each problem first, then expand Hint or Solution as needed. (this is a draft. Currently in the process of checking and reviewing the solutions are correct. I hope It Helps you in your study.)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;#answers&#34;&gt;Final Exam Practice Exam Answers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.math.arizona.edu/academics/courses/math112&#34;&gt;Math 116 final exam resources&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formulas-provided-on-the-exam--formula-sheet-&#34;&gt;Formulas Provided on the Exam  {: #formula-sheet }&lt;/h2&gt;&#xA;&lt;h3 id=&#34;quadratics&#34;&gt;Quadratics&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Quadratic Formula&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Vertex of Parabola&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;\(x = \dfrac{-b \pm \sqrt{b^{2}-4ac}}{2a}\)&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;\(x = -\dfrac{b}{2a}\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Factored Forms&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on A minimal Hugo website</title>
-    <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/</link>
+    <link>http://localhost:46465/InfiniteCuteLoop/tags/</link>
     <description>Recent content in Tags on A minimal Hugo website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Mar 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:46465/InfiniteCuteLoop/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>College‑algebra</title>
+      <link>http://localhost:46465/InfiniteCuteLoop/tags/collegealgebra/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46465/InfiniteCuteLoop/tags/collegealgebra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Practice‑exam</title>
+      <link>http://localhost:46465/InfiniteCuteLoop/tags/practiceexam/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46465/InfiniteCuteLoop/tags/practiceexam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study‑guide</title>
+      <link>http://localhost:46465/InfiniteCuteLoop/tags/studyguide/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46465/InfiniteCuteLoop/tags/studyguide/</guid>
+      <description></description>
+    </item>
     <item>
       <title>GitHubPages</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/githubpages/</link>
-      <pubDate>Thu, 13 Mar 2025 12:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/tags/githubpages/</guid>
+      <link>http://localhost:46465/InfiniteCuteLoop/tags/githubpages/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46465/InfiniteCuteLoop/tags/githubpages/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/hugo/</link>
-      <pubDate>Thu, 13 Mar 2025 12:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/tags/hugo/</guid>
+      <link>http://localhost:46465/InfiniteCuteLoop/tags/hugo/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46465/InfiniteCuteLoop/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>LaTeX</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/latex/</link>
-      <pubDate>Thu, 13 Mar 2025 12:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/tags/latex/</guid>
+      <link>http://localhost:46465/InfiniteCuteLoop/tags/latex/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46465/InfiniteCuteLoop/tags/latex/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/markdown/</link>
-      <pubDate>Thu, 13 Mar 2025 12:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/tags/markdown/</guid>
+      <link>http://localhost:46465/InfiniteCuteLoop/tags/markdown/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46465/InfiniteCuteLoop/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>MathJax</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/mathjax/</link>
+      <link>http://localhost:46465/InfiniteCuteLoop/tags/mathjax/</link>
       <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/tags/mathjax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>college‑algebra</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/collegealgebra/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/tags/collegealgebra/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>practice‑exam</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/practiceexam/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/tags/practiceexam/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>study‑guide</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/studyguide/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/tags/studyguide/</guid>
+      <guid>http://localhost:46465/InfiniteCuteLoop/tags/mathjax/</guid>
       <description></description>
     </item>
   </channel>

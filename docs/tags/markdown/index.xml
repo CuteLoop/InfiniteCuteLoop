@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on A minimal Hugo website</title>
-    <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/markdown/</link>
+    <link>http://localhost:46465/InfiniteCuteLoop/tags/markdown/</link>
     <description>Recent content in Markdown on A minimal Hugo website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Mar 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:46465/InfiniteCuteLoop/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog with LaTeX in 15 Minutes</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</link>
-      <pubDate>Thu, 13 Mar 2025 12:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</guid>
-      <description>Blog with LaTeX in 15 Minutes Joel Maldonado Welcome to this infinite Cute Loop! In this post, I’m going to share my journey of setting up a Hugo blog with full LaTeX support and deploying it to GitHub Pages—all in just 15 minutes. If you’re curious about how to get your blog up and running quickly, read on!Below is the updated, comprehensive tutorial that incorporates all the details—including creating your GitHub repository, initializing your Hugo site with your final configuration, adding LaTeX support via the custom footer partial, and deploying your site from a dedicated branch (gh‑pages) using ghp‑import.</description>
+      <link>http://localhost:46465/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46465/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</guid>
+      <description>&lt;h1 id=&#34;blog-with-latex-in-15-minutes&#34;&gt;Blog with LaTeX in 15 Minutes&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Joel Maldonado&lt;/em&gt;&#xA;Welcome to this infinite &lt;strong&gt;Cute Loop&lt;/strong&gt;! In this post, I’m going to share my journey of setting up a Hugo blog with full LaTeX support and deploying it to GitHub Pages—all in just 15 minutes. If you’re curious about how to get your blog up and running quickly, read on!Below is the updated, comprehensive tutorial that incorporates all the details—including creating your GitHub repository, initializing your Hugo site with your final configuration, adding LaTeX support via the custom footer partial, and deploying your site from a dedicated branch (gh‑pages) using ghp‑import. You can copy and paste this tutorial as your first post (for example, as a file named &lt;code&gt;content/posts/blog-with-latex-in-15-min.md&lt;/code&gt;) and then customize it as needed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Plain Markdown Post</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/my-first-post/</link>
+      <link>http://localhost:46465/InfiniteCuteLoop/posts/my-first-post/</link>
       <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/my-first-post/</guid>
-      <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.&#xA;1. Markdown or R Markdown This post is written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The differences include:&#xA;You cannot run any R code in a plain Markdown document, whereas in R Markdown you can embed R code chunks. A plain Markdown post is rendered via Goldmark, while R Markdown is compiled with rmarkdown and Pandoc.</description>
+      <guid>http://localhost:46465/InfiniteCuteLoop/posts/my-first-post/</guid>
+      <description>&lt;p&gt;This sample post is mainly for &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; users. If you do not use &lt;strong&gt;blogdown&lt;/strong&gt;, you can skip the first section.&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-markdown-or-r-markdown&#34;&gt;1. Markdown or R Markdown&lt;/h1&gt;&#xA;&lt;p&gt;This post is written in plain Markdown (&lt;code&gt;*.md&lt;/code&gt;) instead of R Markdown (&lt;code&gt;*.Rmd&lt;/code&gt;). The differences include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;You cannot run any R code in a plain Markdown document, whereas in R Markdown you can embed R code chunks.&lt;/li&gt;&#xA;&lt;li&gt;A plain Markdown post is rendered via &lt;a href=&#34;https://gohugo.io/overview/configuration/&#34;&gt;Goldmark&lt;/a&gt;, while R Markdown is compiled with &lt;a href=&#34;http://rmarkdown.rstudio.com&#34;&gt;rmarkdown&lt;/a&gt; and Pandoc.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;em&gt;Note on LaTeX:&lt;/em&gt;&lt;br&gt;&#xA;As of Hugo v0.122.0, you can enable LaTeX math using standard syntax:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
