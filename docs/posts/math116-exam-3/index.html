@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/InfiniteCuteLoop/livereload.js?mindelay=10&amp;v=2&amp;port=44137&amp;path=InfiniteCuteLoop/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MATH 116 – Test 3 Practice (Fall 2024) | A minimal Hugo website</title>
+    <link rel="stylesheet" href="/InfiniteCuteLoop/css/style.css" />
+    <link rel="stylesheet" href="/InfiniteCuteLoop/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/InfiniteCuteLoop/">Home</a></li>
+      
+      <li><a href="/InfiniteCuteLoop/about/">About</a></li>
+      
+      <li><a href="/InfiniteCuteLoop/categories/">Categories</a></li>
+      
+      <li><a href="/InfiniteCuteLoop/tags/">Tags</a></li>
+      
+      <li><a href="/InfiniteCuteLoop/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">MATH 116 – Test 3 Practice (Fall 2024)</span></h1>
+
+<h2 class="date">2024/11/01</h2>
+</div>
+
+<main>
+<blockquote>
+<p><strong>How to use this page</strong></p>
+<p>This is a practice version of <strong>MATH 116 – Test 3 (Fall 2024)</strong> with
+<strong>very detailed, step-by-step solutions</strong>.</p>
+<p>For each problem:</p>
+<ol>
+<li>Read the <strong>problem</strong> and try it on your own.</li>
+<li>Open <strong>Hint 1</strong> if you’re not sure which rule or idea to use.</li>
+<li>Open <strong>Hint 2</strong> for more structure.</li>
+<li>Open the <strong>Solution</strong> only when you’re ready to check your work.</li>
+</ol>
+</blockquote>
+<hr>
+<h2 id="formula-sheet">Formula Sheet</h2>
+<h3 id="interest--exponential-growthdecay">Interest &amp; Exponential Growth/Decay</h3>
+<ul>
+<li>
+<p><strong>Compound interest (m times per year)</strong><br>
+</p>
+\[
+  A = P\!\left(1+\frac{r}{m}\right)^{mt}
+  \]</li>
+<li>
+<p><strong>Continuous compounding</strong><br>
+</p>
+\[
+  A = Pe^{rt}
+  \]</li>
+<li>
+<p><strong>Effective rate from nominal (m compounds per year)</strong><br>
+</p>
+\[
+  E = \left(1+\frac{r}{m}\right)^{m}-1
+  \]</li>
+<li>
+<p><strong>Effective rate for continuous compounding</strong><br>
+</p>
+\[
+  E = e^{r}-1
+  \]</li>
+</ul>
+<h3 id="basic-derivative-rules">Basic Derivative Rules</h3>
+<p>Let \(f,g\) be differentiable functions and \(k\) a constant.</p>
+<ul>
+<li>
+<p>Constant multiple:
+</p>
+\[
+  \frac{d}{dx}\bigl(k\,f(x)\bigr) = k\,f'(x)
+  \]</li>
+<li>
+<p>Sum:
+</p>
+\[
+  \frac{d}{dx}\bigl(f(x)+g(x)\bigr) = f'(x)+g'(x)
+  \]</li>
+<li>
+<p>Power:
+</p>
+\[
+  \frac{d}{dx}\bigl(x^{n}\bigr) = nx^{n-1}
+  \]</li>
+<li>
+<p>Exponential:
+</p>
+\[
+  \frac{d}{dx}\bigl(e^{x}\bigr) = e^{x}, \quad
+  \frac{d}{dx}\bigl(e^{f(x)}\bigr) = e^{f(x)}\,f'(x)
+  \]</li>
+<li>
+<p>Natural log:
+</p>
+\[
+  \frac{d}{dx}\bigl(\ln x\bigr) = \frac{1}{x},\quad x>0
+  \]<p>
+</p>
+\[
+  \frac{d}{dx}\bigl(\ln(f(x))\bigr) = \frac{f'(x)}{f(x)}
+  \]</li>
+<li>
+<p>Product rule (for \(h(x)=f(x)\,g(x)\)):
+</p>
+\[
+  h'(x) = f'(x)\,g(x) + f(x)\,g'(x)
+  \]</li>
+<li>
+<p>Quotient rule (for \(h(x)=\dfrac{f(x)}{g(x)}\)):
+</p>
+\[
+  h'(x) = \frac{f'(x)\,g(x) - f(x)\,g'(x)}{\bigl(g(x)\bigr)^{2}}
+  \]</li>
+</ul>
+<h3 id="basic-antiderivative--integral-rules">Basic Antiderivative / Integral Rules</h3>
+<ul>
+<li>
+<p>Power rule:
+</p>
+\[
+  \int x^{n}\,dx = \frac{x^{n+1}}{n+1} + C \quad (n\neq -1)
+  \]</li>
+<li>
+<p>Logarithm:
+</p>
+\[
+  \int \frac{1}{x}\,dx = \ln|x| + C
+  \]</li>
+<li>
+<p>Exponential:
+</p>
+\[
+  \int e^{kx}\,dx = \frac{1}{k}e^{kx} + C
+  \]</li>
+<li>
+<p>Linear rules:
+</p>
+\[
+  \int \bigl(k\,f(x)\bigr)\,dx = k\int f(x)\,dx
+  \]<p>
+</p>
+\[
+  \int \bigl(f(x)+g(x)\bigr)\,dx = \int f(x)\,dx + \int g(x)\,dx
+  \]</li>
+<li>
+<p>Fundamental Theorem of Calculus (FTC):<br>
+If \(F'(x)=f(x)\), then
+</p>
+\[
+  \int_a^b f(x)\,dx = F(b)-F(a).
+  \]</li>
+</ul>
+<hr>
+<h2 id="problems-113-multiple-choice">Problems 1–13 (Multiple Choice)</h2>
+<hr>
+<h3 id="problem-1">Problem 1</h3>
+<p>Find the derivative of
+</p>
+\[
+f(x) = \ln(5x+7).
+\]<p><strong>Options</strong></p>
+<p>A. \(\displaystyle f'(x) = \frac{5}{5x+7}\)</p>
+<p>B. \(\displaystyle f'(x) = \frac{5}{x}\)</p>
+<p>C. \(\displaystyle f'(x) = \ln(5x+7)\)</p>
+<p>D. \(\displaystyle f'(x) = \frac{1}{5x+7}\)</p>
+<p>E. \(\displaystyle f'(x) = \ln(5)\)</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>You have \(\ln(\text{something})\), not just \(\ln x\).<br>
+Look for the rule for the derivative of \(\ln(f(x))\).</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Use
+</p>
+\[
+\frac{d}{dx}\bigl(\ln(f(x))\bigr) = \frac{f'(x)}{f(x)}.
+\]<p>
+Here \(f(x)\) (inside the log) is \(5x+7\).<br>
+Compute its derivative and plug into the formula.</p>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>We want
+</p>
+\[
+\frac{d}{dx}\bigl(\ln(5x+7)\bigr).
+\]<p>Let the inside function be
+</p>
+\[
+u(x) = 5x+7.
+\]<p>Then
+</p>
+\[
+\frac{d}{dx}\bigl(\ln(u(x))\bigr) = \frac{u'(x)}{u(x)}.
+\]<p>Compute \(u'(x)\):</p>
+\[
+u'(x) = \frac{d}{dx}(5x+7) = 5.
+\]<p>So
+</p>
+\[
+\begin{aligned}
+f'(x)
+&= \frac{u'(x)}{u(x)} \\
+&= \frac{5}{5x+7}.
+\end{aligned}
+\]\[
+\boxed{f'(x) = \frac{5}{5x+7}.}
+\]<p><strong>Answer: A</strong></p>
+</details>
+<hr>
+<h3 id="problem-2">Problem 2</h3>
+<p>Solve for \(x\):
+</p>
+\[
+e^{-2x} = (e^{4})^{5-3x}.
+\]<p>Then decide where the solution lies.</p>
+<p><strong>Options</strong></p>
+<p>A. \(x < 0\)</p>
+<p>B. \(0 < x < 1.5\)</p>
+<p>C. \(1.5 < x < 3\)</p>
+<p>D. \(3 < x < 4.5\)</p>
+<p>E. \(x > 4.5\)</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>The bases on both sides are exponentials with base \(e\).<br>
+Try rewriting the right-hand side as \(e^{(\text{something})}\) so you can equate exponents.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Use the fact that
+</p>
+\[
+(a^{b})^{c} = a^{bc}.
+\]<p>
+So
+</p>
+\[
+(e^{4})^{5-3x} = e^{4(5-3x)}.
+\]<p>
+Then set exponents equal and solve the resulting linear equation in \(x\).</p>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>Start with
+</p>
+\[
+e^{-2x} = (e^{4})^{5-3x}.
+\]<p>Rewrite the right side using \((a^{b})^{c} = a^{bc}\):</p>
+\[
+(e^{4})^{5-3x} = e^{4(5-3x)} = e^{20-12x}.
+\]<p>Now we have
+</p>
+\[
+e^{-2x} = e^{20-12x}.
+\]<p>Because the exponential function \(e^{(\cdot)}\) is one-to-one,
+</p>
+\[
+-2x = 20 - 12x.
+\]<p>Solve for \(x\):</p>
+\[
+\begin{aligned}
+-2x &= 20 - 12x \\
+-2x + 12x &= 20 \\
+10x &= 20 \\
+x &= 2.
+\end{aligned}
+\]<p>Compare with the intervals:</p>
+<ul>
+<li>\(2\) is between \(1.5\) and \(3\).</li>
+</ul>
+<p>So the solution lies in</p>
+\[
+\boxed{1.5 < x < 3.}
+\]<p><strong>Answer: C</strong></p>
+</details>
+<hr>
+<h3 id="problem-3">Problem 3</h3>
+<p>The approximate <strong>rate of change</strong> in the number (in billions) of monthly text
+messages is given by
+</p>
+\[
+f'(t) = 5.6t - 7.5,
+\]<p>
+where \(t\) is the number of years since 2000.</p>
+<p>In the year 2000 (\(t=0\)), there were approximately <strong>20 billion</strong> monthly text messages.</p>
+<p>How many monthly text messages were there in <strong>2006</strong>?</p>
+<p><strong>Options</strong></p>
+<p>A. more than 80 billion</p>
+<p>B. between 70 billion and 80 billion</p>
+<p>C. between 60 billion and 70 billion</p>
+<p>D. between 50 billion and 60 billion</p>
+<p>E. less than 50 billion</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>You are given a <strong>rate of change</strong> \(f'(t)\) and an initial value \(f(0)\).<br>
+To recover \(f(t)\), integrate \(f'(t)\) and then use the initial value.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>Compute
+\[
+   f(t) = \int (5.6t - 7.5)\,dt + C.
+   \]</li>
+<li>Plug in \(t=0\) and \(f(0)=20\) to find \(C\).</li>
+<li>Evaluate \(f(6)\) for the year 2006 (since 2006 is 6 years after 2000).</li>
+</ol>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>We know:</p>
+<ul>
+<li>\(f'(t) = 5.6t - 7.5\),</li>
+<li>\(f(0) = 20\).</li>
+</ul>
+<p><strong>Step 1: Integrate \(f'(t)\)</strong></p>
+\[
+\begin{aligned}
+f(t)
+&= \int (5.6t - 7.5)\,dt \\
+&= \int 5.6t\,dt - \int 7.5\,dt \\
+&= 5.6\cdot\frac{t^{2}}{2} - 7.5t + C \\
+&= 2.8t^{2} - 7.5t + C.
+\end{aligned}
+\]<p><strong>Step 2: Use initial condition \(f(0)=20\)</strong></p>
+\[
+\begin{aligned}
+f(0) &= 2.8(0)^{2} - 7.5(0) + C = C, \\
+C &= 20.
+\end{aligned}
+\]<p>So
+</p>
+\[
+f(t) = 2.8t^{2} - 7.5t + 20.
+\]<p><strong>Step 3: Evaluate at \(t=6\) (year 2006)</strong></p>
+\[
+\begin{aligned}
+f(6)
+&= 2.8(6)^{2} - 7.5(6) + 20 \\
+&= 2.8\cdot36 - 45 + 20 \\
+&= 100.8 - 45 + 20 \\
+&= 100.8 - 25 \\
+&= 75.8.
+\end{aligned}
+\]<p>So there were approximately <strong>75.8 billion</strong> monthly text messages in 2006.</p>
+<p>This lies between <strong>70 and 80 billion</strong>.</p>
+\[
+\boxed{\text{Between 70 and 80 billion.}}
+\]<p><strong>Answer: B</strong></p>
+</details>
+<hr>
+<h3 id="problem-4">Problem 4</h3>
+<p>Find the equation of the tangent line to
+</p>
+\[
+f(x) = e^{-7x} + 4
+\]<p>
+at \(x=0\).</p>
+<p><strong>Options</strong></p>
+<p>A. \(y = -7x + 11\)</p>
+<p>B. \(y = 7e^{-x} + 4\)</p>
+<p>C. \(y = 7x + 4\)</p>
+<p>D. \(y = -7x + 4\)</p>
+<p>E. \(y = 7x + 11\)</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>For a tangent line at \(x=a\), you need:</p>
+<ul>
+<li>The point: \((a, f(a))\),</li>
+<li>The slope: \(f'(a)\),</li>
+</ul>
+<p>and then use <strong>point-slope form</strong> of a line.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>Evaluate \(f(0)\).</li>
+<li>Differentiate \(f(x)\) to get \(f'(x)\), then compute \(f'(0)\).</li>
+<li>Use \(y - f(0) = f'(0)(x-0)\).</li>
+</ol>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>We have
+</p>
+\[
+f(x) = e^{-7x} + 4.
+\]<p><strong>Step 1: Find the point on the curve at \(x=0\)</strong></p>
+\[
+\begin{aligned}
+f(0) &= e^{-7\cdot 0} + 4 = e^{0} + 4 = 1 + 4 = 5.
+\end{aligned}
+\]<p>So the point is \((0,5)\).</p>
+<p><strong>Step 2: Find the derivative</strong></p>
+<p>Differentiate term by term:</p>
+<ul>
+<li>For \(e^{-7x}\), use chain rule:<br>
+\[
+  \frac{d}{dx}\bigl(e^{-7x}\bigr) = e^{-7x}\cdot(-7) = -7e^{-7x}.
+  \]</li>
+<li>For \(4\), derivative is \(0\).</li>
+</ul>
+<p>So
+</p>
+\[
+f'(x) = -7e^{-7x}.
+\]<p><strong>Step 3: Evaluate slope at \(x=0\)</strong></p>
+\[
+\begin{aligned}
+f'(0) &= -7e^{-7\cdot 0} = -7e^{0} = -7.
+\end{aligned}
+\]<p><strong>Step 4: Use point-slope form</strong></p>
+\[
+\begin{aligned}
+y - y_0 &= m(x - x_0) \\
+y - 5 &= -7(x - 0) \\
+y &= -7x + 5.
+\end{aligned}
+\]<p>So the correct tangent line is
+</p>
+\[
+\boxed{y = -7x + 5.}
+\]<blockquote>
+<p><strong>Note:</strong> None of the provided options matches \(y=-7x+5\) exactly; the closest slope-wise is \(y=-7x+4\) (option D), but the correct intercept (using the given function) is <strong>5</strong>, not 4. For learning purposes, <strong>\(y=-7x+5\)</strong> is the mathematically correct tangent line.</p>
+</blockquote>
+</details>
+<hr>
+<h3 id="problem-5">Problem 5</h3>
+<p>Determine the <strong>nominal annual rate \(r\)</strong> for an investment, compounded <strong>continuously</strong>, if the <strong>effective rate</strong> is \(10.6\%\).</p>
+<p>For continuous compounding:
+</p>
+\[
+E = e^{r} - 1.
+\]<p><strong>Options</strong></p>
+<p>A. Less than 9.90%</p>
+<p>B. Between 9.90% and 10.20%</p>
+<p>C. Between 10.20% and 10.50%</p>
+<p>D. Between 10.50% and 10.80%</p>
+<p>E. More than 10.80%</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>Use the relationship between effective rate \(E\) and nominal rate \(r\) for <strong>continuous compounding</strong>:
+</p>
+\[
+E = e^{r}-1.
+\]</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Plug \(E=0.106\) into
+</p>
+\[
+0.106 = e^{r}-1,
+\]<p>
+solve for \(r\), then convert to a percentage and see which interval fits.</p>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>We are given an effective rate of \(E = 10.6\% = 0.106\). For continuous compounding,
+</p>
+\[
+E = e^{r} - 1.
+\]<p>So
+</p>
+\[
+\begin{aligned}
+0.106 &= e^{r} - 1 \\
+1.106 &= e^{r} \\
+r &= \ln(1.106).
+\end{aligned}
+\]<p>Approximate:</p>
+<ul>
+<li>\(\ln(1.1) \approx 0.0953\),</li>
+<li>\(\ln(1.106)\) is slightly larger, about \(0.1008\).</li>
+</ul>
+<p>So
+</p>
+\[
+r \approx 0.1008 \approx 10.08\%.
+\]<p>This lies between <strong>9.90% and 10.20%</strong>.</p>
+\[
+\boxed{\text{Between 9.90% and 10.20%.}}
+\]<p><strong>Answer: B</strong></p>
+</details>
+<hr>
+<h3 id="problem-6">Problem 6</h3>
+<p>Suppose
+</p>
+\[
+f'(x) = 10x + 2.
+\]<p>Which one of the following could be \(f(x)\)?</p>
+<p><strong>Options</strong></p>
+<p>A. \(f(x) = 10x + 2 + C\)</p>
+<p>B. \(f(x) = 5x^{2} + 2x + C\)</p>
+<p>C. \(f(x) = \dfrac{10x+2}{x}\)</p>
+<p>D. \(f(x) = 5x^{2} + x^{2} + C\)</p>
+<p>E. \(f(x) = 10\)</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>You’re going <strong>backwards</strong> from derivative to function.<br>
+This is an <strong>indefinite integral</strong> / antiderivative problem:
+</p>
+\[
+f(x) = \int (10x+2)\,dx.
+\]</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Use the power rule for integrals:
+</p>
+\[
+\int x^{n}\,dx = \frac{x^{n+1}}{n+1} + C.
+\]<p>
+Apply it to \(10x\) and to the constant \(2\) separately.</p>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>We want a function \(f(x)\) whose derivative is
+</p>
+\[
+f'(x) = 10x+2.
+\]<p>Compute the antiderivative:</p>
+\[
+\begin{aligned}
+f(x)
+&= \int (10x+2)\,dx \\
+&= \int 10x\,dx + \int 2\,dx \\
+&= 10\cdot\frac{x^{2}}{2} + 2x + C \\
+&= 5x^{2} + 2x + C.
+\end{aligned}
+\]<p>Compare with the options:</p>
+<ul>
+<li>Option <strong>B</strong> is exactly \(f(x) = 5x^{2} + 2x + C\).</li>
+</ul>
+<p>So
+</p>
+\[
+\boxed{f(x) = 5x^{2} + 2x + C.}
+\]<p><strong>Answer: B</strong></p>
+</details>
+<hr>
+<h3 id="problem-7">Problem 7</h3>
+<p>Evaluate the indefinite integral:
+</p>
+\[
+\int \left( e^{4x} + \frac{1}{x^{3}} \right)\,dx.
+\]<details><summary><strong>Hint 1</strong></summary>
+<p>Split the integral into two parts:
+</p>
+\[
+\int e^{4x}\,dx + \int x^{-3}\,dx.
+\]<p>
+Use:</p>
+<ul>
+<li>exponential rule for \(e^{4x}\),</li>
+<li>power rule for \(x^{-3}\).</li>
+</ul>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Recall:
+</p>
+\[
+\int e^{kx}\,dx = \frac{1}{k}e^{kx} + C,
+\]<p>
+and for the power rule with \(n\neq -1\),
+</p>
+\[
+\int x^{n}\,dx = \frac{x^{n+1}}{n+1} + C.
+\]<p>Apply with \(n=-3\).</p>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>We have
+</p>
+\[
+\int \left( e^{4x} + \frac{1}{x^{3}} \right)\,dx
+= \int e^{4x}\,dx + \int x^{-3}\,dx.
+\]<p><strong>First integral:</strong></p>
+\[
+\int e^{4x}\,dx = \frac{1}{4}e^{4x} + C_1.
+\]<p><strong>Second integral:</strong></p>
+\[
+\int x^{-3}\,dx = \frac{x^{-2}}{-2} + C_2 = -\frac{1}{2x^{2}} + C_2.
+\]<p>Combine them (one constant is fine):</p>
+\[
+\int \left( e^{4x} + \frac{1}{x^{3}} \right)\,dx
+= \frac{1}{4}e^{4x} - \frac{1}{2x^{2}} + C.
+\]\[
+\boxed{\int \left( e^{4x} + \frac{1}{x^{3}} \right)\,dx
+= \frac{1}{4}e^{4x} - \frac{1}{2x^{2}} + C.}
+\]</details>
+<hr>
+<h3 id="problem-8">Problem 8</h3>
+<p>Determine the derivative of
+</p>
+\[
+f(x) = \frac{x}{3 + \ln(x)}.
+\]<details><summary><strong>Hint 1</strong></summary>
+<p>You have a <strong>quotient</strong>: numerator \(x\), denominator \(3+\ln x\).<br>
+Use the <strong>quotient rule</strong>.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Let
+</p>
+\[
+f(x) = \frac{N(x)}{D(x)}, \quad N(x)=x,\quad D(x)=3+\ln x.
+\]<p>Then
+</p>
+\[
+f'(x) = \frac{N'(x)D(x) - N(x)D'(x)}{[D(x)]^{2}}.
+\]<p>Compute \(N'(x)\) and \(D'(x)\) first.</p>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>Write
+</p>
+\[
+f(x) = \frac{x}{3+\ln x}.
+\]<p>Let
+</p>
+\[
+N(x) = x,\quad D(x) = 3+\ln x.
+\]<p>Compute derivatives:</p>
+\[
+N'(x) = 1,\quad D'(x) = \frac{d}{dx}(3+\ln x) = \frac{1}{x}.
+\]<p>By the quotient rule,
+</p>
+\[
+\begin{aligned}
+f'(x)
+&= \frac{N'(x)D(x) - N(x)D'(x)}{[D(x)]^{2}} \\
+&= \frac{1\cdot(3+\ln x) - x\cdot\frac{1}{x}}{(3+\ln x)^{2}} \\
+&= \frac{3+\ln x - 1}{(3+\ln x)^{2}} \\
+&= \frac{2+\ln x}{(3+\ln x)^{2}}.
+\end{aligned}
+\]\[
+\boxed{f'(x) = \dfrac{2+\ln x}{(3+\ln x)^{2}}.}
+\]</details>
+<hr>
+<h3 id="problem-9">Problem 9</h3>
+<p>Using the Fundamental Theorem of Calculus, determine an expression equivalent to
+</p>
+\[
+\int_{a}^{b} 5x^{4}\,dx.
+\]<details><summary><strong>Hint 1</strong></summary>
+<p>First find an antiderivative \(F(x)\) of \(5x^{4}\), then use
+</p>
+\[
+\int_{a}^{b} 5x^{4}\,dx = F(b)-F(a).
+\]</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Use the power rule:
+</p>
+\[
+\int x^{n}\,dx = \frac{x^{n+1}}{n+1} + C.
+\]<p>Here \(5x^{4} = 5\cdot x^{4}\). Integrate, then plug in \(b\) and \(a\).</p>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>Find an antiderivative of \(5x^{4}\):</p>
+\[
+\begin{aligned}
+\int 5x^{4}\,dx
+&= 5\int x^{4}\,dx \\
+&= 5\cdot\frac{x^{5}}{5} + C \\
+&= x^{5}+C.
+\end{aligned}
+\]<p>So we can take \(F(x)=x^{5}\).</p>
+<p>By the Fundamental Theorem of Calculus,
+</p>
+\[
+\int_{a}^{b} 5x^{4}\,dx = F(b)-F(a) = b^{5} - a^{5}.
+\]\[
+\boxed{\int_{a}^{b} 5x^{4}\,dx = b^{5}-a^{5}.}
+\]</details>
+<hr>
+<h3 id="problem-10">Problem 10</h3>
+<p>Determine the balance in an account if $20,000 is invested for 8 years at an
+annual interest rate of \(2.4\%\), compounded <strong>quarterly</strong>.</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>Use the compound interest formula:
+</p>
+\[
+A = P\left(1+\frac{r}{m}\right)^{mt},
+\]<p>
+where:</p>
+<ul>
+<li>\(P = 20000\),</li>
+<li>\(r = 0.024\),</li>
+<li>\(m = 4\) (quarterly),</li>
+<li>\(t = 8\).</li>
+</ul>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Compute
+</p>
+\[
+A = 20000\left(1+\frac{0.024}{4}\right)^{4\cdot 8}
+= 20000(1.006)^{32}.
+\]<p>Approximate \(1.006^{32}\) (or use a calculator) and multiply by 20,000.</p>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>We have:</p>
+<ul>
+<li>\(P = 20000\),</li>
+<li>\(r = 0.024\),</li>
+<li>\(m = 4\),</li>
+<li>\(t = 8\).</li>
+</ul>
+<p>Formula:
+</p>
+\[
+A = P\left(1+\frac{r}{m}\right)^{mt}.
+\]<p>Plug in:</p>
+\[
+\begin{aligned}
+A
+&= 20000\left(1+\frac{0.024}{4}\right)^{4\cdot 8} \\
+&= 20000(1+0.006)^{32} \\
+&= 20000(1.006)^{32}.
+\end{aligned}
+\]<p>Approximate \(1.006^{32}\). (On a calculator you’d just compute directly; here’s a rough idea.)</p>
+<ul>
+<li>\(1.006^{10} \approx 1.0615\),</li>
+<li>\(1.006^{20} \approx (1.0615)^{2} \approx 1.126\),</li>
+<li>\(1.006^{30} \approx 1.126\cdot 1.0615 \approx 1.195\),</li>
+<li>\(1.006^{32} \approx 1.195\cdot 1.006^{2} \approx 1.195\cdot 1.012 \approx 1.209\) (roughly).</li>
+</ul>
+<p>So
+</p>
+\[
+A \approx 20000 \cdot 1.209 \approx 24180.
+\]<p>A more accurate calculator value is around $24,18x; in any case it’s <strong>just under $24,200</strong>.</p>
+<p>So the balance is approximately
+</p>
+\[
+\boxed{\$24{,}180\text{–}\$24{,}190\ \text{(about)}.}
+\]<p>(If matching to choices like “less than $24,195”, that would be the correct bracket.)</p>
+</details>
+<hr>
+<h3 id="problem-11">Problem 11</h3>
+<p>Suppose the marginal cost (in dollars per unit) is
+</p>
+\[
+C'(x) = 6x + 7,
+\]<p>
+when \(x\) units are produced.</p>
+<p>If it costs $80 to produce 3 units, find the cost function \(C(x)\).</p>
+<p><strong>Options</strong></p>
+<p>A. \(C(x) = 6x + 87\)</p>
+<p>B. \(C(x) = 6x\)</p>
+<p>C. \(C(x) = 3x^{2} + 7x\)</p>
+<p>D. \(C(x) = 3x^{2} + 7x + 32\)</p>
+<p>E. \(C(x) = 3x^{2} + 7x + 80\)</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>Marginal cost is \(C'(x)\).<br>
+To get actual cost \(C(x)\), integrate \(C'(x)\), then use \(C(3)=80\) to find the constant.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>Compute
+\[
+   C(x) = \int(6x+7)\,dx.
+   \]</li>
+<li>Use the condition “it costs $80 to produce 3 units” → \(C(3)=80\) to solve for the constant.</li>
+</ol>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>We have
+</p>
+\[
+C'(x) = 6x+7.
+\]<p><strong>Step 1: Integrate</strong></p>
+\[
+\begin{aligned}
+C(x)
+&= \int(6x+7)\,dx \\
+&= \int 6x\,dx + \int 7\,dx \\
+&= 6\cdot\frac{x^{2}}{2} + 7x + K \\
+&= 3x^{2} + 7x + K.
+\end{aligned}
+\]<p><strong>Step 2: Use \(C(3)=80\)</strong></p>
+\[
+\begin{aligned}
+C(3) &= 3(3)^{2} + 7(3) + K \\
+80 &= 3\cdot 9 + 21 + K \\
+80 &= 27 + 21 + K \\
+80 &= 48 + K \\
+K &= 32.
+\end{aligned}
+\]<p>So
+</p>
+\[
+C(x) = 3x^{2} + 7x + 32.
+\]<p>Compare with options: this is option <strong>D</strong>.</p>
+\[
+\boxed{C(x) = 3x^{2} + 7x + 32.}
+\]<p><strong>Answer: D</strong></p>
+</details>
+<hr>
+<h3 id="problem-12">Problem 12</h3>
+<p>Using the Fundamental Theorem of Calculus, evaluate the definite integral
+</p>
+\[
+\int_{1}^{4} \left(2x + \frac{3}{x} + 7\right)\,dx.
+\]<details><summary><strong>Hint 1</strong></summary>
+<p>Split the integral into three parts:
+</p>
+\[
+\int_{1}^{4} 2x\,dx + \int_{1}^{4} \frac{3}{x}\,dx + \int_{1}^{4} 7\,dx.
+\]<p>Use:</p>
+<ul>
+<li>power rule for \(2x\),</li>
+<li>log rule for \(\frac{3}{x}\),</li>
+<li>constant rule for \(7\).</li>
+</ul>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Find an antiderivative \(F(x)\) such that:
+</p>
+\[
+F(x) = x^{2} + 3\ln|x| + 7x,
+\]<p>
+then compute \(F(4)-F(1)\).</p>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>Compute:
+</p>
+\[
+\int_{1}^{4} \left(2x + \frac{3}{x}+7\right)\,dx.
+\]<p><strong>Step 1: Find an antiderivative</strong></p>
+<p>Integrate term by term:</p>
+<ul>
+<li>\(\displaystyle \int 2x\,dx = x^{2}\),</li>
+<li>\(\displaystyle \int \frac{3}{x}\,dx = 3\ln|x|\),</li>
+<li>\(\displaystyle \int 7\,dx = 7x\).</li>
+</ul>
+<p>So an antiderivative is
+</p>
+\[
+F(x) = x^{2} + 3\ln|x| + 7x.
+\]<p><strong>Step 2: Evaluate from 1 to 4</strong></p>
+\[
+\int_{1}^{4} \left(2x + \frac{3}{x}+7\right)\,dx = F(4) - F(1).
+\]<p>Compute \(F(4)\):</p>
+\[
+\begin{aligned}
+F(4)
+&= 4^{2} + 3\ln 4 + 7\cdot 4 \\
+&= 16 + 3\ln 4 + 28 \\
+&= 44 + 3\ln 4.
+\end{aligned}
+\]<p>Compute \(F(1)\):</p>
+\[
+\begin{aligned}
+F(1)
+&= 1^{2} + 3\ln 1 + 7\cdot 1 \\
+&= 1 + 0 + 7 \\
+&= 8.
+\end{aligned}
+\]<p>Now subtract:</p>
+\[
+\begin{aligned}
+\int_{1}^{4} \left(2x + \frac{3}{x}+7\right)\,dx
+&= F(4)-F(1) \\
+&= (44 + 3\ln 4) - 8 \\
+&= 36 + 3\ln 4.
+\end{aligned}
+\]<p>Optionally approximate:</p>
+<ul>
+<li>\(\ln 4 \approx 1.386\),</li>
+<li>\(3\ln 4 \approx 4.158\),</li>
+<li>so total ≈ \(36 + 4.158 = 40.158\).</li>
+</ul>
+\[
+\boxed{\int_{1}^{4} \left(2x + \frac{3}{x}+7\right)\,dx = 36 + 3\ln 4 \approx 40.16.}
+\]</details>
+<hr>
+<h3 id="problem-13">Problem 13</h3>
+<p>Find the derivatives of the following functions. Your answers do not need to be simplified.</p>
+<h4 id="a">(a) \(h(x) = x^{5}\ln x\)</h4>
+<details><summary><strong>Hint 1</strong></summary>
+<p>This is a <strong>product</strong> of two functions: \(x^{5}\) and \(\ln x\).<br>
+Use the <strong>product rule</strong>.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Let
+</p>
+\[
+f(x) = x^{5}, \quad g(x) = \ln x.
+\]<p>
+Then
+</p>
+\[
+h(x) = f(x)g(x),\quad h'(x) = f'(x)g(x) + f(x)g'(x).
+\]</details>
+<details><summary><strong>Solution</strong></summary>
+<p>Let
+</p>
+\[
+f(x) = x^{5}, \quad g(x) = \ln x.
+\]<p>Then
+</p>
+\[
+f'(x) = 5x^{4},\quad g'(x) = \frac{1}{x}.
+\]<p>By the product rule:
+</p>
+\[
+\begin{aligned}
+h'(x)
+&= f'(x)g(x) + f(x)g'(x) \\
+&= 5x^{4}\ln x + x^{5}\cdot\frac{1}{x} \\
+&= 5x^{4}\ln x + x^{4}.
+\end{aligned}
+\]\[
+\boxed{h'(x) = 5x^{4}\ln x + x^{4}.}
+\]</details>
+<hr>
+<h4 id="b">(b) \(j(x) = e^{\sqrt{x} + 5x^{2}}\)</h4>
+<details><summary><strong>Hint 1</strong></summary>
+<p>You have an exponential of a <strong>function of \(x\)</strong>.<br>
+Use the chain rule:
+</p>
+\[
+\frac{d}{dx}e^{u(x)} = e^{u(x)} u'(x).
+\]</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Let
+</p>
+\[
+u(x) = \sqrt{x} + 5x^{2}.
+\]<p>
+Find \(u'(x)\), then multiply by \(e^{u(x)}\).</p>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>Let
+</p>
+\[
+u(x) = \sqrt{x} + 5x^{2} = x^{1/2} + 5x^{2}.
+\]<p>Compute
+</p>
+\[
+u'(x) = \frac{1}{2}x^{-1/2} + 10x = \frac{1}{2\sqrt{x}} + 10x.
+\]<p>Since \(j(x) = e^{u(x)}\), by the chain rule:</p>
+\[
+\begin{aligned}
+j'(x)
+&= e^{u(x)}\,u'(x) \\
+&= e^{\sqrt{x} + 5x^{2}}\left( \frac{1}{2\sqrt{x}} + 10x \right).
+\end{aligned}
+\]\[
+\boxed{j'(x) = e^{\sqrt{x} + 5x^{2}}\left( \frac{1}{2\sqrt{x}} + 10x \right).}
+\]</details>
+<hr>
+<h3 id="problem-14">Problem 14</h3>
+<p>Let the cost (in dollars) to produce \(x\) hundred units be
+</p>
+\[
+C(x) = x^{3} + 7x + 1024.
+\]<p>Here \(x\) is measured in <strong>hundreds of units</strong>.</p>
+<p>How many units must be produced in order for the <strong>average cost</strong> to be an <strong>absolute minimum</strong>?</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>Average cost is
+</p>
+\[
+\overline{C}(x) = \frac{C(x)}{x}.
+\]<p>First write \(\overline{C}(x)\), then minimize it using derivative tests.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>Compute
+\[
+   \overline{C}(x) = \frac{x^{3} + 7x + 1024}{x}.
+   \]
+Simplify.</li>
+<li>Compute \(\overline{C}'(x)\), set it equal to zero.</li>
+<li>Solve for \(x\), and remember that \(x\) is in <strong>hundreds of units</strong>.</li>
+</ol>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>Average cost (per hundred units) is
+</p>
+\[
+\overline{C}(x) = \frac{C(x)}{x} = \frac{x^{3} + 7x + 1024}{x}.
+\]<p>Simplify:
+</p>
+\[
+\begin{aligned}
+\overline{C}(x)
+&= \frac{x^{3}}{x} + \frac{7x}{x} + \frac{1024}{x} \\
+&= x^{2} + 7 + \frac{1024}{x}.
+\end{aligned}
+\]<p>So
+</p>
+\[
+\overline{C}(x) = x^{2} + 7 + \frac{1024}{x}.
+\]<p>To find the minimum, differentiate and set to zero.</p>
+\[
+\begin{aligned}
+\overline{C}'(x)
+&= 2x + 0 - 1024x^{-2} \\
+&= 2x - \frac{1024}{x^{2}}.
+\end{aligned}
+\]<p>Set \(\overline{C}'(x)=0\):</p>
+\[
+\begin{aligned}
+2x - \frac{1024}{x^{2}} &= 0 \\
+2x &= \frac{1024}{x^{2}} \\
+2x^{3} &= 1024 \\
+x^{3} &= 512 \\
+x &= \sqrt[3]{512}.
+\end{aligned}
+\]<p>Since \(512 = 8^{3}\),
+</p>
+\[
+x = 8.
+\]<p>So the average cost is minimized when \(x=8\) <strong>hundreds of units</strong> are produced.</p>
+<p>That means
+</p>
+\[
+8 \times 100 = 800\ \text{units}.
+\]<p>To confirm it’s a minimum, we can check the second derivative:</p>
+\[
+\begin{aligned}
+\overline{C}''(x)
+&= \frac{d}{dx}\left(2x - \frac{1024}{x^{2}} \right) \\
+&= 2 + 2048x^{-3}.
+\end{aligned}
+\]<p>For \(x>0\), \(2048x^{-3}>0\), so \(\overline{C}''(x) > 0\).<br>
+Thus we indeed have a <strong>minimum</strong> at \(x=8\).</p>
+\[
+\boxed{\text{800 units must be produced for minimum average cost.}}
+\]</details>
+<hr>
+<h3 id="problem-15">Problem 15</h3>
+<p>A baseball team is trying to determine what price to charge for tickets.</p>
+<ul>
+<li>At a price of <strong>$24 per ticket</strong>, it averages <strong>20,000</strong> people per game.</li>
+<li>For every <strong>increase of $1</strong> in ticket price, it loses <strong>400</strong> people.</li>
+<li>Every person at the game spends an average of <strong>$6 on concessions</strong>.</li>
+</ul>
+<p>Let \(x\) represent the <strong>increase in ticket price above $24</strong> (in dollars).</p>
+<p><strong>(a)</strong> What price per ticket should be charged in order to <strong>maximize revenue</strong> (tickets + concessions)?</p>
+<p><strong>(b)</strong> What is the <strong>maximum revenue</strong>?</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>You need to build a <strong>revenue function</strong> \(R(x)\) that includes:</p>
+<ul>
+<li>Ticket revenue = (ticket price)(number of people),</li>
+<li>Concession revenue = (average spending per person)(number of people).</li>
+</ul>
+<p>Both depend on \(x\).</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>Ticket price: \(24 + x\).</li>
+<li>Number of people: \(20{,}000 - 400x\).</li>
+<li>Concession revenue: \(6(20{,}000 - 400x)\).</li>
+<li>Total revenue:
+\[
+   R(x) = (24+x)(20{,}000 - 400x) + 6(20{,}000 - 400x).
+   \]</li>
+<li>Expand, simplify to get a quadratic, then find the vertex using
+\[
+   x = -\frac{b}{2a}.
+   \]</li>
+</ol>
+</details>
+<details><summary><strong>Solution</strong></summary>
+<p>Let \(x\) be the increase (in dollars) above $24.</p>
+<p><strong>Step 1: Express price and attendance in terms of \(x\)</strong></p>
+<ul>
+<li>
+<p>Ticket price:
+</p>
+\[
+  p(x) = 24 + x.
+  \]</li>
+<li>
+<p>Attendance:
+</p>
+\[
+  N(x) = 20{,}000 - 400x.
+  \]<p>
+(Every $1 increase loses 400 people.)</p>
+</li>
+</ul>
+<p><strong>Step 2: Ticket revenue</strong></p>
+\[
+\text{Ticket revenue} = p(x)\cdot N(x)
+= (24 + x)(20{,}000 - 400x).
+\]<p><strong>Step 3: Concession revenue</strong></p>
+<p>Each person spends $6 on concessions, so
+</p>
+\[
+\text{Concession revenue} = 6\cdot N(x) = 6(20{,}000 - 400x).
+\]<p><strong>Step 4: Total revenue function</strong></p>
+\[
+\begin{aligned}
+R(x)
+&= \text{Ticket revenue} + \text{Concession revenue} \\
+&= (24 + x)(20{,}000 - 400x) + 6(20{,}000 - 400x).
+\end{aligned}
+\]<p>Expand and simplify.</p>
+<p>First expand \((24+x)(20{,}000 - 400x)\):</p>
+\[
+\begin{aligned}
+(24+x)(20{,}000 - 400x)
+&= 24\cdot 20{,}000 + x\cdot 20{,}000 - 24\cdot 400x - 400x^{2} \\
+&= 480{,}000 + 20{,}000x - 9{,}600x - 400x^{2} \\
+&= 480{,}000 + (20{,}000 - 9{,}600)x - 400x^{2} \\
+&= 480{,}000 + 10{,}400x - 400x^{2}.
+\end{aligned}
+\]<p>Next, the concession term:</p>
+\[
+6(20{,}000 - 400x) = 120{,}000 - 2{,}400x.
+\]<p>Now add:</p>
+<p>[
+\begin{aligned}
+R(x)
+&amp;= \bigl(480{,}000 + 10{,}400x - 400x^{2}\bigr)</p>
+<ul>
+<li>\bigl(120{,}000 - 2{,}400x\bigr) \
+&amp;= (480{,}000 + 120{,}000) + (10{,}400x - 2{,}400x) - 400x^{2} \
+&amp;= 600{,}000 + 8{,}000x - 400x^{2}.
+\end{aligned}
+]</li>
+</ul>
+<p>So
+</p>
+\[
+R(x) = -400x^{2} + 8{,}000x + 600{,}000.
+\]<p>This is a <strong>downward-opening quadratic</strong>, so its maximum occurs at the vertex.</p>
+<p><strong>Step 5: Find the vertex</strong></p>
+<p>For \(R(x) = ax^{2} + bx + c\) with \(a<0\), the \(x\)-coordinate of the vertex is
+</p>
+\[
+x = -\frac{b}{2a}.
+\]<p>Here \(a = -400\), \(b = 8000\):</p>
+\[
+\begin{aligned}
+x
+&= -\frac{8000}{2(-400)} \\
+&= -\frac{8000}{-800} \\
+&= 10.
+\end{aligned}
+\]<p>So the revenue is maximized when \(x=10\).</p>
+<p>Recall \(x\) is the increase above $24, so the <strong>ticket price</strong> is:</p>
+\[
+p = 24 + x = 24 + 10 = 34 \text{ dollars}.
+\]<p>That answers part (a).</p>
+<p><strong>Step 6: Find the maximum revenue</strong></p>
+<p>Compute \(R(10)\):</p>
+\[
+\begin{aligned}
+R(10)
+&= -400(10)^{2} + 8{,}000(10) + 600{,}000 \\
+&= -400\cdot 100 + 80{,}000 + 600{,}000 \\
+&= -40{,}000 + 80{,}000 + 600{,}000 \\
+&= 640{,}000.
+\end{aligned}
+\]<p>So the maximum total revenue (tickets + concessions) is
+</p>
+\[
+\boxed{R_{\max} = \$640{,}000.}
+\]<p><strong>Answer summary</strong></p>
+<ul>
+<li>(a) The team should charge <strong>$34 per ticket</strong>.</li>
+<li>(b) The <strong>maximum revenue</strong> is <strong>$640,000</strong>.</li>
+</ul>
+</details>
+
+</main>
+
+  <footer>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.min.js" defer></script>
+<script src="//cdn.jsdelivr.net/npm/katex/dist/katex.min.js" defer></script>
+<script src="//cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js" defer></script>
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/render-katex.js" defer></script>
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js" defer></script>
+  
+  <hr/>
+  ©  2024 &ndash; 2025 | <a href="https://github.com/CuteLoop">Github</a> |
+  
+  </footer>
+  </body>
+</html>
+

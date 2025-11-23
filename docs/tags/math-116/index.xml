@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math-116 on A minimal Hugo website</title>
+    <link>http://localhost:44137/InfiniteCuteLoop/tags/math-116/</link>
+    <description>Recent content in Math-116 on A minimal Hugo website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:44137/InfiniteCuteLoop/tags/math-116/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MATH 116 – Test 3 Practice (Fall 2024)</title>
+      <link>http://localhost:44137/InfiniteCuteLoop/posts/math116-exam-3/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:44137/InfiniteCuteLoop/posts/math116-exam-3/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to use this page&lt;/strong&gt;&lt;br&gt;&#xA;Try each problem on your own first. Then expand &lt;strong&gt;Hint&lt;/strong&gt; or &lt;strong&gt;Solution&lt;/strong&gt; as needed.&lt;br&gt;&#xA;Problems 1–11 are multiple choice; 12–15 are free-response.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formula-sheet&#34;&gt;Formula Sheet&lt;/h2&gt;&#xA;&lt;h3 id=&#34;interest--exponential-models&#34;&gt;Interest &amp;amp; Exponential Models&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Compound interest (m times/year)&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  A = P\left(1 + \frac{r}{m}\right)^{mt}&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Continuous compounding&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  A = Pe^{rt}&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Effective annual rate&lt;/strong&gt; (from nominal \(r\), \(m\) times/year)&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  r_{\text{eff}} = \left(1 + \frac{r}{m}\right)^m - 1&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Nominal rate from effective rate&lt;/strong&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

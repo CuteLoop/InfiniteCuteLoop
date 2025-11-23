@@ -1,1332 +1,1507 @@
 ---
-title: "MATH 116 Exam 3"
-date:  2025-05-03
-tags: ["college‑algebra", "study‑guide", "practice‑exam"]
+title: "MATH 116 – Test 3 Practice (Fall 2024)"
+date: 2024-11-01
+tags: ["calculus", "business-calculus", "MATH116", "test-3"]
 draft: false
-description: "35‑question self‑check for MATH 116."
+description: "Ultra-detailed, fully worked practice version of MATH 116 Test 3 (Fall 2024)."
 math: true
 ---
 
-> How to use this page  
-> Try each problem first, then expand Hint or Solution as needed. (this is a draft. Currently in the process of checking and reviewing the solutions are correct. I hope It Helps you in your study.)
-
-- [Final Exam Practice Exam Answers](#answers)
-
-- [Math 116 final exam resources](https://www.math.arizona.edu/academics/courses/math112)
-
----
-## Formulas Provided on the Exam  {: #formula-sheet }
-
-### Quadratics
-
-| Quadratic Formula                               | Vertex of Parabola                |
-| :---------------------------------------------- | :-------------------------------- |
-| \(x = \dfrac{-b \pm \sqrt{b^{2}-4ac}}{2a}\)     | \(x = -\dfrac{b}{2a}\)            |
-
-**Factored Forms**  
-| Form                               |
-| :--------------------------------- |
-| \(y = a(x-p)(x-q)\)                |
-| \(y = a(x-h)^2 + k\)               |
-| \(y = a(x-r_1)(x-r_2)\)            |
+> **How to use this page**
+>
+> This is a practice version of **MATH 116 – Test 3 (Fall 2024)** with
+> **very detailed, step-by-step solutions**.
+>
+> For each problem:
+> 1. Read the **problem** and try it on your own.
+> 2. Open **Hint 1** if you’re not sure which rule or idea to use.
+> 3. Open **Hint 2** for more structure.
+> 4. Open the **Solution** only when you’re ready to check your work.
 
 ---
 
-### Exponentials & Logs
+## Formula Sheet
 
-| Exponential Growth / Decay                  | Logs Conversion                         |
-| :-----------------------------------------  | :--------------------------------------  |
-| \(A = P\!\bigl(1+\tfrac{r}{n}\bigr)^{nt}\)  | \(\log_b x = \dfrac{\ln x}{\ln b}\)      |
-| \(A = P e^{rt}\)                            |                                         |
+### Interest & Exponential Growth/Decay
+
+- **Compound interest (m times per year)**  
+  \[
+  A = P\!\left(1+\frac{r}{m}\right)^{mt}
+  \]
+
+- **Continuous compounding**  
+  \[
+  A = Pe^{rt}
+  \]
+
+- **Effective rate from nominal (m compounds per year)**  
+  \[
+  E = \left(1+\frac{r}{m}\right)^{m}-1
+  \]
+
+- **Effective rate for continuous compounding**  
+  \[
+  E = e^{r}-1
+  \]
+
+### Basic Derivative Rules
+
+Let \(f,g\) be differentiable functions and \(k\) a constant.
+
+- Constant multiple:
+  \[
+  \frac{d}{dx}\bigl(k\,f(x)\bigr) = k\,f'(x)
+  \]
+
+- Sum:
+  \[
+  \frac{d}{dx}\bigl(f(x)+g(x)\bigr) = f'(x)+g'(x)
+  \]
+
+- Power:
+  \[
+  \frac{d}{dx}\bigl(x^{n}\bigr) = nx^{n-1}
+  \]
+
+- Exponential:
+  \[
+  \frac{d}{dx}\bigl(e^{x}\bigr) = e^{x}, \quad
+  \frac{d}{dx}\bigl(e^{f(x)}\bigr) = e^{f(x)}\,f'(x)
+  \]
+
+- Natural log:
+  \[
+  \frac{d}{dx}\bigl(\ln x\bigr) = \frac{1}{x},\quad x>0
+  \]
+  \[
+  \frac{d}{dx}\bigl(\ln(f(x))\bigr) = \frac{f'(x)}{f(x)}
+  \]
+
+- Product rule (for \(h(x)=f(x)\,g(x)\)):
+  \[
+  h'(x) = f'(x)\,g(x) + f(x)\,g'(x)
+  \]
+
+- Quotient rule (for \(h(x)=\dfrac{f(x)}{g(x)}\)):
+  \[
+  h'(x) = \frac{f'(x)\,g(x) - f(x)\,g'(x)}{\bigl(g(x)\bigr)^{2}}
+  \]
+
+### Basic Antiderivative / Integral Rules
+
+- Power rule:
+  \[
+  \int x^{n}\,dx = \frac{x^{n+1}}{n+1} + C \quad (n\neq -1)
+  \]
+
+- Logarithm:
+  \[
+  \int \frac{1}{x}\,dx = \ln|x| + C
+  \]
+
+- Exponential:
+  \[
+  \int e^{kx}\,dx = \frac{1}{k}e^{kx} + C
+  \]
+
+- Linear rules:
+  \[
+  \int \bigl(k\,f(x)\bigr)\,dx = k\int f(x)\,dx
+  \]
+  \[
+  \int \bigl(f(x)+g(x)\bigr)\,dx = \int f(x)\,dx + \int g(x)\,dx
+  \]
+
+- Fundamental Theorem of Calculus (FTC):  
+  If \(F'(x)=f(x)\), then
+  \[
+  \int_a^b f(x)\,dx = F(b)-F(a).
+  \]
+
+---
+
+## Problems 1–13 (Multiple Choice)
 
 ---
 
-### Compound Interest
+### Problem 1
 
-| Continuous Compounding                      |
-| :------------------------------------------ |
-| \(A = P e^{rt}\)                            |
-
-
-## Problems
-
-### 1 Sales‑Tax Expression
-
-In a certain city, sales tax is 9 %. Write an expression for the total cost of an item priced \(x\) dollars after tax is added.
-
-A. \(C(x)=1.09x\)  
-
-B. \(C(x)=0.09x\)  
-
-C. \(C(x)=1.9x\)  
-
-D. \(C(x)=9x\)  
-
-E. \(C(x)=0.91x\)
-
-<details><summary><strong>Hint</strong></summary>
-Add 9 % of the price to the price to the total cost. 
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-9 % of \(x\) is \( \frac{9}{100}x = 0.09x\); total cost \(C(x) = x+0.09x = 1.09x\). Answer A.
-</details>
-
----
-
-### 2 Which Graph is a Function?
-
-![Graph A](image2.png)
-<details><summary><strong>Hint</strong></summary>
-Use the vertical line test.
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-Graph A passes the vertical‑line test, so only Graph A is a function.
-</details>
-
----
-
-### 3 Domain of \(R(x)=\sqrt{2-5x}\)
-
-
-A. \([0.4,\infty)\)
-
-B. \((-\infty,0.4]\)
-
-C. \((0.4,\infty)\)
-
-D. \((-\infty,0.4)\)
-
-E. \([0,\infty)\)
-
-<details><summary><strong>Hint</strong></summary>
-input of a Square roots cannot be negative.
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-The inside of the squarer root cannot admit negative values. So we require
-$$2-5x \geq 0.$$
-solve for x. 
-$$\begin{align*}
-2 & \geq 5x \\
-\frac{2}{5} &\geq x
-\end{align*}$$
-Hence the domain of \( x \)  must be \( (-\infty, \frac{2}{5}) \).
-Which can be written as \( (-\infty,0.4] \). Answer B.
-</details>
-
----
-
-### 4 Intervals of Increase
-
-![Piece‑wise curve for Q 4](image4.png)
-
-
-A. \((-\infty,3)\)
-
-B. \((-\infty,0)\)
-
-C. \((0,3)\)
-
-D. \([3,\infty)\)
-
-E. \((0,3)\cup(3,\infty)\)
-
-<details><summary><strong>Solution</strong></summary>
-From the sketch the function rises for all \(x \geq 3 \) so the answer is \( [3, \infty) \).
-</details>
-
----
-### 5 Starbucks — Slope & Interpretation  
-
-| Year | Locations |
-|-----:|----------:|
-| 2012 | 18 066 |
-| 2014 | 21 366 |
-| 2015 | 23 016 |
-
-What is the slope of the line that passes through these points, **and what does it mean in practical terms?**
-
-A. \(m = 3300\). The number of Starbucks locations worldwide increases by **3300 per year**.  
-
-B. \(m = 3300\). The number of locations increases by **3300 over 3 years**.  
-
-C. \(m = 4950\). The number of locations increases by **4950 per year**.  
-
-D. \(m = 1650\). The number of locations increases by **1650 over 3 years**.  
-
-E. \(m = 1650\). The number of locations worldwide increases by **1650 per year**.  
-
-<details><summary><strong>Solution</strong></summary>
-
-Slope  
+Find the derivative of
 \[
-m=\frac{23\,016-18\,066}{2015-2012}=\frac{4965}{3}=1650.
+f(x) = \ln(5x+7).
 \]
 
-Thus Starbucks was adding **about 1650 locations each year** over the period shown.  
-**Answer E.**
+**Options**
+
+A. \(\displaystyle f'(x) = \frac{5}{5x+7}\)
+
+B. \(\displaystyle f'(x) = \frac{5}{x}\)
+
+C. \(\displaystyle f'(x) = \ln(5x+7)\)
+
+D. \(\displaystyle f'(x) = \frac{1}{5x+7}\)
+
+E. \(\displaystyle f'(x) = \ln(5)\)
+
+<details><summary><strong>Hint 1</strong></summary>
+
+You have \(\ln(\text{something})\), not just \(\ln x\).  
+Look for the rule for the derivative of \(\ln(f(x))\).
+
 </details>
 
+<details><summary><strong>Hint 2</strong></summary>
 
----
-
-### 6 Linear Model for Starbucks Locations
-
-Which linear function best models the number of Starbucks locations \(S(t)\) as a function of time \(t\) in years since 2012?
-
-
-A. \(S(t)=1650t+18\,066\)  
-
-B. \(S(t)=3300t+18\,066\)  
-
-C. \(S(t)=4950t+18\,066\)  
-
-D. \(S(t)=1650t+21\,366\)  
-
-E. \(S(t)=3300t+21\,366\)
-
-<details><summary><strong>Solution – TODO</strong></summary>
-at \(t=0\) (2012), \(S(0)=18\,066\).
-Slope \(m=1650\) locations per year.
+Use
 \[
-S(t)=1650t+18\,066\]
-So the answer is \(S(t)=1650t+18\,066\). Answer A.
+\frac{d}{dx}\bigl(\ln(f(x))\bigr) = \frac{f'(x)}{f(x)}.
+\]
+Here \(f(x)\) (inside the log) is \(5x+7\).  
+Compute its derivative and plug into the formula.
+
 </details>
 
----
+<details><summary><strong>Solution</strong></summary>
 
-### 7 Evaluate the Piecewise Function
-
+We want
 \[
-f(x)=
-\begin{cases}
-2x+5 & x<-2\\[2pt]
-x-1 & -2\le x\le1\\[2pt]
-\tfrac13x+4 & x>1
-\end{cases}
+\frac{d}{dx}\bigl(\ln(5x+7)\bigr).
 \]
 
-Evaluate \(f(-3)\).
-
-A. 3 B. –1 C. –4 D. 1 E. undefined
-
-<details><summary><strong>Hint</strong></summary>
-In which branch does \( x= -3 \) fall?
-Use corresponding formula to compute \(f(-3)\).
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-Since \(-3<-2\), use the first branch:
+Let the inside function be
 \[
-f(-3)=2(-3)+5=1.\]
-So the answer is \(f(-3)=1\). Answer D.
+u(x) = 5x+7.
+\]
+
+Then
+\[
+\frac{d}{dx}\bigl(\ln(u(x))\bigr) = \frac{u'(x)}{u(x)}.
+\]
+
+Compute \(u'(x)\):
+
+\[
+u'(x) = \frac{d}{dx}(5x+7) = 5.
+\]
+
+So
+\[
+\begin{aligned}
+f'(x)
+&= \frac{u'(x)}{u(x)} \\
+&= \frac{5}{5x+7}.
+\end{aligned}
+\]
+
+\[
+\boxed{f'(x) = \frac{5}{5x+7}.}
+\]
+
+**Answer: A**
 
 </details>
 
 ---
 
-### 8 (*) Transformations of \(g(x)\)
+### Problem 2
 
-If \((2,5)\) lies on \(y=g(x)\), which point must lie on  
-\(y=\tfrac15\),  \(2g\!\bigl(\tfrac{1}{5}X\bigr)+3\)?
+Solve for \(x\):
+\[
+e^{-2x} = (e^{4})^{5-3x}.
+\]
 
-A. \(\bigl(\tfrac25,13\bigr)\)  
-B. \((4,4)\)  
-C. \((10,13)\)  
-D. \(\bigl(\tfrac{11}{10},2\bigr)\)  
-E. \((4,13)\)
+Then decide where the solution lies.
 
-<details><summary><strong>Hint</strong></summary>
+**Options**
 
-Identify input and output of the function  and the transformations.
+A. \(x < 0\)  
+
+B. \(0 < x < 1.5\)  
+
+C. \(1.5 < x < 3\)  
+
+D. \(3 < x < 4.5\)  
+
+E. \(x > 4.5\)
+
+<details><summary><strong>Hint 1</strong></summary>
+
+The bases on both sides are exponentials with base \(e\).  
+Try rewriting the right-hand side as \(e^{(\text{something})}\) so you can equate exponents.
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+Use the fact that
+\[
+(a^{b})^{c} = a^{bc}.
+\]
+So
+\[
+(e^{4})^{5-3x} = e^{4(5-3x)}.
+\]
+Then set exponents equal and solve the resulting linear equation in \(x\).
+
 </details>
 
 <details><summary><strong>Solution</strong></summary>
-1.  To send the old input \(2\) through \(x/5\), set \(\frac{x}{5}=2\) ⇒ \(x=10\).  
-2.  The original output is \(g(2)=5\).  Then
+
+Start with
+\[
+e^{-2x} = (e^{4})^{5-3x}.
+\]
+
+Rewrite the right side using \((a^{b})^{c} = a^{bc}\):
+
+\[
+(e^{4})^{5-3x} = e^{4(5-3x)} = e^{20-12x}.
+\]
+
+Now we have
+\[
+e^{-2x} = e^{20-12x}.
+\]
+
+Because the exponential function \(e^{(\cdot)}\) is one-to-one,
+\[
+-2x = 20 - 12x.
+\]
+
+Solve for \(x\):
+
+\[
+\begin{aligned}
+-2x &= 20 - 12x \\
+-2x + 12x &= 20 \\
+10x &= 20 \\
+x &= 2.
+\end{aligned}
+\]
+
+Compare with the intervals:
+
+- \(2\) is between \(1.5\) and \(3\).
+
+So the solution lies in
+
+\[
+\boxed{1.5 < x < 3.}
+\]
+
+**Answer: C**
+
+</details>
+
+---
+
+### Problem 3
+
+The approximate **rate of change** in the number (in billions) of monthly text
+messages is given by
+\[
+f'(t) = 5.6t - 7.5,
+\]
+where \(t\) is the number of years since 2000.  
+
+In the year 2000 (\(t=0\)), there were approximately **20 billion** monthly text messages.
+
+How many monthly text messages were there in **2006**?
+
+**Options**
+
+A. more than 80 billion  
+
+B. between 70 billion and 80 billion  
+
+C. between 60 billion and 70 billion  
+
+D. between 50 billion and 60 billion  
+
+E. less than 50 billion
+
+<details><summary><strong>Hint 1</strong></summary>
+
+You are given a **rate of change** \(f'(t)\) and an initial value \(f(0)\).  
+To recover \(f(t)\), integrate \(f'(t)\) and then use the initial value.
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+1. Compute
    \[
-     y = 2\cdot5 + 3 = 13.
+   f(t) = \int (5.6t - 7.5)\,dt + C.
    \]
-Hence the image is  
-\[
-\boxed{(10,13)}.
-\]
-</details>
----
+2. Plug in \(t=0\) and \(f(0)=20\) to find \(C\).
+3. Evaluate \(f(6)\) for the year 2006 (since 2006 is 6 years after 2000).
 
-### 9 Fuel‑Efficiency Scaling
-
-\(d=f(x)\) gives distance (mi) for \(x\) gallons of gas. Point \((10,250)\) is on the graph.  
-In five years the same car travels twice as far per gallon. Which point lies on the new graph?
-
-A. \((20,250)\)
-
-B. \((20,500)\)
-
-C. \((10,125)\)  
-
-D. \((10,500)\)
-
- E. \((20,125)\)
-
-
-<details><summary><strong> Hint </strong></summary>
-Identify input and output of the function.
-Which point is scaled by a factor of 2?
-</details>
-
-<details><summary><strong> Hint </strong></summary>
-Originally \(10\) gal ⇒ \(250\) mi.  Doubling fuel efficiency means the same \(10\) gal ⇒ \(2\times250=500\) mi.  
-\[
-\boxed{(10,500)}.
-\]
-</details>
-
----
-
-### 10. (***) Composition of Rational Functions
-
-Consider the functions
-
-\[
-f(x) = \frac{x - 1}{x}
-\qquad\text{and}\qquad
-g(x) = \frac{x - 2}{x + 5}.
-\]
-
-Find \((f\circ g)(x)\).
-
-A. \(\displaystyle (f\circ g)(x) = -\frac{7}{x^{2} + 5x}\)
-
-B. \(\displaystyle (f\circ g)(x) = \frac{x^{2} - 3x + 2}{x^{2} + 5x}\)  
-
-C. \(\displaystyle (f\circ g)(x) = -\frac{x - 1}{6x - 1}\)  
-
-D. \(\displaystyle (f\circ g)(x) = -\frac{x - 1}{x^{2} + 5x}\)  
-
-E. \(\displaystyle (f\circ g)(x) = -\frac{7}{x - 2}\)
-
----
-
-
-<details><summary><strong>Hint</strong></summary>
-Identify the inner and outer functions:  
-\[
-(f\circ g)(x) = f\bigl(g(x)\bigr).
-\]
-First compute \(g(x)\), then substitute that result into \(f\).
-</details>
-
-
-<details><summary><strong>Hint</strong></summary>
-Identify the inner and outer functions:  
-\[
-(f\circ g)(x) = f\bigl(g(x)\bigr).
-\]
-First compute \(g(x)\), then substitute into \(f\).
 </details>
 
 <details><summary><strong>Solution</strong></summary>
-\[
-(f\circ g)(x)
-= \frac{g(x)-1}{g(x)}
-\quad\text{with}\quad
-g(x)=\frac{x-2}{x+5}.
-\]
+
+We know:
+- \(f'(t) = 5.6t - 7.5\),
+- \(f(0) = 20\).
+
+**Step 1: Integrate \(f'(t)\)**
+
 \[
 \begin{aligned}
-\frac{g(x)-1}{g(x)}
-&= \frac{\dfrac{x-2}{x+5}-1}
-       {\dfrac{x-2}{x+5}}\\
-&= \frac{\dfrac{x-2}{\cancel{x+5}} - \dfrac{x+5}{\cancel{x+5}}}
-       {\dfrac{x-2}{\cancel{x+5}}}\\
-&= \frac{x-2-(x+5)}{x-2}\\
-&= \frac{-7}{x-2}
+f(t)
+&= \int (5.6t - 7.5)\,dt \\
+&= \int 5.6t\,dt - \int 7.5\,dt \\
+&= 5.6\cdot\frac{t^{2}}{2} - 7.5t + C \\
+&= 2.8t^{2} - 7.5t + C.
 \end{aligned}
 \]
-</details>
 
-
---- 
-### 11 (*) Coupon Order Matters
-
-Kohl’s allows customers to use both a “\$10 off” coupon and a “30 % off” coupon on the same transaction, but the store stipulates that the “dollar off” coupon **must** be used first.  
-
-Define  
-\[
-f(x) = x - 10
-\quad\text{and}\quad
-g(x) = 0.70x.
-\]
-Which of the following functions represents the final price after applying **first** the \(\$10\)‑off coupon and **then** the 30 %‑off coupon?
-
-A. \((g\circ f)(x)\)  
-B. \((f\circ g)(x)\)  
-C. \((f\cdot g)(x)\)  
-D. \((f+g)(x)\)  
-E. \((g-f)(x)\)
-
-<details><summary><strong>Hint</strong></summary>  
-Since the \(\$10\)‑off must be applied first, feed the original price \(x\) into \(f\), then take that result and feed it into \(g\).  
-</details>
-
-<details><summary><strong>Solution</strong></summary>  
-We want to subtract \(\$10\), then take 70 % of the remainder. That is
-\[
-(g\circ f)(x)
-= g\bigl(f(x)\bigr)
-= 0.70\bigl(x - 10\bigr).
-\]
-None of the other orders or operations matches this.  
-Hence the correct answer is **A. \((g\circ f)(x)\)**.
-</details>
----
-
-
-### 12 (*) Inverse Function
-
-Find \(f^{-1}(x)\) for \(f(x)=\dfrac{x-1}{2x+3}\).
-
-A. \(f^{-1}(x) = \dfrac{2x+3}{x-1}\)  
-
-B. \(f^{-1}(x) = \dfrac{-3x-1}{2x-1}\)  
-
-C. \(f^{-1}(x) = \dfrac{x+4}{2x+3}\)  
-
-D. \(f^{-1}(x) = \dfrac{-x+1}{x+2}\)  
-
-E. None of these
-
-<details><summary><strong>Hint</strong></summary>
-solve for x.
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-solve for x.
-\[
-y = \dfrac{x-1}{2x+3} \implies y(2x+3) = x-1 \implies 2xy + 3y = x - 1\]
-Put all \(x\) terms on one the same side and factor out \(x\):
-\[
-x - 2xy = 3y + 1 \implies x(1-2y) = 3y + 1 \implies x = \dfrac{3y+1}{1-2y}
-\]
-Now switch \(x\) and \(y\):
-\[
-f^{-1}(x) = \dfrac{3x+1}{1-2x}\]
-So the answer is \(f^{-1}(x) = \dfrac{3x+1}{1-2x}\).
-Answer B.
-</details>
-
----
-
-### 13 (*) Evaluate \(f^{-1}(2)\) from a Graph
-
-![Graph for inverse‑value question](image13.png)
-
-
-A. 0
-B. 2
-C. –2
-D. Undefined
-E. None of these
-
-<details><summary><strong>Hint</strong></summary>
-\(g(3) =2\)  means when the input is 3, the output is 2.
-The inverse function \(g^{-1}(2)\) asks: what is the input that gives an output of 2?
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-The graph shows that \(g(-2)=2\), so the inverse function \(g^{-1}(2)=-2\).
-Thus the answer is B.
-</details>
-
----
-
-### 14 Find a Quadratic from a Graph
-
-![Graph of quadratic](image14.png)
-
-A. \(y=(x+1)(x-2)\)
-
-B. \(y=-(x+1)(x-2)\)
-
-C. \(y=(x-2)(x-1)\)  
-
-D. \(y=-(x-2)(x-1)\)
-
-E. \(y=-(x+1)(x-2)-\)
-
-<details><summary><strong>Hint</strong></summary>
-Identify zeros & orientation.
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-Observe the \(y=0\) when \(x=-1\) or \(x=2\).
-Thus the factored form is
-\[
-y = A(x+1)(x-2).\]
-Now we evaluate the formula above at the point (0,2) to find \(A\):
-\[
-2 = A(0+1)(0-2) \implies 2 = -2A \implies A = -1.\]
-So the equation is
-\[
-y = -(x+1)(x-2).\]
-Thus the answer is \(y=-(x+1)(x-2)\). Answer B.
-</details>
-
----
-
-### 15 Time for Projectile to Land
-
-A stone’s height (m) after \(t\) s:  
-\(h(t)=-4.9t^{2}+49t+277.4\). When does it hit the ground?
-
-A. < 9 s
-
-B. 9–11 s
-
-C. 11–13 s
-
-D. 13–15 s
-
-E. > 15 s
-
-<details><summary><strong>Hint</strong></summary>
-Solve h(t) = 0.
-Use quadratic formula.
-</details>
-
-
-<details><summary><strong>Solution: Calculator version </strong></summary>
-
-There are two ways to solve this problem with the claculator.
-
-**Version 1**: program > quad > "asks you for a? b? c? > gives you the roots.
-
-**Version 2:**
-
-1. **Press** `Y=`
-2. **Enter** your quadratic, e.g.
-
-   ```
-   Y1 = A·X² + B·X + C
-   ```
-3. **Press** `GRAPH`
-4. **Press** `2nd` → `CALC`
-5. **Select** `2: Zero`
-6. **Left Bound?** Move the cursor to just left of the root and press `ENTER`
-7. **Right Bound?** Move the cursor to just right of the root and press `ENTER`
-8. **Guess?** Just press `ENTER` — the calculator will display the root.
-
-</details>
-
-
-<details><summary><strong>Solution</strong></summary>
-Set \(h(t)=0\):
-\[
-0=-4.9t^{2}+49t+277.4\]
-Use the quadratic formula:
-\[
-t=\dfrac{-49\pm\sqrt{49^{2}-4(-4.9)(277.4)}}{2(-4.9)}\]
-\[
-t=\dfrac{-49\pm\sqrt{2401+5443.76}}{-9.8}\]
-\[
-t=\dfrac{-49\pm\sqrt{7844.76}}{-9.8}\]
-\[
-t=\dfrac{-49\pm88.6}{-9.8}\]
-\[
-t=\dfrac{-49+88.6}{-9.8}\approx-4.02\text{ (not valid)}\]
-\[
-t=\dfrac{-49-88.6}{-9.8}\approx14.05\text{ (valid)}\]
-So the stone hits the ground at about \(t=14\) seconds.
-Thus the answer is D
-</details>
-
-
----
-
-### 16 (*) Profit Maximization
-
-Demand: \(p(x)=50-\dfrac{1}{4000}x\). Fixed cost \$25 000; variable \$3 per pair.  
-How many sunglasses maximize profit?
-
-A. 100 000
-
-B. 87 000
-
-C. 94 000
-
-D. 200 000
- 
-E. 188 000
-
-<details><summary><strong>Hint.</strong></summary>
-Combine formulas to obtain an equation for the profit:
-Revenue = demand x price
-Profit = Revenue - cost.
-Obtain a parabola. find vertex.
-</details>
-<details><summary><strong>Solution</strong></summary>
-Revenue: \[
-R(x)=p(x)x=(50-\dfrac{1}{4000}x)x=50x-\dfrac{1}{4000}x^{2}\]
-Cost: \[
-C(x)=25000+3x\]
-Profit: \[
-P(x)=R(x)-C(x)=\left(50x-\dfrac{1}{4000}x^{2}\right)-(25000+3x)\]
-\[
-P(x)=-\dfrac{1}{4000}x^{2}+47x-25000\]
-This is a downward-opening parabola. The maximum occurs at the vertex:
-\[
-x=-\dfrac{b}{2a}=-\dfrac{47}{2(-\dfrac{1}{4000})}=47\cdot2000=94000.\]
-Thus the maximum profit occurs at \(x=94\,000\) pairs.
-So the answer is C.
-</details>
-
-
-### 17 Facebook Users Model
-
-The number of monthly active Facebook users worldwide (in millions) between 2009 and 2017 is modeled by  
-\[
-f(t)=2.12\,t^3 \;-\;27.43\,t^2 \;+\;301.48\,t \;+\;180.4,
-\]
-where \(t\) is years since 2009. Use this model to answer the next question.
-
-**17.** Evaluate \(f(1)\) and give a practical interpretation.
-
-A. \(f(1)=456.57\). In the year 2010, there were an average of 456.57 Facebook users added each month.  
-B. \(f(1)=456.57\). In the year 2010, there were 456.57 monthly Facebook users.  
-C. \(f(1)=456.57\). In the year 2010, there were 456.57 million monthly Facebook users.  
-D. \(f(1)=456.57\). In the year 2010, there were an average of 456.57 million Facebook users added each month.  
-E. \(f(1)=456.57\). To reach 1 million monthly Facebook users, it took 456.57 months.
-
-<details><summary><strong>Hint</strong></summary>
-Substitute \(t=1\) into the model. Remember that \(f(t)\) is in **millions** of users.
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-\[
-f(1)
-=2.12(1)^3 -27.43(1)^2 +301.48(1) +180.4
-=456.57.
-\]
-Since \(f\) measures millions of users, \(456.57\) means **456.57 million monthly active users** in 2010.  
-**Answer C.**
-</details>
-
----
-
-### 18 (***) When Did Users Reach 1 Billion?
-
-According to this model, in what year did the number of monthly active Facebook users reach 1 000 million?
-
-A. 2011 B. 2012 C. 2013 D. 2014 E. 2015
-
-<details><summary><strong>Hint</strong></summary>
-Solve \(f(t)=1000\) (millions) for \(t\), then add that to 2009. or alternative use calculator and intersect f(t) with y=1000.
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-Use calculator.
-We obtain 
-
-</details>
-
----
-
-### 19 Factor \(R(x)\) Given a Root
-
-Graph  
-\[
-R(x)=2x^3 + 5x^2 - 6x - 1
-\]
-on your calculator. Given that \((x-1)\) is a factor, what are the other linear factors?
-
-A. \((2x+3)\) and \((x+2)\)  
-
-B. \((2x-3)\) and \((x-2)\)  
-
-C. \((3x+1)\) and \((x-3)\)  
-
-D. \((3x-1)\) and \((x+3)\)  
-
-E. \((2x+1)\) and \((x+6)\)
-
-<details><summary><strong>Hint</strong></summary>
-Divide \(R(x)\) by \((x-1)\) to obtain a quadratic, try graphing such quadratic to find its roots.
-</details>
-<details><summary><strong>Hint</strong></summary>
-find roots of $$ \frac{2x^3 + 5x^2 - 6x - 1}{x-1}.$$
-</details>
-
-
-<details><summary><strong>Solution</strong></summary>
-Graph $$R(x)= \frac{2x^3 + 5x^2 - 6x - 1}{x-1}$$  and find its intersection with $$y=0$$. 
-
-The roots are \(x=-2\) and \(x=\frac{-3}{2}\).
-verify your answer:
-R(x) = (x-1)(2x+3)(x+2)
-\[ 
-\text{Verify: } R(-2) = 0 \text{ and } R\left(-\frac{3}{2}\right) = 0
-\] 
-</details>
-
-
-
-### 20 End Behavior of \( f(t)=\dfrac{6t}{t + 1.2} \)
-
-As \(t\) gets very large, what does \(f(t)\) approach?
-
-A. \(f(t)\to\infty\)  
-
-B. \(f(t)\to1.2\)  
-
-C. \(f(t)\to3.8\)  
-
-D. \(f(t)\to6\)  
-
-E. None of these  
-
-
-<details><summary><strong>Hint</strong></summary>  
-Take a look at the leading terms.
-</details>
-
-<details><summary><strong>Solution</strong></summary>  
-The leading terms are \(\(6t\) and \(t\)).
-so as \(t\to\infty\), 
+**Step 2: Use initial condition \(f(0)=20\)**
 
 \[
-\lim_{t\to\infty}\frac{6t}{t+1.2}
-=\lim_{t\to\infty}\frac{6}{1 + \tfrac{1.2}{t}}
-=6.
-\]  
-\[
-\boxed{6}.
-\]  
-**Answer D.**  
-</details>
-
----
-
-### 21 (\*\*\*) Evaluate \(h^{-1}(5)\) and Interpret
-
-The height (ft) of a dwarf evergreen tree after \(t\) years is
-
-$$
-h(t) = \frac{6t}{1.2 + t}.
-$$
-
-Find \(h^{-1}(5)\), i.e.\ the time \(t\) when the tree reaches 5 ft.
-
-
-A. \(h^{-1}(5)=4.84\). When a tree is 5 ft tall, 4.84 years have passed.
-
-B. \(h^{-1}(5)=1.2\). When a tree is 5 ft tall, 1.2 years have passed.
-
-C. \(h^{-1}(5)=6\). When a tree is 5 ft tall, 6 years have passed.
-
-D. \(h^{-1}(5)=4.84\). After 5 years, the height is 4.84 ft.
-
-E. \(h^{-1}(5)=6\). After 5 years, the height is 6 ft.
-
-<details><summary><strong>Hint</strong></summary>  
-Solve \(h(t) = 5\).  
-</details>
-
-<details><summary><strong>Solution</strong></summary>  
-We want \(t\) such that  
-\[
-\frac{6t}{1.2 + t} = 5.
-\]  
-Multiply both sides by \(1.2+t\), distribute, and isolate \(t\):
-
-$$
 \begin{aligned}
-6t &= 5(1.2 + t) &&\bigl|\times(1.2+t)\\
-6t &= 6 + 5t      &&\bigl|\,-5t\\
-6t - 5t &= 6\\
-t &= 6.
+f(0) &= 2.8(0)^{2} - 7.5(0) + C = C, \\
+C &= 20.
 \end{aligned}
-$$
-
-Thus \(h^{-1}(5)=6\), meaning **when the tree reaches 5 ft tall, 6 years have passed**.
-
-$$
-\boxed{6}.
-$$
-
-Choice **C**.
-
-</details>
-
----
-
-
-
-### 22 (***) Horizontal Asymptote of \(\displaystyle p(x)=\frac{2-3x}{x+1}\)
-
-A. \(y=-3\)
-
-B. \(y=2\)
-
-C. \(y=\tfrac23\)  
-
-D. \(y=\tfrac32\) 
-
-E. \(y=-1\)
-
-<details><summary><strong>Hint</strong></summary>
-For large \(\lvert x\rvert\), compare the leading terms \(-3x\) over \(x\).
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-As \(x\to\pm\infty\), \(\frac{2-3x}{x+1}\to\frac{-3x}{x}=-3\).  
-**Answer A.**
-</details>
-
----
-
-### 23 Range of \(\displaystyle p(x)= \left( \frac{1}{3} \right)^x +2\)
-
-A. \([2,\infty)\)
-
-B. \((-\infty,2]\)  
-
-C. \((-\infty,2)\) 
-
-D. \((-\infty,\infty)\)  
-
-E. \((2,\infty)\)
-
-<details><summary><strong>Hint</strong></summary>
-The function \((\tfrac13)^x\) is always positive. What does that tell you about the range of \(p(x)\)?
-What happens if \(x\) is very large or very small, negative?
-
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-Since \((\tfrac13)^x>0\) for all real \(x\),
-\[
-(\tfrac13)^x\in(0,\infty)
-\quad\Longrightarrow\quad
-p(x)=(\tfrac13)^x+2\in(2,\infty).
 \]
+
+So
 \[
-\boxed{(2,\infty)}.
-\]  
-**Answer E.**
-</details>
-
----
-
-### 24 (***) Find \(C\) and \(b\) for \(y = C\,b^x\)
-
-| \(x\) | 1 | 2 | 3 | 4 |
-|:-----:|--:|---:|---:|---:|
-| \(y\) |  8 | 12 | 18 | 27 |
-
-
-A. \(C=3,\;b=2\)  
-
-B. \(C=\tfrac{16}{3},\;b=\tfrac23\)  
-
-C. \(C=8,\;b=\tfrac23\)  
-
-D. \(C=\tfrac{16}{3},\;b=\tfrac32\)  
-
-E. \(C=8,\;b=\tfrac32\)
-
-<details><summary><strong>Hint</strong></summary>
-Evaluate the function at points we know.
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-First evaluate the function at \(x=1\):
-\[
-y(1)=C b^1\]
-This gives us the equation
-\[
-8 = C b.\]
-We can solve for \(C\):
-\[
-C = \frac{8}{b}.\]
-Next evaluate the function at \(x=2\):
-\[
-y(2)=C b^2\]
-This gives us the equation
-\[
-12 = C b^2.\]
-
-Since we know \(C\), we can substitute:
-\[
-12 = \left(\frac{8}{b}\right) b^2
+f(t) = 2.8t^{2} - 7.5t + 20.
 \]
-Cancel the \(b\) in the denominator:
-So we have
-\[
-12 = 8b\]
-Hence
-\[
-b = \frac{12}{8} = \frac{3}{2}.\]
-Now substitute \(b\) back into the equation for \(C\):
-\[
-C = \frac{8}{b} = \frac{8}{\frac{3}{2}} = \frac{16}{3}.\]   
-So the answer is D.
-</details>
 
----
-
-### 25 Continuous Compounding
-
-Arturo wants \$15 000 in 6 years with continuous compounding at 3.7 % Continuously compounded. How much must he invest now?
-
-A. \$12 061.98
-
-B. \$1 629.14  
-
-C. \$138 109.96
-
-D. \$18 728.57  
-
-E. \$12 013.73
-
-<details><summary><strong>Hint</strong></summary>
-Use \(A=Pe^{rt}\) with the given data.
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-We want to solve for \(P\) in the equation
-\[
-A=Pe^{rt}\]
- with data given \(A=15000\), \(r=\frac{3.7}{100}=0.037\), and \(t=6\):
-\[
-15000=Pe^{0.037\cdot6}\]
-\[
-P=\frac{15000}{e^{6(0.037)}}\approx\frac{15000}{e^{0.222}}=\frac{15000}{1.248}\approx12013.73.\]
-So the answer is \(P\approx12013.73\).
-**Answer E.**
-</details>
-
----
-
-### 26 Population Prediction
-
-A city’s population is \(P(t)=12500e^{0.02t}\), where \(t\) is years after 1985. Predict in 2020.
-
-
-A. < 10 000  
-
-B. 10 000–20 000  
-
-C. 20 000–30 000  
-
-D. 30 000–40 000  
-
-E. > 40 000
-
-<details><summary><strong>Hint</strong></summary>
-Set \(t=2020-1985=35\); compute \(P(35)\).
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-In 1985, \(t=0\). In 2020, \(t=35\).
-Substituting \(t=35\) into the population formula:
+**Step 3: Evaluate at \(t=6\) (year 2006)**
 
 \[
-P(35)=12500\,e^{0.7}\approx12500\times2.0138\approx25\,171,
-\]
-which lies between 20 000 and 30 000.  
-**Answer C.**
-</details>
-
-
-### 27 Evaluate \(\log_{2}\!\bigl(\tfrac18\bigr)\)
-
-A. \(\tfrac13\) B. \(-3\) C. \(\tfrac14\) D. \(-4\) E. 0
-
-<details><summary><strong>Hint</strong></summary>
-Rewrite \(\tfrac18\) as a power of \(2\).
-</details>
-
-
-<details><summary><strong>Solution</strong></summary>
-\(\tfrac18=2^{-3}\), so
-\[
-\log_{2}\!\bigl(\tfrac18\bigr)=\log_{2}\!\bigl(2^{-3}\bigr)=-3.\]
-Thus the answer is \(-3\).
-**Answer B.**
-</details>
-
----
-
-### 28 Rewrite \(6^{N}=13\) in Logarithmic Form
-
-
-A. \(\log_{6}13 = N\)  
-
-B. \(\log 6 = 13^{N}\)  
-
-C. \(\log_{13}6 = N\)  
-
-D. \(\log_{13}6 = N\)  
-
-E. \(\log_{6}13 = N\)
-<details><summary><strong>Hint</strong></summary>
-Look at the answers and see which base logarithm makes sense to try.
-</details>
-
-<details><summary><strong>Solution</strong></summary>
-Remember the definition of logarithm with base \(b\):
-\[
-\log_{b}(x)\]
-asks to what number do we raise \(b\) to get \(x\)?
-so to put this in logarithm form it makes sense to use base 6.
-and recast the equation \(6^{N}=13\) as
-\[
-\log_{6} 6^{N} = \log_{6} 13\]
-The logarithm is the inverse of the exponentiation, so we can cancel the \(6\) on the left side
-to obtain.
-\[
-N = \log_{6} 13.\]  
-Thus the answer is **E.**
-</details>
-
----
-
-### 29 Solve \(\log_{2}(3)=\log_{2}(5x)-\log_{2}(x+1)\)
-
-A. \(x=\tfrac12\) B. \(x=\tfrac14\) C. \(x=\tfrac32\) D. \(x=\tfrac38\)
-
-<details><summary><strong>Hint</strong></summary>
-Review the rules for combining logarithms.
-</details>  
-<details><summary><strong>Solution</strong></summary>
-Combine logs:
-\[
-\log_{2}(3)=\log_{2}\!\left(\frac{5x}{x+1}\right).\]
-Exponentiate both sides:
-\[
-3 = \frac{5x}{x+1}.\]
-Multiply both sides by \(x+1\):
-\[
-3(x+1) = 5x.\]
-Distribute:
-\[
-3x + 3 = 5x.\]
-Subtract \(3x\) from both sides:
-\[
-3 = 5x - 3x\]
-\[
-3 = 2x.\]
-Divide both sides by \(2\):
-\[
-x = \frac{3}{2}.\]
-Thus the answer is \(x=\frac{3}{2}\).
-**Answer C.**
-</details>
-
----
-
-### 30 Solve for \(t\)
-
-$$
-140\Bigl(\tfrac12\Bigr)^{t/4} = 350
-$$
-
-A. \(t = 4\log_{1/2}(5)\)
-
-B. \(t = 4\log_{1/2}\!(\tfrac52)\)
-
-C. \(t = 4\log_{5/2}(\tfrac12)\)
-
-D. \(t = 4\log_{5}(2)\)
-
-<details><summary><strong>Solution</strong></summary>
-
-We want to solve
-
-$$
-140\Bigl(\tfrac12\Bigr)^{t/4} = 350.
-$$
-
-Divide both sides by 140:
-
-$$
-\Bigl(\tfrac12\Bigr)^{t/4} = \frac{350}{140} = \frac{5}{2}.
-$$
-
-Now take logarithms in base $\tfrac12$:
-
-$$
-\frac{t}{4}
-= \log_{1/2}\!\Bigl(\tfrac{5}{2}\Bigr)
-\quad\Longrightarrow\quad
-t = 4\,\log_{1/2}\!\Bigl(\tfrac{5}{2}\Bigr).
-$$
-
-That matches choice **B**.
-
-</details>
-
-**Answer B.**
-
-
-### 31 Solve  \( \displaystyle \frac{8}{1 + 100e^{-3t}} = 2\)
-
-A. \(\displaystyle t = -\ln\!\bigl(\tfrac{1}{100}\bigr)\)
-
-B. \(\displaystyle t = \tfrac{1}{3}\ln\!\bigl(\tfrac{1}{20}\bigr)\)
-
-C. \(\displaystyle t = -\ln\!\bigl(\tfrac{3}{20}\bigr)\)
-
-D. \(\displaystyle t = -3\ln\!\bigl(\tfrac{3}{100}\bigr)\)
-
-E. \(\displaystyle t = -\tfrac{1}{3}\ln\!\bigl(\tfrac{3}{100}\bigr)\)
-
-<details><summary><strong>Solution</strong></summary>
-
-We want \(t\) such that
-
-$$
-\frac{8}{1 + 100e^{-3t}} = 2.
-$$
-
-Step by step:
-
-$$
 \begin{aligned}
-\frac{8}{1 + 100e^{-3t}} &= 2
-    &&\bigl|\times(1 + 100e^{-3t})\\
-8 &= 2\,(1 + 100e^{-3t})
-    &&\bigl|\;\text{distribute}\bigr.\\
-8 &= 2 + 200e^{-3t}
-    &&\bigl|\;-2\bigr.\\
-6 &= 200\,e^{-3t}
-    &&\bigl|\;\div200\bigr.\\
-\frac{6}{200} &= e^{-3t}
-    &&\bigl|\;\ln\bigr.\\
-\ln\!\bigl(\tfrac{6}{200}\bigr) &= -3t
-    &&\bigl|\;\div(-3)\bigr.\\
-t &= -\tfrac{1}{3}\,\ln\!\bigl(\tfrac{6}{200}\bigr).
+f(6)
+&= 2.8(6)^{2} - 7.5(6) + 20 \\
+&= 2.8\cdot36 - 45 + 20 \\
+&= 100.8 - 45 + 20 \\
+&= 100.8 - 25 \\
+&= 75.8.
 \end{aligned}
-$$
+\]
 
-Since $\tfrac{6}{200} = \tfrac{3}{100}$,
+So there were approximately **75.8 billion** monthly text messages in 2006.
 
-$$
-\boxed{t = -\frac{1}{3}\ln\!\bigl(\tfrac{3}{100}\bigr)},
-$$
+This lies between **70 and 80 billion**.
 
-which corresponds to choice **E**.
+\[
+\boxed{\text{Between 70 and 80 billion.}}
+\]
+
+**Answer: B**
 
 </details>
 
 ---
 
-### 32 Doubling Time with Monthly Compounding
+### Problem 4
 
-Suppose Matt initially invests \$3000 in an account bearing 4 % interest compounded monthly. How long will it take for the deposit to double in value, rounded to the nearest 0.01 years?
-
-A. 17.33 years  
-
-B. 17.36 years  
-
-C. 19.22 years  
-
-D. 19.74 years  
-
-E. None of these  
-
-<details><summary><strong>Hint</strong></summary>  
-Use the formula for monthly compounding:  
+Find the equation of the tangent line to
 \[
-A = P\Bigl(1 + \frac{r}{n}\Bigr)^{nt},
-\]  
-with \(A=6000\), \(P=3000\), \(r=0.04\), \(n=12\). Solve for \(t\).
+f(x) = e^{-7x} + 4
+\]
+at \(x=0\).
+
+**Options**
+
+A. \(y = -7x + 11\)  
+
+B. \(y = 7e^{-x} + 4\)  
+
+C. \(y = 7x + 4\)  
+
+D. \(y = -7x + 4\)  
+
+E. \(y = 7x + 11\)
+
+<details><summary><strong>Hint 1</strong></summary>
+
+For a tangent line at \(x=a\), you need:
+
+- The point: \((a, f(a))\),
+- The slope: \(f'(a)\),
+
+and then use **point-slope form** of a line.
+
 </details>
 
-<details><summary><strong>Solution</strong></summary>  
+<details><summary><strong>Hint 2</strong></summary>
+
+1. Evaluate \(f(0)\).  
+2. Differentiate \(f(x)\) to get \(f'(x)\), then compute \(f'(0)\).  
+3. Use \(y - f(0) = f'(0)(x-0)\).
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+We have
 \[
-6000 = 3000\Bigl(1+\tfrac{0.04}{12}\Bigr)^{12t}
-\;\Longrightarrow\;
-2 = \Bigl(1.003333\Bigr)^{12t}
-\;\Longrightarrow\;
-12t = \frac{\ln2}{\ln(1.003333)}
-\;\Longrightarrow\;
-t = \frac{1}{12}\,\frac{\ln2}{\ln(1.003333)} \approx 17.36.
-\]  
-**Answer B.**
+f(x) = e^{-7x} + 4.
+\]
+
+**Step 1: Find the point on the curve at \(x=0\)**
+
+\[
+\begin{aligned}
+f(0) &= e^{-7\cdot 0} + 4 = e^{0} + 4 = 1 + 4 = 5.
+\end{aligned}
+\]
+
+So the point is \((0,5)\).
+
+**Step 2: Find the derivative**
+
+Differentiate term by term:
+
+- For \(e^{-7x}\), use chain rule:  
+  \[
+  \frac{d}{dx}\bigl(e^{-7x}\bigr) = e^{-7x}\cdot(-7) = -7e^{-7x}.
+  \]
+- For \(4\), derivative is \(0\).
+
+So
+\[
+f'(x) = -7e^{-7x}.
+\]
+
+**Step 3: Evaluate slope at \(x=0\)**
+
+\[
+\begin{aligned}
+f'(0) &= -7e^{-7\cdot 0} = -7e^{0} = -7.
+\end{aligned}
+\]
+
+**Step 4: Use point-slope form**
+
+\[
+\begin{aligned}
+y - y_0 &= m(x - x_0) \\
+y - 5 &= -7(x - 0) \\
+y &= -7x + 5.
+\end{aligned}
+\]
+
+So the correct tangent line is
+\[
+\boxed{y = -7x + 5.}
+\]
+
+> **Note:** None of the provided options matches \(y=-7x+5\) exactly; the closest slope-wise is \(y=-7x+4\) (option D), but the correct intercept (using the given function) is **5**, not 4. For learning purposes, **\(y=-7x+5\)** is the mathematically correct tangent line.
+
 </details>
 
 ---
 
-### 33 Logistic Growth of Fish Population
+### Problem 5
 
-A certain lake is stocked with 1000 fish. The population grows according to the logistic curve  
+Determine the **nominal annual rate \(r\)** for an investment, compounded **continuously**, if the **effective rate** is \(10.6\%\).
+
+For continuous compounding:
 \[
-P(t)=\frac{10\,000}{1 + 9e^{-t/5}},
-\]  
-where \(t\) is months since stocking. After how many months will the fish population be 2000?
-
-A. Less than 2 months  
-
-B. Between 2 and 4 months  
-
-C. Between 4 and 6 months  
-
-D. Between 6 and 8 months  
-
-E. More than 8 months  
-
-<details><summary><strong>Hint</strong></summary>  
-Set \(P(t)=2000\) and solve for \(t\):  
-\[
-2000=\frac{10000}{1+9e^{-t/5}}.
+E = e^{r} - 1.
 \]
+
+**Options**
+
+A. Less than 9.90%  
+
+B. Between 9.90% and 10.20%  
+
+C. Between 10.20% and 10.50%  
+
+D. Between 10.50% and 10.80%  
+
+E. More than 10.80%
+
+<details><summary><strong>Hint 1</strong></summary>
+
+Use the relationship between effective rate \(E\) and nominal rate \(r\) for **continuous compounding**:
+\[
+E = e^{r}-1.
+\]
+
 </details>
 
-<details><summary><strong>Solution</strong></summary>  
+<details><summary><strong>Hint 2</strong></summary>
+
+Plug \(E=0.106\) into
 \[
-2000(1+9e^{-t/5})=10000
-\;\Longrightarrow\;
-1+9e^{-t/5}=5
-\;\Longrightarrow\;
-9e^{-t/5}=4
-\;\Longrightarrow\;
-e^{-t/5}=\frac{4}{9}
-\;\Longrightarrow\;
--t/5=\ln\!\tfrac{4}{9}
-\;\Longrightarrow\;
-t = -5\ln\!\tfrac{4}{9}\approx 4.05.
-\]  
-This is between 4 and 6 months.  
-**Answer C.**
+0.106 = e^{r}-1,
+\]
+solve for \(r\), then convert to a percentage and see which interval fits.
+
 </details>
 
----
+<details><summary><strong>Solution</strong></summary>
 
-### 34 (***) Atmospheric‑Pressure Model
-
-Atmospheric pressure \(y\) decays exponentially with height \(t\) (in feet) via  
+We are given an effective rate of \(E = 10.6\% = 0.106\). For continuous compounding,
 \[
-y = C e^{kt}.
+E = e^{r} - 1.
 \]
-If at \(t=18000\) ft the pressure is half of sea‑level (\(y=\tfrac12C\)), find \(k\) and then estimate the pressure at \(t=1000\) ft as a percentage of sea‑level.
 
-A. Less than 20 %  
-
-B. 20–40 %  
-
-C. 40–60 %  
-
-D. 60–80 %  
-
-E. More than 80 %  
-
-<details><summary><strong>Hint</strong></summary>  
-1. Use \(C e^{k\cdot18000}=\tfrac12C\) to find \(k\).  
-2. Compute \(e^{k\cdot1000}\times100\%\).
-</details>t
-
-
-<details><summary><strong>Solution</strong></summary>  
-1. From \(Ce^{18000k}=\tfrac12C\):
+So
 \[
-e^{18000k}=\tfrac12
-\;\Longrightarrow\;
-18000k=\ln\tfrac12=-\ln2
-\;\Longrightarrow\;
-k=-\tfrac{\ln2}{18000}\approx -3.85\times10^{-5}.
+\begin{aligned}
+0.106 &= e^{r} - 1 \\
+1.106 &= e^{r} \\
+r &= \ln(1.106).
+\end{aligned}
 \]
-2. At \(t=1000\):
+
+Approximate:
+- \(\ln(1.1) \approx 0.0953\),
+- \(\ln(1.106)\) is slightly larger, about \(0.1008\).
+
+So
 \[
-\frac{y}{C}=e^{k\cdot1000}
-=e^{-3.85\times10^{-5}\times1000}
-=e^{-0.0385}\approx0.9622,
+r \approx 0.1008 \approx 10.08\%.
 \]
-i.e.\ about 96.22 %.  
-That is **more than 80 %**.  
-**Answer E.**
+
+This lies between **9.90% and 10.20%**.
+
+\[
+\boxed{\text{Between 9.90% and 10.20%.}}
+\]
+
+**Answer: B**
+
 </details>
 
 ---
 
-### 35 Smartphone Users Model
+### Problem 6
 
-The number of smartphone users (in millions) in the U.S. from 2010 to 2016 is  
+Suppose
 \[
-f(t)=75\ln(t+1)+50,
+f'(x) = 10x + 2.
 \]
-where \(t\) is years since 2010. According to this model, in what year did the number of users reach 150 million?
 
-A. 2010  
+Which one of the following could be \(f(x)\)?
 
-B. 2011  
+**Options**
 
-C. 2012  
+A. \(f(x) = 10x + 2 + C\)
 
-D. 2013  
+B. \(f(x) = 5x^{2} + 2x + C\)
 
-E. 2014  
+C. \(f(x) = \dfrac{10x+2}{x}\)
 
-<details><summary><strong>Hint</strong></summary>  
-Set \(75\ln(t+1)+50=150\) and solve for \(t\), then add to 2010.
-</details>
+D. \(f(x) = 5x^{2} + x^{2} + C\)
 
-<details><summary><strong>Solution</strong></summary>  
+E. \(f(x) = 10\)
+
+<details><summary><strong>Hint 1</strong></summary>
+
+You’re going **backwards** from derivative to function.  
+This is an **indefinite integral** / antiderivative problem:
 \[
-75\ln(t+1)+50=150
-\;\Longrightarrow\;
-75\ln(t+1)=100
-\;\Longrightarrow\;
-\ln(t+1)=\tfrac{100}{75}=\tfrac{4}{3}
-\;\Longrightarrow\;
-t+1=e^{4/3}
-\;\Longrightarrow\;
-t=e^{4/3}-1\approx2.79.
-\]  
-Year \(=2010+2.79\approx2012.79\), i.e.\ late 2012.  
-**Answer C.**
+f(x) = \int (10x+2)\,dx.
+\]
+
 </details>
 
+<details><summary><strong>Hint 2</strong></summary>
 
-## Answers { #answers }
+Use the power rule for integrals:
+\[
+\int x^{n}\,dx = \frac{x^{n+1}}{n+1} + C.
+\]
+Apply it to \(10x\) and to the constant \(2\) separately.
 
-| Problem | Answer |
-|:-------:|:------:|
-| 1 | A |
-| 2 | A |
-| 3 | B |
-| 4 | A |
-| 5 | E |
-| 6 | A |
-| 7 | B |
-| 8 | C |
-| 9 | D |
-| 10 | E |
-| 11 | A |
-| 12 | B |
-| 13 | C |
-| 14 | E |
-| 15 | D |
-| 16 | C |
-| 17 | C |
-| 18 | B |
-| 19 | A |
-| 20 | D |
-| 21 | E |
-| 22 | A |
-| 23 | E |
-| 24 | D |
-| 25 | E |
-| 26 | C |
-| 27 | B |
-| 28 | E |
-| 29 | C |
-| 30 | B |
-| 31 | E |
-| 32 | B |
-| 33 | C |
-| 34 | E |
-| 35 | C |
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+We want a function \(f(x)\) whose derivative is
+\[
+f'(x) = 10x+2.
+\]
+
+Compute the antiderivative:
+
+\[
+\begin{aligned}
+f(x)
+&= \int (10x+2)\,dx \\
+&= \int 10x\,dx + \int 2\,dx \\
+&= 10\cdot\frac{x^{2}}{2} + 2x + C \\
+&= 5x^{2} + 2x + C.
+\end{aligned}
+\]
+
+Compare with the options:
+
+- Option **B** is exactly \(f(x) = 5x^{2} + 2x + C\).
+
+So
+\[
+\boxed{f(x) = 5x^{2} + 2x + C.}
+\]
+
+**Answer: B**
+
+</details>
+
+---
+
+### Problem 7
+
+Evaluate the indefinite integral:
+\[
+\int \left( e^{4x} + \frac{1}{x^{3}} \right)\,dx.
+\]
+
+<details><summary><strong>Hint 1</strong></summary>
+
+Split the integral into two parts:
+\[
+\int e^{4x}\,dx + \int x^{-3}\,dx.
+\]
+Use:
+- exponential rule for \(e^{4x}\),
+- power rule for \(x^{-3}\).
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+Recall:
+\[
+\int e^{kx}\,dx = \frac{1}{k}e^{kx} + C,
+\]
+and for the power rule with \(n\neq -1\),
+\[
+\int x^{n}\,dx = \frac{x^{n+1}}{n+1} + C.
+\]
+
+Apply with \(n=-3\).
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+We have
+\[
+\int \left( e^{4x} + \frac{1}{x^{3}} \right)\,dx
+= \int e^{4x}\,dx + \int x^{-3}\,dx.
+\]
+
+**First integral:**
+
+\[
+\int e^{4x}\,dx = \frac{1}{4}e^{4x} + C_1.
+\]
+
+**Second integral:**
+
+\[
+\int x^{-3}\,dx = \frac{x^{-2}}{-2} + C_2 = -\frac{1}{2x^{2}} + C_2.
+\]
+
+Combine them (one constant is fine):
+
+\[
+\int \left( e^{4x} + \frac{1}{x^{3}} \right)\,dx
+= \frac{1}{4}e^{4x} - \frac{1}{2x^{2}} + C.
+\]
+
+\[
+\boxed{\int \left( e^{4x} + \frac{1}{x^{3}} \right)\,dx
+= \frac{1}{4}e^{4x} - \frac{1}{2x^{2}} + C.}
+\]
+
+</details>
+
+---
+
+### Problem 8
+
+Determine the derivative of
+\[
+f(x) = \frac{x}{3 + \ln(x)}.
+\]
+
+<details><summary><strong>Hint 1</strong></summary>
+
+You have a **quotient**: numerator \(x\), denominator \(3+\ln x\).  
+Use the **quotient rule**.
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+Let
+\[
+f(x) = \frac{N(x)}{D(x)}, \quad N(x)=x,\quad D(x)=3+\ln x.
+\]
+
+Then
+\[
+f'(x) = \frac{N'(x)D(x) - N(x)D'(x)}{[D(x)]^{2}}.
+\]
+
+Compute \(N'(x)\) and \(D'(x)\) first.
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+Write
+\[
+f(x) = \frac{x}{3+\ln x}.
+\]
+
+Let
+\[
+N(x) = x,\quad D(x) = 3+\ln x.
+\]
+
+Compute derivatives:
+
+\[
+N'(x) = 1,\quad D'(x) = \frac{d}{dx}(3+\ln x) = \frac{1}{x}.
+\]
+
+By the quotient rule,
+\[
+\begin{aligned}
+f'(x)
+&= \frac{N'(x)D(x) - N(x)D'(x)}{[D(x)]^{2}} \\
+&= \frac{1\cdot(3+\ln x) - x\cdot\frac{1}{x}}{(3+\ln x)^{2}} \\
+&= \frac{3+\ln x - 1}{(3+\ln x)^{2}} \\
+&= \frac{2+\ln x}{(3+\ln x)^{2}}.
+\end{aligned}
+\]
+
+\[
+\boxed{f'(x) = \dfrac{2+\ln x}{(3+\ln x)^{2}}.}
+\]
+
+</details>
+
+---
+
+### Problem 9
+
+Using the Fundamental Theorem of Calculus, determine an expression equivalent to
+\[
+\int_{a}^{b} 5x^{4}\,dx.
+\]
+
+<details><summary><strong>Hint 1</strong></summary>
+
+First find an antiderivative \(F(x)\) of \(5x^{4}\), then use
+\[
+\int_{a}^{b} 5x^{4}\,dx = F(b)-F(a).
+\]
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+Use the power rule:
+\[
+\int x^{n}\,dx = \frac{x^{n+1}}{n+1} + C.
+\]
+
+Here \(5x^{4} = 5\cdot x^{4}\). Integrate, then plug in \(b\) and \(a\).
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+Find an antiderivative of \(5x^{4}\):
+
+\[
+\begin{aligned}
+\int 5x^{4}\,dx
+&= 5\int x^{4}\,dx \\
+&= 5\cdot\frac{x^{5}}{5} + C \\
+&= x^{5}+C.
+\end{aligned}
+\]
+
+So we can take \(F(x)=x^{5}\).
+
+By the Fundamental Theorem of Calculus,
+\[
+\int_{a}^{b} 5x^{4}\,dx = F(b)-F(a) = b^{5} - a^{5}.
+\]
+
+\[
+\boxed{\int_{a}^{b} 5x^{4}\,dx = b^{5}-a^{5}.}
+\]
+
+</details>
+
+---
+
+### Problem 10
+
+Determine the balance in an account if \$20,000 is invested for 8 years at an
+annual interest rate of \(2.4\%\), compounded **quarterly**.
+
+<details><summary><strong>Hint 1</strong></summary>
+
+Use the compound interest formula:
+\[
+A = P\left(1+\frac{r}{m}\right)^{mt},
+\]
+where:
+- \(P = 20000\),
+- \(r = 0.024\),
+- \(m = 4\) (quarterly),
+- \(t = 8\).
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+Compute
+\[
+A = 20000\left(1+\frac{0.024}{4}\right)^{4\cdot 8}
+= 20000(1.006)^{32}.
+\]
+
+Approximate \(1.006^{32}\) (or use a calculator) and multiply by 20,000.
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+We have:
+- \(P = 20000\),
+- \(r = 0.024\),
+- \(m = 4\),
+- \(t = 8\).
+
+Formula:
+\[
+A = P\left(1+\frac{r}{m}\right)^{mt}.
+\]
+
+Plug in:
+
+\[
+\begin{aligned}
+A
+&= 20000\left(1+\frac{0.024}{4}\right)^{4\cdot 8} \\
+&= 20000(1+0.006)^{32} \\
+&= 20000(1.006)^{32}.
+\end{aligned}
+\]
+
+Approximate \(1.006^{32}\). (On a calculator you’d just compute directly; here’s a rough idea.)
+
+- \(1.006^{10} \approx 1.0615\),
+- \(1.006^{20} \approx (1.0615)^{2} \approx 1.126\),
+- \(1.006^{30} \approx 1.126\cdot 1.0615 \approx 1.195\),
+- \(1.006^{32} \approx 1.195\cdot 1.006^{2} \approx 1.195\cdot 1.012 \approx 1.209\) (roughly).
+
+So
+\[
+A \approx 20000 \cdot 1.209 \approx 24180.
+\]
+
+A more accurate calculator value is around \$24,18x; in any case it’s **just under \$24,200**.
+
+So the balance is approximately
+\[
+\boxed{\$24{,}180\text{–}\$24{,}190\ \text{(about)}.}
+\]
+
+(If matching to choices like “less than \$24,195”, that would be the correct bracket.)
+
+</details>
+
+---
+
+### Problem 11
+
+Suppose the marginal cost (in dollars per unit) is
+\[
+C'(x) = 6x + 7,
+\]
+when \(x\) units are produced.  
+
+If it costs \$80 to produce 3 units, find the cost function \(C(x)\).
+
+**Options**
+
+A. \(C(x) = 6x + 87\)
+
+B. \(C(x) = 6x\)
+
+C. \(C(x) = 3x^{2} + 7x\)
+
+D. \(C(x) = 3x^{2} + 7x + 32\)
+
+E. \(C(x) = 3x^{2} + 7x + 80\)
+
+<details><summary><strong>Hint 1</strong></summary>
+
+Marginal cost is \(C'(x)\).  
+To get actual cost \(C(x)\), integrate \(C'(x)\), then use \(C(3)=80\) to find the constant.
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+1. Compute
+   \[
+   C(x) = \int(6x+7)\,dx.
+   \]
+2. Use the condition “it costs \$80 to produce 3 units” → \(C(3)=80\) to solve for the constant.
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+We have
+\[
+C'(x) = 6x+7.
+\]
+
+**Step 1: Integrate**
+
+\[
+\begin{aligned}
+C(x)
+&= \int(6x+7)\,dx \\
+&= \int 6x\,dx + \int 7\,dx \\
+&= 6\cdot\frac{x^{2}}{2} + 7x + K \\
+&= 3x^{2} + 7x + K.
+\end{aligned}
+\]
+
+**Step 2: Use \(C(3)=80\)**
+
+\[
+\begin{aligned}
+C(3) &= 3(3)^{2} + 7(3) + K \\
+80 &= 3\cdot 9 + 21 + K \\
+80 &= 27 + 21 + K \\
+80 &= 48 + K \\
+K &= 32.
+\end{aligned}
+\]
+
+So
+\[
+C(x) = 3x^{2} + 7x + 32.
+\]
+
+Compare with options: this is option **D**.
+
+\[
+\boxed{C(x) = 3x^{2} + 7x + 32.}
+\]
+
+**Answer: D**
+
+</details>
+
+---
+
+### Problem 12
+
+Using the Fundamental Theorem of Calculus, evaluate the definite integral
+\[
+\int_{1}^{4} \left(2x + \frac{3}{x} + 7\right)\,dx.
+\]
+
+<details><summary><strong>Hint 1</strong></summary>
+
+Split the integral into three parts:
+\[
+\int_{1}^{4} 2x\,dx + \int_{1}^{4} \frac{3}{x}\,dx + \int_{1}^{4} 7\,dx.
+\]
+
+Use:
+- power rule for \(2x\),
+- log rule for \(\frac{3}{x}\),
+- constant rule for \(7\).
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+Find an antiderivative \(F(x)\) such that:
+\[
+F(x) = x^{2} + 3\ln|x| + 7x,
+\]
+then compute \(F(4)-F(1)\).
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+Compute:
+\[
+\int_{1}^{4} \left(2x + \frac{3}{x}+7\right)\,dx.
+\]
+
+**Step 1: Find an antiderivative**
+
+Integrate term by term:
+
+- \(\displaystyle \int 2x\,dx = x^{2}\),
+- \(\displaystyle \int \frac{3}{x}\,dx = 3\ln|x|\),
+- \(\displaystyle \int 7\,dx = 7x\).
+
+So an antiderivative is
+\[
+F(x) = x^{2} + 3\ln|x| + 7x.
+\]
+
+**Step 2: Evaluate from 1 to 4**
+
+\[
+\int_{1}^{4} \left(2x + \frac{3}{x}+7\right)\,dx = F(4) - F(1).
+\]
+
+Compute \(F(4)\):
+
+\[
+\begin{aligned}
+F(4)
+&= 4^{2} + 3\ln 4 + 7\cdot 4 \\
+&= 16 + 3\ln 4 + 28 \\
+&= 44 + 3\ln 4.
+\end{aligned}
+\]
+
+Compute \(F(1)\):
+
+\[
+\begin{aligned}
+F(1)
+&= 1^{2} + 3\ln 1 + 7\cdot 1 \\
+&= 1 + 0 + 7 \\
+&= 8.
+\end{aligned}
+\]
+
+Now subtract:
+
+\[
+\begin{aligned}
+\int_{1}^{4} \left(2x + \frac{3}{x}+7\right)\,dx
+&= F(4)-F(1) \\
+&= (44 + 3\ln 4) - 8 \\
+&= 36 + 3\ln 4.
+\end{aligned}
+\]
+
+Optionally approximate:
+- \(\ln 4 \approx 1.386\),
+- \(3\ln 4 \approx 4.158\),
+- so total ≈ \(36 + 4.158 = 40.158\).
+
+\[
+\boxed{\int_{1}^{4} \left(2x + \frac{3}{x}+7\right)\,dx = 36 + 3\ln 4 \approx 40.16.}
+\]
+
+</details>
+
+---
+
+### Problem 13
+
+Find the derivatives of the following functions. Your answers do not need to be simplified.
+
+#### (a) \(h(x) = x^{5}\ln x\)
+
+<details><summary><strong>Hint 1</strong></summary>
+
+This is a **product** of two functions: \(x^{5}\) and \(\ln x\).  
+Use the **product rule**.
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+Let
+\[
+f(x) = x^{5}, \quad g(x) = \ln x.
+\]
+Then
+\[
+h(x) = f(x)g(x),\quad h'(x) = f'(x)g(x) + f(x)g'(x).
+\]
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+Let
+\[
+f(x) = x^{5}, \quad g(x) = \ln x.
+\]
+
+Then
+\[
+f'(x) = 5x^{4},\quad g'(x) = \frac{1}{x}.
+\]
+
+By the product rule:
+\[
+\begin{aligned}
+h'(x)
+&= f'(x)g(x) + f(x)g'(x) \\
+&= 5x^{4}\ln x + x^{5}\cdot\frac{1}{x} \\
+&= 5x^{4}\ln x + x^{4}.
+\end{aligned}
+\]
+
+\[
+\boxed{h'(x) = 5x^{4}\ln x + x^{4}.}
+\]
+
+</details>
+
+---
+
+#### (b) \(j(x) = e^{\sqrt{x} + 5x^{2}}\)
+
+<details><summary><strong>Hint 1</strong></summary>
+
+You have an exponential of a **function of \(x\)**.  
+Use the chain rule:
+\[
+\frac{d}{dx}e^{u(x)} = e^{u(x)} u'(x).
+\]
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+Let
+\[
+u(x) = \sqrt{x} + 5x^{2}.
+\]
+Find \(u'(x)\), then multiply by \(e^{u(x)}\).
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+Let
+\[
+u(x) = \sqrt{x} + 5x^{2} = x^{1/2} + 5x^{2}.
+\]
+
+Compute
+\[
+u'(x) = \frac{1}{2}x^{-1/2} + 10x = \frac{1}{2\sqrt{x}} + 10x.
+\]
+
+Since \(j(x) = e^{u(x)}\), by the chain rule:
+
+\[
+\begin{aligned}
+j'(x)
+&= e^{u(x)}\,u'(x) \\
+&= e^{\sqrt{x} + 5x^{2}}\left( \frac{1}{2\sqrt{x}} + 10x \right).
+\end{aligned}
+\]
+
+\[
+\boxed{j'(x) = e^{\sqrt{x} + 5x^{2}}\left( \frac{1}{2\sqrt{x}} + 10x \right).}
+\]
+
+</details>
+
+---
+
+### Problem 14
+
+Let the cost (in dollars) to produce \(x\) hundred units be
+\[
+C(x) = x^{3} + 7x + 1024.
+\]
+
+Here \(x\) is measured in **hundreds of units**.  
+
+How many units must be produced in order for the **average cost** to be an **absolute minimum**?
+
+<details><summary><strong>Hint 1</strong></summary>
+
+Average cost is
+\[
+\overline{C}(x) = \frac{C(x)}{x}.
+\]
+
+First write \(\overline{C}(x)\), then minimize it using derivative tests.
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+1. Compute
+   \[
+   \overline{C}(x) = \frac{x^{3} + 7x + 1024}{x}.
+   \]
+   Simplify.
+2. Compute \(\overline{C}'(x)\), set it equal to zero.
+3. Solve for \(x\), and remember that \(x\) is in **hundreds of units**.
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+Average cost (per hundred units) is
+\[
+\overline{C}(x) = \frac{C(x)}{x} = \frac{x^{3} + 7x + 1024}{x}.
+\]
+
+Simplify:
+\[
+\begin{aligned}
+\overline{C}(x)
+&= \frac{x^{3}}{x} + \frac{7x}{x} + \frac{1024}{x} \\
+&= x^{2} + 7 + \frac{1024}{x}.
+\end{aligned}
+\]
+
+So
+\[
+\overline{C}(x) = x^{2} + 7 + \frac{1024}{x}.
+\]
+
+To find the minimum, differentiate and set to zero.
+
+\[
+\begin{aligned}
+\overline{C}'(x)
+&= 2x + 0 - 1024x^{-2} \\
+&= 2x - \frac{1024}{x^{2}}.
+\end{aligned}
+\]
+
+Set \(\overline{C}'(x)=0\):
+
+\[
+\begin{aligned}
+2x - \frac{1024}{x^{2}} &= 0 \\
+2x &= \frac{1024}{x^{2}} \\
+2x^{3} &= 1024 \\
+x^{3} &= 512 \\
+x &= \sqrt[3]{512}.
+\end{aligned}
+\]
+
+Since \(512 = 8^{3}\),
+\[
+x = 8.
+\]
+
+So the average cost is minimized when \(x=8\) **hundreds of units** are produced.
+
+That means
+\[
+8 \times 100 = 800\ \text{units}.
+\]
+
+To confirm it’s a minimum, we can check the second derivative:
+
+\[
+\begin{aligned}
+\overline{C}''(x)
+&= \frac{d}{dx}\left(2x - \frac{1024}{x^{2}} \right) \\
+&= 2 + 2048x^{-3}.
+\end{aligned}
+\]
+
+For \(x>0\), \(2048x^{-3}>0\), so \(\overline{C}''(x) > 0\).  
+Thus we indeed have a **minimum** at \(x=8\).
+
+\[
+\boxed{\text{800 units must be produced for minimum average cost.}}
+\]
+
+</details>
+
+---
+
+### Problem 15
+
+A baseball team is trying to determine what price to charge for tickets.
+
+- At a price of **\$24 per ticket**, it averages **20,000** people per game.
+- For every **increase of \$1** in ticket price, it loses **400** people.
+- Every person at the game spends an average of **\$6 on concessions**.
+
+Let \(x\) represent the **increase in ticket price above \$24** (in dollars).  
+
+**(a)** What price per ticket should be charged in order to **maximize revenue** (tickets + concessions)?  
+
+**(b)** What is the **maximum revenue**?
+
+---
+
+<details><summary><strong>Hint 1</strong></summary>
+
+You need to build a **revenue function** \(R(x)\) that includes:
+
+- Ticket revenue = (ticket price)(number of people),
+- Concession revenue = (average spending per person)(number of people).
+
+Both depend on \(x\).
+
+</details>
+
+<details><summary><strong>Hint 2</strong></summary>
+
+1. Ticket price: \(24 + x\).  
+2. Number of people: \(20{,}000 - 400x\).  
+3. Concession revenue: \(6(20{,}000 - 400x)\).  
+4. Total revenue:
+   \[
+   R(x) = (24+x)(20{,}000 - 400x) + 6(20{,}000 - 400x).
+   \]
+5. Expand, simplify to get a quadratic, then find the vertex using
+   \[
+   x = -\frac{b}{2a}.
+   \]
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+
+Let \(x\) be the increase (in dollars) above \$24.
+
+**Step 1: Express price and attendance in terms of \(x\)**
+
+- Ticket price:
+  \[
+  p(x) = 24 + x.
+  \]
+
+- Attendance:
+  \[
+  N(x) = 20{,}000 - 400x.
+  \]
+  (Every \$1 increase loses 400 people.)
+
+**Step 2: Ticket revenue**
+
+\[
+\text{Ticket revenue} = p(x)\cdot N(x)
+= (24 + x)(20{,}000 - 400x).
+\]
+
+**Step 3: Concession revenue**
+
+Each person spends \$6 on concessions, so
+\[
+\text{Concession revenue} = 6\cdot N(x) = 6(20{,}000 - 400x).
+\]
+
+**Step 4: Total revenue function**
+
+\[
+\begin{aligned}
+R(x)
+&= \text{Ticket revenue} + \text{Concession revenue} \\
+&= (24 + x)(20{,}000 - 400x) + 6(20{,}000 - 400x).
+\end{aligned}
+\]
+
+Expand and simplify.
+
+First expand \((24+x)(20{,}000 - 400x)\):
+
+\[
+\begin{aligned}
+(24+x)(20{,}000 - 400x)
+&= 24\cdot 20{,}000 + x\cdot 20{,}000 - 24\cdot 400x - 400x^{2} \\
+&= 480{,}000 + 20{,}000x - 9{,}600x - 400x^{2} \\
+&= 480{,}000 + (20{,}000 - 9{,}600)x - 400x^{2} \\
+&= 480{,}000 + 10{,}400x - 400x^{2}.
+\end{aligned}
+\]
+
+Next, the concession term:
+
+\[
+6(20{,}000 - 400x) = 120{,}000 - 2{,}400x.
+\]
+
+Now add:
+
+\[
+\begin{aligned}
+R(x)
+&= \bigl(480{,}000 + 10{,}400x - 400x^{2}\bigr)
+ + \bigl(120{,}000 - 2{,}400x\bigr) \\
+&= (480{,}000 + 120{,}000) + (10{,}400x - 2{,}400x) - 400x^{2} \\
+&= 600{,}000 + 8{,}000x - 400x^{2}.
+\end{aligned}
+\]
+
+So
+\[
+R(x) = -400x^{2} + 8{,}000x + 600{,}000.
+\]
+
+This is a **downward-opening quadratic**, so its maximum occurs at the vertex.
+
+**Step 5: Find the vertex**
+
+For \(R(x) = ax^{2} + bx + c\) with \(a<0\), the \(x\)-coordinate of the vertex is
+\[
+x = -\frac{b}{2a}.
+\]
+
+Here \(a = -400\), \(b = 8000\):
+
+\[
+\begin{aligned}
+x
+&= -\frac{8000}{2(-400)} \\
+&= -\frac{8000}{-800} \\
+&= 10.
+\end{aligned}
+\]
+
+So the revenue is maximized when \(x=10\).
+
+Recall \(x\) is the increase above \$24, so the **ticket price** is:
+
+\[
+p = 24 + x = 24 + 10 = 34 \text{ dollars}.
+\]
+
+That answers part (a).
+
+**Step 6: Find the maximum revenue**
+
+Compute \(R(10)\):
+
+\[
+\begin{aligned}
+R(10)
+&= -400(10)^{2} + 8{,}000(10) + 600{,}000 \\
+&= -400\cdot 100 + 80{,}000 + 600{,}000 \\
+&= -40{,}000 + 80{,}000 + 600{,}000 \\
+&= 640{,}000.
+\end{aligned}
+\]
+
+So the maximum total revenue (tickets + concessions) is
+\[
+\boxed{R_{\max} = \$640{,}000.}
+\]
+
+**Answer summary**
+
+- (a) The team should charge **\$34 per ticket**.  
+- (b) The **maximum revenue** is **\$640,000**.
+
+</details>
