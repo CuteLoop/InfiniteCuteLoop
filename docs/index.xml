@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on A minimal Hugo website</title>
-    <link>http://localhost:44137/InfiniteCuteLoop/</link>
+    <link>https://cuteloop.github.io/InfiniteCuteLoop/</link>
     <description>Recent content in Home on A minimal Hugo website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:44137/InfiniteCuteLoop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MATH 112 – Final Exam Practice</title>
-      <link>http://localhost:44137/InfiniteCuteLoop/posts/math-final-practice/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-final-practice/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44137/InfiniteCuteLoop/posts/math-final-practice/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-final-practice/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;How to use this page&lt;br&gt;&#xA;Try each problem first, then expand Hint or Solution as needed. (this is a draft. Currently in the process of checking and reviewing the solutions are correct. I hope It Helps you in your study.)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;#answers&#34;&gt;Final Exam Practice Exam Answers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.math.arizona.edu/academics/courses/math112&#34;&gt;Math 112 final exam resources&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formulas-provided-on-the-exam--formula-sheet-&#34;&gt;Formulas Provided on the Exam  {: #formula-sheet }&lt;/h2&gt;&#xA;&lt;h3 id=&#34;quadratics&#34;&gt;Quadratics&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Quadratic Formula&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Vertex of Parabola&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;\(x = \dfrac{-b \pm \sqrt{b^{2}-4ac}}{2a}\)&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;\(x = -\dfrac{b}{2a}\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Factored Forms&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blog with LaTeX in 15 Minutes</title>
-      <link>http://localhost:44137/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44137/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</guid>
       <description>&lt;h1 id=&#34;blog-with-latex-in-15-minutes&#34;&gt;Blog with LaTeX in 15 Minutes&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Joel Maldonado&lt;/em&gt;&#xA;Welcome to this infinite &lt;strong&gt;Cute Loop&lt;/strong&gt;! In this post, I’m going to share my journey of setting up a Hugo blog with full LaTeX support and deploying it to GitHub Pages—all in just 15 minutes. If you’re curious about how to get your blog up and running quickly, read on!Below is the updated, comprehensive tutorial that incorporates all the details—including creating your GitHub repository, initializing your Hugo site with your final configuration, adding LaTeX support via the custom footer partial, and deploying your site from a dedicated branch (gh‑pages) using ghp‑import. You can copy and paste this tutorial as your first post (for example, as a file named &lt;code&gt;content/posts/blog-with-latex-in-15-min.md&lt;/code&gt;) and then customize it as needed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MATH 116 – Test 3 Practice (Fall 2024)</title>
-      <link>http://localhost:44137/InfiniteCuteLoop/posts/math116-exam-3/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-3/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44137/InfiniteCuteLoop/posts/math116-exam-3/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-3/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to use this page&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is a practice version of &lt;strong&gt;MATH 116 – Test 3 (Fall 2024)&lt;/strong&gt; with&#xA;&lt;strong&gt;very detailed, step-by-step solutions&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For each problem:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Read the &lt;strong&gt;problem&lt;/strong&gt; and try it on your own.&lt;/li&gt;&#xA;&lt;li&gt;Open &lt;strong&gt;Hint 1&lt;/strong&gt; if you’re not sure which rule or idea to use.&lt;/li&gt;&#xA;&lt;li&gt;Open &lt;strong&gt;Hint 2&lt;/strong&gt; for more structure.&lt;/li&gt;&#xA;&lt;li&gt;Open the &lt;strong&gt;Solution&lt;/strong&gt; only when you’re ready to check your work.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formula-sheet&#34;&gt;Formula Sheet&lt;/h2&gt;&#xA;&lt;h3 id=&#34;interest--exponential-growthdecay&#34;&gt;Interest &amp;amp; Exponential Growth/Decay&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Compound interest (m times per year)&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>First Post</title>
-      <link>http://localhost:44137/InfiniteCuteLoop/posts/my-first-post/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/my-first-post/</link>
       <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44137/InfiniteCuteLoop/posts/my-first-post/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/my-first-post/</guid>
       <description>&lt;p&gt;This is a website where I upload content about math education.&#xA;Teaching maths and Teaching material.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:44137/InfiniteCuteLoop/about/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44137/InfiniteCuteLoop/about/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/about/</guid>
       <description>&lt;p&gt;Hi there! Welcome to &lt;strong&gt;Infinite Cute Loop&lt;/strong&gt; – a space where my passion for math, research, and creative teaching comes to life. I&amp;rsquo;m a graduate student with a deep love for all things math, and I built this blog to share both academic explorations and playful insights into the world of numbers.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;What you can expect:&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In-depth research and analysis.&lt;/li&gt;&#xA;&lt;li&gt;Creative tutorials and fun math musings.&lt;/li&gt;&#xA;&lt;li&gt;Practical examples to spark inspiration.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Happy exploring!&lt;/p&gt;</description>
     </item>
   </channel>

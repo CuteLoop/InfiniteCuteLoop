@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Business-Calculus on A minimal Hugo website</title>
-    <link>http://localhost:44137/InfiniteCuteLoop/tags/business-calculus/</link>
+    <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/business-calculus/</link>
     <description>Recent content in Business-Calculus on A minimal Hugo website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:44137/InfiniteCuteLoop/tags/business-calculus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/tags/business-calculus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MATH 116 – Test 3 Practice (Fall 2024)</title>
-      <link>http://localhost:44137/InfiniteCuteLoop/posts/math116-exam-3/</link>
-      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44137/InfiniteCuteLoop/posts/math116-exam-3/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to use this page&lt;/strong&gt;&lt;br&gt;&#xA;Try each problem on your own first. Then expand &lt;strong&gt;Hint&lt;/strong&gt; or &lt;strong&gt;Solution&lt;/strong&gt; as needed.&lt;br&gt;&#xA;Problems 1–11 are multiple choice; 12–15 are free-response.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formula-sheet&#34;&gt;Formula Sheet&lt;/h2&gt;&#xA;&lt;h3 id=&#34;interest--exponential-models&#34;&gt;Interest &amp;amp; Exponential Models&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Compound interest (m times/year)&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  A = P\left(1 + \frac{r}{m}\right)^{mt}&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Continuous compounding&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  A = Pe^{rt}&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Effective annual rate&lt;/strong&gt; (from nominal \(r\), \(m\) times/year)&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  r_{\text{eff}} = \left(1 + \frac{r}{m}\right)^m - 1&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Nominal rate from effective rate&lt;/strong&gt;&#xA;&lt;/p&gt;</description>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-3/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-3/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to use this page&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is a practice version of &lt;strong&gt;MATH 116 – Test 3 (Fall 2024)&lt;/strong&gt; with&#xA;&lt;strong&gt;very detailed, step-by-step solutions&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For each problem:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Read the &lt;strong&gt;problem&lt;/strong&gt; and try it on your own.&lt;/li&gt;&#xA;&lt;li&gt;Open &lt;strong&gt;Hint 1&lt;/strong&gt; if you’re not sure which rule or idea to use.&lt;/li&gt;&#xA;&lt;li&gt;Open &lt;strong&gt;Hint 2&lt;/strong&gt; for more structure.&lt;/li&gt;&#xA;&lt;li&gt;Open the &lt;strong&gt;Solution&lt;/strong&gt; only when you’re ready to check your work.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formula-sheet&#34;&gt;Formula Sheet&lt;/h2&gt;&#xA;&lt;h3 id=&#34;interest--exponential-growthdecay&#34;&gt;Interest &amp;amp; Exponential Growth/Decay&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Compound interest (m times per year)&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
