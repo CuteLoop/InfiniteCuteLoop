@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: '{{ replace .Name "-" " " | title }}'
 date: {{ .Date }}
 tags: ["study-guide", "practice-exam"]
 draft: true
