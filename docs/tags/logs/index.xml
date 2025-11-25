@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Logs on A minimal Hugo website</title>
-    <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/logs/</link>
+    <link>http://localhost:42585/InfiniteCuteLoop/tags/logs/</link>
     <description>Recent content in Logs on A minimal Hugo website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/tags/logs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:42585/InfiniteCuteLoop/tags/logs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MATH 116 – Exam 3 Overview (Madeline’s Crash Notes)</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-madelines-exam3-review/postsmadelines-overiview-exam3/</link>
+      <link>http://localhost:42585/InfiniteCuteLoop/posts/math116-madelines-exam3-review/</link>
       <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-madelines-exam3-review/postsmadelines-overiview-exam3/</guid>
-      <description>&lt;p&gt;Here are &lt;strong&gt;Madeline’s Exam 3 notes&lt;/strong&gt;, carefully crafted by someone who has a great eye to synthesize what you need to know for aceing your exams.&lt;/p&gt;&#xA;&lt;p&gt;📄 &lt;strong&gt;PDF version:&lt;/strong&gt;&lt;br&gt;&#xA;&lt;a href=&#34;MATH-116-EXAM-3.pdf&#34;&gt;Download &lt;em&gt;MATH 116 – EXAM 3&lt;/em&gt; (Madeline’s Review Sheet)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Exam 3 Review Problems&lt;/strong&gt;&lt;br&gt;&#xA;&lt;a href=&#34;116-Exam3-25.pdf&#34;&gt;116 Exam3 Review (Fall 2025)-1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Use them for &lt;strong&gt;review and practice&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Work through problems&lt;/li&gt;&#xA;&lt;li&gt;Check each topic&lt;/li&gt;&#xA;&lt;li&gt;Let yourself make mistakes now, not on the exam&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you get stuck or something doesn’t quite click, message your TAs — that’s what we’re here for. Hope this helps and Enjoy Thanks giving.&lt;/p&gt;</description>
+      <guid>http://localhost:42585/InfiniteCuteLoop/posts/math116-madelines-exam3-review/</guid>
+      <description>&lt;p&gt;Here are &lt;strong&gt;Madeline’s Exam 3 notes&lt;/strong&gt;, carefully crafted by someone who has a great eye to synthesize what you need to know for aceing your exams.&lt;/p&gt;&#xA;&lt;p&gt;📄 &lt;strong&gt;PDF version:&lt;/strong&gt;&lt;br&gt;&#xA;[Download &lt;em&gt;MATH 116 – EXAM 3&lt;/em&gt; (Madeline’s Review Sheet)](&lt;a href=&#34;https://cuteloop.github.io/InfiniteCuteLoop/pdfs/exam3/mad-math116-exam3.pdf&#34;&gt;Download MATH 116 – EXAM 3&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Exam 3 Review Problems&lt;/strong&gt;&lt;br&gt;&#xA;[116 Exam3 Review (Fall 2025)-1]&lt;a href=&#34;https://cuteloop.github.io/InfiniteCuteLoop/pdfs/exam3/Exam3Review.pdf&#34;&gt;Download MATH 116 – EXAM 3&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Use them for &lt;strong&gt;review and practice&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Work through problems&lt;/li&gt;&#xA;&lt;li&gt;Check each topic&lt;/li&gt;&#xA;&lt;li&gt;Let yourself make mistakes now, not on the exam&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you get stuck or something doesn’t quite click, message your TAs — that’s what we’re here for. Hope this helps and Enjoy Thanks giving.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+  <head><script src="/InfiniteCuteLoop/livereload.js?mindelay=10&amp;v=2&amp;port=42585&amp;path=InfiniteCuteLoop/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MATH 116 Test 3 Practice (Fall 2024) | A minimal Hugo website</title>
@@ -364,24 +364,21 @@ f(x) = e^{-7x} + 4
 at \(x=0\).</p>
 <p><strong>Options</strong></p>
 <p>A. \(y = -7x + 11\)</p>
-<p>B. \(y = 7e^{-x} + 4\)</p>
-<p>C. \(y = 7x + 4\)</p>
-<p>D. \(y = -7x + 4\)</p>
+<p>B. \(y = 7e^{-x} + 5\)</p>
+<p>C. \(y = 7x + 5\)</p>
+<p>D. \(y = -7x + 5\)</p>
 <p>E. \(y = 7x + 11\)</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>For a tangent line at \(x=a\), you need:</p>
-<ul>
-<li>The point: \((a, f(a))\),</li>
-<li>The slope: \(f'(a)\),</li>
-</ul>
-<p>and then use <strong>point-slope form</strong> of a line.</p>
+<p>To get the equation of the tangent line to a point you need a slope
+and apoint the line goes trough.
+How can You use the derivative to find the slope you need?
+How can you find the point you need?</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<ol>
-<li>Evaluate \(f(0)\).</li>
-<li>Differentiate \(f(x)\) to get \(f'(x)\), then compute \(f'(0)\).</li>
-<li>Use \(y - f(0) = f'(0)(x-0)\).</li>
-</ol>
+for a point a=0
+1. Evaluate \(f(a)\), to get point
+2. Then compute \(f'(a)\) to 
+3. Use \(y - f(a) = f'(a)(x-a)\).
 </details>
 <details><summary><strong>Solution</strong></summary>
 <p>We have
@@ -423,10 +420,7 @@ y &= -7x + 5.
 </p>
 \[
 \boxed{y = -7x + 5.}
-\]<blockquote>
-<p><strong>Note:</strong> None of the provided options matches \(y=-7x+5\) exactly; the closest slope-wise is \(y=-7x+4\) (option D), but the correct intercept (using the given function) is <strong>5</strong>, not 4. For learning purposes, <strong>\(y=-7x+5\)</strong> is the mathematically correct tangent line.</p>
-</blockquote>
-</details>
+\]</details>
 <hr>
 <h3 id="problem-5">Problem 5</h3>
 <p>Determine the <strong>nominal annual rate \(r\)</strong> for an investment, compounded <strong>continuously</strong>, if the <strong>effective rate</strong> is \(10.6\%\).</p>
@@ -669,65 +663,53 @@ f'(x)
 <h3 id="problem-10">Problem 10</h3>
 <p>Determine the balance in an account if $20,000 is invested for 8 years at an
 annual interest rate of \(2.4\%\), compounded <strong>quarterly</strong>.</p>
+<p>A. $23,800<br>
+B. $24,200<br>
+C. $25,000<br>
+D. $26,400<br>
+E. $28,000</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Use the compound interest formula:
+<p>Use the compound interest formula
 </p>
 \[
 A = P\left(1+\frac{r}{m}\right)^{mt},
 \]<p>
-where:</p>
-<ul>
-<li>\(P = 20000\),</li>
-<li>\(r = 0.024\),</li>
-<li>\(m = 4\) (quarterly),</li>
-<li>\(t = 8\).</li>
-</ul>
+with<br>
+\(P = 20000,\ r = 0.024,\ m = 4,\ t = 8.\)</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
 <p>Compute
 </p>
 \[
 A = 20000\left(1+\frac{0.024}{4}\right)^{4\cdot 8}
-= 20000(1.006)^{32}.
-\]<p>Approximate \(1.006^{32}\) (or use a calculator) and multiply by 20,000.</p>
+= 20000(1.006)^{32},
+\]<p>
+then approximate \((1.006)^{32}\) and choose the closest option.</p>
 </details>
-<details><summary><strong>Solution</strong></summary>
-<p>We have:</p>
-<ul>
-<li>\(P = 20000\),</li>
-<li>\(r = 0.024\),</li>
-<li>\(m = 4\),</li>
-<li>\(t = 8\).</li>
-</ul>
-<p>Formula:
+<details><summary><strong>Problem 10</strong></summary>
+<p>Use
 </p>
 \[
-A = P\left(1+\frac{r}{m}\right)^{mt}.
-\]<p>Plug in:</p>
+A = P\left(1+\frac{r}{m}\right)^{mt},
+\]<p>
+with \(P=20000,\ r=0.024,\ m=4,\ t=8\).</p>
 \[
 \begin{aligned}
 A
 &= 20000\left(1+\frac{0.024}{4}\right)^{4\cdot 8} \\
-&= 20000(1+0.006)^{32} \\
 &= 20000(1.006)^{32}.
 \end{aligned}
-\]<p>Approximate \(1.006^{32}\). (On a calculator you’d just compute directly; here’s a rough idea.)</p>
-<ul>
-<li>\(1.006^{10} \approx 1.0615\),</li>
-<li>\(1.006^{20} \approx (1.0615)^{2} \approx 1.126\),</li>
-<li>\(1.006^{30} \approx 1.126\cdot 1.0615 \approx 1.195\),</li>
-<li>\(1.006^{32} \approx 1.195\cdot 1.006^{2} \approx 1.195\cdot 1.012 \approx 1.209\) (roughly).</li>
-</ul>
-<p>So
+\]<p>Using a calculator,
 </p>
 \[
-A \approx 20000 \cdot 1.209 \approx 24180.
-\]<p>A more accurate calculator value is around $24,18x; in any case it’s <strong>just under $24,200</strong>.</p>
-<p>So the balance is approximately
+(1.006)^{32} \approx 1.211,
+\]<p>
+so
 </p>
 \[
-\boxed{\$24{,}180\text{–}\$24{,}190\ \text{(about)}.}
-\]<p>(If matching to choices like “less than $24,195”, that would be the correct bracket.)</p>
+A \approx 20000 \cdot 1.211 \approx 24{,}220.
+\]<p>The closest choice is <strong>$24,200</strong>.</p>
+<p><strong>Answer:</strong> B</p>
 </details>
 <hr>
 <h3 id="problem-11">Problem 11</h3>
@@ -973,27 +955,35 @@ Simplify.</li>
 <p>Average cost (per hundred units) is
 </p>
 \[
-\overline{C}(x) = \frac{C(x)}{x} = \frac{x^{3} + 7x + 1024}{x}.
+\overline{C}(x)
+= \frac{C(x)}{x}
+= \frac{x^{3} + 7x + 1024}{x}.
 \]<p>Simplify:
-</p>
-\[
+[
 \begin{aligned}
 \overline{C}(x)
-&= \frac{x^{3}}{x} + \frac{7x}{x} + \frac{1024}{x} \\
-&= x^{2} + 7 + \frac{1024}{x}.
+&amp;= \frac{x^{3}}{x}</p>
+<ul>
+<li>\frac{7x}{x}</li>
+<li>\frac{1024}{x} \
+&amp;= x^{2} + 7 + \frac{1024}{x}.
 \end{aligned}
-\]<p>So
+]</li>
+</ul>
+<p>So
 </p>
 \[
 \overline{C}(x) = x^{2} + 7 + \frac{1024}{x}.
-\]<p>To find the minimum, differentiate and set to zero.</p>
+\]<p>To find where this is minimized, differentiate and set equal to zero:
+</p>
 \[
 \begin{aligned}
 \overline{C}'(x)
-&= 2x + 0 - 1024x^{-2} \\
+&= 2x - 1024x^{-2} \\
 &= 2x - \frac{1024}{x^{2}}.
 \end{aligned}
-\]<p>Set \(\overline{C}'(x)=0\):</p>
+\]<p>Set \(\overline{C}'(x)=0\):
+</p>
 \[
 \begin{aligned}
 2x - \frac{1024}{x^{2}} &= 0 \\
@@ -1002,28 +992,40 @@ Simplify.</li>
 x^{3} &= 512 \\
 x &= \sqrt[3]{512}.
 \end{aligned}
-\]<p>Since \(512 = 8^{3}\),
+\]<p>Since \(512 = 8^{3}\), we get
 </p>
 \[
 x = 8.
-\]<p>So the average cost is minimized when \(x=8\) <strong>hundreds of units</strong> are produced.</p>
-<p>That means
+\]<p>So the candidate for minimum average cost is \(x=8\) <strong>hundreds of units</strong>.</p>
+<p>Now, instead of using the second derivative, we <strong>check values near \(x=8\)</strong>:</p>
+\[
+\overline{C}(8)
+= 8^{2} + 7 + \frac{1024}{8}
+= 64 + 7 + 128
+= 199.
+\]<p>Check a bit to the left, say \(x=7\):
+</p>
+\[
+\overline{C}(7)
+= 7^{2} + 7 + \frac{1024}{7}
+\approx 49 + 7 + 146.29
+\approx 202.29 > 199.
+\]<p>Check a bit to the right, say \(x=9\):
+</p>
+\[
+\overline{C}(9)
+= 9^{2} + 7 + \frac{1024}{9}
+\approx 81 + 7 + 113.78
+\approx 201.78 > 199.
+\]<p>Since \(\overline{C}(8)\) is <strong>smaller</strong> than nearby values \(\overline{C}(7)\) and \(\overline{C}(9)\),<br>
+we can conclude that \(\overline{C}(x)\) has an <strong>absolute minimum</strong> at \(x=8\) (for \(x>0\)).</p>
+<p>Remember \(x\) is in <strong>hundreds of units</strong>, so the number of units is
 </p>
 \[
 8 \times 100 = 800\ \text{units}.
-\]<p>To confirm it’s a minimum, we can check the second derivative:</p>
-\[
-\begin{aligned}
-\overline{C}''(x)
-&= \frac{d}{dx}\left(2x - \frac{1024}{x^{2}} \right) \\
-&= 2 + 2048x^{-3}.
-\end{aligned}
-\]<p>For \(x>0\), \(2048x^{-3}>0\), so \(\overline{C}''(x) > 0\).<br>
-Thus we indeed have a <strong>minimum</strong> at \(x=8\).</p>
-\[
+\]\[
 \boxed{\text{800 units must be produced for minimum average cost.}}
 \]</details>
-<hr>
 <h3 id="problem-15">Problem 15</h3>
 <p>A baseball team is trying to determine what price to charge for tickets.</p>
 <ul>
@@ -1052,14 +1054,12 @@ Thus we indeed have a <strong>minimum</strong> at \(x=8\).</p>
 \[
    R(x) = (24+x)(20{,}000 - 400x) + 6(20{,}000 - 400x).
    \]</li>
-<li>Expand, simplify to get a quadratic, then find the vertex using
-\[
-   x = -\frac{b}{2a}.
-   \]</li>
+<li>Find derivative and solve to get max</li>
 </ol>
 </details>
 <details><summary><strong>Solution</strong></summary>
 <p>Let \(x\) be the increase (in dollars) above $24.</p>
+<hr>
 <p><strong>Step 1: Express price and attendance in terms of \(x\)</strong></p>
 <ul>
 <li>
@@ -1077,72 +1077,85 @@ Thus we indeed have a <strong>minimum</strong> at \(x=8\).</p>
 (Every $1 increase loses 400 people.)</p>
 </li>
 </ul>
+<hr>
 <p><strong>Step 2: Ticket revenue</strong></p>
 \[
-\text{Ticket revenue} = p(x)\cdot N(x)
+\text{Ticket revenue}
+= p(x)\cdot N(x)
 = (24 + x)(20{,}000 - 400x).
-\]<p><strong>Step 3: Concession revenue</strong></p>
+\]<hr>
+<p><strong>Step 3: Concession revenue</strong></p>
 <p>Each person spends $6 on concessions, so
 </p>
 \[
-\text{Concession revenue} = 6\cdot N(x) = 6(20{,}000 - 400x).
-\]<p><strong>Step 4: Total revenue function</strong></p>
+\text{Concession revenue}
+= 6\cdot N(x)
+= 6(20{,}000 - 400x).
+\]<hr>
+<p><strong>Step 4: Total revenue function</strong></p>
 \[
 \begin{aligned}
 R(x)
 &= \text{Ticket revenue} + \text{Concession revenue} \\
 &= (24 + x)(20{,}000 - 400x) + 6(20{,}000 - 400x).
 \end{aligned}
-\]<p>Expand and simplify.</p>
-<p>First expand \((24+x)(20{,}000 - 400x)\):</p>
+\]<p>First expand \((24+x)(20{,}000 - 400x)\):</p>
 \[
 \begin{aligned}
 (24+x)(20{,}000 - 400x)
 &= 24\cdot 20{,}000 + x\cdot 20{,}000 - 24\cdot 400x - 400x^{2} \\
 &= 480{,}000 + 20{,}000x - 9{,}600x - 400x^{2} \\
-&= 480{,}000 + (20{,}000 - 9{,}600)x - 400x^{2} \\
 &= 480{,}000 + 10{,}400x - 400x^{2}.
 \end{aligned}
-\]<p>Next, the concession term:</p>
+\]<p>Next, the concession term:
+</p>
 \[
-6(20{,}000 - 400x) = 120{,}000 - 2{,}400x.
-\]<p>Now add:</p>
-<p>[
-\begin{aligned}
-R(x)
-&amp;= \bigl(480{,}000 + 10{,}400x - 400x^{2}\bigr)</p>
-<ul>
-<li>\bigl(120{,}000 - 2{,}400x\bigr) \
-&amp;= (480{,}000 + 120{,}000) + (10{,}400x - 2{,}400x) - 400x^{2} \
-&amp;= 600{,}000 + 8{,}000x - 400x^{2}.
-\end{aligned}
-]</li>
-</ul>
-<p>So
+6(20{,}000 - 400x)
+= 120{,}000 - 2{,}400x.
+\]<p>Add them:</p>
+\[
+R(x) = \bigl(480{,}000 + 10{,}400x - 400x^{2}\bigr) + \bigl(120{,}000 - 2{,}400x\bigr) = 600{,}000 + 8{,}000x - 400x^{2}.
+\]<p>So
 </p>
 \[
 R(x) = -400x^{2} + 8{,}000x + 600{,}000.
-\]<p>This is a <strong>downward-opening quadratic</strong>, so its maximum occurs at the vertex.</p>
-<p><strong>Step 5: Find the vertex</strong></p>
-<p>For \(R(x) = ax^{2} + bx + c\) with \(a<0\), the \(x\)-coordinate of the vertex is
+\]<p>This is a <strong>downward-opening quadratic</strong>, so it has a maximum.</p>
+<hr>
+<p><strong>Step 5: Use calculus to find the maximum</strong></p>
+<blockquote>
+<p><em>Algebra note:</em> We <strong>could</strong> find the maximum by using the vertex formula<br>
 </p>
 \[
-x = -\frac{b}{2a}.
-\]<p>Here \(a = -400\), \(b = 8000\):</p>
+> x = -\frac{b}{2a}
+> \]<p>
+for a parabola.<br>
+But this is a <strong>calculus class</strong>, so we’ll find the maximum using the <strong>derivative</strong>.</p>
+</blockquote>
+<p>Differentiate:
+</p>
+\[
+R'(x) = \frac{d}{dx}\bigl(-400x^{2} + 8{,}000x + 600{,}000\bigr)
+      = -800x + 8{,}000.
+\]<p>Set \(R'(x)=0\) to find critical points:
+</p>
 \[
 \begin{aligned}
-x
-&= -\frac{8000}{2(-400)} \\
-&= -\frac{8000}{-800} \\
-&= 10.
+-800x + 8{,}000 &= 0 \\
+-800x &= -8{,}000 \\
+x &= \frac{-8{,}000}{-800} \\
+x &= 10.
 \end{aligned}
-\]<p>So the revenue is maximized when \(x=10\).</p>
-<p>Recall \(x\) is the increase above $24, so the <strong>ticket price</strong> is:</p>
+\]<p>So the revenue is maximized when \(x = 10\).</p>
+<p>Recall \(x\) is the increase above $24, so the <strong>ticket price</strong> is
+</p>
 \[
 p = 24 + x = 24 + 10 = 34 \text{ dollars}.
 \]<p>That answers part (a).</p>
+<p>Because \(R(x)\) is a downward-opening parabola (coefficient \(-400 < 0\)), this critical point is indeed a maximum.</p>
+<hr>
 <p><strong>Step 6: Find the maximum revenue</strong></p>
-<p>Compute \(R(10)\):</p>
+<p>Compute \(R(10)\):
+</p>
 \[
 \begin{aligned}
 R(10)
@@ -1155,7 +1168,8 @@ R(10)
 </p>
 \[
 \boxed{R_{\max} = \$640{,}000.}
-\]<p><strong>Answer summary</strong></p>
+\]<hr>
+<p><strong>Answer summary</strong></p>
 <ul>
 <li>(a) The team should charge <strong>$34 per ticket</strong>.</li>
 <li>(b) The <strong>maximum revenue</strong> is <strong>$640,000</strong>.</li>

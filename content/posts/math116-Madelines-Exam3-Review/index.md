@@ -9,10 +9,10 @@ math: true
 Here are **Madeline’s Exam 3 notes**, carefully crafted by someone who has a great eye to synthesize what you need to know for aceing your exams.
 
 📄 **PDF version:**  
-[Download *MATH 116 – EXAM 3* (Madeline’s Review Sheet)](MATH-116-EXAM-3.pdf)
+[Download *MATH 116 – EXAM 3* (Madeline’s Review Sheet)]([Download MATH 116 – EXAM 3](https://cuteloop.github.io/InfiniteCuteLoop/pdfs/exam3/mad-math116-exam3.pdf))
 
 **Exam 3 Review Problems**  
-[116 Exam3 Review (Fall 2025)-1](116-Exam3-25.pdf)
+[116 Exam3 Review (Fall 2025)-1][Download MATH 116 – EXAM 3](https://cuteloop.github.io/InfiniteCuteLoop/pdfs/exam3/Exam3Review.pdf)
 
 
 
@@ -28,7 +28,7 @@ If you get stuck or something doesn’t quite click, message your TAs — that�
 
 An exponential function has the form
 
-![Graph of \(2^x\)](/2-x.png)
+![Graph of \(2^x\)](2-x.png)
 
 \[
 f(x) = b^x, \quad b>0,\ b\neq 1.
@@ -230,6 +230,9 @@ If yes → happy dance. If no → find where you made a mistake.
 ---
 
 ## 8. Approximating Area (Riemann Sums)
+
+[Sums with rectangles](mad.png)
+
 
 Idea: Approximate area under the curve using **rectangles**.
 
