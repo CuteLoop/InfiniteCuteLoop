@@ -9,7 +9,8 @@ math: true
 Here are **Madeline’s Exam 3 notes**, carefully crafted by someone who has a great eye to synthesize what you need to know for aceing your exams.
 
 📄 **PDF version:**  
-[Download *MATH 116 – EXAM 3* (Madeline’s Review Sheet)]([Download MATH 116 – EXAM 3](https://cuteloop.github.io/InfiniteCuteLoop/pdfs/exam3/mad-math116-exam3.pdf))
+[Download *MATH 116 – EXAM 3* (Madeline’s Review Sheet)][Download MATH 116 – EXAM 3][116 Exam3 Review (Fall 2025)-1][Download MATH 116 – EXAM 3](https://cuteloop.github.io/InfiniteCuteLoop/pdfs/exam3/mad-math116-exam3.pdf)
+
 
 **Exam 3 Review Problems**  
 [116 Exam3 Review (Fall 2025)-1][Download MATH 116 – EXAM 3](https://cuteloop.github.io/InfiniteCuteLoop/pdfs/exam3/Exam3Review.pdf)
