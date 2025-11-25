@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MATH 116 – Test 1 Practice (Fall 2024) | A minimal Hugo website</title>
+    <title>MATH 116 Test 1 Practice (Fall 2024) | A minimal Hugo website</title>
     <link rel="stylesheet" href="/InfiniteCuteLoop/css/style.css" />
     <link rel="stylesheet" href="/InfiniteCuteLoop/css/fonts.css" />
     
@@ -28,886 +28,816 @@
     </nav>
 
 <div class="article-meta">
-<h1><span class="title">MATH 116 – Test 1 Practice (Fall 2024)</span></h1>
+<h1><span class="title">MATH 116 Test 1 Practice (Fall 2024)</span></h1>
 
-<h2 class="date">2024/11/01</h2>
+<h2 class="date">2025/11/01</h2>
 </div>
 
 <main>
-<h2 id="formula-sheet--derivative-rules-only">Formula Sheet – Derivative Rules Only</h2>
-<h3 id="basic-rules">Basic rules</h3>
-<ul>
-<li>
-<p><strong>Constant rule</strong><br>
-</p>
-\[
-  \frac{d}{dx}[k] = 0
-  \]</li>
-<li>
-<p><strong>Power rule</strong><br>
-</p>
-\[
-  \frac{d}{dx}[x^n] = n x^{n-1} \quad (\text{for any real } n)
-  \]</li>
-<li>
-<p><strong>Constant multiple rule</strong><br>
-</p>
-\[
-  \frac{d}{dx}[k\,f(x)] = k\,f'(x)
-  \]</li>
-<li>
-<p><strong>Sum &amp; difference rules</strong><br>
-</p>
-\[
-  \frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)
-  \]</li>
-</ul>
-<h3 id="product--quotient-rules">Product &amp; quotient rules</h3>
-<ul>
-<li>
-<p><strong>Product rule</strong> – for \(h(x)=f(x)\,g(x)\):
-</p>
-\[
-  h'(x) = f'(x)\,g(x) + f(x)\,g'(x)
-  \]</li>
-<li>
-<p><strong>Quotient rule</strong> – for \(h(x)=\dfrac{f(x)}{g(x)}\):
-</p>
-\[
-  h'(x) =
-  \frac{f'(x)\,g(x) - f(x)\,g'(x)}{[g(x)]^{2}}
-  \]</li>
-</ul>
-<h3 id="chain-rule">Chain rule</h3>
-<p>If \(h(x) = f(g(x))\) (a composition), then
-</p>
-\[
-h'(x) = f'(g(x))\cdot g'(x).
-\]<hr>
 <h2 id="problems">Problems</h2>
-<h3 id="problem-1">Problem 1</h3>
-<p>The <strong>demand (price) function</strong> for a product is
+<p>Problems 1 and 2 refer to the function<br>
 </p>
 \[
-p(x) = 800 - 0.2x,
-\]<p>
-where \(x\) is the number of units sold and \(p(x)\) is the price per unit (in dollars).</p>
-<p>The <strong>revenue function</strong> is \(R(x) = x\,p(x)\).</p>
-<p>Find the <strong>marginal revenue</strong> when \(1600\) units are sold, i.e.\ find \(R'(1600)\).</p>
-<p><strong>Choices</strong></p>
-<p>(A) more than $155 per unit<br>
-(B) between $145 and $155 per unit<br>
-(C) between $135 and $145 per unit<br>
-(D) between $125 and $135 per unit<br>
-(E) less than $125 per unit</p>
-<hr>
+f(x) = \frac{7x+2}{3-5x}.
+\]<h3 id="problem-1">Problem 1</h3>
+<p>Find the vertical asymptote, if any, for
+</p>
+\[
+f(x)=\frac{7x+2}{3-5x}.
+\]<p>A. \(x=-\dfrac{7}{2}\)<br>
+B. \(x=-\dfrac{2}{7}\)<br>
+C. \(x=\dfrac{3}{5}\)<br>
+D. \(x=0\)<br>
+E. There is no vertical asymptote.</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>You need the derivative of a product \(R(x) = x\cdot p(x)\).</p>
-<p>Look up the <strong>product rule</strong> for derivatives.</p>
+<p>Vertical asymptotes happen where the <strong>denominator is zero</strong> (and the numerator is not).</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<ol>
-<li>First write \(R(x)\) explicitly:
+<p>Solve<br>
+</p>
 \[
-   R(x) = x(800-0.2x).
-   \]</li>
-<li>Either expand and use the power rule, or apply the product rule directly.</li>
-<li>After finding \(R'(x)\), plug in \(x=1600\).</li>
-</ol>
-<p>Keep track of <strong>units</strong>: revenue is in dollars per unit of \(x\).</p>
+3-5x=0
+\]<p>
+for \(x\), then check which choice matches.</p>
 </details>
 <hr>
 <h3 id="problem-2">Problem 2</h3>
-<p>The quantity demanded \(q\) (number of units sold) depends on price \(p\) via
+<p>Find the \(y\)-intercept, if any, for \(f\).</p>
+<p>A. \((0,\dfrac{2}{3})\)<br>
+B. \((0,\dfrac{3}{2})\)<br>
+C. \((0,-\dfrac{2}{3})\)<br>
+D. \((0,-\dfrac{3}{2})\)<br>
+E. There is no \(y\)-intercept.</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>The \(y\)-intercept occurs when<br>
 </p>
 \[
-q(p) = 7900 - 3p^{2},
-\]<p>
-where \(p\) is the price in dollars.</p>
-<p>When the price per unit is $30,the elasticity is:</p>
-<p><strong>Choices</strong></p>
-<p>(A) less than \(0.8\)<br>
-(B) between \(0.8\) and \(1.0\)<br>
-(C) between \(1.0\) and \(1.2\)<br>
-(D) between \(1.2\) and \(1.4\)<br>
-(E) more than \(1.4\)</p>
-<hr>
-<details><summary><strong>Hint 1</strong></summary>
-<ol>
-<li>First find \(q'(p) = \dfrac{dq}{dp}\) using the <strong>power rule</strong>.</li>
-<li>Then plug into the elasticity formula
-\[
-   E(p) = -\frac{p}{q(p)}\,q'(p).
-   \]</li>
-</ol>
-</details>
+x=0.
+\]</details>
 <details><summary><strong>Hint 2</strong></summary>
-<ol>
-<li>Compute \(q(30)\).</li>
-<li>Compute \(q'(30)\).</li>
-<li>Then calculate
+<p>Compute<br>
+</p>
 \[
-   E(30) = -\frac{30}{q(30)}\cdot q'(30)
-   \]
-and approximate as a <strong>decimal</strong>.</li>
-<li>Compare your value to the intervals in the choices.</li>
-</ol>
+f(0)=\frac{7\cdot 0+2}{3-5\cdot 0}
+\]<p>
+and match the ordered pair.</p>
 </details>
 <hr>
+<p>A company has a production cost function<br>
+</p>
+\[
+C(x)=82x+5220
+\]<p>
+and a revenue function<br>
+</p>
+\[
+R(x)=262x,
+\]<p>
+when \(x\) units are sold.</p>
 <h3 id="problem-3">Problem 3</h3>
-<p>Let
-</p>
-\[
-j(x)=x^{2} f(x),
-\]<p>
-where \(f(x)\) is differentiable.</p>
-<p>Suppose \(f(3) = -2\) and \(f'(3) = 5\).<br>
-Find \(j'(3)\).</p>
-<p><strong>Choices</strong></p>
-<p>(A) \(-3\)<br>
-(B) \(0\)<br>
-(C) \(3\)<br>
-(D) \(33\)<br>
-(E) None of these</p>
-<hr>
+<p>Find the profit function \(P(x)\).</p>
+<p>A. \(P(x)=344x+5220\)<br>
+B. \(P(x)=180x-5220\)<br>
+C. \(P(x)=82x-5220\)<br>
+D. \(P(x)=262x-5220\)<br>
+E. \(P(x)=262x+5220\)</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>This is a product of two functions: \(x^{2}\) and \(f(x)\).<br>
-Use the <strong>product rule</strong>.</p>
+<p>Profit = Revenue \(-\) Cost.</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>The product rule says:
+<p>Compute<br>
 </p>
 \[
-j'(x) = (x^{2})' f(x) + x^{2} f'(x).
-\]<ol>
-<li>Compute \((x^{2})'\).</li>
-<li>Plug in \(x=3\), \(f(3)=-2\), and \(f'(3)=5\).</li>
-</ol>
+P(x)=R(x)-C(x)=262x-(82x+5220)
+\]<p>
+and simplify.</p>
 </details>
 <hr>
 <h3 id="problem-4">Problem 4</h3>
-<p>Suppose \(f\) and \(g\) are differentiable functions such that</p>
-<p>$
-f(2) = 6,\quad f&rsquo;(2) = 7$ ,
-$g(2) = 5,\quad g&rsquo;(2) = -4.$</p>
-<p>Let
-</p>
-\[
-h(x) = \frac{f(x)}{g(x)}.
-\]<p>Find \(h'(2)\).</p>
-<p><strong>Choices</strong></p>
-<p>(A) \(-\dfrac{7}{4}\)<br>
-(B) \(\dfrac{59}{25}\)<br>
-(C) \(\dfrac{6}{5}\)<br>
-(D) \(-\dfrac{59}{25}\)<br>
-(E) None of these</p>
-<hr>
+<p>Determine the break-even quantity.</p>
+<p>The break-even quantity is:</p>
+<p>A. less than 27 units<br>
+B. between 27 and 31 units<br>
+C. between 31 and 35 units<br>
+D. between 35 and 39 units<br>
+E. more than 39 units</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>\(h(x)\) is a <strong>quotient</strong> of two differentiable functions.<br>
-Use the <strong>quotient rule</strong>.</p>
-</details>
-<details><summary><strong>Hint 2</strong></summary>
-<p>Quotient rule:
+<p>Break-even means the profit is zero:<br>
 </p>
 \[
-h'(x) =
-\frac{f'(x)\,g(x) - f(x)\,g'(x)}{[g(x)]^{2}}.
-\]<ol>
-<li>Plug in \(x=2\).</li>
-<li>Carefully substitute the four given values: \(f(2), f'(2), g(2), g'(2)\).</li>
-<li>Simplify the fraction.</li>
-</ol>
+P(x)=0.
+\]</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Use the profit function from Problem 3, solve<br>
+</p>
+\[
+P(x)=0,
+\]<p>
+then see which interval the solution lies in.</p>
 </details>
 <hr>
+<p>The graph of a function \(f\) is shown below. Problems 5 and 6 refer to this graph.</p>
+<p><img src="im1.png" alt="Graph of  for Problems 5 and 6"></p>
 <h3 id="problem-5">Problem 5</h3>
-<p>Let \(C(x)\) represent the <strong>cost, in dollars</strong>, to produce \(x\) water bottles.<br>
-Assume \(C'(x)\) is the <strong>marginal cost function</strong>.</p>
-<p>Which of the following is the best interpretation of
-</p>
-\[
-C'(8) = 20 ?
-\]<p><strong>Choices</strong></p>
-<p>(A) It costs approximately $20 to produce the 9th water bottle.<br>
-(B) It costs approximately $8 to produce the 21st water bottle.<br>
-(C) It costs $20 to produce 8 water bottles.<br>
-(D) It costs $8 to produce 20 water bottles.<br>
-(E) It costs $2.50 to produce each water bottle.</p>
-<hr>
+<p>Find \(\displaystyle \lim_{x\to -1^+} f(x)\), assuming the limit exists.</p>
+<p>A. \(\displaystyle \lim_{x\to -1^+} f(x) = 1\)<br>
+B. \(\displaystyle \lim_{x\to -1^+} f(x) = 3\)<br>
+C. \(\displaystyle \lim_{x\to -1^+} f(x) = -2\)<br>
+D. \(\displaystyle \lim_{x\to -1^+} f(x)\) does not exist</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Marginal cost \(C'(x)\) is the <strong>instantaneous rate of change of cost</strong> with respect to units produced.</p>
-<p>It is measured in <strong>dollars per additional bottle</strong>.</p>
+<p>Look only at \(x\)-values <strong>slightly greater than \(-1\)</strong> (to the right of \(-1\)).</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Think: When \(x=8\) bottles, what does “\(C'(8) = 20\)” say about how <strong>total cost</strong> changes if we increase production slightly?</p>
-<p>Your response should mention <strong>“approximately”</strong> and talk about the <strong>next bottle (or next few bottles)</strong>.</p>
+<p>Compare what happens as \(x\to -1^-\) and \(x\to -1^+\).<br>
+If left- and right-hand limits are different, the (two-sided) limit does not exist.</p>
 </details>
 <hr>
 <h3 id="problem-6">Problem 6</h3>
-<p>Let
-</p>
-\[
-g(x) = \sqrt{-5x^{2} + 7x}.
-\]<p>Find \(g'(x)\).<br>
-<strong>Choices</strong></p>
-<p>(A) \(\displaystyle \frac{-10x + 7}{2\sqrt{-5x^{2}+7x}}\)<br>
-(B) \(\displaystyle \frac{-10x - 7}{2\sqrt{-5x^{2}+7x}}\)<br>
-(C) \(\displaystyle \frac{-10x + 7}{\sqrt{-5x^{2}+7x}}\)<br>
-(D) \(\displaystyle \frac{10x - 7}{2\sqrt{-5x^{2}+7x}}\)<br>
-(E) \(\displaystyle \frac{7 - 5x^{2}}{2\sqrt{-5x^{2}+7x}}\)</p>
-<hr>
+<p>Find the instantaneous rate of change of \(f(x)\) at \(x=3\).</p>
+<p>The instantaneous rate of change is:</p>
+<p>A. \(-\dfrac{1}{2}\)<br>
+B. \(-2\)<br>
+C. \(1\)<br>
+D. \(-1\)</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Rewrite the square root as a <strong>power</strong> and use the <strong>chain rule</strong>.</p>
-\[
-\sqrt{\text{stuff}} = (\text{stuff})^{1/2}.
-\]</details>
-<details><summary><strong>Hint 2</strong></summary>
-<p>Write
-</p>
-\[
-g(x) = (-5x^{2}+7x)^{1/2}.
-\]<ul>
-<li>Outside function: \(f(u)=u^{1/2}\).</li>
-<li>Inside function: \(u(x) = -5x^{2}+7x\).</li>
-</ul>
-<p>Use
-</p>
-\[
-g'(x)=f'(u(x))\cdot u'(x).
-\]<p>Compute both \(f'(u)\) and \(u'(x)\).</p>
+<p>Instantaneous rate of change at a point is the <strong>slope of the tangent line</strong> there.</p>
 </details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Use two points on the tangent line shown, for example \((1,2)\) and \((3,1)\), and compute<br>
+</p>
+\[
+\frac{\Delta y}{\Delta x}.
+\]</details>
 <hr>
 <h3 id="problem-7">Problem 7</h3>
-<p>Suppose the <strong>elasticity of demand</strong> \(E(p)\) for a certain demand function at a price level satisfies
+<p>Find the domain of the function
 </p>
 \[
-E(p) = 0.84.
-\]<p>Which statement correctly describes what happens to <strong>revenue</strong> when price increases slightly?</p>
-<p><strong>Choices</strong></p>
-<p>(A) The demand is elastic, so as price increases, revenue decreases.<br>
-(B) The demand is elastic, so as price increases, revenue increases.<br>
-(C) The demand is inelastic, so as price increases, revenue decreases.<br>
-(D) The demand is inelastic, so as price increases, revenue increases.</p>
-<hr>
+g(x)=\frac{3x+5}{x^2-4x-12}.
+\]<p>A. \((-\infty,-6)\cup(-6,2)\cup(2,\infty)\)<br>
+B. \(\left(-\infty,-\dfrac{5}{3}\right)\cup\left(-\dfrac{5}{3},\infty\right)\)<br>
+C. \((-\infty,-2)\cup(-2,6)\cup(6,\infty)\)<br>
+D. \(\left(-\infty,-\dfrac{5}{12}\right)\cup\left(-\dfrac{5}{12},\infty\right)\)<br>
+E. \((-\infty,\infty)\)</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Elasticity key idea:</p>
-<ul>
-<li>If \(|E(p)| > 1\): <strong>elastic</strong>.</li>
-<li>If \(|E(p)| < 1\): <strong>inelastic</strong>.</li>
-</ul>
-<p>Inelastic demand behaves differently for revenue than elastic demand.</p>
+<p>The domain excludes values that make the <strong>denominator zero</strong>.</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Here \(E(p) = 0.84\).</p>
-<ol>
-<li>Decide if that is elastic or inelastic.</li>
-<li>Recall:
-<ul>
-<li>With <strong>elastic</strong> demand, increasing price makes revenue <strong>go down</strong>.</li>
-<li>With <strong>inelastic</strong> demand, increasing price makes revenue <strong>go up</strong>.</li>
-</ul>
-</li>
-</ol>
+<p>Factor the quadratic<br>
+</p>
+\[
+x^2-4x-12
+\]<p>
+and find the values of \(x\) to exclude.</p>
 </details>
 <hr>
 <h3 id="problem-8">Problem 8</h3>
-<p>Suppose \(f\) is a differentiable function whose derivative is
-</p>
-\[
-f'(x) = 2x^{2} + 6x - 20.
-\]<p>Find the locations of all <strong>relative extrema</strong> of \(f\), and say whether each point is a <strong>relative maximum</strong> or a <strong>relative minimum</strong>.</p>
-<p><strong>Choices</strong></p>
-<p>(A) A relative maximum occurs at \(x=-5\).<br>
-    A relative minimum occurs at \(x=2\).</p>
-<p>(B) A relative maximum occurs at \(x=2\).<br>
-    A relative minimum occurs at \(x=-5\).</p>
-<p>(C) A relative maximum occurs at \(x=1.5\).</p>
-<p>(D) A relative minimum occurs at \(x=1.5\).</p>
-<p>(E) \(f(x)\) does not have any relative extrema.</p>
-<hr>
+<p>Given \(f(x)=x+5\) and \(g(x)=x^2-3x+1\), find and simplify \(g(f(x))\).</p>
+<p>A. \(x^2-3x+26\)<br>
+B. \(x^2+7x+26\)<br>
+C. \((x+5)(x^2-3x+1)\)<br>
+D. \(x^2+7x+11\)<br>
+E. \(x^2-3x+11\)</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Relative extrema occur at <strong>critical numbers</strong> (where \(f'(x)=0\) or undefined).</p>
-<p>Solve \(f'(x)=0\) and then use a <strong>sign chart</strong> or second derivative to classify each critical number.</p>
+<p>Composition \(g(f(x))\) means plug \(x+5\) into \(g\) wherever you see \(x\).</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<ol>
-<li>Factor or use the quadratic formula to solve
+<p>Compute<br>
+</p>
 \[
-   2x^{2} + 6x - 20 = 0.
-   \]</li>
-<li>For each critical number, pick test values on the left and right to see whether \(f'\) changes
-from + to − (max) or − to + (min).</li>
-</ol>
+g(f(x)) = (x+5)^2 - 3(x+5) + 1
+\]<p>
+and simplify.</p>
 </details>
 <hr>
 <h3 id="problem-9">Problem 9</h3>
-<p>The revenue and cost functions (in dollars) for a video game manufacturer are:</p>
-\[
-R(x) = 7.51x^{2} - 0.0009x^{3}, \\
-C(x) = 2.02x^{2} - 0.0003x^{3},
-\]<p>
-where \(x\) is the number of games sold.</p>
-<p>The <strong>profit function</strong> is \(P(x) = R(x) - C(x)\).</p>
-<p>Determine the <strong>interval of \(x\)</strong> on which the profit function \(P(x)\) is <strong>increasing</strong>.</p>
-<p><strong>Choices</strong></p>
-<p>(A) \((0,9150)\)<br>
-(B) \((0,6100)\)<br>
-(C) \((6100,9150)\)<br>
-(D) \((0,3050)\)<br>
-(E) \((0,\infty)\)</p>
-<hr>
+<p>A charter flight charges a fare of $350 per person plus $4 per person for each unsold seat on the plane.<br>
+The plane holds 200 passengers. Let \(x\) represent the number of unsold seats.<br>
+Find the revenue function \(R(x)\).</p>
+<p>The revenue function is:</p>
+<p>A. \(R(x)=(200+x)(350-4x)\)<br>
+B. \(R(x)=(200-4x)(350+x)\)<br>
+C. \(R(x)=(200+4x)(350-x)\)<br>
+D. \(R(x)=(200-x)(1400x)\)<br>
+E. \(R(x)=(200-x)(350+4x)\)</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>To find where a function is increasing, look at where its <strong>derivative is positive</strong>.</p>
-<p>So:</p>
-<ol>
-<li>Find \(P(x)\).</li>
-<li>Compute \(P'(x)\).</li>
-<li>Solve \(P'(x) > 0\).</li>
-</ol>
-</details>
+<p>If \(x\) seats are unsold, how many seats are sold?<br>
+</p>
+\[
+\text{Seats sold} = 200-x.
+\]</details>
 <details><summary><strong>Hint 2</strong></summary>
-<ol>
-<li>Subtract \(C(x)\) from \(R(x)\) to form \(P(x)\) and simplify.</li>
-<li>Differentiate the resulting polynomial.</li>
-<li>Factor \(P'(x)\) and find critical points.</li>
-<li>Use a sign chart to find which intervals make \(P'(x)>0\).</li>
-</ol>
+<p>Ticket price = base $350 plus $4 times number of unsold seats:<br>
+</p>
+\[
+\text{Price} = 350 + 4x.
+\]<p><br>
+Revenue = (number sold)\(\times\)(ticket price).</p>
 </details>
 <hr>
 <h3 id="problem-10">Problem 10</h3>
-<p>The graph below shows \(y = f'(x)\), the derivative of some function \(f(x)\).</p>
-<p><img src="graph-10.png" alt="Graph of f&rsquo;(x)"></p>
-<p>Assuming this is the graph of \(f'(x)\), determine the interval(s) where <strong>\(f'(x) < 0\)</strong>.</p>
-<p><strong>Choices</strong></p>
-<p>(A) \((-\infty,\infty)\)<br>
-(B) \((2,6)\)<br>
-(C) \((-2,0)\cup(4,6)\)<br>
-(D) \((-\infty,-2)\cup(0,4)\)<br>
-(E) \((-\infty,2)\)</p>
-<hr>
+<p>The demand function for a product is<br>
+</p>
+\[
+p(x)=700-0.4x
+\]<p>
+dollars per unit when \(x\) units are consumed.<br>
+How many units are consumed when the price per unit is $400?</p>
+<p>The number of units consumed is:</p>
+<p>A. less than 500<br>
+B. between 500 and 650<br>
+C. between 650 and 800<br>
+D. between 800 and 950<br>
+E. more than 950</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>On the graph, where is \(f'(x)\) <strong>below the x-axis</strong>?</p>
-<p>Those x-values are where \(f'(x) < 0\).</p>
-</details>
+<p>Set the demand price equal to 400:<br>
+</p>
+\[
+p(x)=400.
+\]</details>
 <details><summary><strong>Hint 2</strong></summary>
-<ol>
-<li>Identify the x-values where the graph of \(f'(x)\) crosses the x-axis.</li>
-<li>Check visually which regions are <strong>below</strong> the x-axis.</li>
-<li>Express that region as an <strong>open interval (or union of intervals)</strong>.</li>
-</ol>
-<p>(From the original test, the negative region is approximately from \(x=2\) to \(x=6\).)</p>
+<p>Solve<br>
+</p>
+\[
+700-0.4x=400
+\]<p>
+and see which interval contains the solution.</p>
 </details>
 <hr>
 <h3 id="problem-11">Problem 11</h3>
-<p>Find the <strong>critical number(s)</strong> of the function
+<p>Let \(f(x)\) be a function where \(f(2)=8\) and \(f'(2)=-4\).<br>
+Find the equation of the tangent line to the graph of \(f(x)\) at \(x=2\).</p>
+<p>A. \(y=8(x+2)-4\)<br>
+B. \(y=-4(x-2)+8\)<br>
+C. \(y=8(x-2)-4\)<br>
+D. \(y=-4(x+2)+8\)<br>
+E. \(y=8(x+2)+4\)</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>The tangent line at \(x=2\) has slope<br>
 </p>
 \[
-g(x) = x^{3} - 6x^{2}.
-\]<p>Remember: critical numbers occur where \(g'(x)=0\) or where \(g'(x)\) does not exist.</p>
-<p><strong>Choices</strong></p>
-<p>(A) \(x=0\) and \(x=6\)<br>
-(B) \(x=0\)<br>
-(C) \(x=0\) and \(x=4\)<br>
-(D) \(x=6\)<br>
-(E) \(x=4\)</p>
-<hr>
-<details><summary><strong>Hint 1</strong></summary>
-<p>Compute the derivative \(g'(x)\) using the power rule, then solve \(g'(x) = 0\).</p>
-</details>
-<details><summary><strong>Hint 2</strong></summary>
-<ol>
-<li>Differentiate:
+m=f'(2)
+\]<p>
+and passes through the point<br>
+</p>
 \[
-   g'(x) = (x^{3})' - 6(x^{2})'.
-   \]</li>
-<li>Factor out common terms in \(g'(x)\).</li>
-<li>Use the zero product property to find the critical numbers.</li>
-</ol>
+(2,f(2)) = (2,8).
+\]</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Use point–slope form<br>
+</p>
+\[
+y-y_1 = m(x-x_1)
+\]<p>
+with \(m=-4\), \(x_1=2\), \(y_1=8\), then simplify.</p>
 </details>
 <hr>
+<p>For Problems 12–17, work must be <strong>shown</strong> and your final answer must be <strong>boxed</strong> on paper to receive full credit.</p>
 <h3 id="problem-12">Problem 12</h3>
-<p>Let
+<p>Suppose it costs a company $1286 to produce 40 pairs of shoes and $2159 to produce 85 pairs of shoes.<br>
+Determine the <strong>linear</strong> cost function \(C(x)\), where \(x\) is the number of pairs of shoes produced.</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>Think of the cost function as a line<br>
 </p>
 \[
-f(x) = 2x^{3} - 9x^{2} - 86.
-\]<ol>
-<li>Find \(f'(x)\).</li>
-<li>Find the equation of the <strong>tangent line to \(f(x)\)</strong> at \(x=1\).</li>
-<li>Using the <strong>First Derivative Test</strong>, determine the interval(s) where:
-<ul>
-<li>(i) \(f(x)\) is <strong>increasing</strong>,</li>
-<li>(ii) \(f(x)\) is <strong>decreasing</strong>.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<details><summary><strong>Hint 1</strong></summary>
-<ul>
-<li>Use the <strong>power rule</strong> to find \(f'(x)\).</li>
-<li>The tangent line at \(x=a\) uses the point-slope formula
-\(y - f(a) = f'(a)(x-a)\).</li>
-<li>For the First Derivative Test, find where \(f'(x)\) changes sign.</li>
-</ul>
+C(x)=mx+b
+\]<p>
+going through two points.</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<ol>
-<li>Differentiate \(2x^{3} - 9x^{2} - 86\).</li>
-<li>Evaluate both \(f(1)\) and \(f'(1)\).</li>
-<li>For increasing/decreasing:
-<ul>
-<li>Solve \(f'(x) = 0\) to get critical numbers.</li>
-<li>Create a sign chart for \(f'(x)\).</li>
-<li>Positive derivative ⇒ increasing; negative derivative ⇒ decreasing.</li>
-</ul>
-</li>
-</ol>
+<p>Use the points<br>
+</p>
+\[
+(40,1286),\quad (85,2159)
+\]<p>
+to find the slope \(m\), then solve for \(b\).</p>
 </details>
 <hr>
 <h3 id="problem-13">Problem 13</h3>
-<p>Find the derivatives of the following functions. Your answers do <strong>not</strong> need to be simplified.</p>
-<h4 id="a">(a)</h4>
+<p>Let<br>
+</p>
 \[
-f(x) = \frac{3}{x^{2}} - 4\sqrt{x}.
-\]<h4 id="b">(b)</h4>
-\[
-g(x) = \bigl(-x^{3} + 7x^{2} - 3\bigr)^{7}.
-\]<h4 id="c">(c)</h4>
-\[
-h(x) = (5x^{2} + 3)(4x + 2).
-\]<hr>
+f(x)=\frac{x^2-4}{x^2+2x-8}.
+\]<p>
+Find the following limits. If a limit does not exist, write <strong>DNE</strong>.</p>
+<p>a. \(\displaystyle \lim_{x\to\infty} f(x)\)</p>
+<p>b. \(\displaystyle \lim_{x\to 1} f(x)\)</p>
+<p>c. \(\displaystyle \lim_{x\to 2} f(x)\)</p>
 <details><summary><strong>Hint 1</strong></summary>
-<ul>
-<li>For (a), rewrite powers: \(x^{-2}\) and \(x^{1/2}\). Use the power rule.</li>
-<li>For (b), use the <strong>chain rule</strong> on \([\text{inside}]^{7}\).</li>
-<li>For (c), use the <strong>product rule</strong>.</li>
-</ul>
+<p>Factor the numerator and denominator. See if anything cancels.</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>(a) Rewrite:</p>
-\[
-f(x) = 3x^{-2} - 4x^{1/2}.
-\]<p>(b) For
-</p>
-\[
-g(x) = [u(x)]^{7},\quad u(x) = -x^{3} + 7x^{2} - 3,
-\]<p>
-use
-</p>
-\[
-g'(x) = 7[u(x)]^{6}\cdot u'(x).
-\]<p>(c) Let
-</p>
-\[
-f_1(x) = 5x^{2} + 3,\quad f_2(x) = 4x + 2,
-\]<p>
-then
-</p>
-\[
-h'(x) = f_1'(x) f_2(x) + f_1(x) f_2'(x).
-\]</details>
+<p>For (a), compare leading terms as \(x\to\infty\).<br>
+For (b) and (c), use the simplified form after canceling common factors (when allowed).</p>
+</details>
 <hr>
 <h3 id="problem-14">Problem 14</h3>
-<p>Consider a <strong>cost function</strong>
+<p>A company determines that its profit, in dollars, is modeled by<br>
 </p>
 \[
-C(x) = \frac{8x + 3}{5x + 7},
+P(x)=-2x^2+51x-100,
 \]<p>
-where the cost is measured in <strong>thousands of dollars</strong> and \(x\) is the <strong>number of units produced</strong>
-(assume \(x>0\)).</p>
-<p>Find the <strong>marginal cost</strong> when \(20\) units are produced. Round your answer to <strong>two decimal places</strong> and give appropriate <strong>units</strong>.</p>
-<hr>
+where \(x\) is the quantity of hats produced and sold.<br>
+Find the <strong>average rate of change</strong> of profit as the number of hats produced and sold ranges from 7 to 10.<br>
+Give appropriate units.</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Marginal cost is the derivative \(C'(x)\).</p>
-<p>Since \(C(x)\) is a ratio of two functions, use the <strong>quotient rule</strong>.</p>
+<p>Average rate of change from \(x=a\) to \(x=b\) is<br>
+</p>
+\[
+\frac{P(b)-P(a)}{b-a}.
+\]</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Compute \(P(7)\) and \(P(10)\), subtract, then divide by \(10-7\).</p>
+</details>
+<hr>
+<h3 id="problem-15">Problem 15</h3>
+<p>Let
+</p>
+\[
+g(x)=
+\begin{cases}
+x^2+9, & x<2,\\[4pt]
+4x+7, & x\ge 2.
+\end{cases}
+\]<p>a. Evaluate \(g(5)\).<br>
+b. Solve for \(x\) when \(g(x)=19\).</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>For each part, decide <strong>which piece</strong> of the function applies.</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Let</p>
-\[
-f(x) = 8x+3,\quad g(x) = 5x+7,\quad C(x)=\frac{f(x)}{g(x)}.
-\]<p>Then</p>
-\[
-C'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^{2}}.
-\]<p>After finding \(C'(x)\), evaluate at \(x=20\) and remember that the cost is in <strong>thousands of dollars</strong>, so the derivative will be in <strong>thousands of dollars per unit</strong>.</p>
-</details>
-<hr>
-<h2 id="solutions">Solutions</h2>
-<p>Below are the <strong>fully worked solutions</strong>.<br>
-Try to answer the problems using <strong>only the hints</strong> first; then open the corresponding solution.</p>
-<hr>
-<details><summary><strong>Solution 1 (Problem 1)</strong></summary>
-<p>We are given
+<p>For (b), solve both equations<br>
 </p>
 \[
-p(x) = 800 - 0.2x,
-\]<p>
-and the revenue function
-</p>
-\[
-R(x) = x\,p(x) = x(800 - 0.2x).
-\]<p>First expand:
-</p>
-\[
-R(x) = 800x - 0.2x^{2}.
-\]<p>Now differentiate term–by–term:
-</p>
-\[
-R'(x) = 800 - 0.4x.
-\]<p>Now evaluate at \(x=1600\):
-</p>
-\[
-R'(1600) = 800 - 0.4(1600) = 800 - 640 = 160.
-\]<p>So the marginal revenue at 1600 units is <strong>$160 per unit</strong>, which is <strong>more than $155</strong>.</p>
-<p>Correct choice: <strong>(A)</strong>.</p>
-</details>
-<hr>
-<details><summary><strong>Solution 2 (Problem 2)</strong></summary>
-<p>We have
-</p>
-\[
-q(p) = 7900 - 3p^{2}.
-\]<h3 id="step-1-compute">Step 1: Compute \(q'(p)\)</h3>
-\[
-q'(p) = -6p.
-\]<h3 id="step-2-evaluate-at">Step 2: Evaluate at \(p=30\)</h3>
-\[
-q(30) = 7900 - 3(30)^{2} = 7900 - 2700 = 5200,
+x^2+9=19 \quad (x<2),
 \]<p>
 </p>
 \[
-q'(30) = -6(30) = -180.
-\]<h3 id="step-3-elasticity">Step 3: Elasticity</h3>
-<p>Elasticity of demand:
-</p>
-\[
-E(p) = -\frac{p}{q(p)}\,q'(p).
-\]<p>At \(p=30\):
-</p>
-\[
-E(30) = -\frac{30}{5200}(-180)
-      = \frac{30\cdot 180}{5200}
-      = \frac{5400}{5200}
-      \approx 1.0385.
-\]<p>So \(E(30)\) is <strong>between \(1.0\) and \(1.2\)</strong>.</p>
-<p>Correct choice: <strong>(C)</strong>.</p>
-</details>
-<hr>
-<details><summary><strong>Solution 3 (Problem 3)</strong></summary>
-<p>We are given
-</p>
-\[
-j(x) = x^{2} f(x),
+4x+7=19 \quad (x\ge 2),
 \]<p>
-with \(f(3) = -2\) and \(f'(3) = 5\).</p>
-<p>Use the <strong>product rule</strong> with
-</p>
-\[
-a(x) = x^{2}, \quad b(x) = f(x).
-\]<p>Then
-</p>
-\[
-j'(x) = a'(x)b(x) + a(x)b'(x) = (2x)f(x) + x^{2}f'(x).
-\]<p>Evaluate at \(x=3\):</p>
-\[
-\begin{aligned}
-j'(3)
-&= (2\cdot 3)f(3) + 3^{2}f'(3) \\
-&= 6(-2) + 9(5) \\
-&= -12 + 45 \\
-&= 33.
-\end{aligned}
-\]<p>Correct choice: <strong>(D)</strong>.</p>
+and keep only solutions that fit the correct domain.</p>
 </details>
 <hr>
-<details><summary><strong>Solution 4 (Problem 4)</strong></summary>
-<p>We have
+<h3 id="problem-16">Problem 16</h3>
+<p>A company selling rugs has a supply function<br>
 </p>
 \[
-h(x) = \frac{f(x)}{g(x)}
+S(x)=0.4x+700,
 \]<p>
-and the values</p>
-\[
-f(2) = 6,\quad f'(2) = 7,\quad
-g(2)=5,\quad g'(2)=-4.
-\]<p>Using the <strong>quotient rule</strong>:</p>
-\[
-h'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^{2}}.
-\]<p>Evaluate at \(x=2\):</p>
-\[
-\begin{aligned}
-h'(2)
-&= \frac{f'(2)g(2) - f(2)g'(2)}{[g(2)]^{2}} \\
-&= \frac{(7)(5) - (6)(-4)}{5^{2}}\\
-&= \frac{35 + 24}{25}\\
-&= \frac{59}{25}.
-\end{aligned}
-\]<p>Correct choice: <strong>(B)</strong>.</p>
-</details>
-<hr>
-<details><summary><strong>Solution 5 (Problem 5)</strong></summary>
-<p>\(C(x)\) is total cost in dollars to produce \(x\) water bottles.<br>
-\(C'(x)\) is marginal cost: the <strong>instantaneous rate of change</strong> of cost with respect to quantity.</p>
-<p>Given
+where \(x\) is the quantity of rugs supplied, and a demand function<br>
 </p>
 \[
-C'(8) = 20,
+D(x)=-0.2x+2500,
 \]<p>
-this means:</p>
-<blockquote>
-<p>When 8 bottles are produced, the cost is increasing at approximately <strong>$20 per additional bottle</strong>.</p>
-</blockquote>
-<p>So producing the <strong>9th bottle</strong> costs about $20 more than producing 8 bottles.</p>
-<p>This matches statement <strong>(A)</strong>.</p>
-</details>
-<hr>
-<details><summary><strong>Solution 6 (Problem 6)</strong></summary>
-<p>We have
+where \(x\) is the quantity of rugs demanded. Assume \(S(x)\) and \(D(x)\) represent price in dollars per rug.</p>
+<p>Sketch an appropriate graph of \(S(x)\) and \(D(x)\) on the same set of axes.<br>
+Identify the equilibrium point on your graph. Below your graph, identify the equilibrium quantity and equilibrium price.</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>At equilibrium, supply price equals demand price:<br>
 </p>
 \[
-g(x) = \sqrt{-5x^{2} + 7x}
-= (-5x^{2} + 7x)^{1/2}.
-\]<p>Let
+S(x)=D(x).
+\]</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Solve<br>
 </p>
 \[
-u(x) = -5x^{2} + 7x.
+0.4x+700 = -0.2x + 2500
 \]<p>
-Then \(g(x) = u(x)^{1/2}\).</p>
-<p>By the <strong>chain rule</strong>,
-</p>
-\[
-g'(x) = \frac{1}{2}u(x)^{-1/2}\cdot u'(x).
-\]<p>Compute \(u'(x)\):
-</p>
-\[
-u'(x) = -10x + 7.
-\]<p>So
-</p>
-\[
-g'(x) = \frac{1}{2}(-5x^{2}+7x)^{-1/2}(-10x + 7)
-      = \frac{-10x + 7}{2\sqrt{-5x^{2} + 7x}}.
-\]<p>Correct choice: <strong>(A)</strong>.</p>
+for the quantity, then plug back into either \(S\) or \(D\) for the price.</p>
 </details>
 <hr>
-<details><summary><strong>Solution 7 (Problem 7)</strong></summary>
-<p>Elasticity at this price is
+<h3 id="problem-17">Problem 17</h3>
+<p>The revenue function for a product (in dollars) when \(x\) desks are produced and sold is<br>
 </p>
 \[
-E(p) = 0.84.
-\]<p>Since \(|E(p)| = 0.84 < 1\), demand is <strong>inelastic</strong>.</p>
-<p>For <strong>inelastic</strong> demand:</p>
-<ul>
-<li>When price increases, the percentage drop in quantity is smaller than the percentage increase in price, so <strong>revenue increases</strong>.</li>
-</ul>
-<p>Therefore the correct interpretation is:</p>
-<blockquote>
-<p>The demand is inelastic, so as price increases, revenue increases.</p>
-</blockquote>
-<p>Correct choice: <strong>(D)</strong>.</p>
+R(x)=-0.8x^2+700x.
+\]<p>a. Determine the number of desks that must be sold in order for revenue to be a <strong>maximum</strong>.</p>
+<p>b. Find the instantaneous rate of change of revenue when 300 desks are produced and sold.<br>
+Interpret your answer using a complete sentence.</p>
+<details><summary><strong>Hint 1</strong></summary>
+<p>For (a), use the vertex formula for a parabola<br>
+</p>
+\[
+R(x)=ax^2+bx+c,
+\]<p>
+where the maximum occurs at<br>
+</p>
+\[
+x=-\frac{b}{2a}.
+\]</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>For (b), compute \(R'(x)\) and evaluate at \(x=300\).<br>
+Remember that \(R'(300)\) is the rate of change of revenue per additional desk at that production level.</p>
 </details>
 <hr>
-<details><summary><strong>Solution 8 (Problem 8)</strong></summary>
-<p>We have
+<h2 id="answers-and-solutions---answers-">Answers and Solutions  {: #answers }</h2>
+<h3 id="multiple-choice-answers-quick-key">Multiple-choice answers (quick key)</h3>
+<ol>
+<li>C</li>
+<li>A</li>
+<li>B</li>
+<li>B</li>
+<li>D</li>
+<li>A</li>
+<li>C</li>
+<li>D</li>
+<li>E</li>
+<li>C</li>
+<li>B</li>
+</ol>
+<hr>
+<details><summary><strong>Problem 1</strong></summary>
+<p>Solve<br>
 </p>
 \[
-f'(x) = 2x^{2} + 6x - 20.
-\]<p>Set \(f'(x)=0\) to find critical numbers:</p>
+3-5x=0
+\]<p>
+for \(x\):
+</p>
 \[
-2x^{2} + 6x - 20 = 0
+3-5x=0
 \quad\Rightarrow\quad
-x^{2} + 3x - 10 = 0.
-\]<p>Factor:
-</p>
-\[
-x^{2} + 3x - 10 = (x+5)(x-2)=0,
-\]<p>
-so
-</p>
-\[
-x=-5,\quad x=2.
-\]<p>Make a sign chart for
-</p>
-\[
-f'(x) = 2(x+5)(x-2).
-\]<ul>
-<li>For \(x<-5\), both factors negative ⇒ product positive ⇒ \(f'(x)>0\) (increasing).</li>
-<li>For \(-5<x<2\), one positive, one negative ⇒ \(f'(x)<0\) (decreasing).</li>
-<li>For \(x>2\), both positive ⇒ \(f'(x)>0\) (increasing).</li>
-</ul>
-<p>So:</p>
-<ul>
-<li>At \(x=-5\), derivative changes \(+\to-\) ⇒ <strong>relative maximum</strong>.</li>
-<li>At \(x=2\), derivative changes \(-\to+\) ⇒ <strong>relative minimum</strong>.</li>
-</ul>
-<p>Correct choice: <strong>(A)</strong>.</p>
+-5x=-3
+\quad\Rightarrow\quad
+x=\frac{3}{5}.
+\]<p>The numerator is nonzero at \(x=\frac{3}{5}\), so this value gives a vertical asymptote.</p>
+<p><strong>Answer:</strong> C</p>
 </details>
 <hr>
-<details><summary><strong>Solution 9 (Problem 9)</strong></summary>
-<p>Revenue and cost:</p>
+<details><summary><strong>Problem 2</strong></summary>
+<p>Evaluate
+</p>
 \[
-R(x) = 7.51x^{2} - 0.0009x^{3},\qquad
-C(x) = 2.02x^{2} - 0.0003x^{3}.
-\]<p>Profit:
+f(0)=\frac{7\cdot 0+2}{3-5\cdot 0}
+     =\frac{2}{3}.
+\]<p>Thus the \(y\)-intercept is
+</p>
+\[
+(0,\tfrac{2}{3}).
+\]<p><strong>Answer:</strong> A</p>
+</details>
+<hr>
+<details><summary><strong>Problem 3</strong></summary>
+<p>Profit is revenue minus cost:
 </p>
 \[
 \begin{aligned}
-P(x) &= R(x) - C(x) \\
-&= (7.51x^{2} - 0.0009x^{3}) - (2.02x^{2} - 0.0003x^{3})\\
-&= 5.49x^{2} - 0.0006x^{3}.
+P(x)
+  &=R(x)-C(x) \\
+  &=262x-(82x+5220) \\
+  &=262x-82x-5220 \\
+  &=180x-5220.
 \end{aligned}
-\]<p>Differentiate:
-</p>
-\[
-P'(x) = 10.98x - 0.0018x^{2}
-      = x(10.98 - 0.0018x).
-\]<p>Critical numbers:
-</p>
-\[
-x=0,\quad 10.98 - 0.0018x = 0 \Rightarrow x = \frac{10.98}{0.0018} = 6100.
-\]<p>On \(0<x<6100\), \(10.98-0.0018x >0\) ⇒ \(P'(x)>0\).<br>
-On \(x>6100\), that factor is negative ⇒ \(P'(x)<0\).</p>
-<p>So profit is <strong>increasing</strong> exactly on \((0,6100)\).</p>
-<p>Correct choice: <strong>(B)</strong>.</p>
+\]<p><strong>Answer:</strong> B</p>
 </details>
 <hr>
-<details><summary><strong>Solution 10 (Problem 10)</strong></summary>
-<p>We are given the graph of \(y=f'(x)\).</p>
-<p>Where is \(f'(x) < 0\)? Wherever the graph lies <strong>below the x-axis</strong>.</p>
-<p>From the picture, \(f'(x)\) crosses the x-axis around \(x=2\) and \(x=6\) and is below the axis between those two points.</p>
-<p>So:
-</p>
-\[
-f'(x) < 0 \quad \text{for } 2 < x < 6.
-\]<p>Correct choice: <strong>(B)</strong>.</p>
-</details>
-<hr>
-<details><summary><strong>Solution 11 (Problem 11)</strong></summary>
-\[
-g(x) = x^{3} - 6x^{2}.
-\]<p>Differentiate:
-</p>
-\[
-g'(x) = 3x^{2} - 12x = 3x(x-4).
-\]<p>Solve \(g'(x)=0\):</p>
-\[
-3x(x-4)=0 \Rightarrow x=0 \text{ or } x=4.
-\]<p>Derivative exists everywhere, so the critical numbers are \(x=0\) and \(x=4\).</p>
-<p>Correct choice: <strong>(C)</strong>.</p>
-</details>
-<hr>
-<details><summary><strong>Solution 12 (Problem 12)</strong></summary>
-<p>We have
-</p>
-\[
-f(x) = 2x^{3} - 9x^{2} - 86.
-\]<h3 id="a-derivative">(a) Derivative</h3>
-\[
-f'(x) = 6x^{2} - 18x = 6x(x-3).
-\]<h3 id="b-tangent-line-at">(b) Tangent line at \(x=1\)</h3>
-\[
-f(1) = 2(1)^{3} - 9(1)^{2} - 86 = -93,
-\]<p>
-</p>
-\[
-f'(1) = 6(1)(1-3) = -12.
-\]<p>Point: \((1,-93)\); slope: \(-12\).</p>
-<p>Tangent line:
-</p>
-\[
-y - (-93) = -12(x-1)
-\Rightarrow y+93 = -12x+12
-\Rightarrow y = -12x - 81.
-\]<h3 id="c-first-derivative-test">(c) First Derivative Test</h3>
-<p>Critical numbers from \(f'(x)=6x(x-3)=0\):
-</p>
-\[
-x=0,\quad x=3.
-\]<p>Sign chart:</p>
-<ul>
-<li>For \(x<0\): \(f'(x)>0\) ⇒ increasing.</li>
-<li>For \(0<x<3\): \(f'(x)<0\) ⇒ decreasing.</li>
-<li>For \(x>3\): \(f'(x)>0\) ⇒ increasing.</li>
-</ul>
-<p>So:</p>
-<ul>
-<li>Increasing on \((-\infty,0)\cup(3,\infty)\).</li>
-<li>Decreasing on \((0,3)\).</li>
-</ul>
-</details>
-<hr>
-<details><summary><strong>Solution 13 (Problem 13)</strong></summary>
-<h4 id="a-1">(a) \(f(x) = \dfrac{3}{x^{2}} - 4\sqrt{x}\)</h4>
-<p>Rewrite:
-</p>
-\[
-f(x) = 3x^{-2} - 4x^{1/2}.
-\]<p>Differentiate:
-</p>
-\[
-f'(x) = 3(-2)x^{-3} - 4\cdot\frac{1}{2}x^{-1/2}
-      = -6x^{-3} - 2x^{-1/2}
-      = -\frac{6}{x^{3}} - \frac{2}{\sqrt{x}}.
-\]<hr>
-<h4 id="b-1">(b) \(g(x) = (-x^{3} + 7x^{2} - 3)^{7}\)</h4>
-<p>Let \(u(x)=-x^{3}+7x^{2}-3\). Then \(g(x)=u(x)^{7}\).</p>
-\[
-u'(x) = -3x^{2} + 14x.
-\]<p>By the chain rule:
-</p>
-\[
-g'(x) = 7u(x)^{6}u'(x)
-      = 7(-x^{3}+7x^{2}-3)^{6}(-3x^{2}+14x).
-\]<hr>
-<h4 id="c-1">(c) \(h(x) = (5x^{2} + 3)(4x+2)\)</h4>
-<p>Let \(f_1(x)=5x^{2}+3\), \(f_2(x)=4x+2\).</p>
-\[
-f_1'(x)=10x,\quad f_2'(x)=4.
-\]<p>Product rule:
+<details><summary><strong>Problem 4</strong></summary>
+<p>Set profit equal to zero:
 </p>
 \[
 \begin{aligned}
-h'(x)
-&= f_1'(x)f_2(x) + f_1(x)f_2'(x) \\
-&= (10x)(4x+2) + (5x^{2}+3)(4) \\
-&= 40x^{2} + 20x + 20x^{2} + 12 \\
-&= 60x^{2} + 20x + 12.
+0 &= 180x - 5220 \\
+180x &= 5220 \\
+x &= \frac{5220}{180} \\
+  &= 29.
+\end{aligned}
+\]<p>So the break-even quantity is \(x=29\), which is between 27 and 31.</p>
+<p><strong>Answer:</strong> B</p>
+</details>
+<hr>
+<details><summary><strong>Problem 5</strong></summary>
+<p>From the graph:</p>
+<ul>
+<li>As \(x\to -1^-\), the function values approach \(-2\).</li>
+<li>As \(x\to -1^+\), the function values approach \(3\).</li>
+</ul>
+<p>So
+</p>
+\[
+\lim_{x\to -1^-} f(x) = -2,
+\quad
+\lim_{x\to -1^+} f(x) = 3.
+\]<p>Because the left-hand and right-hand limits are different, the two-sided limit
+</p>
+\[
+\lim_{x\to -1} f(x)
+\]<p>
+does <strong>not</strong> exist.</p>
+<p><strong>Answer:</strong> D</p>
+</details>
+<hr>
+<details><summary><strong>Problem 6</strong></summary>
+<p>From the graph, a tangent line at \(x=3\) passes through the points \((1,2)\) and \((3,1)\).<br>
+The slope is
+</p>
+\[
+\begin{aligned}
+m
+  &=\frac{1-2}{3-1} \\
+  &=\frac{-1}{2} \\
+  &=-\frac{1}{2}.
+\end{aligned}
+\]<p>So the instantaneous rate of change at \(x=3\) is \(-\tfrac{1}{2}\).</p>
+<p><strong>Answer:</strong> A</p>
+</details>
+<hr>
+<details><summary><strong>Problem 7</strong></summary>
+<p>Factor the denominator:
+</p>
+\[
+x^2-4x-12 = (x-6)(x+2).
+\]<p>The function is undefined when the denominator is zero, so
+</p>
+\[
+x\neq -2,\quad x\neq 6.
+\]<p>Thus the domain is
+</p>
+\[
+(-\infty,-2)\cup(-2,6)\cup(6,\infty).
+\]<p><strong>Answer:</strong> C</p>
+</details>
+<hr>
+<details><summary><strong>Problem 8</strong></summary>
+<p>Compute the composition:
+</p>
+\[
+\begin{aligned}
+g(f(x))
+  &= (x+5)^2 - 3(x+5) + 1 \\
+  &= (x^2+10x+25) - 3x - 15 + 1 \\
+  &= x^2 + 10x + 25 - 3x - 15 + 1 \\
+  &= x^2 + 7x + 11.
+\end{aligned}
+\]<p><strong>Answer:</strong> D</p>
+</details>
+<hr>
+<details><summary><strong>Problem 9</strong></summary>
+<p>If \(x\) seats are unsold, then
+</p>
+\[
+\text{seats sold} = 200 - x.
+\]<p>The ticket price is
+</p>
+\[
+\text{price} = 350 + 4x.
+\]<p>So the revenue is
+</p>
+\[
+R(x) = (200-x)(350+4x).
+\]<p><strong>Answer:</strong> E</p>
+</details>
+<hr>
+<details><summary><strong>Problem 10</strong></summary>
+<p>Set \(p(x)=400\):
+</p>
+\[
+\begin{aligned}
+400 &= 700 - 0.4x \\
+0.4x &= 300 \\
+x &= \frac{300}{0.4} \\
+  &= 750.
+\end{aligned}
+\]<p>Thus 750 units are consumed.<br>
+This lies between 650 and 800.</p>
+<p><strong>Answer:</strong> C</p>
+</details>
+<hr>
+<details><summary><strong>Problem 11</strong></summary>
+<p>The slope of the tangent line is
+</p>
+\[
+m = f'(2) = -4,
+\]<p>
+and the point of tangency is
+</p>
+\[
+(2,f(2)) = (2,8).
+\]<p>Use point–slope form:
+</p>
+\[
+\begin{aligned}
+y - 8 &= -4(x-2).
+\end{aligned}
+\]<p>This is equivalent to
+</p>
+\[
+y = -4(x-2)+8.
+\]<p><strong>Answer:</strong> B</p>
+</details>
+<hr>
+<details><summary><strong>Problem 12</strong></summary>
+<p>Treat the cost function as a line \(C(x)=mx+b\) through the points<br>
+\((40,1286)\) and \((85,2159)\).</p>
+<p>Compute the slope:
+</p>
+\[
+\begin{aligned}
+m
+  &= \frac{2159-1286}{85-40} \\
+  &= \frac{873}{45} \\
+  &= \frac{97}{5}.
+\end{aligned}
+\]<p>Now use the point \((40,1286)\) to solve for \(b\):
+</p>
+\[
+\begin{aligned}
+1286 &= \frac{97}{5}\cdot 40 + b \\
+1286 &= 776 + b \\
+b &= 1286 - 776 \\
+  &= 510.
+\end{aligned}
+\]<p>So the linear cost function is
+</p>
+\[
+C(x) = \frac{97}{5}x + 510
+\]<p>
+(or \(C(x)=19.4x+510\)).</p>
+</details>
+<hr>
+<details><summary><strong>Problem 13</strong></summary>
+<p>Factor:
+</p>
+\[
+x^2-4=(x-2)(x+2),
+\]<p>
+</p>
+\[
+x^2+2x-8=(x+4)(x-2).
+\]<p>For \(x\neq 2\), the function simplifies to
+</p>
+\[
+f(x) = \frac{x+2}{x+4}.
+\]<p><strong>(a)</strong> As \(x\to\infty\), the leading terms dominate:
+</p>
+\[
+\lim_{x\to\infty} f(x)
+= \lim_{x\to\infty} \frac{x+2}{x+4}
+= 1.
+\]<p><strong>(b)</strong> At \(x=1\), the denominator is nonzero, so
+</p>
+\[
+\begin{aligned}
+\lim_{x\to 1} f(x)
+  &= f(1) \\
+  &= \frac{1^2 - 4}{1^2 + 2\cdot 1 - 8} \\
+  &= \frac{-3}{-5} \\
+  &= \frac{3}{5}.
+\end{aligned}
+\]<p><strong>(c)</strong> As \(x\to 2\), use the simplified form:
+</p>
+\[
+\begin{aligned}
+\lim_{x\to 2} f(x)
+  &= \lim_{x\to 2} \frac{x+2}{x+4} \\
+  &= \frac{2+2}{2+4} \\
+  &= \frac{4}{6} \\
+  &= \frac{2}{3}.
 \end{aligned}
 \]</details>
 <hr>
-<details><summary><strong>Solution 14 (Problem 14)</strong></summary>
+<details><summary><strong>Problem 14</strong></summary>
+<p>Compute
+</p>
 \[
-C(x) = \frac{8x+3}{5x+7}
+\begin{aligned}
+P(10) &= -2(10)^2 + 51(10) - 100 \\
+      &= -200 + 510 - 100 \\
+      &= 210, \\
+P(7)  &= -2(7)^2 + 51(7) - 100 \\
+      &= -98 + 357 - 100 \\
+      &= 159.
+\end{aligned}
+\]<p>Average rate of change from \(x=7\) to \(x=10\):
+</p>
+\[
+\begin{aligned}
+\frac{P(10)-P(7)}{10-7}
+  &= \frac{210-159}{3} \\
+  &= \frac{51}{3} \\
+  &= 17.
+\end{aligned}
+\]<p>So the average rate of change of profit is <strong>$17 per hat</strong> over this interval.</p>
+</details>
+<hr>
+<details><summary><strong>Problem 15</strong></summary>
+<p>The function is
+</p>
+\[
+g(x) =
+\begin{cases}
+x^2+9, & x<2,\\[4pt]
+4x+7, & x\ge 2.
+\end{cases}
+\]<p><strong>(a)</strong> Since \(5\ge 2\), use the linear piece:
+</p>
+\[
+\begin{aligned}
+g(5)
+  &= 4\cdot 5 + 7 \\
+  &= 20 + 7 \\
+  &= 27.
+\end{aligned}
+\]<p><strong>(b)</strong> Solve \(g(x)=19\) in both pieces.</p>
+<p>For \(x<2\):
+</p>
+\[
+\begin{aligned}
+x^2+9 &= 19 \\
+x^2 &= 10 \\
+x &= \pm \sqrt{10}.
+\end{aligned}
 \]<p>
-in <strong>thousands of dollars</strong>.</p>
-<p>Let \(f(x)=8x+3\), \(g(x)=5x+7\). Then \(C(x) = f(x)/g(x)\).</p>
-<p>Quotient rule:
+Only \(x=-\sqrt{10}\) satisfies \(x<2\).</p>
+<p>For \(x\ge 2\):
 </p>
 \[
-C'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^{2}}
-      = \frac{8(5x+7) - (8x+3)(5)}{(5x+7)^{2}}.
-\]<p>Simplify numerator:
+\begin{aligned}
+4x+7 &= 19 \\
+4x &= 12 \\
+x &= 3,
+\end{aligned}
+\]<p>
+which satisfies \(x\ge 2\).</p>
+<p>So the solutions are
 </p>
 \[
-8(5x+7) = 40x+56,\quad (8x+3)5 = 40x+15.
-\]<p>So
-</p>
-\[
-C'(x) = \frac{40x+56 - (40x+15)}{(5x+7)^{2}}
-      = \frac{41}{(5x+7)^{2}}.
-\]<p>At \(x=20\):
-</p>
-\[
-C'(20) = \frac{41}{(5\cdot20+7)^{2}}
-       = \frac{41}{107^{2}}
-       = \frac{41}{11449}
-       \approx 0.00358.
-\]<p>Units: <strong>thousands of dollars per unit</strong>.</p>
-<p>So marginal cost in dollars is
-</p>
-\[
-0.00358\times 1000 \approx \$3.58 \text{ per unit}.
-\]<p>Rounded:
-</p>
-\[
-\boxed{\text{Marginal cost at } x=20 \approx \$3.58\text{ per additional unit}.}
+x = -\sqrt{10}
+\quad\text{and}\quad
+x = 3.
 \]</details>
+<hr>
+<details><summary><strong>Problem 16</strong></summary>
+<p>Set supply equal to demand:
+</p>
+\[
+\begin{aligned}
+0.4x + 700 &= -0.2x + 2500 \\
+0.4x + 0.2x &= 2500 - 700 \\
+0.6x &= 1800 \\
+x &= \frac{1800}{0.6} \\
+  &= 3000.
+\end{aligned}
+\]<p>So the equilibrium quantity is
+</p>
+\[
+x = 3000 \text{ rugs}.
+\]<p>Find the corresponding price:
+</p>
+\[
+\begin{aligned}
+S(3000)
+  &= 0.4(3000) + 700 \\
+  &= 1200 + 700 \\
+  &= 1900.
+\end{aligned}
+\]<p>Thus the equilibrium point is
+</p>
+\[
+(3000, 1900),
+\]<p>
+meaning <strong>3000 rugs at $1900 per rug</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Problem 17</strong></summary>
+<p>The revenue function is
+</p>
+\[
+R(x) = -0.8x^2 + 700x.
+\]<p><strong>(a) Maximum revenue</strong></p>
+<p>This is a downward-opening parabola with
+</p>
+\[
+a=-0.8,\quad b=700.
+\]<p>
+The vertex (maximum) occurs at
+</p>
+\[
+\begin{aligned}
+x
+  &= -\frac{b}{2a} \\
+  &= -\frac{700}{2(-0.8)} \\
+  &= \frac{700}{1.6} \\
+  &= 437.5.
+\end{aligned}
+\]<p>So revenue is maximized when about <strong>438 desks</strong> are produced and sold<br>
+(mathematically at \(x=437.5\)).</p>
+<p><strong>(b) Instantaneous rate of change at \(x=300\)</strong></p>
+<p>Differentiate:
+</p>
+\[
+R'(x) = -1.6x + 700.
+\]<p>Evaluate at \(x=300\):
+</p>
+\[
+\begin{aligned}
+R'(300)
+  &= -1.6(300) + 700 \\
+  &= -480 + 700 \\
+  &= 220.
+\end{aligned}
+\]<p>Interpretation: when 300 desks are being produced and sold,<br>
+<strong>revenue is increasing at about $220 per additional desk</strong>.</p>
+</details>
 
 </main>
 

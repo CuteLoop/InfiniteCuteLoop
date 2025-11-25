@@ -1,6 +1,6 @@
 ---
-title: "MATH 116 – Test 2 Practice (Fall 2024)"
-date: 2024-11-01
+title: "MATH 116 Test 2 Practice (Fall 2024)"
+date: 2025-11-01
 tags: ["calculus", "business-calculus", "MATH116", "test-2"]
 draft: false
 description: "Ultra-detailed, fully worked practice version of a MATH 116 Test 2 (Fall 2024) focused on derivative rules and applications."

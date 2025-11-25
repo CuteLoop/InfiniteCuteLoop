@@ -2,28 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/</loc>
-    <lastmod>2025-11-24T13:19:01-07:00</lastmod>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-final-practice/</loc>
-    <lastmod>2025-11-24T13:19:01-07:00</lastmod>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/</loc>
-    <lastmod>2025-11-24T13:19:01-07:00</lastmod>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/practice-exam/</loc>
-    <lastmod>2025-11-24T13:19:01-07:00</lastmod>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/study-guide/</loc>
-    <lastmod>2025-11-24T13:19:01-07:00</lastmod>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/</loc>
-    <lastmod>2025-11-24T13:19:01-07:00</lastmod>
-  </url><url>
     <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/business-calculus/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/calculus/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-1/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-2/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-3/</loc>
@@ -32,8 +23,35 @@
     <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/math116/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/practice-exam/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/study-guide/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/test-2/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/test-3/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/collegealgebra/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-final-practice/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/practiceexam/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/studyguide/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
@@ -58,18 +76,6 @@
   </url><url>
     <loc>https://cuteloop.github.io/InfiniteCuteLoop/categories/tutorial/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-1/</loc>
-    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-2/</loc>
-    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/test-1/</loc>
-    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cuteloop.github.io/InfiniteCuteLoop/tags/test-2/</loc>
-    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cuteloop.github.io/InfiniteCuteLoop/categories/example/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>

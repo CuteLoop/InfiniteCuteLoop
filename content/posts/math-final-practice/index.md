@@ -1,745 +1,1332 @@
 ---
-title: "MATH 116 Test 1 Practice (Fall 2024)"
-date: 2025-11-24T13:19:01-07:00
-tags: ["study-guide", "practice-exam"]
+title: "MATH 112 – Final Exam Practice"
+date:  2025-05-03
+tags: ["college‑algebra", "study‑guide", "practice‑exam"]
 draft: false
-description: "Practice problems with hints and detailed solutions."
+description: "35‑question self‑check for MATH 112."
 math: true
 ---
-> **How to use this page**  
-> Try each problem first, then expand **Hint 1** or **Hint 2** as needed.  
-> All **solutions are collected at the end** of the page.
 
-- [Answer key & solutions](#answers)
+> How to use this page  
+> Try each problem first, then expand Hint or Solution as needed. (this is a draft. Currently in the process of checking and reviewing the solutions are correct. I hope It Helps you in your study.)
+
+- [Final Exam Practice Exam Answers](#answers)
+
+- [Math 112 final exam resources](https://www.math.arizona.edu/academics/courses/math112)
+
+---
+## Formulas Provided on the Exam  {: #formula-sheet }
+
+### Quadratics
+
+| Quadratic Formula                               | Vertex of Parabola                |
+| :---------------------------------------------- | :-------------------------------- |
+| \(x = \dfrac{-b \pm \sqrt{b^{2}-4ac}}{2a}\)     | \(x = -\dfrac{b}{2a}\)            |
+
+**Factored Forms**  
+| Form                               |
+| :--------------------------------- |
+| \(y = a(x-p)(x-q)\)                |
+| \(y = a(x-h)^2 + k\)               |
+| \(y = a(x-r_1)(x-r_2)\)            |
 
 ---
 
-$$ Instantaneous rate of change = \lim_{h\to 0} \frac{f(x+h)-f(x)}{h}
+### Exponentials & Logs
+
+| Exponential Growth / Decay                  | Logs Conversion                         |
+| :-----------------------------------------  | :--------------------------------------  |
+| \(A = P\!\bigl(1+\tfrac{r}{n}\bigr)^{nt}\)  | \(\log_b x = \dfrac{\ln x}{\ln b}\)      |
+| \(A = P e^{rt}\)                            |                                         |
+
+---
+
+### Compound Interest
+
+| Continuous Compounding                      |
+| :------------------------------------------ |
+| \(A = P e^{rt}\)                            |
+
 
 ## Problems
 
-Problems 1 and 2 refer to the function  
+### 1 Sales‑Tax Expression
+
+In a certain city, sales tax is 9 %. Write an expression for the total cost of an item priced \(x\) dollars after tax is added.
+
+A. \(C(x)=1.09x\)  
+
+B. \(C(x)=0.09x\)  
+
+C. \(C(x)=1.9x\)  
+
+D. \(C(x)=9x\)  
+
+E. \(C(x)=0.91x\)
+
+<details><summary><strong>Hint</strong></summary>
+Add 9 % of the price to the price to the total cost. 
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+9 % of \(x\) is \( \frac{9}{100}x = 0.09x\); total cost \(C(x) = x+0.09x = 1.09x\). Answer A.
+</details>
+
+---
+
+### 2 Which Graph is a Function?
+
+![Graph A](image2.png)
+<details><summary><strong>Hint</strong></summary>
+Use the vertical line test.
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+Graph A passes the vertical‑line test, so only Graph A is a function.
+</details>
+
+---
+
+### 3 Domain of \(R(x)=\sqrt{2-5x}\)
+
+
+A. \([0.4,\infty)\)
+
+B. \((-\infty,0.4]\)
+
+C. \((0.4,\infty)\)
+
+D. \((-\infty,0.4)\)
+
+E. \([0,\infty)\)
+
+<details><summary><strong>Hint</strong></summary>
+input of a Square roots cannot be negative.
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+The inside of the squarer root cannot admit negative values. So we require
+$$2-5x \geq 0.$$
+solve for x. 
+$$\begin{align*}
+2 & \geq 5x \\
+\frac{2}{5} &\geq x
+\end{align*}$$
+Hence the domain of \( x \)  must be \( (-\infty, \frac{2}{5}) \).
+Which can be written as \( (-\infty,0.4] \). Answer B.
+</details>
+
+---
+
+### 4 Intervals of Increase
+
+![Piece‑wise curve for Q 4](image4.png)
+
+
+A. \((-\infty,3)\)
+
+B. \((-\infty,0)\)
+
+C. \((0,3)\)
+
+D. \([3,\infty)\)
+
+E. \((0,3)\cup(3,\infty)\)
+
+<details><summary><strong>Solution</strong></summary>
+From the sketch the function rises for all \(x \geq 3 \) so the answer is \( [3, \infty) \).
+</details>
+
+---
+### 5 Starbucks — Slope & Interpretation  
+
+| Year | Locations |
+|-----:|----------:|
+| 2012 | 18 066 |
+| 2014 | 21 366 |
+| 2015 | 23 016 |
+
+What is the slope of the line that passes through these points, **and what does it mean in practical terms?**
+
+A. \(m = 3300\). The number of Starbucks locations worldwide increases by **3300 per year**.  
+
+B. \(m = 3300\). The number of locations increases by **3300 over 3 years**.  
+
+C. \(m = 4950\). The number of locations increases by **4950 per year**.  
+
+D. \(m = 1650\). The number of locations increases by **1650 over 3 years**.  
+
+E. \(m = 1650\). The number of locations worldwide increases by **1650 per year**.  
+
+<details><summary><strong>Solution</strong></summary>
+
+Slope  
 \[
-f(x) = \frac{7x+2}{3-5x}.
+m=\frac{23\,016-18\,066}{2015-2012}=\frac{4965}{3}=1650.
 \]
 
-### Problem 1
+Thus Starbucks was adding **about 1650 locations each year** over the period shown.  
+**Answer E.**
+</details>
 
-Find the vertical asymptote, if any, for
+
+---
+
+### 6 Linear Model for Starbucks Locations
+
+Which linear function best models the number of Starbucks locations \(S(t)\) as a function of time \(t\) in years since 2012?
+
+
+A. \(S(t)=1650t+18\,066\)  
+
+B. \(S(t)=3300t+18\,066\)  
+
+C. \(S(t)=4950t+18\,066\)  
+
+D. \(S(t)=1650t+21\,366\)  
+
+E. \(S(t)=3300t+21\,366\)
+
+<details><summary><strong>Solution – TODO</strong></summary>
+at \(t=0\) (2012), \(S(0)=18\,066\).
+Slope \(m=1650\) locations per year.
 \[
-f(x)=\frac{7x+2}{3-5x}.
-\]
-
-A. \(x=-\dfrac{7}{2}\)  
-B. \(x=-\dfrac{2}{7}\)  
-C. \(x=\dfrac{3}{5}\)  
-D. \(x=0\)  
-E. There is no vertical asymptote.
-
-<details><summary><strong>Hint 1</strong></summary>
-
-Vertical asymptotes happen where the **denominator is zero** (and the numerator is not).
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Solve \(3-5x=0\) for \(x\), then check which choice matches.
+S(t)=1650t+18\,066\]
+So the answer is \(S(t)=1650t+18\,066\). Answer A.
 </details>
 
 ---
 
-### Problem 2
+### 7 Evaluate the Piecewise Function
 
-Find the \(y\)-intercept, if any, for \(f\).
-
-A. \((0,\dfrac{2}{3})\)  
-B. \((0,\dfrac{3}{2})\)  
-C. \((0,-\dfrac{2}{3})\)  
-D. \((0,-\dfrac{3}{2})\)  
-E. There is no \(y\)-intercept.
-
-<details><summary><strong>Hint 1</strong></summary>
-
-The \(y\)-intercept occurs when \(x=0\).
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Compute \(f(0)=\dfrac{7\cdot 0+2}{3-5\cdot 0}\) and match the ordered pair.
-</details>
-
----
-
-A company has a production cost function  
 \[
-C(x)=82x+5220
-\]
-and a revenue function  
-\[
-R(x)=262x,
-\]
-when \(x\) units are sold.
-
-### Problem 3
-
-Find the profit function \(P(x)\).
-
-A. \(P(x)=344x+5220\)  
-B. \(P(x)=180x-5220\)  
-C. \(P(x)=82x-5220\)  
-D. \(P(x)=262x-5220\)  
-E. \(P(x)=262x+5220\)
-
-<details><summary><strong>Hint 1</strong></summary>
-
-Profit = Revenue \(-\) Cost.
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Compute \(P(x)=R(x)-C(x)=262x-(82x+5220)\) and simplify.
-</details>
-
----
-
-### Problem 4
-
-Determine the break-even quantity.
-
-The break-even quantity is:
-
-A. less than 27 units  
-B. between 27 and 31 units  
-C. between 31 and 35 units  
-D. between 35 and 39 units  
-E. more than 39 units
-
-<details><summary><strong>Hint 1</strong></summary>
-
-Break-even means profit \(P(x)=0\).
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Use the profit function from Problem 3, solve \(P(x)=0\), then see which interval the solution lies in.
-</details>
-
----
-
-The graph of a function \(f\) is shown below. Problems 5 and 6 refer to this graph.
-
-![Graph of \(f(x)\) for Problems 5 and 6](im1.png)
-
-### Problem 5
-
-Find \(\displaystyle \lim_{x\to -1^+} f(x)\), assuming the limit exists.
-
-A. \(\displaystyle \lim_{x\to -1^+} f(x) = 1\)  
-B. \(\displaystyle \lim_{x\to -1^+} f(x) = 3\)  
-C. \(\displaystyle \lim_{x\to -1^+} f(x) = -2\)  
-D. \(\displaystyle \lim_{x\to -1^+} f(x)\) does not exist  
-
-<details><summary><strong>Hint 1</strong></summary>
-
-Look only at \(x\)-values **slightly greater than \(-1\)** (to the right of \(-1\)).
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Compare what happens as \(x\to -1^-\) and \(x\to -1^+\).  
-If left- and right-hand limits are different, the (two-sided) limit does not exist.
-</details>
-
----
-
-### Problem 6
-
-Find the instantaneous rate of change of \(f(x)\) at \(x=3\).
-
-The instantaneous rate of change is:
-
-A. \(-\dfrac{1}{2}\)  
-B. \(-2\)  
-C. \(1\)  
-D. \(-1\)
-
-<details><summary><strong>Hint 1</strong></summary>
-
-Instantaneous rate of change at a point is the **slope of the tangent line** there.
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Use two points on the tangent line shown, for example \((1,2)\) and \((3,1)\), and compute \(\dfrac{\Delta y}{\Delta x}\).
-</details>
-
----
-
-### Problem 7
-
-Find the domain of the function
-\[
-g(x)=\frac{3x+5}{x^2-4x-12}.
-\]
-
-A. \((-\infty,-6)\cup(-6,2)\cup(2,\infty)\)  
-B. \(\left(-\infty,-\dfrac{5}{3}\right)\cup\left(-\dfrac{5}{3},\infty\right)\)  
-C. \((-\infty,-2)\cup(-2,6)\cup(6,\infty)\)  
-D. \(\left(-\infty,-\dfrac{5}{12}\right)\cup\left(-\dfrac{5}{12},\infty\right)\)  
-E. \((-\infty,\infty)\)
-
-<details><summary><strong>Hint 1</strong></summary>
-
-The domain excludes values that make the **denominator zero**.
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Factor \(x^2-4x-12\) and find the values of \(x\) to exclude.
-</details>
-
----
-
-### Problem 8
-
-Given \(f(x)=x+5\) and \(g(x)=x^2-3x+1\), find and simplify \(g(f(x))\).
-
-A. \(x^2-3x+26\)  
-B. \(x^2+7x+26\)  
-C. \((x+5)(x^2-3x+1)\)  
-D. \(x^2+7x+11\)  
-E. \(x^2-3x+11\)
-
-<details><summary><strong>Hint 1</strong></summary>
-
-Composition \(g(f(x))\) means plug \(x+5\) into \(g\) wherever you see \(x\).
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Compute \((x+5)^2-3(x+5)+1\) and simplify.
-</details>
-
----
-
-### Problem 9
-
-A charter flight charges a fare of \$350 per person plus \$4 per person for each unsold seat on the plane.  
-The plane holds 200 passengers. Let \(x\) represent the number of unsold seats.  
-Find the revenue function \(R(x)\).
-
-The revenue function is:
-
-A. \(R(x)=(200+x)(350-4x)\)  
-B. \(R(x)=(200-4x)(350+x)\)  
-C. \(R(x)=(200+4x)(350-x)\)  
-D. \(R(x)=(200-x)(1400x)\)  
-E. \(R(x)=(200-x)(350+4x)\)
-
-<details><summary><strong>Hint 1</strong></summary>
-
-If \(x\) seats are unsold, how many seats are sold?  
-(\(=\) passengers who pay for tickets.)
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Ticket price = base \$350 plus \$4 times number of unsold seats.  
-Revenue = (number sold)\(\times\)(ticket price).
-</details>
-
----
-
-### Problem 10
-
-The demand function for a product is  
-\[
-p(x)=700-0.4x
-\]
-dollars per unit when \(x\) units are consumed.  
-How many units are consumed when the price per unit is \$400?
-
-The number of units consumed is:
-
-A. less than 500  
-B. between 500 and 650  
-C. between 650 and 800  
-D. between 800 and 950  
-E. more than 950  
-
-<details><summary><strong>Hint 1</strong></summary>
-
-Set the demand price \(p(x)\) equal to 400 and solve for \(x\).
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Solve \(700-0.4x=400\). Then see which interval contains the solution.
-</details>
-
----
-
-### Problem 11
-
-Let \(f(x)\) be a function where \(f(2)=8\) and \(f'(2)=-4\).  
-Find the equation of the tangent line to the graph of \(f(x)\) at \(x=2\).
-
-A. \(y=8(x+2)-4\)  
-B. \(y=-4(x-2)+8\)  
-C. \(y=8(x-2)-4\)  
-D. \(y=-4(x+2)+8\)  
-E. \(y=8(x+2)+4\)
-
-<details><summary><strong>Hint 1</strong></summary>
-
-The tangent line at \(x=2\) has slope \(f'(2)\) and passes through \((2,f(2))\).
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Use point–slope form: \(y-y_1=m(x-x_1)\) with \(m=-4\), \(x_1=2\), \(y_1=8\), then simplify.
-</details>
-
----
-
-For Problems 12–17, work must be **shown** and your final answer must be **boxed** on paper to receive full credit.
-
-### Problem 12
-
-Suppose it costs a company \$1286 to produce 40 pairs of shoes and \$2159 to produce 85 pairs of shoes.  
-Determine the **linear** cost function \(C(x)\), where \(x\) is the number of pairs of shoes produced.
-
-<details><summary><strong>Hint 1</strong></summary>
-
-Think of the cost function as a line \(C(x)=mx+b\) going through two points.
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Use points \((40,1286)\) and \((85,2159)\) to find the slope \(m\), then solve for \(b\).
-</details>
-
----
-
-### Problem 13
-
-Let  
-\[
-f(x)=\frac{x^2-4}{x^2+2x-8}.
-\]
-Find the following limits. If a limit does not exist, write **DNE**.
-
-a. \(\displaystyle \lim_{x\to\infty} f(x)\)  
-
-b. \(\displaystyle \lim_{x\to 1} f(x)\)  
-
-c. \(\displaystyle \lim_{x\to 2} f(x)\)
-
-<details><summary><strong>Hint 1</strong></summary>
-
-Factor the numerator and denominator. See if anything cancels.
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-For (a), compare leading terms as \(x\to\infty\).  
-For (b) and (c), use the simplified form after canceling common factors (when allowed).
-</details>
-
----
-
-### Problem 14
-
-A company determines that its profit, in dollars, is modeled by  
-\[
-P(x)=-2x^2+51x-100,
-\]
-where \(x\) is the quantity of hats produced and sold.  
-Find the **average rate of change** of profit as the number of hats produced and sold ranges from 7 to 10.  
-Give appropriate units.
-
-<details><summary><strong>Hint 1</strong></summary>
-
-Average rate of change from \(x=a\) to \(x=b\) is \(\dfrac{P(b)-P(a)}{b-a}\).
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Compute \(P(7)\) and \(P(10)\), subtract, then divide by \(10-7\).
-</details>
-
----
-
-### Problem 15
-
-Let
-\[
-g(x)=
+f(x)=
 \begin{cases}
-x^2+9, & x<2,\\[4pt]
-4x+7, & x\ge 2.
+2x+5 & x<-2\\[2pt]
+x-1 & -2\le x\le1\\[2pt]
+\tfrac13x+4 & x>1
 \end{cases}
 \]
 
-a. Evaluate \(g(5)\).  
-b. Solve for \(x\) when \(g(x)=19\).
+Evaluate \(f(-3)\).
 
-<details><summary><strong>Hint 1</strong></summary>
+A. 3 B. –1 C. –4 D. 1 E. undefined
 
-For each part, decide **which piece** of the function applies.
+<details><summary><strong>Hint</strong></summary>
+In which branch does \( x= -3 \) fall?
+Use corresponding formula to compute \(f(-3)\).
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
-
-(a) Since \(5\ge 2\), use the linear piece.  
-(b) Solve both equations \(x^2+9=19\) (with \(x<2\)) and \(4x+7=19\) (with \(x\ge 2\)).
-</details>
-
----
-
-### Problem 16
-
-A company selling rugs has a supply function  
+<details><summary><strong>Solution</strong></summary>
+Since \(-3<-2\), use the first branch:
 \[
-S(x)=0.4x+700,
-\]
-where \(x\) is the quantity of rugs supplied, and a demand function  
-\[
-D(x)=-0.2x+2500,
-\]
-where \(x\) is the quantity of rugs demanded. Assume \(S(x)\) and \(D(x)\) represent price in dollars per rug.
+f(-3)=2(-3)+5=1.\]
+So the answer is \(f(-3)=1\). Answer D.
 
-Sketch an appropriate graph of \(S(x)\) and \(D(x)\) on the same set of axes.  
-Identify the equilibrium point on your graph. Below your graph, identify the equilibrium quantity and equilibrium price.
-
-<details><summary><strong>Hint 1</strong></summary>
-
-At equilibrium, supply price equals demand price: \(S(x)=D(x)\).
-</details>
-
-<details><summary><strong>Hint 2</strong></summary>
-
-Solve \(0.4x+700=-0.2x+2500\) for the quantity, then plug back into either \(S\) or \(D\) for the price.
 </details>
 
 ---
 
-### Problem 17
+### 8 (*) Transformations of \(g(x)\)
 
-The revenue function for a product (in dollars) when \(x\) desks are produced and sold is  
-\[
-R(x)=-0.8x^2+700x.
-\]
+If \((2,5)\) lies on \(y=g(x)\), which point must lie on  
+\(y=\tfrac15\),  \(2g\!\bigl(\tfrac{1}{5}X\bigr)+3\)?
 
-a. Determine the number of desks that must be sold in order for revenue to be a **maximum**.  
+A. \(\bigl(\tfrac25,13\bigr)\)  
+B. \((4,4)\)  
+C. \((10,13)\)  
+D. \(\bigl(\tfrac{11}{10},2\bigr)\)  
+E. \((4,13)\)
 
-b. Find the instantaneous rate of change of revenue when 300 desks are produced and sold.  
-Interpret your answer using a complete sentence.
+<details><summary><strong>Hint</strong></summary>
 
-<details><summary><strong>Hint 1</strong></summary>
-
-(a) Use the vertex formula for a parabola \(R(x)=ax^2+bx+c\); the maximum is at \(x=-\dfrac{b}{2a}\).  
+Identify input and output of the function  and the transformations.
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Solution</strong></summary>
+1.  To send the old input \(2\) through \(x/5\), set \(\frac{x}{5}=2\) ⇒ \(x=10\).  
+2.  The original output is \(g(2)=5\).  Then
+   \[
+     y = 2\cdot5 + 3 = 13.
+   \]
+Hence the image is  
+\[
+\boxed{(10,13)}.
+\]
+</details>
+---
 
-(b) Compute \(R'(x)\) and evaluate at \(x=300\).  
-Remember that \(R'(300)\) is the rate of change of revenue per additional desk at that production level.
+### 9 Fuel‑Efficiency Scaling
+
+\(d=f(x)\) gives distance (mi) for \(x\) gallons of gas. Point \((10,250)\) is on the graph.  
+In five years the same car travels twice as far per gallon. Which point lies on the new graph?
+
+A. \((20,250)\)
+
+B. \((20,500)\)
+
+C. \((10,125)\)  
+
+D. \((10,500)\)
+
+ E. \((20,125)\)
+
+
+<details><summary><strong> Hint </strong></summary>
+Identify input and output of the function.
+Which point is scaled by a factor of 2?
+</details>
+
+<details><summary><strong> Hint </strong></summary>
+Originally \(10\) gal ⇒ \(250\) mi.  Doubling fuel efficiency means the same \(10\) gal ⇒ \(2\times250=500\) mi.  
+\[
+\boxed{(10,500)}.
+\]
 </details>
 
 ---
 
-## Answers and Solutions  {: #answers }
+### 10. (***) Composition of Rational Functions
 
-### Multiple-choice answers (quick key)
+Consider the functions
 
-1. C  
-2. A  
-3. B  
-4. B  
-5. D  
-6. A  
-7. C  
-8. D  
-9. E  
-10. C  
-11. B  
+\[
+f(x) = \frac{x - 1}{x}
+\qquad\text{and}\qquad
+g(x) = \frac{x - 2}{x + 5}.
+\]
+
+Find \((f\circ g)(x)\).
+
+A. \(\displaystyle (f\circ g)(x) = -\frac{7}{x^{2} + 5x}\)
+
+B. \(\displaystyle (f\circ g)(x) = \frac{x^{2} - 3x + 2}{x^{2} + 5x}\)  
+
+C. \(\displaystyle (f\circ g)(x) = -\frac{x - 1}{6x - 1}\)  
+
+D. \(\displaystyle (f\circ g)(x) = -\frac{x - 1}{x^{2} + 5x}\)  
+
+E. \(\displaystyle (f\circ g)(x) = -\frac{7}{x - 2}\)
 
 ---
 
-### Problem 1
 
-Solve \(3-5x=0\):  
-\(-5x=-3 \Rightarrow x=\dfrac{3}{5}\). The numerator is nonzero there, so this is a vertical asymptote.
+<details><summary><strong>Hint</strong></summary>
+Identify the inner and outer functions:  
+\[
+(f\circ g)(x) = f\bigl(g(x)\bigr).
+\]
+First compute \(g(x)\), then substitute that result into \(f\).
+</details>
 
-**Answer:** C
+
+<details><summary><strong>Hint</strong></summary>
+Identify the inner and outer functions:  
+\[
+(f\circ g)(x) = f\bigl(g(x)\bigr).
+\]
+First compute \(g(x)\), then substitute into \(f\).
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+\[
+(f\circ g)(x)
+= \frac{g(x)-1}{g(x)}
+\quad\text{with}\quad
+g(x)=\frac{x-2}{x+5}.
+\]
+\[
+\begin{aligned}
+\frac{g(x)-1}{g(x)}
+&= \frac{\dfrac{x-2}{x+5}-1}
+       {\dfrac{x-2}{x+5}}\\
+&= \frac{\dfrac{x-2}{\cancel{x+5}} - \dfrac{x+5}{\cancel{x+5}}}
+       {\dfrac{x-2}{\cancel{x+5}}}\\
+&= \frac{x-2-(x+5)}{x-2}\\
+&= \frac{-7}{x-2}
+\end{aligned}
+\]
+</details>
+
+
+--- 
+### 11 (*) Coupon Order Matters
+
+Kohl’s allows customers to use both a “\$10 off” coupon and a “30 % off” coupon on the same transaction, but the store stipulates that the “dollar off” coupon **must** be used first.  
+
+Define  
+\[
+f(x) = x - 10
+\quad\text{and}\quad
+g(x) = 0.70x.
+\]
+Which of the following functions represents the final price after applying **first** the \(\$10\)‑off coupon and **then** the 30 %‑off coupon?
+
+A. \((g\circ f)(x)\)  
+B. \((f\circ g)(x)\)  
+C. \((f\cdot g)(x)\)  
+D. \((f+g)(x)\)  
+E. \((g-f)(x)\)
+
+<details><summary><strong>Hint</strong></summary>  
+Since the \(\$10\)‑off must be applied first, feed the original price \(x\) into \(f\), then take that result and feed it into \(g\).  
+</details>
+
+<details><summary><strong>Solution</strong></summary>  
+We want to subtract \(\$10\), then take 70 % of the remainder. That is
+\[
+(g\circ f)(x)
+= g\bigl(f(x)\bigr)
+= 0.70\bigl(x - 10\bigr).
+\]
+None of the other orders or operations matches this.  
+Hence the correct answer is **A. \((g\circ f)(x)\)**.
+</details>
+---
+
+
+### 12 (*) Inverse Function
+
+Find \(f^{-1}(x)\) for \(f(x)=\dfrac{x-1}{2x+3}\).
+
+A. \(f^{-1}(x) = \dfrac{2x+3}{x-1}\)  
+
+B. \(f^{-1}(x) = \dfrac{-3x-1}{2x-1}\)  
+
+C. \(f^{-1}(x) = \dfrac{x+4}{2x+3}\)  
+
+D. \(f^{-1}(x) = \dfrac{-x+1}{x+2}\)  
+
+E. None of these
+
+<details><summary><strong>Hint</strong></summary>
+solve for x.
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+solve for x.
+\[
+y = \dfrac{x-1}{2x+3} \implies y(2x+3) = x-1 \implies 2xy + 3y = x - 1\]
+Put all \(x\) terms on one the same side and factor out \(x\):
+\[
+x - 2xy = 3y + 1 \implies x(1-2y) = 3y + 1 \implies x = \dfrac{3y+1}{1-2y}
+\]
+Now switch \(x\) and \(y\):
+\[
+f^{-1}(x) = \dfrac{3x+1}{1-2x}\]
+So the answer is \(f^{-1}(x) = \dfrac{3x+1}{1-2x}\).
+Answer B.
+</details>
 
 ---
 
-### Problem 2
+### 13 (*) Evaluate \(f^{-1}(2)\) from a Graph
 
-\[
-f(0)=\frac{7\cdot 0+2}{3-5\cdot 0}=\frac{2}{3},
-\]
-so the \(y\)-intercept is \((0,\tfrac{2}{3})\).
+![Graph for inverse‑value question](image13.png)
 
-**Answer:** A
 
----
+A. 0
+B. 2
+C. –2
+D. Undefined
+E. None of these
 
-### Problem 3
+<details><summary><strong>Hint</strong></summary>
+\(g(3) =2\)  means when the input is 3, the output is 2.
+The inverse function \(g^{-1}(2)\) asks: what is the input that gives an output of 2?
+</details>
 
-Profit = Revenue \(-\) Cost:
-\[
-P(x) = R(x)-C(x)
-      = 262x-(82x+5220)
-      = 262x-82x-5220
-      = 180x-5220.
-\]
-
-**Answer:** B
+<details><summary><strong>Solution</strong></summary>
+The graph shows that \(g(-2)=2\), so the inverse function \(g^{-1}(2)=-2\).
+Thus the answer is B.
+</details>
 
 ---
 
-### Problem 4
+### 14 Find a Quadratic from a Graph
 
-Set \(P(x)=0\):
+![Graph of quadratic](image14.png)
+
+A. \(y=(x+1)(x-2)\)
+
+B. \(y=-(x+1)(x-2)\)
+
+C. \(y=(x-2)(x-1)\)  
+
+D. \(y=-(x-2)(x-1)\)
+
+E. \(y=-(x+1)(x-2)-\)
+
+<details><summary><strong>Hint</strong></summary>
+Identify zeros & orientation.
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+Observe the \(y=0\) when \(x=-1\) or \(x=2\).
+Thus the factored form is
 \[
-180x-5220=0 \Rightarrow 180x=5220 \Rightarrow x=\frac{5220}{180}=29.
-\]
-
-\(29\) is between 27 and 31.
-
-**Answer:** B
+y = A(x+1)(x-2).\]
+Now we evaluate the formula above at the point (0,2) to find \(A\):
+\[
+2 = A(0+1)(0-2) \implies 2 = -2A \implies A = -1.\]
+So the equation is
+\[
+y = -(x+1)(x-2).\]
+Thus the answer is \(y=-(x+1)(x-2)\). Answer B.
+</details>
 
 ---
 
-### Problem 5
+### 15 Time for Projectile to Land
 
-From the graph, as \(x\to -1^-\), \(f(x)\to -2\).  
-As \(x\to -1^+\), \(f(x)\to 3\).  
+A stone’s height (m) after \(t\) s:  
+\(h(t)=-4.9t^{2}+49t+277.4\). When does it hit the ground?
 
-The one-sided limits are different, so the limit \(\displaystyle \lim_{x\to -1}f(x)\) does **not** exist.
+A. < 9 s
 
-**Answer:** D
+B. 9–11 s
+
+C. 11–13 s
+
+D. 13–15 s
+
+E. > 15 s
+
+<details><summary><strong>Hint</strong></summary>
+Solve h(t) = 0.
+Use quadratic formula.
+</details>
+
+
+<details><summary><strong>Solution: Calculator version </strong></summary>
+
+There are two ways to solve this problem with the claculator.
+
+**Version 1**: program > quad > "asks you for a? b? c? > gives you the roots.
+
+**Version 2:**
+
+1. **Press** `Y=`
+2. **Enter** your quadratic, e.g.
+
+   ```
+   Y1 = A·X² + B·X + C
+   ```
+3. **Press** `GRAPH`
+4. **Press** `2nd` → `CALC`
+5. **Select** `2: Zero`
+6. **Left Bound?** Move the cursor to just left of the root and press `ENTER`
+7. **Right Bound?** Move the cursor to just right of the root and press `ENTER`
+8. **Guess?** Just press `ENTER` — the calculator will display the root.
+
+</details>
+
+
+<details><summary><strong>Solution</strong></summary>
+Set \(h(t)=0\):
+\[
+0=-4.9t^{2}+49t+277.4\]
+Use the quadratic formula:
+\[
+t=\dfrac{-49\pm\sqrt{49^{2}-4(-4.9)(277.4)}}{2(-4.9)}\]
+\[
+t=\dfrac{-49\pm\sqrt{2401+5443.76}}{-9.8}\]
+\[
+t=\dfrac{-49\pm\sqrt{7844.76}}{-9.8}\]
+\[
+t=\dfrac{-49\pm88.6}{-9.8}\]
+\[
+t=\dfrac{-49+88.6}{-9.8}\approx-4.02\text{ (not valid)}\]
+\[
+t=\dfrac{-49-88.6}{-9.8}\approx14.05\text{ (valid)}\]
+So the stone hits the ground at about \(t=14\) seconds.
+Thus the answer is D
+</details>
+
 
 ---
 
-### Problem 6
+### 16 (*) Profit Maximization
 
-From the graph, a tangent line at \(x=3\) passes through the points \((1,2)\) and \((3,1)\).  
-The slope is
+Demand: \(p(x)=50-\dfrac{1}{4000}x\). Fixed cost \$25 000; variable \$3 per pair.  
+How many sunglasses maximize profit?
+
+A. 100 000
+
+B. 87 000
+
+C. 94 000
+
+D. 200 000
+ 
+E. 188 000
+
+<details><summary><strong>Hint.</strong></summary>
+Combine formulas to obtain an equation for the profit:
+Revenue = demand x price
+Profit = Revenue - cost.
+Obtain a parabola. find vertex.
+</details>
+<details><summary><strong>Solution</strong></summary>
+Revenue: \[
+R(x)=p(x)x=(50-\dfrac{1}{4000}x)x=50x-\dfrac{1}{4000}x^{2}\]
+Cost: \[
+C(x)=25000+3x\]
+Profit: \[
+P(x)=R(x)-C(x)=\left(50x-\dfrac{1}{4000}x^{2}\right)-(25000+3x)\]
 \[
-m=\frac{1-2}{3-1}=\frac{-1}{2}=-\frac{1}{2}.
+P(x)=-\dfrac{1}{4000}x^{2}+47x-25000\]
+This is a downward-opening parabola. The maximum occurs at the vertex:
+\[
+x=-\dfrac{b}{2a}=-\dfrac{47}{2(-\dfrac{1}{4000})}=47\cdot2000=94000.\]
+Thus the maximum profit occurs at \(x=94\,000\) pairs.
+So the answer is C.
+</details>
+
+
+### 17 Facebook Users Model
+
+The number of monthly active Facebook users worldwide (in millions) between 2009 and 2017 is modeled by  
+\[
+f(t)=2.12\,t^3 \;-\;27.43\,t^2 \;+\;301.48\,t \;+\;180.4,
 \]
+where \(t\) is years since 2009. Use this model to answer the next question.
 
-So the instantaneous rate of change at \(x=3\) is \(-\dfrac{1}{2}\).
+**17.** Evaluate \(f(1)\) and give a practical interpretation.
 
-**Answer:** A
+A. \(f(1)=456.57\). In the year 2010, there were an average of 456.57 Facebook users added each month.  
+B. \(f(1)=456.57\). In the year 2010, there were 456.57 monthly Facebook users.  
+C. \(f(1)=456.57\). In the year 2010, there were 456.57 million monthly Facebook users.  
+D. \(f(1)=456.57\). In the year 2010, there were an average of 456.57 million Facebook users added each month.  
+E. \(f(1)=456.57\). To reach 1 million monthly Facebook users, it took 456.57 months.
+
+<details><summary><strong>Hint</strong></summary>
+Substitute \(t=1\) into the model. Remember that \(f(t)\) is in **millions** of users.
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+\[
+f(1)
+=2.12(1)^3 -27.43(1)^2 +301.48(1) +180.4
+=456.57.
+\]
+Since \(f\) measures millions of users, \(456.57\) means **456.57 million monthly active users** in 2010.  
+**Answer C.**
+</details>
 
 ---
 
-### Problem 7
+### 18 (***) When Did Users Reach 1 Billion?
 
-Factor the denominator:
-\[
-x^2-4x-12=(x-6)(x+2).
-\]
-So \(x\neq -2\) and \(x\neq 6\).  
-The domain is
-\[
-(-\infty,-2)\cup(-2,6)\cup(6,\infty).
-\]
+According to this model, in what year did the number of monthly active Facebook users reach 1 000 million?
 
-**Answer:** C
+A. 2011 B. 2012 C. 2013 D. 2014 E. 2015
 
----
+<details><summary><strong>Hint</strong></summary>
+Solve \(f(t)=1000\) (millions) for \(t\), then add that to 2009. or alternative use calculator and intersect f(t) with y=1000.
+</details>
 
-### Problem 8
+<details><summary><strong>Solution</strong></summary>
+Use calculator.
+We obtain 
 
-\[
-g(f(x))=(x+5)^2-3(x+5)+1
-       = (x^2+10x+25) -3x -15 +1
-       = x^2 +7x +11.
-\]
-
-**Answer:** D
+</details>
 
 ---
 
-### Problem 9
+### 19 Factor \(R(x)\) Given a Root
 
-If \(x\) seats are unsold, then \(200-x\) seats are sold.  
-The ticket price is \(350+4x\).  
-So
+Graph  
 \[
-R(x)=(200-x)(350+4x).
+R(x)=2x^3 + 5x^2 - 6x - 1
 \]
+on your calculator. Given that \((x-1)\) is a factor, what are the other linear factors?
 
-**Answer:** E
+A. \((2x+3)\) and \((x+2)\)  
+
+B. \((2x-3)\) and \((x-2)\)  
+
+C. \((3x+1)\) and \((x-3)\)  
+
+D. \((3x-1)\) and \((x+3)\)  
+
+E. \((2x+1)\) and \((x+6)\)
+
+<details><summary><strong>Hint</strong></summary>
+Divide \(R(x)\) by \((x-1)\) to obtain a quadratic, try graphing such quadratic to find its roots.
+</details>
+<details><summary><strong>Hint</strong></summary>
+find roots of $$ \frac{2x^3 + 5x^2 - 6x - 1}{x-1}.$$
+</details>
+
+
+<details><summary><strong>Solution</strong></summary>
+Graph $$R(x)= \frac{2x^3 + 5x^2 - 6x - 1}{x-1}$$  and find its intersection with $$y=0$$. 
+
+The roots are \(x=-2\) and \(x=\frac{-3}{2}\).
+verify your answer:
+R(x) = (x-1)(2x+3)(x+2)
+\[ 
+\text{Verify: } R(-2) = 0 \text{ and } R\left(-\frac{3}{2}\right) = 0
+\] 
+</details>
+
+
+
+### 20 End Behavior of \( f(t)=\dfrac{6t}{t + 1.2} \)
+
+As \(t\) gets very large, what does \(f(t)\) approach?
+
+A. \(f(t)\to\infty\)  
+
+B. \(f(t)\to1.2\)  
+
+C. \(f(t)\to3.8\)  
+
+D. \(f(t)\to6\)  
+
+E. None of these  
+
+
+<details><summary><strong>Hint</strong></summary>  
+Take a look at the leading terms.
+</details>
+
+<details><summary><strong>Solution</strong></summary>  
+The leading terms are \(\(6t\) and \(t\)).
+so as \(t\to\infty\), 
+
+\[
+\lim_{t\to\infty}\frac{6t}{t+1.2}
+=\lim_{t\to\infty}\frac{6}{1 + \tfrac{1.2}{t}}
+=6.
+\]  
+\[
+\boxed{6}.
+\]  
+**Answer D.**  
+</details>
 
 ---
 
-### Problem 10
+### 21 (\*\*\*) Evaluate \(h^{-1}(5)\) and Interpret
 
-Set \(p(x)=400\):
+The height (ft) of a dwarf evergreen tree after \(t\) years is
+
+$$
+h(t) = \frac{6t}{1.2 + t}.
+$$
+
+Find \(h^{-1}(5)\), i.e.\ the time \(t\) when the tree reaches 5 ft.
+
+
+A. \(h^{-1}(5)=4.84\). When a tree is 5 ft tall, 4.84 years have passed.
+
+B. \(h^{-1}(5)=1.2\). When a tree is 5 ft tall, 1.2 years have passed.
+
+C. \(h^{-1}(5)=6\). When a tree is 5 ft tall, 6 years have passed.
+
+D. \(h^{-1}(5)=4.84\). After 5 years, the height is 4.84 ft.
+
+E. \(h^{-1}(5)=6\). After 5 years, the height is 6 ft.
+
+<details><summary><strong>Hint</strong></summary>  
+Solve \(h(t) = 5\).  
+</details>
+
+<details><summary><strong>Solution</strong></summary>  
+We want \(t\) such that  
 \[
-400=700-0.4x \Rightarrow 0.4x=300 \Rightarrow x=\frac{300}{0.4}=750.
-\]
+\frac{6t}{1.2 + t} = 5.
+\]  
+Multiply both sides by \(1.2+t\), distribute, and isolate \(t\):
 
-\(750\) lies between 650 and 800.
+$$
+\begin{aligned}
+6t &= 5(1.2 + t) &&\bigl|\times(1.2+t)\\
+6t &= 6 + 5t      &&\bigl|\,-5t\\
+6t - 5t &= 6\\
+t &= 6.
+\end{aligned}
+$$
 
-**Answer:** C
+Thus \(h^{-1}(5)=6\), meaning **when the tree reaches 5 ft tall, 6 years have passed**.
+
+$$
+\boxed{6}.
+$$
+
+Choice **C**.
+
+</details>
 
 ---
 
-### Problem 11
 
-Slope \(m=f'(2)=-4\), point \((2,8)\).  
-Point–slope form:
-\[
-y-8=-4(x-2) \Rightarrow y=-4(x-2)+8.
-\]
 
-**Answer:** B
+### 22 (***) Horizontal Asymptote of \(\displaystyle p(x)=\frac{2-3x}{x+1}\)
 
----
+A. \(y=-3\)
 
-### Problem 12
+B. \(y=2\)
 
-Two points on the cost line: \((40,1286)\) and \((85,2159)\).
+C. \(y=\tfrac23\)  
 
-Slope:
-\[
-m=\frac{2159-1286}{85-40}
-  =\frac{873}{45}
-  =\frac{97}{5}.
-\]
+D. \(y=\tfrac32\) 
 
-Use \(C(x)=\frac{97}{5}x+b\) and point \((40,1286)\):
-\[
-1286=\frac{97}{5}\cdot 40+b = 776+b \Rightarrow b=510.
-\]
+E. \(y=-1\)
 
-So
-\[
-C(x)=\frac{97}{5}x+510 \quad (\text{or }19.4x+510).
-\]
+<details><summary><strong>Hint</strong></summary>
+For large \(\lvert x\rvert\), compare the leading terms \(-3x\) over \(x\).
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+As \(x\to\pm\infty\), \(\frac{2-3x}{x+1}\to\frac{-3x}{x}=-3\).  
+**Answer A.**
+</details>
 
 ---
 
-### Problem 13
+### 23 Range of \(\displaystyle p(x)= \left( \frac{1}{3} \right)^x +2\)
 
-Factor:
-\[
-x^2-4=(x-2)(x+2),\quad x^2+2x-8=(x+4)(x-2).
-\]
-For \(x\neq 2\),
-\[
-f(x)=\frac{x+2}{x+4}.
-\]
+A. \([2,\infty)\)
 
-a. As \(x\to\infty\),
-\[
-\lim_{x\to\infty}f(x)=\lim_{x\to\infty}\frac{x+2}{x+4}=1.
-\]
+B. \((-\infty,2]\)  
 
-b. At \(x=1\), denominator nonzero, so
-\[
-\lim_{x\to 1} f(x) = f(1) = \frac{1-4}{1+2-8}=\frac{-3}{-5}=\frac{3}{5}.
-\]
+C. \((-\infty,2)\) 
 
-c. As \(x\to 2\),
+D. \((-\infty,\infty)\)  
+
+E. \((2,\infty)\)
+
+<details><summary><strong>Hint</strong></summary>
+The function \((\tfrac13)^x\) is always positive. What does that tell you about the range of \(p(x)\)?
+What happens if \(x\) is very large or very small, negative?
+
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+Since \((\tfrac13)^x>0\) for all real \(x\),
 \[
-\lim_{x\to 2} f(x) = \lim_{x\to 2}\frac{x+2}{x+4}=\frac{4}{6}=\frac{2}{3}.
+(\tfrac13)^x\in(0,\infty)
+\quad\Longrightarrow\quad
+p(x)=(\tfrac13)^x+2\in(2,\infty).
 \]
+\[
+\boxed{(2,\infty)}.
+\]  
+**Answer E.**
+</details>
 
 ---
 
-### Problem 14
+### 24 (***) Find \(C\) and \(b\) for \(y = C\,b^x\)
 
-\[
-P(10)=-2(10)^2+51(10)-100=-200+510-100=210,
-\]
-\[
-P(7)=-2(7)^2+51(7)-100=-98+357-100=159.
-\]
+| \(x\) | 1 | 2 | 3 | 4 |
+|:-----:|--:|---:|---:|---:|
+| \(y\) |  8 | 12 | 18 | 27 |
 
-Average rate of change from 7 to 10:
-\[
-\frac{P(10)-P(7)}{10-7}
-=\frac{210-159}{3}
-=\frac{51}{3}=17.
-\]
 
-So the average rate of change is **\$17 per hat** over this interval.
+A. \(C=3,\;b=2\)  
+
+B. \(C=\tfrac{16}{3},\;b=\tfrac23\)  
+
+C. \(C=8,\;b=\tfrac23\)  
+
+D. \(C=\tfrac{16}{3},\;b=\tfrac32\)  
+
+E. \(C=8,\;b=\tfrac32\)
+
+<details><summary><strong>Hint</strong></summary>
+Evaluate the function at points we know.
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+First evaluate the function at \(x=1\):
+\[
+y(1)=C b^1\]
+This gives us the equation
+\[
+8 = C b.\]
+We can solve for \(C\):
+\[
+C = \frac{8}{b}.\]
+Next evaluate the function at \(x=2\):
+\[
+y(2)=C b^2\]
+This gives us the equation
+\[
+12 = C b^2.\]
+
+Since we know \(C\), we can substitute:
+\[
+12 = \left(\frac{8}{b}\right) b^2
+\]
+Cancel the \(b\) in the denominator:
+So we have
+\[
+12 = 8b\]
+Hence
+\[
+b = \frac{12}{8} = \frac{3}{2}.\]
+Now substitute \(b\) back into the equation for \(C\):
+\[
+C = \frac{8}{b} = \frac{8}{\frac{3}{2}} = \frac{16}{3}.\]   
+So the answer is D.
+</details>
 
 ---
 
-### Problem 15
+### 25 Continuous Compounding
 
-a. Since \(5\ge 2\), use \(g(x)=4x+7\):
+Arturo wants \$15 000 in 6 years with continuous compounding at 3.7 % Continuously compounded. How much must he invest now?
+
+A. \$12 061.98
+
+B. \$1 629.14  
+
+C. \$138 109.96
+
+D. \$18 728.57  
+
+E. \$12 013.73
+
+<details><summary><strong>Hint</strong></summary>
+Use \(A=Pe^{rt}\) with the given data.
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+We want to solve for \(P\) in the equation
 \[
-g(5)=4\cdot 5+7=27.
-\]
-
-b. Solve \(g(x)=19\).
-
-For \(x<2\):  
+A=Pe^{rt}\]
+ with data given \(A=15000\), \(r=\frac{3.7}{100}=0.037\), and \(t=6\):
 \[
-x^2+9=19 \Rightarrow x^2=10 \Rightarrow x=\pm\sqrt{10}.
-\]
-Only \(-\sqrt{10}\) satisfies \(x<2\).
-
-For \(x\ge 2\):  
+15000=Pe^{0.037\cdot6}\]
 \[
-4x+7=19 \Rightarrow x=3,
-\]
-which satisfies \(x\ge 2\).
-
-So the solutions are \(x=-\sqrt{10}\) and \(x=3\).
+P=\frac{15000}{e^{6(0.037)}}\approx\frac{15000}{e^{0.222}}=\frac{15000}{1.248}\approx12013.73.\]
+So the answer is \(P\approx12013.73\).
+**Answer E.**
+</details>
 
 ---
 
-### Problem 16
+### 26 Population Prediction
 
-Set supply equal to demand:
+A city’s population is \(P(t)=12500e^{0.02t}\), where \(t\) is years after 1985. Predict in 2020.
+
+
+A. < 10 000  
+
+B. 10 000–20 000  
+
+C. 20 000–30 000  
+
+D. 30 000–40 000  
+
+E. > 40 000
+
+<details><summary><strong>Hint</strong></summary>
+Set \(t=2020-1985=35\); compute \(P(35)\).
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+In 1985, \(t=0\). In 2020, \(t=35\).
+Substituting \(t=35\) into the population formula:
+
 \[
-0.4x+700=-0.2x+2500
-\Rightarrow 0.6x=1800
-\Rightarrow x=\frac{1800}{0.6}=3000.
+P(35)=12500\,e^{0.7}\approx12500\times2.0138\approx25\,171,
 \]
+which lies between 20 000 and 30 000.  
+**Answer C.**
+</details>
 
-Equilibrium quantity: \(3000\) rugs.
 
-Equilibrium price:
+### 27 Evaluate \(\log_{2}\!\bigl(\tfrac18\bigr)\)
+
+A. \(\tfrac13\) B. \(-3\) C. \(\tfrac14\) D. \(-4\) E. 0
+
+<details><summary><strong>Hint</strong></summary>
+Rewrite \(\tfrac18\) as a power of \(2\).
+</details>
+
+
+<details><summary><strong>Solution</strong></summary>
+\(\tfrac18=2^{-3}\), so
 \[
-S(3000)=0.4(3000)+700=1200+700=1900.
-\]
-
-So the equilibrium point is \((3000,1900)\):  
-**3000 rugs at \$1900 per rug.**
+\log_{2}\!\bigl(\tfrac18\bigr)=\log_{2}\!\bigl(2^{-3}\bigr)=-3.\]
+Thus the answer is \(-3\).
+**Answer B.**
+</details>
 
 ---
 
-### Problem 17
+### 28 Rewrite \(6^{N}=13\) in Logarithmic Form
 
-\(R(x)=-0.8x^2+700x\).
 
-a. Vertex at
+A. \(\log_{6}13 = N\)  
+
+B. \(\log 6 = 13^{N}\)  
+
+C. \(\log_{13}6 = N\)  
+
+D. \(\log_{13}6 = N\)  
+
+E. \(\log_{6}13 = N\)
+<details><summary><strong>Hint</strong></summary>
+Look at the answers and see which base logarithm makes sense to try.
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+Remember the definition of logarithm with base \(b\):
 \[
-x=-\frac{b}{2a}=-\frac{700}{2(-0.8)}=\frac{700}{1.6}=437.5.
-\]
-Revenue is maximized when about **438 desks** are produced and sold (mathematically \(x=437.5\)).
-
-b. Derivative:
+\log_{b}(x)\]
+asks to what number do we raise \(b\) to get \(x\)?
+so to put this in logarithm form it makes sense to use base 6.
+and recast the equation \(6^{N}=13\) as
 \[
-R'(x)=-1.6x+700.
-\]
-At \(x=300\):
+\log_{6} 6^{N} = \log_{6} 13\]
+The logarithm is the inverse of the exponentiation, so we can cancel the \(6\) on the left side
+to obtain.
 \[
-R'(300)=-1.6(300)+700=-480+700=220.
-\]
+N = \log_{6} 13.\]  
+Thus the answer is **E.**
+</details>
 
-Interpretation:  
-When 300 desks are being produced and sold, revenue is increasing at a rate of **about \$220 for each additional desk**.
+---
+
+### 29 Solve \(\log_{2}(3)=\log_{2}(5x)-\log_{2}(x+1)\)
+
+A. \(x=\tfrac12\) B. \(x=\tfrac14\) C. \(x=\tfrac32\) D. \(x=\tfrac38\)
+
+<details><summary><strong>Hint</strong></summary>
+Review the rules for combining logarithms.
+</details>  
+<details><summary><strong>Solution</strong></summary>
+Combine logs:
+\[
+\log_{2}(3)=\log_{2}\!\left(\frac{5x}{x+1}\right).\]
+Exponentiate both sides:
+\[
+3 = \frac{5x}{x+1}.\]
+Multiply both sides by \(x+1\):
+\[
+3(x+1) = 5x.\]
+Distribute:
+\[
+3x + 3 = 5x.\]
+Subtract \(3x\) from both sides:
+\[
+3 = 5x - 3x\]
+\[
+3 = 2x.\]
+Divide both sides by \(2\):
+\[
+x = \frac{3}{2}.\]
+Thus the answer is \(x=\frac{3}{2}\).
+**Answer C.**
+</details>
+
+---
+
+### 30 Solve for \(t\)
+
+$$
+140\Bigl(\tfrac12\Bigr)^{t/4} = 350
+$$
+
+A. \(t = 4\log_{1/2}(5)\)
+
+B. \(t = 4\log_{1/2}\!(\tfrac52)\)
+
+C. \(t = 4\log_{5/2}(\tfrac12)\)
+
+D. \(t = 4\log_{5}(2)\)
+
+<details><summary><strong>Solution</strong></summary>
+
+We want to solve
+
+$$
+140\Bigl(\tfrac12\Bigr)^{t/4} = 350.
+$$
+
+Divide both sides by 140:
+
+$$
+\Bigl(\tfrac12\Bigr)^{t/4} = \frac{350}{140} = \frac{5}{2}.
+$$
+
+Now take logarithms in base $\tfrac12$:
+
+$$
+\frac{t}{4}
+= \log_{1/2}\!\Bigl(\tfrac{5}{2}\Bigr)
+\quad\Longrightarrow\quad
+t = 4\,\log_{1/2}\!\Bigl(\tfrac{5}{2}\Bigr).
+$$
+
+That matches choice **B**.
+
+</details>
+
+**Answer B.**
+
+
+### 31 Solve  \( \displaystyle \frac{8}{1 + 100e^{-3t}} = 2\)
+
+A. \(\displaystyle t = -\ln\!\bigl(\tfrac{1}{100}\bigr)\)
+
+B. \(\displaystyle t = \tfrac{1}{3}\ln\!\bigl(\tfrac{1}{20}\bigr)\)
+
+C. \(\displaystyle t = -\ln\!\bigl(\tfrac{3}{20}\bigr)\)
+
+D. \(\displaystyle t = -3\ln\!\bigl(\tfrac{3}{100}\bigr)\)
+
+E. \(\displaystyle t = -\tfrac{1}{3}\ln\!\bigl(\tfrac{3}{100}\bigr)\)
+
+<details><summary><strong>Solution</strong></summary>
+
+We want \(t\) such that
+
+$$
+\frac{8}{1 + 100e^{-3t}} = 2.
+$$
+
+Step by step:
+
+$$
+\begin{aligned}
+\frac{8}{1 + 100e^{-3t}} &= 2
+    &&\bigl|\times(1 + 100e^{-3t})\\
+8 &= 2\,(1 + 100e^{-3t})
+    &&\bigl|\;\text{distribute}\bigr.\\
+8 &= 2 + 200e^{-3t}
+    &&\bigl|\;-2\bigr.\\
+6 &= 200\,e^{-3t}
+    &&\bigl|\;\div200\bigr.\\
+\frac{6}{200} &= e^{-3t}
+    &&\bigl|\;\ln\bigr.\\
+\ln\!\bigl(\tfrac{6}{200}\bigr) &= -3t
+    &&\bigl|\;\div(-3)\bigr.\\
+t &= -\tfrac{1}{3}\,\ln\!\bigl(\tfrac{6}{200}\bigr).
+\end{aligned}
+$$
+
+Since $\tfrac{6}{200} = \tfrac{3}{100}$,
+
+$$
+\boxed{t = -\frac{1}{3}\ln\!\bigl(\tfrac{3}{100}\bigr)},
+$$
+
+which corresponds to choice **E**.
+
+</details>
+
+---
+
+### 32 Doubling Time with Monthly Compounding
+
+Suppose Matt initially invests \$3000 in an account bearing 4 % interest compounded monthly. How long will it take for the deposit to double in value, rounded to the nearest 0.01 years?
+
+A. 17.33 years  
+
+B. 17.36 years  
+
+C. 19.22 years  
+
+D. 19.74 years  
+
+E. None of these  
+
+<details><summary><strong>Hint</strong></summary>  
+Use the formula for monthly compounding:  
+\[
+A = P\Bigl(1 + \frac{r}{n}\Bigr)^{nt},
+\]  
+with \(A=6000\), \(P=3000\), \(r=0.04\), \(n=12\). Solve for \(t\).
+</details>
+
+<details><summary><strong>Solution</strong></summary>  
+\[
+6000 = 3000\Bigl(1+\tfrac{0.04}{12}\Bigr)^{12t}
+\;\Longrightarrow\;
+2 = \Bigl(1.003333\Bigr)^{12t}
+\;\Longrightarrow\;
+12t = \frac{\ln2}{\ln(1.003333)}
+\;\Longrightarrow\;
+t = \frac{1}{12}\,\frac{\ln2}{\ln(1.003333)} \approx 17.36.
+\]  
+**Answer B.**
+</details>
+
+---
+
+### 33 Logistic Growth of Fish Population
+
+A certain lake is stocked with 1000 fish. The population grows according to the logistic curve  
+\[
+P(t)=\frac{10\,000}{1 + 9e^{-t/5}},
+\]  
+where \(t\) is months since stocking. After how many months will the fish population be 2000?
+
+A. Less than 2 months  
+
+B. Between 2 and 4 months  
+
+C. Between 4 and 6 months  
+
+D. Between 6 and 8 months  
+
+E. More than 8 months  
+
+<details><summary><strong>Hint</strong></summary>  
+Set \(P(t)=2000\) and solve for \(t\):  
+\[
+2000=\frac{10000}{1+9e^{-t/5}}.
+\]
+</details>
+
+<details><summary><strong>Solution</strong></summary>  
+\[
+2000(1+9e^{-t/5})=10000
+\;\Longrightarrow\;
+1+9e^{-t/5}=5
+\;\Longrightarrow\;
+9e^{-t/5}=4
+\;\Longrightarrow\;
+e^{-t/5}=\frac{4}{9}
+\;\Longrightarrow\;
+-t/5=\ln\!\tfrac{4}{9}
+\;\Longrightarrow\;
+t = -5\ln\!\tfrac{4}{9}\approx 4.05.
+\]  
+This is between 4 and 6 months.  
+**Answer C.**
+</details>
+
+---
+
+### 34 (***) Atmospheric‑Pressure Model
+
+Atmospheric pressure \(y\) decays exponentially with height \(t\) (in feet) via  
+\[
+y = C e^{kt}.
+\]
+If at \(t=18000\) ft the pressure is half of sea‑level (\(y=\tfrac12C\)), find \(k\) and then estimate the pressure at \(t=1000\) ft as a percentage of sea‑level.
+
+A. Less than 20 %  
+
+B. 20–40 %  
+
+C. 40–60 %  
+
+D. 60–80 %  
+
+E. More than 80 %  
+
+<details><summary><strong>Hint</strong></summary>  
+1. Use \(C e^{k\cdot18000}=\tfrac12C\) to find \(k\).  
+2. Compute \(e^{k\cdot1000}\times100\%\).
+</details>t
+
+
+<details><summary><strong>Solution</strong></summary>  
+1. From \(Ce^{18000k}=\tfrac12C\):
+\[
+e^{18000k}=\tfrac12
+\;\Longrightarrow\;
+18000k=\ln\tfrac12=-\ln2
+\;\Longrightarrow\;
+k=-\tfrac{\ln2}{18000}\approx -3.85\times10^{-5}.
+\]
+2. At \(t=1000\):
+\[
+\frac{y}{C}=e^{k\cdot1000}
+=e^{-3.85\times10^{-5}\times1000}
+=e^{-0.0385}\approx0.9622,
+\]
+i.e.\ about 96.22 %.  
+That is **more than 80 %**.  
+**Answer E.**
+</details>
+
+---
+
+### 35 Smartphone Users Model
+
+The number of smartphone users (in millions) in the U.S. from 2010 to 2016 is  
+\[
+f(t)=75\ln(t+1)+50,
+\]
+where \(t\) is years since 2010. According to this model, in what year did the number of users reach 150 million?
+
+A. 2010  
+
+B. 2011  
+
+C. 2012  
+
+D. 2013  
+
+E. 2014  
+
+<details><summary><strong>Hint</strong></summary>  
+Set \(75\ln(t+1)+50=150\) and solve for \(t\), then add to 2010.
+</details>
+
+<details><summary><strong>Solution</strong></summary>  
+\[
+75\ln(t+1)+50=150
+\;\Longrightarrow\;
+75\ln(t+1)=100
+\;\Longrightarrow\;
+\ln(t+1)=\tfrac{100}{75}=\tfrac{4}{3}
+\;\Longrightarrow\;
+t+1=e^{4/3}
+\;\Longrightarrow\;
+t=e^{4/3}-1\approx2.79.
+\]  
+Year \(=2010+2.79\approx2012.79\), i.e.\ late 2012.  
+**Answer C.**
+</details>
+
+
+## Answers { #answers }
+
+| Problem | Answer |
+|:-------:|:------:|
+| 1 | A |
+| 2 | A |
+| 3 | B |
+| 4 | A |
+| 5 | E |
+| 6 | A |
+| 7 | B |
+| 8 | C |
+| 9 | D |
+| 10 | E |
+| 11 | A |
+| 12 | B |
+| 13 | C |
+| 14 | E |
+| 15 | D |
+| 16 | C |
+| 17 | C |
+| 18 | B |
+| 19 | A |
+| 20 | D |
+| 21 | E |
+| 22 | A |
+| 23 | E |
+| 24 | D |
+| 25 | E |
+| 26 | C |
+| 27 | B |
+| 28 | E |
+| 29 | C |
+| 30 | B |
+| 31 | E |
+| 32 | B |
+| 33 | C |
+| 34 | E |
+| 35 | C |
