@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on A minimal Hugo website</title>
-    <link>http://localhost:33137/InfiniteCuteLoop/</link>
+    <link>https://cuteloop.github.io/InfiniteCuteLoop/</link>
     <description>Recent content in Home on A minimal Hugo website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Nov 2025 13:19:01 -0700</lastBuildDate>
-    <atom:link href="http://localhost:33137/InfiniteCuteLoop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MATH 116 Test 1 Practice (Fall 2024)</title>
-      <link>http://localhost:33137/InfiniteCuteLoop/posts/math116-exam-1/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-final-practice/</link>
       <pubDate>Mon, 24 Nov 2025 13:19:01 -0700</pubDate>
-      <guid>http://localhost:33137/InfiniteCuteLoop/posts/math116-exam-1/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to use this page&lt;/strong&gt;&lt;br&gt;&#xA;Try each problem first, then expand &lt;strong&gt;Hint&lt;/strong&gt; or &lt;strong&gt;Solution&lt;/strong&gt; as needed.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#answers&#34;&gt;Answer key&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formulas-provided-on-the-exam---formula-sheet-&#34;&gt;Formulas Provided on the Exam  {: #formula-sheet }&lt;/h2&gt;&#xA;&lt;!-- Put any formulas you want available to students here --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;problems&#34;&gt;Problems&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-problem-title-here&#34;&gt;1. Problem title here&lt;/h3&gt;&#xA;&lt;p&gt;Problem statement goes here.&lt;/p&gt;&#xA;&lt;p&gt;A. Option A&lt;br&gt;&#xA;B. Option B&lt;br&gt;&#xA;C. Option C&lt;br&gt;&#xA;D. Option D&lt;br&gt;&#xA;E. Option E&lt;/p&gt;&#xA;&lt;details&gt;&lt;summary&gt;&lt;strong&gt;Hint&lt;/strong&gt;&lt;/summary&gt;&#xA;&lt;p&gt;Short hint here.&lt;/p&gt;&#xA;&lt;/details&gt;&#xA;&lt;details&gt;&lt;summary&gt;&lt;strong&gt;Solution&lt;/strong&gt;&lt;/summary&gt;&#xA;&lt;p&gt;Detailed step-by-step solution here.&lt;/p&gt;&#xA;&lt;/details&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;answers---answers-&#34;&gt;Answers  {: #answers }&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Problem&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Answer&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>MATH 116 Test 2 Practice (Fall 2024)</title>
-      <link>http://localhost:33137/InfiniteCuteLoop/posts/math116-exam-2/</link>
-      <pubDate>Mon, 24 Nov 2025 12:41:06 -0700</pubDate>
-      <guid>http://localhost:33137/InfiniteCuteLoop/posts/math116-exam-2/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to use this page&lt;/strong&gt;&lt;br&gt;&#xA;Try each problem first, then expand &lt;strong&gt;Hint&lt;/strong&gt; or &lt;strong&gt;Solution&lt;/strong&gt; as needed.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#answers&#34;&gt;Answer key&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formulas-provided-on-the-exam---formula-sheet-&#34;&gt;Formulas Provided on the Exam  {: #formula-sheet }&lt;/h2&gt;&#xA;&lt;!-- Put any formulas you want available to students here --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;problems&#34;&gt;Problems&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-problem-title-here&#34;&gt;1. Problem title here&lt;/h3&gt;&#xA;&lt;p&gt;Problem statement goes here.&lt;/p&gt;&#xA;&lt;p&gt;A. Option A&lt;br&gt;&#xA;B. Option B&lt;br&gt;&#xA;C. Option C&lt;br&gt;&#xA;D. Option D&lt;br&gt;&#xA;E. Option E&lt;/p&gt;&#xA;&lt;details&gt;&lt;summary&gt;&lt;strong&gt;Hint&lt;/strong&gt;&lt;/summary&gt;&#xA;&lt;p&gt;Short hint here.&lt;/p&gt;&#xA;&lt;/details&gt;&#xA;&lt;details&gt;&lt;summary&gt;&lt;strong&gt;Solution&lt;/strong&gt;&lt;/summary&gt;&#xA;&lt;p&gt;Detailed step-by-step solution here.&lt;/p&gt;&#xA;&lt;/details&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;answers---answers-&#34;&gt;Answers  {: #answers }&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Problem&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Answer&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;p =800 -0.2x&lt;/p&gt;</description>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-final-practice/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to use this page&lt;/strong&gt;&lt;br&gt;&#xA;Try each problem first, then expand &lt;strong&gt;Hint 1&lt;/strong&gt; or &lt;strong&gt;Hint 2&lt;/strong&gt; as needed.&lt;br&gt;&#xA;All &lt;strong&gt;solutions are collected at the end&lt;/strong&gt; of the page.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#answers&#34;&gt;Answer key &amp;amp; solutions&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;$$ Instantaneous rate of change = \lim_{h\to 0} \frac{f(x+h)-f(x)}{h}&lt;/p&gt;&#xA;&lt;h2 id=&#34;problems&#34;&gt;Problems&lt;/h2&gt;&#xA;&lt;p&gt;Problems 1 and 2 refer to the function&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;f(x) = \frac{7x+2}{3-5x}.&#xA;\]&lt;h3 id=&#34;problem-1&#34;&gt;Problem 1&lt;/h3&gt;&#xA;&lt;p&gt;Find the vertical asymptote, if any, for&#xA;&lt;/p&gt;&#xA;\[&#xA;f(x)=\frac{7x+2}{3-5x}.&#xA;\]&lt;p&gt;A. \(x=-\dfrac{7}{2}\)&lt;br&gt;&#xA;B. \(x=-\dfrac{2}{7}\)&lt;br&gt;&#xA;C. \(x=\dfrac{3}{5}\)&lt;br&gt;&#xA;D. \(x=0\)&lt;br&gt;&#xA;E. There is no vertical asymptote.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MATH 116 Test 3 Practice (Fall 2024)</title>
-      <link>http://localhost:33137/InfiniteCuteLoop/posts/math116-exam-3/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-3/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33137/InfiniteCuteLoop/posts/math116-exam-3/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-3/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to use this page&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is a practice version of &lt;strong&gt;MATH 116 – Test 3 (Fall 2024)&lt;/strong&gt; with&#xA;&lt;strong&gt;very detailed, step-by-step solutions&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For each problem:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Read the &lt;strong&gt;problem&lt;/strong&gt; and try it on your own.&lt;/li&gt;&#xA;&lt;li&gt;Open &lt;strong&gt;Hint 1&lt;/strong&gt; if you’re not sure which rule or idea to use.&lt;/li&gt;&#xA;&lt;li&gt;Open &lt;strong&gt;Hint 2&lt;/strong&gt; for more structure.&lt;/li&gt;&#xA;&lt;li&gt;Open the &lt;strong&gt;Solution&lt;/strong&gt; only when you’re ready to check your work.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formula-sheet&#34;&gt;Formula Sheet&lt;/h2&gt;&#xA;&lt;h3 id=&#34;interest--exponential-growthdecay&#34;&gt;Interest &amp;amp; Exponential Growth/Decay&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Compound interest (m times per year)&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>MATH 112 – Final Exam Practice</title>
-      <link>http://localhost:33137/InfiniteCuteLoop/posts/math-final-practice/</link>
-      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33137/InfiniteCuteLoop/posts/math-final-practice/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;How to use this page&lt;br&gt;&#xA;Try each problem first, then expand Hint or Solution as needed. (this is a draft. Currently in the process of checking and reviewing the solutions are correct. I hope It Helps you in your study.)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;#answers&#34;&gt;Final Exam Practice Exam Answers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.math.arizona.edu/academics/courses/math112&#34;&gt;Math 112 final exam resources&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formulas-provided-on-the-exam--formula-sheet-&#34;&gt;Formulas Provided on the Exam  {: #formula-sheet }&lt;/h2&gt;&#xA;&lt;h3 id=&#34;quadratics&#34;&gt;Quadratics&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Quadratic Formula&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Vertex of Parabola&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;\(x = \dfrac{-b \pm \sqrt{b^{2}-4ac}}{2a}\)&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;\(x = -\dfrac{b}{2a}\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Factored Forms&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Blog with LaTeX in 15 Minutes</title>
-      <link>http://localhost:33137/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33137/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</guid>
       <description>&lt;h1 id=&#34;blog-with-latex-in-15-minutes&#34;&gt;Blog with LaTeX in 15 Minutes&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Joel Maldonado&lt;/em&gt;&#xA;Welcome to this infinite &lt;strong&gt;Cute Loop&lt;/strong&gt;! In this post, I’m going to share my journey of setting up a Hugo blog with full LaTeX support and deploying it to GitHub Pages—all in just 15 minutes. If you’re curious about how to get your blog up and running quickly, read on!Below is the updated, comprehensive tutorial that incorporates all the details—including creating your GitHub repository, initializing your Hugo site with your final configuration, adding LaTeX support via the custom footer partial, and deploying your site from a dedicated branch (gh‑pages) using ghp‑import. You can copy and paste this tutorial as your first post (for example, as a file named &lt;code&gt;content/posts/blog-with-latex-in-15-min.md&lt;/code&gt;) and then customize it as needed.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>MATH 116 – Test 1 Practice (Fall 2024)</title>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-1/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-1/</guid>
+      <description>&lt;h2 id=&#34;formula-sheet--derivative-rules-only&#34;&gt;Formula Sheet – Derivative Rules Only&lt;/h2&gt;&#xA;&lt;h3 id=&#34;basic-rules&#34;&gt;Basic rules&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Constant rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[k] = 0&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Power rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[x^n] = n x^{n-1} \quad (\text{for any real } n)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Constant multiple rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[k\,f(x)] = k\,f&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sum &amp;amp; difference rules&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[f(x) \pm g(x)] = f&#39;(x) \pm g&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;product--quotient-rules&#34;&gt;Product &amp;amp; quotient rules&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Product rule&lt;/strong&gt; – for \(h(x)=f(x)\,g(x)\):&#xA;&lt;/p&gt;&#xA;\[&#xA;  h&#39;(x) = f&#39;(x)\,g(x) + f(x)\,g&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Quotient rule&lt;/strong&gt; – for \(h(x)=\dfrac{f(x)}{g(x)}\):&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATH 116 – Test 2 Practice (Fall 2024)</title>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-2/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-2/</guid>
+      <description>&lt;h3 id=&#34;basic-rules&#34;&gt;Basic rules&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Constant rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[k] = 0&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Power rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[x^n] = n x^{n-1} \quad (\text{for any real } n)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Constant multiple rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[k\,f(x)] = k\,f&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sum &amp;amp; difference rules&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[f(x) \pm g(x)] = f&#39;(x) \pm g&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;product--quotient-rules&#34;&gt;Product &amp;amp; quotient rules&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Product rule&lt;/strong&gt; – for \(h(x)=f(x)\,g(x)\):&#xA;&lt;/p&gt;&#xA;\[&#xA;  h&#39;(x) = f&#39;(x)\,g(x) + f(x)\,g&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Quotient rule&lt;/strong&gt; – for \(h(x)=\dfrac{f(x)}{g(x)}\):&#xA;&lt;/p&gt;&#xA;\[&#xA;  h&#39;(x) =&#xA;  \frac{f&#39;(x)\,g(x) - f(x)\,g&#39;(x)}{[g(x)]^{2}}&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;chain-rule&#34;&gt;Chain rule&lt;/h3&gt;&#xA;&lt;p&gt;If \(h(x) = f(g(x))\) (a composition), then&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>First Post</title>
-      <link>http://localhost:33137/InfiniteCuteLoop/posts/my-first-post/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/my-first-post/</link>
       <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33137/InfiniteCuteLoop/posts/my-first-post/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/my-first-post/</guid>
       <description>&lt;p&gt;This is a website where I upload content about math education.&#xA;Teaching maths and Teaching material.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:33137/InfiniteCuteLoop/about/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33137/InfiniteCuteLoop/about/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/about/</guid>
       <description>&lt;p&gt;Hi there! Welcome to &lt;strong&gt;Infinite Cute Loop&lt;/strong&gt; – a space where my passion for math, research, and creative teaching comes to life. I&amp;rsquo;m a graduate student with a deep love for all things math, and I built this blog to share both academic explorations and playful insights into the world of numbers.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;What you can expect:&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In-depth research and analysis.&lt;/li&gt;&#xA;&lt;li&gt;Creative tutorials and fun math musings.&lt;/li&gt;&#xA;&lt;li&gt;Practical examples to spark inspiration.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Happy exploring!&lt;/p&gt;</description>
     </item>
   </channel>

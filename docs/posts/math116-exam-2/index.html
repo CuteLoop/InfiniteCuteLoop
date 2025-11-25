@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/InfiniteCuteLoop/livereload.js?mindelay=10&amp;v=2&amp;port=33137&amp;path=InfiniteCuteLoop/livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MATH 116 Test 2 Practice (Fall 2024) | A minimal Hugo website</title>
+    <title>MATH 116 – Test 2 Practice (Fall 2024) | A minimal Hugo website</title>
     <link rel="stylesheet" href="/InfiniteCuteLoop/css/style.css" />
     <link rel="stylesheet" href="/InfiniteCuteLoop/css/fonts.css" />
     
@@ -28,65 +28,887 @@
     </nav>
 
 <div class="article-meta">
-<h1><span class="title">MATH 116 Test 2 Practice (Fall 2024)</span></h1>
+<h1><span class="title">MATH 116 – Test 2 Practice (Fall 2024)</span></h1>
 
-<h2 class="date">2025/11/24</h2>
+<h2 class="date">2024/11/01</h2>
 </div>
 
 <main>
-<blockquote>
-<p><strong>How to use this page</strong><br>
-Try each problem first, then expand <strong>Hint</strong> or <strong>Solution</strong> as needed.</p>
-</blockquote>
+<h3 id="basic-rules">Basic rules</h3>
 <ul>
-<li><a href="#answers">Answer key</a></li>
+<li>
+<p><strong>Constant rule</strong><br>
+</p>
+\[
+  \frac{d}{dx}[k] = 0
+  \]</li>
+<li>
+<p><strong>Power rule</strong><br>
+</p>
+\[
+  \frac{d}{dx}[x^n] = n x^{n-1} \quad (\text{for any real } n)
+  \]</li>
+<li>
+<p><strong>Constant multiple rule</strong><br>
+</p>
+\[
+  \frac{d}{dx}[k\,f(x)] = k\,f'(x)
+  \]</li>
+<li>
+<p><strong>Sum &amp; difference rules</strong><br>
+</p>
+\[
+  \frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)
+  \]</li>
 </ul>
-<hr>
-<h2 id="formulas-provided-on-the-exam---formula-sheet-">Formulas Provided on the Exam  {: #formula-sheet }</h2>
-<!-- Put any formulas you want available to students here -->
-<hr>
+<h3 id="product--quotient-rules">Product &amp; quotient rules</h3>
+<ul>
+<li>
+<p><strong>Product rule</strong> – for \(h(x)=f(x)\,g(x)\):
+</p>
+\[
+  h'(x) = f'(x)\,g(x) + f(x)\,g'(x)
+  \]</li>
+<li>
+<p><strong>Quotient rule</strong> – for \(h(x)=\dfrac{f(x)}{g(x)}\):
+</p>
+\[
+  h'(x) =
+  \frac{f'(x)\,g(x) - f(x)\,g'(x)}{[g(x)]^{2}}
+  \]</li>
+</ul>
+<h3 id="chain-rule">Chain rule</h3>
+<p>If \(h(x) = f(g(x))\) (a composition), then
+</p>
+\[
+h'(x) = f'(g(x))\cdot g'(x).
+\]<hr>
 <h2 id="problems">Problems</h2>
-<h3 id="1-problem-title-here">1. Problem title here</h3>
-<p>Problem statement goes here.</p>
-<p>A. Option A<br>
-B. Option B<br>
-C. Option C<br>
-D. Option D<br>
-E. Option E</p>
-<details><summary><strong>Hint</strong></summary>
-<p>Short hint here.</p>
+<h3 id="problem-1">Problem 1</h3>
+<p>The <strong>demand (price) function</strong> for a product is
+</p>
+\[
+p(x) = 800 - 0.2x,
+\]<p>
+where \(x\) is the number of units sold and \(p(x)\) is the price per unit (in dollars).</p>
+<p>The <strong>revenue function</strong> is \(R(x) = x\,p(x)\).</p>
+<p>Find the <strong>marginal revenue</strong> when \(1600\) units are sold, i.e.\ find \(R'(1600)\).</p>
+<p><strong>Choices</strong></p>
+<p>(A) more than $155 per unit<br>
+(B) between $145 and $155 per unit<br>
+(C) between $135 and $145 per unit<br>
+(D) between $125 and $135 per unit<br>
+(E) less than $125 per unit</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>You need the derivative of a product \(R(x) = x\cdot p(x)\).</p>
+<p>Look up the <strong>product rule</strong> for derivatives.</p>
 </details>
-<details><summary><strong>Solution</strong></summary>
-<p>Detailed step-by-step solution here.</p>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>First write \(R(x)\) explicitly:
+\[
+   R(x) = x(800-0.2x).
+   \]</li>
+<li>Either expand and use the power rule, or apply the product rule directly.</li>
+<li>After finding \(R'(x)\), plug in \(x=1600\).</li>
+</ol>
+<p>Keep track of <strong>units</strong>: revenue is in dollars per unit of \(x\).</p>
 </details>
 <hr>
-<h2 id="answers---answers-">Answers  {: #answers }</h2>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center">Problem</th>
-          <th style="text-align: center">Answer</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">1</td>
-          <td style="text-align: center"></td>
-      </tr>
-  </tbody>
-</table>
+<h3 id="problem-2">Problem 2</h3>
+<p>The quantity demanded \(q\) (number of units sold) depends on price \(p\) via
+</p>
+\[
+q(p) = 7900 - 3p^{2},
+\]<p>
+where \(p\) is the price in dollars.</p>
+<p>When the price per unit is $30, the <strong>elasticity of demand</strong> is</p>
+\[
+E(p) = -\frac{p}{q(p)}\,\frac{dq}{dp}.
+\]<p>At \(p=30\) the elasticity is:</p>
+<p><strong>Choices</strong></p>
+<p>(A) less than \(0.8\)<br>
+(B) between \(0.8\) and \(1.0\)<br>
+(C) between \(1.0\) and \(1.2\)<br>
+(D) between \(1.2\) and \(1.4\)<br>
+(E) more than \(1.4\)</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
 <ol>
-<li>
-<p>p =800 -0.2x</p>
-</li>
-<li>
-<p>q = 7900-3p^2</p>
-</li>
-<li>
-<p>j(x) = x^2f(x). if f(3)=-2 and f&rsquo;(3) = 5 , find j&rsquo;(3).</p>
-</li>
-<li></li>
+<li>First find \(q'(p) = \dfrac{dq}{dp}\) using the <strong>power rule</strong>.</li>
+<li>Then plug into the elasticity formula
+\[
+   E(p) = -\frac{p}{q(p)}\,q'(p).
+   \]</li>
 </ol>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>Compute \(q(30)\).</li>
+<li>Compute \(q'(30)\).</li>
+<li>Then calculate
+\[
+   E(30) = -\frac{30}{q(30)}\cdot q'(30)
+   \]
+and approximate as a <strong>decimal</strong>.</li>
+<li>Compare your value to the intervals in the choices.</li>
+</ol>
+</details>
+<hr>
+<h3 id="problem-3">Problem 3</h3>
+<p>Let
+</p>
+\[
+j(x)=x^{2} f(x),
+\]<p>
+where \(f(x)\) is differentiable.</p>
+<p>Suppose \(f(3) = -2\) and \(f'(3) = 5\).<br>
+Find \(j'(3)\).</p>
+<p><strong>Choices</strong></p>
+<p>(A) \(-3\)<br>
+(B) \(0\)<br>
+(C) \(3\)<br>
+(D) \(33\)<br>
+(E) None of these</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>This is a product of two functions: \(x^{2}\) and \(f(x)\).<br>
+Use the <strong>product rule</strong>.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>The product rule says:
+</p>
+\[
+j'(x) = (x^{2})' f(x) + x^{2} f'(x).
+\]<ol>
+<li>Compute \((x^{2})'\).</li>
+<li>Plug in \(x=3\), \(f(3)=-2\), and \(f'(3)=5\).</li>
+</ol>
+</details>
+<hr>
+<h3 id="problem-4">Problem 4</h3>
+<p>Suppose \(f\) and \(g\) are differentiable functions such that</p>
+\[
+f(2) = 6,\quad f'(2) = 7,\quad g(2) = 5,\quad g'(2) = -4.
+\]<p>Let
+</p>
+\[
+h(x) = \frac{f(x)}{g(x)}.
+\]<p>Find \(h'(2)\).</p>
+<p><strong>Choices</strong></p>
+<p>(A) \(-\dfrac{7}{4}\)<br>
+(B) \(\dfrac{59}{25}\)<br>
+(C) \(\dfrac{6}{5}\)<br>
+(D) \(-\dfrac{59}{25}\)<br>
+(E) None of these</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>\(h(x)\) is a <strong>quotient</strong> of two differentiable functions.<br>
+Use the <strong>quotient rule</strong>.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Quotient rule:
+</p>
+\[
+h'(x) =
+\frac{f'(x)\,g(x) - f(x)\,g'(x)}{[g(x)]^{2}}.
+\]<ol>
+<li>Plug in \(x=2\).</li>
+<li>Carefully substitute the four given values: \(f(2), f'(2), g(2), g'(2)\).</li>
+<li>Simplify the fraction.</li>
+</ol>
+</details>
+<hr>
+<h3 id="problem-5">Problem 5</h3>
+<p>Let \(C(x)\) represent the <strong>cost, in dollars</strong>, to produce \(x\) water bottles.<br>
+Assume \(C'(x)\) is the <strong>marginal cost function</strong>.</p>
+<p>Which of the following is the best interpretation of
+</p>
+\[
+C'(8) = 20 ?
+\]<p><strong>Choices</strong></p>
+<p>(A) It costs approximately $20 to produce the 9th water bottle.<br>
+(B) It costs approximately $8 to produce the 21st water bottle.<br>
+(C) It costs $20 to produce 8 water bottles.<br>
+(D) It costs $8 to produce 20 water bottles.<br>
+(E) It costs $2.50 to produce each water bottle.</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>Marginal cost \(C'(x)\) is the <strong>instantaneous rate of change of cost</strong> with respect to units produced.</p>
+<p>It is measured in <strong>dollars per additional bottle</strong>.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Think: When \(x=8\) bottles, what does “\(C'(8) = 20\)” say about how <strong>total cost</strong> changes if we increase production slightly?</p>
+<p>Your response should mention <strong>“approximately”</strong> and talk about the <strong>next bottle (or next few bottles)</strong>.</p>
+</details>
+<hr>
+<h3 id="problem-6">Problem 6</h3>
+<p>Let
+</p>
+\[
+g(x) = \sqrt{-5x^{2} + 7x}.
+\]<p>Find \(g'(x)\).  (Assume the inside of the square root is positive on the domain we care about.)</p>
+<p><strong>Choices</strong></p>
+<p>(A) \(\displaystyle \frac{-10x + 7}{2\sqrt{-5x^{2}+7x}}\)<br>
+(B) \(\displaystyle \frac{-10x - 7}{2\sqrt{-5x^{2}+7x}}\)<br>
+(C) \(\displaystyle \frac{-10x + 7}{\sqrt{-5x^{2}+7x}}\)<br>
+(D) \(\displaystyle \frac{10x - 7}{2\sqrt{-5x^{2}+7x}}\)<br>
+(E) \(\displaystyle \frac{7 - 5x^{2}}{2\sqrt{-5x^{2}+7x}}\)</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>Rewrite the square root as a <strong>power</strong> and use the <strong>chain rule</strong>.</p>
+\[
+\sqrt{\text{stuff}} = (\text{stuff})^{1/2}.
+\]</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Write
+</p>
+\[
+g(x) = (-5x^{2}+7x)^{1/2}.
+\]<ul>
+<li>Outside function: \(f(u)=u^{1/2}\).</li>
+<li>Inside function: \(u(x) = -5x^{2}+7x\).</li>
+</ul>
+<p>Use
+</p>
+\[
+g'(x)=f'(u(x))\cdot u'(x).
+\]<p>Compute both \(f'(u)\) and \(u'(x)\).</p>
+</details>
+<hr>
+<h3 id="problem-7">Problem 7</h3>
+<p>Suppose the <strong>elasticity of demand</strong> \(E(p)\) for a certain demand function at a price level satisfies
+</p>
+\[
+E(p) = 0.84.
+\]<p>Which statement correctly describes what happens to <strong>revenue</strong> when price increases slightly?</p>
+<p><strong>Choices</strong></p>
+<p>(A) The demand is elastic, so as price increases, revenue decreases.<br>
+(B) The demand is elastic, so as price increases, revenue increases.<br>
+(C) The demand is inelastic, so as price increases, revenue decreases.<br>
+(D) The demand is inelastic, so as price increases, revenue increases.</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>Elasticity key idea:</p>
+<ul>
+<li>If \(|E(p)| > 1\): <strong>elastic</strong>.</li>
+<li>If \(|E(p)| < 1\): <strong>inelastic</strong>.</li>
+</ul>
+<p>Inelastic demand behaves differently for revenue than elastic demand.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Here \(E(p) = 0.84\).</p>
+<ol>
+<li>Decide if that is elastic or inelastic.</li>
+<li>Recall:
+<ul>
+<li>With <strong>elastic</strong> demand, increasing price makes revenue <strong>go down</strong>.</li>
+<li>With <strong>inelastic</strong> demand, increasing price makes revenue <strong>go up</strong>.</li>
+</ul>
+</li>
+</ol>
+</details>
+<hr>
+<h3 id="problem-8">Problem 8</h3>
+<p>Suppose \(f\) is a differentiable function whose derivative is
+</p>
+\[
+f'(x) = 2x^{2} + 6x - 20.
+\]<p>Find the locations of all <strong>relative extrema</strong> of \(f\), and say whether each point is a <strong>relative maximum</strong> or a <strong>relative minimum</strong>.</p>
+<p><strong>Choices</strong></p>
+<p>(A) A relative maximum occurs at \(x=-5\).<br>
+    A relative minimum occurs at \(x=2\).</p>
+<p>(B) A relative maximum occurs at \(x=2\).<br>
+    A relative minimum occurs at \(x=-5\).</p>
+<p>(C) A relative maximum occurs at \(x=1.5\).</p>
+<p>(D) A relative minimum occurs at \(x=1.5\).</p>
+<p>(E) \(f(x)\) does not have any relative extrema.</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>Relative extrema occur at <strong>critical numbers</strong> (where \(f'(x)=0\) or undefined).</p>
+<p>Solve \(f'(x)=0\) and then use a <strong>sign chart</strong> or second derivative to classify each critical number.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>Factor or use the quadratic formula to solve
+\[
+   2x^{2} + 6x - 20 = 0.
+   \]</li>
+<li>For each critical number, pick test values on the left and right to see whether \(f'\) changes
+from + to − (max) or − to + (min).</li>
+</ol>
+</details>
+<hr>
+<h3 id="problem-9">Problem 9</h3>
+<p>The revenue and cost functions (in dollars) for a video game manufacturer are:</p>
+\[
+R(x) = 7.51x^{2} - 0.0009x^{3},\\
+C(x) = 2.02x^{2} - 0.0003x^{3},
+\]<p>
+where \(x\) is the number of games sold.</p>
+<p>The <strong>profit function</strong> is \(P(x) = R(x) - C(x)\).</p>
+<p>Determine the <strong>interval of \(x\)</strong> on which the profit function \(P(x)\) is <strong>increasing</strong>.</p>
+<p><strong>Choices</strong></p>
+<p>(A) \((0,9150)\)<br>
+(B) \((0,6100)\)<br>
+(C) \((6100,9150)\)<br>
+(D) \((0,3050)\)<br>
+(E) \((0,\infty)\)</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>To find where a function is increasing, look at where its <strong>derivative is positive</strong>.</p>
+<p>So:</p>
+<ol>
+<li>Find \(P(x)\).</li>
+<li>Compute \(P'(x)\).</li>
+<li>Solve \(P'(x) > 0\).</li>
+</ol>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>Subtract \(C(x)\) from \(R(x)\) to form \(P(x)\) and simplify.</li>
+<li>Differentiate the resulting polynomial.</li>
+<li>Factor \(P'(x)\) and find critical points.</li>
+<li>Use a sign chart to find which intervals make \(P'(x)>0\).</li>
+</ol>
+</details>
+<hr>
+<h3 id="problem-10">Problem 10</h3>
+<p>The graph below shows \(y = f'(x)\), the derivative of some function \(f(x)\).</p>
+<p><img src="im1.png" alt="Graph of f&rsquo;(x)"></p>
+<p>Assuming this is the graph of \(f'(x)\), determine the interval(s) where <strong>\(f'(x) < 0\)</strong>.</p>
+<p><strong>Choices</strong></p>
+<p>(A) \((-\infty,\infty)\)<br>
+(B) \((2,6)\)<br>
+(C) \((-2,0)\cup(4,6)\)<br>
+(D) \((-\infty,-2)\cup(0,4)\)<br>
+(E) \((-\infty,2)\)</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>On the graph, where is \(f'(x)\) <strong>below the x-axis</strong>?</p>
+<p>Those x-values are where \(f'(x) < 0\).</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>Identify the x-values where the graph of \(f'(x)\) crosses the x-axis.</li>
+<li>Check visually which regions are <strong>below</strong> the x-axis.</li>
+<li>Express that region as an <strong>open interval (or union of intervals)</strong>.</li>
+</ol>
+<p>(From the original test, the negative region is approximately from \(x=2\) to \(x=6\).)</p>
+</details>
+<hr>
+<h3 id="problem-11">Problem 11</h3>
+<p>Find the <strong>critical number(s)</strong> of the function
+</p>
+\[
+g(x) = x^{3} - 6x^{2}.
+\]<p>Remember: critical numbers occur where \(g'(x)=0\) or where \(g'(x)\) does not exist.</p>
+<p><strong>Choices</strong></p>
+<p>(A) \(x=0\) and \(x=6\)<br>
+(B) \(x=0\)<br>
+(C) \(x=0\) and \(x=4\)<br>
+(D) \(x=6\)<br>
+(E) \(x=4\)</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>Compute the derivative \(g'(x)\) using the power rule, then solve \(g'(x) = 0\).</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>Differentiate:
+\[
+   g'(x) = (x^{3})' - 6(x^{2})'.
+   \]</li>
+<li>Factor out common terms in \(g'(x)\).</li>
+<li>Use the zero product property to find the critical numbers.</li>
+</ol>
+</details>
+<hr>
+<h3 id="problem-12">Problem 12</h3>
+<p>Let
+</p>
+\[
+f(x) = 2x^{3} - 9x^{2} - 86.
+\]<ol>
+<li>Find \(f'(x)\).</li>
+<li>Find the equation of the <strong>tangent line to \(f(x)\)</strong> at \(x=1\).</li>
+<li>Using the <strong>First Derivative Test</strong>, determine the interval(s) where:
+<ul>
+<li>(i) \(f(x)\) is <strong>increasing</strong>,</li>
+<li>(ii) \(f(x)\) is <strong>decreasing</strong>.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<ul>
+<li>Use the <strong>power rule</strong> to find \(f'(x)\).</li>
+<li>The tangent line at \(x=a\) uses the point-slope formula
+\(y - f(a) = f'(a)(x-a)\).</li>
+<li>For the First Derivative Test, find where \(f'(x)\) changes sign.</li>
+</ul>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<ol>
+<li>Differentiate \(2x^{3} - 9x^{2} - 86\).</li>
+<li>Evaluate both \(f(1)\) and \(f'(1)\).</li>
+<li>For increasing/decreasing:
+<ul>
+<li>Solve \(f'(x) = 0\) to get critical numbers.</li>
+<li>Create a sign chart for \(f'(x)\).</li>
+<li>Positive derivative ⇒ increasing; negative derivative ⇒ decreasing.</li>
+</ul>
+</li>
+</ol>
+</details>
+<hr>
+<h3 id="problem-13">Problem 13</h3>
+<p>Find the derivatives of the following functions. Your answers do <strong>not</strong> need to be simplified.</p>
+<h4 id="a">(a)</h4>
+\[
+f(x) = \frac{3}{x^{2}} - 4\sqrt{x}.
+\]<h4 id="b">(b)</h4>
+\[
+g(x) = \bigl(-x^{3} + 7x^{2} - 3\bigr)^{7}.
+\]<h4 id="c">(c)</h4>
+\[
+h(x) = (5x^{2} + 3)(4x + 2).
+\]<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<ul>
+<li>For (a), rewrite powers: \(x^{-2}\) and \(x^{1/2}\). Use the power rule.</li>
+<li>For (b), use the <strong>chain rule</strong> on \([\text{inside}]^{7}\).</li>
+<li>For (c), use the <strong>product rule</strong>.</li>
+</ul>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>(a) Rewrite:</p>
+\[
+f(x) = 3x^{-2} - 4x^{1/2}.
+\]<p>(b) For
+</p>
+\[
+g(x) = [u(x)]^{7},\quad u(x) = -x^{3} + 7x^{2} - 3,
+\]<p>
+use
+</p>
+\[
+g'(x) = 7[u(x)]^{6}\cdot u'(x).
+\]<p>(c) Let
+</p>
+\[
+f_1(x) = 5x^{2} + 3,\quad f_2(x) = 4x + 2,
+\]<p>
+then
+</p>
+\[
+h'(x) = f_1'(x) f_2(x) + f_1(x) f_2'(x).
+\]</details>
+<hr>
+<h3 id="problem-14">Problem 14</h3>
+<p>Consider a <strong>cost function</strong>
+</p>
+\[
+C(x) = \frac{8x + 3}{5x + 7},
+\]<p>
+where the cost is measured in <strong>thousands of dollars</strong> and \(x\) is the <strong>number of units produced</strong>
+(assume \(x>0\)).</p>
+<p>Find the <strong>marginal cost</strong> when \(20\) units are produced. Round your answer to <strong>two decimal places</strong> and give appropriate <strong>units</strong>.</p>
+<hr>
+<details><summary><strong>Hint 1</strong></summary>
+<p>Marginal cost is the derivative \(C'(x)\).</p>
+<p>Since \(C(x)\) is a ratio of two functions, use the <strong>quotient rule</strong>.</p>
+</details>
+<details><summary><strong>Hint 2</strong></summary>
+<p>Let</p>
+\[
+f(x) = 8x+3,\quad g(x) = 5x+7,\quad C(x)=\frac{f(x)}{g(x)}.
+\]<p>Then</p>
+\[
+C'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^{2}}.
+\]<p>After finding \(C'(x)\), evaluate at \(x=20\) and remember that the cost is in <strong>thousands of dollars</strong>, so the derivative will be in <strong>thousands of dollars per unit</strong>.</p>
+</details>
+<hr>
+<h2 id="solutions">Solutions</h2>
+<p>Below are the <strong>fully worked solutions</strong>.<br>
+Try to answer the problems using <strong>only the hints</strong> first; then open the corresponding solution.</p>
+<hr>
+<details><summary><strong>Solution 1 (Problem 1)</strong></summary>
+<p>We are given
+</p>
+\[
+p(x) = 800 - 0.2x,
+\]<p>
+and the revenue function
+</p>
+\[
+R(x) = x\,p(x) = x(800 - 0.2x).
+\]<p>First expand:
+</p>
+\[
+R(x) = 800x - 0.2x^{2}.
+\]<p>Now differentiate term–by–term:
+</p>
+\[
+R'(x) = 800 - 0.4x.
+\]<p>Now evaluate at \(x=1600\):
+</p>
+\[
+R'(1600) = 800 - 0.4(1600) = 800 - 640 = 160.
+\]<p>So the marginal revenue at 1600 units is <strong>$160 per unit</strong>, which is <strong>more than $155</strong>.</p>
+<p>Correct choice: <strong>(A)</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Solution 2 (Problem 2)</strong></summary>
+<p>We have
+</p>
+\[
+q(p) = 7900 - 3p^{2}.
+\]<h3 id="step-1-compute">Step 1: Compute \(q'(p)\)</h3>
+\[
+q'(p) = -6p.
+\]<h3 id="step-2-evaluate-at">Step 2: Evaluate at \(p=30\)</h3>
+\[
+q(30) = 7900 - 3(30)^{2} = 7900 - 2700 = 5200,
+\]<p>
+</p>
+\[
+q'(30) = -6(30) = -180.
+\]<h3 id="step-3-elasticity">Step 3: Elasticity</h3>
+<p>Elasticity of demand:
+</p>
+\[
+E(p) = -\frac{p}{q(p)}\,q'(p).
+\]<p>At \(p=30\):
+</p>
+\[
+E(30) = -\frac{30}{5200}(-180)
+      = \frac{30\cdot 180}{5200}
+      = \frac{5400}{5200}
+      \approx 1.0385.
+\]<p>So \(E(30)\) is <strong>between \(1.0\) and \(1.2\)</strong>.</p>
+<p>Correct choice: <strong>(C)</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Solution 3 (Problem 3)</strong></summary>
+<p>We are given
+</p>
+\[
+j(x) = x^{2} f(x),
+\]<p>
+with \(f(3) = -2\) and \(f'(3) = 5\).</p>
+<p>Use the <strong>product rule</strong> with
+</p>
+\[
+a(x) = x^{2}, \quad b(x) = f(x).
+\]<p>Then
+</p>
+\[
+j'(x) = a'(x)b(x) + a(x)b'(x) = (2x)f(x) + x^{2}f'(x).
+\]<p>Evaluate at \(x=3\):</p>
+\[
+\begin{aligned}
+j'(3)
+&= (2\cdot 3)f(3) + 3^{2}f'(3) \\
+&= 6(-2) + 9(5) \\
+&= -12 + 45 \\
+&= 33.
+\end{aligned}
+\]<p>Correct choice: <strong>(D)</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Solution 4 (Problem 4)</strong></summary>
+<p>We have
+</p>
+\[
+h(x) = \frac{f(x)}{g(x)}
+\]<p>
+and the values</p>
+\[
+f(2) = 6,\quad f'(2) = 7,\quad
+g(2)=5,\quad g'(2)=-4.
+\]<p>Using the <strong>quotient rule</strong>:</p>
+\[
+h'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^{2}}.
+\]<p>Evaluate at \(x=2\):</p>
+\[
+\begin{aligned}
+h'(2)
+&= \frac{f'(2)g(2) - f(2)g'(2)}{[g(2)]^{2}} \\
+&= \frac{(7)(5) - (6)(-4)}{5^{2}}\\
+&= \frac{35 + 24}{25}\\
+&= \frac{59}{25}.
+\end{aligned}
+\]<p>Correct choice: <strong>(B)</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Solution 5 (Problem 5)</strong></summary>
+<p>\(C(x)\) is total cost in dollars to produce \(x\) water bottles.<br>
+\(C'(x)\) is marginal cost: the <strong>instantaneous rate of change</strong> of cost with respect to quantity.</p>
+<p>Given
+</p>
+\[
+C'(8) = 20,
+\]<p>
+this means:</p>
+<blockquote>
+<p>When 8 bottles are produced, the cost is increasing at approximately <strong>$20 per additional bottle</strong>.</p>
+</blockquote>
+<p>So producing the <strong>9th bottle</strong> costs about $20 more than producing 8 bottles.</p>
+<p>This matches statement <strong>(A)</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Solution 6 (Problem 6)</strong></summary>
+<p>We have
+</p>
+\[
+g(x) = \sqrt{-5x^{2} + 7x}
+= (-5x^{2} + 7x)^{1/2}.
+\]<p>Let
+</p>
+\[
+u(x) = -5x^{2} + 7x.
+\]<p>
+Then \(g(x) = u(x)^{1/2}\).</p>
+<p>By the <strong>chain rule</strong>,
+</p>
+\[
+g'(x) = \frac{1}{2}u(x)^{-1/2}\cdot u'(x).
+\]<p>Compute \(u'(x)\):
+</p>
+\[
+u'(x) = -10x + 7.
+\]<p>So
+</p>
+\[
+g'(x) = \frac{1}{2}(-5x^{2}+7x)^{-1/2}(-10x + 7)
+      = \frac{-10x + 7}{2\sqrt{-5x^{2} + 7x}}.
+\]<p>Correct choice: <strong>(A)</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Solution 7 (Problem 7)</strong></summary>
+<p>Elasticity at this price is
+</p>
+\[
+E(p) = 0.84.
+\]<p>Since \(|E(p)| = 0.84 < 1\), demand is <strong>inelastic</strong>.</p>
+<p>For <strong>inelastic</strong> demand:</p>
+<ul>
+<li>When price increases, the percentage drop in quantity is smaller than the percentage increase in price, so <strong>revenue increases</strong>.</li>
+</ul>
+<p>Therefore the correct interpretation is:</p>
+<blockquote>
+<p>The demand is inelastic, so as price increases, revenue increases.</p>
+</blockquote>
+<p>Correct choice: <strong>(D)</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Solution 8 (Problem 8)</strong></summary>
+<p>We have
+</p>
+\[
+f'(x) = 2x^{2} + 6x - 20.
+\]<p>Set \(f'(x)=0\) to find critical numbers:</p>
+\[
+2x^{2} + 6x - 20 = 0
+\quad\Rightarrow\quad
+x^{2} + 3x - 10 = 0.
+\]<p>Factor:
+</p>
+\[
+x^{2} + 3x - 10 = (x+5)(x-2)=0,
+\]<p>
+so
+</p>
+\[
+x=-5,\quad x=2.
+\]<p>Make a sign chart for
+</p>
+\[
+f'(x) = 2(x+5)(x-2).
+\]<ul>
+<li>For \(x<-5\), both factors negative ⇒ product positive ⇒ \(f'(x)>0\) (increasing).</li>
+<li>For \(-5<x<2\), one positive, one negative ⇒ \(f'(x)<0\) (decreasing).</li>
+<li>For \(x>2\), both positive ⇒ \(f'(x)>0\) (increasing).</li>
+</ul>
+<p>So:</p>
+<ul>
+<li>At \(x=-5\), derivative changes \(+\to-\) ⇒ <strong>relative maximum</strong>.</li>
+<li>At \(x=2\), derivative changes \(-\to+\) ⇒ <strong>relative minimum</strong>.</li>
+</ul>
+<p>Correct choice: <strong>(A)</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Solution 9 (Problem 9)</strong></summary>
+<p>Revenue and cost:</p>
+\[
+R(x) = 7.51x^{2} - 0.0009x^{3},\qquad
+C(x) = 2.02x^{2} - 0.0003x^{3}.
+\]<p>Profit:
+</p>
+\[
+\begin{aligned}
+P(x) &= R(x) - C(x) \\
+&= (7.51x^{2} - 0.0009x^{3}) - (2.02x^{2} - 0.0003x^{3})\\
+&= 5.49x^{2} - 0.0006x^{3}.
+\end{aligned}
+\]<p>Differentiate:
+</p>
+\[
+P'(x) = 10.98x - 0.0018x^{2}
+      = x(10.98 - 0.0018x).
+\]<p>Critical numbers:
+</p>
+\[
+x=0,\quad 10.98 - 0.0018x = 0 \Rightarrow x = \frac{10.98}{0.0018} = 6100.
+\]<p>On \(0<x<6100\), \(10.98-0.0018x >0\) ⇒ \(P'(x)>0\).<br>
+On \(x>6100\), that factor is negative ⇒ \(P'(x)<0\).</p>
+<p>So profit is <strong>increasing</strong> exactly on \((0,6100)\).</p>
+<p>Correct choice: <strong>(B)</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Solution 10 (Problem 10)</strong></summary>
+<p>We are given the graph of \(y=f'(x)\).</p>
+<p>Where is \(f'(x) < 0\)? Wherever the graph lies <strong>below the x-axis</strong>.</p>
+<p>From the picture, \(f'(x)\) crosses the x-axis around \(x=2\) and \(x=6\) and is below the axis between those two points.</p>
+<p>So:
+</p>
+\[
+f'(x) < 0 \quad \text{for } 2 < x < 6.
+\]<p>Correct choice: <strong>(B)</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Solution 11 (Problem 11)</strong></summary>
+\[
+g(x) = x^{3} - 6x^{2}.
+\]<p>Differentiate:
+</p>
+\[
+g'(x) = 3x^{2} - 12x = 3x(x-4).
+\]<p>Solve \(g'(x)=0\):</p>
+\[
+3x(x-4)=0 \Rightarrow x=0 \text{ or } x=4.
+\]<p>Derivative exists everywhere, so the critical numbers are \(x=0\) and \(x=4\).</p>
+<p>Correct choice: <strong>(C)</strong>.</p>
+</details>
+<hr>
+<details><summary><strong>Solution 12 (Problem 12)</strong></summary>
+<p>We have
+</p>
+\[
+f(x) = 2x^{3} - 9x^{2} - 86.
+\]<h3 id="a-derivative">(a) Derivative</h3>
+\[
+f'(x) = 6x^{2} - 18x = 6x(x-3).
+\]<h3 id="b-tangent-line-at">(b) Tangent line at \(x=1\)</h3>
+\[
+f(1) = 2(1)^{3} - 9(1)^{2} - 86 = -93,
+\]<p>
+</p>
+\[
+f'(1) = 6(1)(1-3) = -12.
+\]<p>Point: \((1,-93)\); slope: \(-12\).</p>
+<p>Tangent line:
+</p>
+\[
+y - (-93) = -12(x-1)
+\Rightarrow y+93 = -12x+12
+\Rightarrow y = -12x - 81.
+\]<h3 id="c-first-derivative-test">(c) First Derivative Test</h3>
+<p>Critical numbers from \(f'(x)=6x(x-3)=0\):
+</p>
+\[
+x=0,\quad x=3.
+\]<p>Sign chart:</p>
+<ul>
+<li>For \(x<0\): \(f'(x)>0\) ⇒ increasing.</li>
+<li>For \(0<x<3\): \(f'(x)<0\) ⇒ decreasing.</li>
+<li>For \(x>3\): \(f'(x)>0\) ⇒ increasing.</li>
+</ul>
+<p>So:</p>
+<ul>
+<li>Increasing on \((-\infty,0)\cup(3,\infty)\).</li>
+<li>Decreasing on \((0,3)\).</li>
+</ul>
+</details>
+<hr>
+<details><summary><strong>Solution 13 (Problem 13)</strong></summary>
+<h4 id="a-1">(a) \(f(x) = \dfrac{3}{x^{2}} - 4\sqrt{x}\)</h4>
+<p>Rewrite:
+</p>
+\[
+f(x) = 3x^{-2} - 4x^{1/2}.
+\]<p>Differentiate:
+</p>
+\[
+f'(x) = 3(-2)x^{-3} - 4\cdot\frac{1}{2}x^{-1/2}
+      = -6x^{-3} - 2x^{-1/2}
+      = -\frac{6}{x^{3}} - \frac{2}{\sqrt{x}}.
+\]<hr>
+<h4 id="b-1">(b) \(g(x) = (-x^{3} + 7x^{2} - 3)^{7}\)</h4>
+<p>Let \(u(x)=-x^{3}+7x^{2}-3\). Then \(g(x)=u(x)^{7}\).</p>
+\[
+u'(x) = -3x^{2} + 14x.
+\]<p>By the chain rule:
+</p>
+\[
+g'(x) = 7u(x)^{6}u'(x)
+      = 7(-x^{3}+7x^{2}-3)^{6}(-3x^{2}+14x).
+\]<hr>
+<h4 id="c-1">(c) \(h(x) = (5x^{2} + 3)(4x+2)\)</h4>
+<p>Let \(f_1(x)=5x^{2}+3\), \(f_2(x)=4x+2\).</p>
+\[
+f_1'(x)=10x,\quad f_2'(x)=4.
+\]<p>Product rule:
+</p>
+\[
+\begin{aligned}
+h'(x)
+&= f_1'(x)f_2(x) + f_1(x)f_2'(x) \\
+&= (10x)(4x+2) + (5x^{2}+3)(4) \\
+&= 40x^{2} + 20x + 20x^{2} + 12 \\
+&= 60x^{2} + 20x + 12.
+\end{aligned}
+\]</details>
+<hr>
+<details><summary><strong>Solution 14 (Problem 14)</strong></summary>
+\[
+C(x) = \frac{8x+3}{5x+7}
+\]<p>
+in <strong>thousands of dollars</strong>.</p>
+<p>Let \(f(x)=8x+3\), \(g(x)=5x+7\). Then \(C(x) = f(x)/g(x)\).</p>
+<p>Quotient rule:
+</p>
+\[
+C'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^{2}}
+      = \frac{8(5x+7) - (8x+3)(5)}{(5x+7)^{2}}.
+\]<p>Simplify numerator:
+</p>
+\[
+8(5x+7) = 40x+56,\quad (8x+3)5 = 40x+15.
+\]<p>So
+</p>
+\[
+C'(x) = \frac{40x+56 - (40x+15)}{(5x+7)^{2}}
+      = \frac{41}{(5x+7)^{2}}.
+\]<p>At \(x=20\):
+</p>
+\[
+C'(20) = \frac{41}{(5\cdot20+7)^{2}}
+       = \frac{41}{107^{2}}
+       = \frac{41}{11449}
+       \approx 0.00358.
+\]<p>Units: <strong>thousands of dollars per unit</strong>.</p>
+<p>So marginal cost in dollars is
+</p>
+\[
+0.00358\times 1000 \approx \$3.58 \text{ per unit}.
+\]<p>Rounded:
+</p>
+\[
+\boxed{\text{Marginal cost at } x=20 \approx \$3.58\text{ per additional unit}.}
+\]</details>
 
 </main>
 

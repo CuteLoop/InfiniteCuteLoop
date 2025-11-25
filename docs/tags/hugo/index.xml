@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on A minimal Hugo website</title>
-    <link>http://localhost:33137/InfiniteCuteLoop/tags/hugo/</link>
+    <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/hugo/</link>
     <description>Recent content in Hugo on A minimal Hugo website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:33137/InfiniteCuteLoop/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog with LaTeX in 15 Minutes</title>
-      <link>http://localhost:33137/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33137/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math-blog-with-latex-support-in-15-min/</guid>
       <description>&lt;h1 id=&#34;blog-with-latex-in-15-minutes&#34;&gt;Blog with LaTeX in 15 Minutes&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Joel Maldonado&lt;/em&gt;&#xA;Welcome to this infinite &lt;strong&gt;Cute Loop&lt;/strong&gt;! In this post, I’m going to share my journey of setting up a Hugo blog with full LaTeX support and deploying it to GitHub Pages—all in just 15 minutes. If you’re curious about how to get your blog up and running quickly, read on!Below is the updated, comprehensive tutorial that incorporates all the details—including creating your GitHub repository, initializing your Hugo site with your final configuration, adding LaTeX support via the custom footer partial, and deploying your site from a dedicated branch (gh‑pages) using ghp‑import. You can copy and paste this tutorial as your first post (for example, as a file named &lt;code&gt;content/posts/blog-with-latex-in-15-min.md&lt;/code&gt;) and then customize it as needed.&lt;/p&gt;</description>
     </item>
   </channel>
