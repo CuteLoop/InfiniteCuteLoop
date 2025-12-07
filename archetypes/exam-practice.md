@@ -31,17 +31,19 @@ C. Option C
 D. Option D  
 E. Option E  
 
-<details><summary><strong>Hint</strong></summary>
+<details><summary><strong>Hint1</strong></summary>
 
 Short hint here.
 
 </details>
 
-<details><summary><strong>Solution</strong></summary>
+<details><summary><strong>Hint2</strong></summary>
 
-Detailed step-by-step solution here.
+Second Hint here 
 
 </details>
+
+
 
 ---
 
@@ -50,3 +52,9 @@ Detailed step-by-step solution here.
 | Problem | Answer |
 |:-------:|:------:|
 | 1 |  |
+
+<details><summary><strong>Problem1</strong></summary>
+
+Problem 1 soliution goes here.
+
+</details>

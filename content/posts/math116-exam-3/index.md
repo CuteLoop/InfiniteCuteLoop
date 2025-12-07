@@ -622,13 +622,15 @@ f'(x) = 10x+2.
 
 Compute the antiderivative:
 
+
+
 \[
 \begin{aligned}
 f(x)
 &= \int (10x+2)\,dx \\
 &= \int 10x\,dx + \int 2\,dx \\
 &= 10\cdot\frac{x^{2}}{2} + 2x + C \\
-&= 5x^{2} + 2x + C.
+&=  5x^{2} + 2x + C.
 \end{aligned}
 \]
 

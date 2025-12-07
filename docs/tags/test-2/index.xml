@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test-2 on A minimal Hugo website</title>
-    <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/test-2/</link>
+    <link>http://localhost:1313/InfiniteCuteLoop/tags/test-2/</link>
     <description>Recent content in Test-2 on A minimal Hugo website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/tags/test-2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/InfiniteCuteLoop/tags/test-2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MATH 116 Test 2 Practice (Fall 2024)</title>
-      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-2/</link>
+      <link>http://localhost:1313/InfiniteCuteLoop/posts/math116-exam-2/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-2/</guid>
+      <guid>http://localhost:1313/InfiniteCuteLoop/posts/math116-exam-2/</guid>
       <description>&lt;h3 id=&#34;basic-rules&#34;&gt;Basic rules&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Constant rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[k] = 0&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Power rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[x^n] = n x^{n-1} \quad (\text{for any real } n)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Constant multiple rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[k\,f(x)] = k\,f&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sum &amp;amp; difference rules&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[f(x) \pm g(x)] = f&#39;(x) \pm g&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;product--quotient-rules&#34;&gt;Product &amp;amp; quotient rules&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Product rule&lt;/strong&gt; – for \(h(x)=f(x)\,g(x)\):&#xA;&lt;/p&gt;&#xA;\[&#xA;  h&#39;(x) = f&#39;(x)\,g(x) + f(x)\,g&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Quotient rule&lt;/strong&gt; – for \(h(x)=\dfrac{f(x)}{g(x)}\):&#xA;&lt;/p&gt;&#xA;\[&#xA;  h&#39;(x) =&#xA;  \frac{f&#39;(x)\,g(x) - f(x)\,g&#39;(x)}{[g(x)]^{2}}&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;chain-rule&#34;&gt;Chain rule&lt;/h3&gt;&#xA;&lt;p&gt;If \(h(x) = f(g(x))\) (a composition), then&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
