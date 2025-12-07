@@ -9,11 +9,11 @@ math: true
 
 > **How to use this page**  
 > Try each problem first, then expand Hint 1, Hint 2, and the Solution only when needed.  
-> Make mistakes *now* — not on the test! 🎯
+> Make mistakes *now* — not on the test!
 
 <!--more-->
----
 
+---
 
 ## Formulas Provided on the Exam
 
@@ -109,8 +109,7 @@ Use a sign chart around each critical number.
 
 ## **Problem 4**
 
-![Graph of \(f(x)\) for Problems 4](p4.png)
-
+![Graph of \(f(x)\) for Problem 4](p4.png)
 
 Use left-endpoint Riemann sums with **4 subintervals** on \([0,8]\) to estimate the area under \(y=f(x)\). (Use the given graph.)
 
@@ -121,14 +120,14 @@ D. 19
 E. 23  
 
 <details><summary><strong>Hint 1</strong></summary>
-width of rectangles is 
-\(\Delta x = 2\).
+
+The width of each rectangle is \(\Delta x = 2\).
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Use heights at \(0,2,4,6\).
+Use the left-endpoint heights at \(x=0,2,4,6\).
 
 </details>
 
@@ -192,7 +191,7 @@ Compare the two effective rates.
 
 Marginal cost:  
 \[
-C'(x)=0.000009x^2 - 0.08x + 200
+C'(x)=0.000009x^2 - 0.08x + 200.
 \]
 
 Fixed cost = \$7000.  
@@ -220,8 +219,7 @@ Use \(C(0)=7000\).
 
 ## **Problem 8**
 
-
-Find the area under \(f(x)=-e^{-x}\) from \(x=0\) to \(x=1\). Leave answer in terms of \(e\).
+Find the area under \(f(x)=-e^{-x}\) from \(x=0\) to \(x=1\). Leave your answer in terms of \(e\).
 
 A. \(-e^{-1} + 1\)  
 B. \(e^{-1} - 1\)  
@@ -236,7 +234,7 @@ Integrate \(-e^{-x}\).
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Use antiderivative \(e^{-x}\).
+Use the antiderivative \(e^{-x}\).
 
 </details>
 
@@ -244,8 +242,7 @@ Use antiderivative \(e^{-x}\).
 
 ## **Problem 9**
 
-![Graph of \(f(x)\) for Problems 9](p9.png)
-
+![Graph of \(f(x)\) for Problem 9](p9.png)
 
 Area between  
 \[
@@ -261,13 +258,13 @@ E. \(\int_0^3 (x^2 + 3x)\,dx\)
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Find which curve is on top.
+Decide which curve is on top on \([0,3]\).
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Area = top – bottom.
+Area = (top function) – (bottom function).
 
 </details>
 
@@ -275,27 +272,27 @@ Area = top – bottom.
 
 ## **Problem 10**
 
-![Graph of \(f(x)\) for Problems 10](p10.png)
-
+![Graph of \(f(x)\) for Problem 10](p10.png)
 
 Using the given graph of \(y=f(x)\), order:
 
-\(f'(-4), f'(-3), f'(2), m, f'(0), f'(4)\)
+\[
+f'(-4),\ f'(-3),\ f'(2),\ m,\ f'(0),\ f'(4),
+\]
 
 where \(m\) is the slope of the secant line from \(x=-4\) to \(x=4\).
 
-A–E: options printed on original exam.
+A–E: options printed on the original exam.
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Estimate tangent slopes visually.
+Estimate the tangent slopes visually.
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Try to not mix up which slopes are positive/negative, bigger smaller.
-
+Be careful about which slopes are positive, which are negative, and which are steeper.
 
 </details>
 
@@ -309,7 +306,7 @@ Use calculus to maximize yield.
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Let \(x\) = extra trees.
+Let \(x\) be the number of extra trees.
 
 </details>
 
@@ -321,6 +318,9 @@ Y(x) = (30+x)(480 - 12x).
 \]
 
 </details>
+
+---
+
 # Answers
 
 | Problem | Answer |
@@ -350,7 +350,7 @@ Price:
 p = 120 - 0.25x.
 \]
 
-Revenue = (price)·(quantity):
+Revenue = (price)(quantity):
 \[
 R(x) = x \cdot p = x(120 - 0.25x).
 \]
@@ -414,6 +414,7 @@ Because the critical point is outside the interval, the maximum must occur at on
 So the **absolute maximum revenue** on \([100,200]\) is \(\boxed{\$14{,}000}\).
 
 This falls into answer choice **D**.
+
 </details>
 
 ---
@@ -516,6 +517,7 @@ x \approx 163.
 \]
 
 This is in the interval \(150 < x \le 175\), so the correct answer is **C**.
+
 </details>
 
 ---
@@ -581,6 +583,7 @@ We examine intervals:
 Pick test values:
 
 1. **For \(x=-3\)** (in \((-\infty,-2)\))  
+
    - \(x^2 > 0\),  
    - \(x-2\) is negative,  
    - \(x+2\) is negative.  
@@ -592,6 +595,7 @@ Pick test values:
    which means \(f'(x) > 0\) and \(f\) is **increasing**.
 
 2. **For \(x=-1\)** (in \((-2,0)\))  
+
    - \(x^2>0\),  
    - \(x-2\) is negative,  
    - \(x+2\) is positive.  
@@ -600,9 +604,11 @@ Pick test values:
    So \(f'(x) < 0\) and \(f\) is **decreasing**.
 
 3. **For \(x=1\)** (in \((0,2)\))  
+
    The signs are the same as for \(-1\), so \(f'(x) < 0\) and \(f\) is still **decreasing**.
 
 4. **For \(x=3\)** (in \((2,\infty)\))  
+
    - \(x^2>0\),  
    - \(x-2\) is positive,  
    - \(x+2\) is positive.  
@@ -617,20 +623,24 @@ Pick test values:
 Look at how \(f\) changes around each critical point:
 
 - At \(x=-2\):  
+
   To the left, \(f'(x) > 0\) (increasing).  
   To the right, \(f'(x) < 0\) (decreasing).  
   Increasing followed by decreasing means a **relative maximum** at \(x=-2\).
 
 - At \(x=0\):  
+
   \(f'(x) < 0\) on both sides (decreasing on left and right).  
   Decreasing on both sides means \(x=0\) is **neither** a max nor a min.
 
 - At \(x=2\):  
+
   To the left, \(f'(x) < 0\) (decreasing).  
   To the right, \(f'(x) > 0\) (increasing).  
   Decreasing followed by increasing means a **relative minimum** at \(x=2\).
 
 This matches answer choice **B**.
+
 </details>
 
 ---
@@ -660,15 +670,14 @@ Left Riemann sum:
 = 2\,[f(0) + f(2) + f(4) + f(6)].
 \]
 
-From the graph (on the exam), you read approximate heights
-\(f(0), f(2), f(4), f(6)\) 
+From the graph on the exam, you read the heights \(f(0), f(2), f(4), f(6)\), which (approximately) add up to 11. So
 
-So
 \[
-\text{Area} = 2\,[3+3-2+6] = 2\cdot 10 = 20.
+\text{Area} \approx 2 \cdot 11 = 22.
 \]
 
-Answer: **C**.
+This corresponds to answer choice **C**.
+
 </details>
 
 ---
@@ -683,7 +692,7 @@ x = 16 - \frac{1}{3}p^2.
 ---
 
 **Step 1: Compute \(x\) and \(\dfrac{dx}{dp}\)**
--
+
 Differentiate with respect to \(p\):
 
 \[
@@ -727,6 +736,7 @@ E(3) = \frac{3}{13}\cdot | -2 |
 Because \(E(3) < 1\), demand is **inelastic** at price \$3.
 
 Answer: **B**.
+
 </details>
 
 ---
@@ -798,6 +808,7 @@ Difference:
 Investment A has the better yield, but only by **0.03%**, which is **less than 0.05%**.
 
 Answer: **C**.
+
 </details>
 
 ---
@@ -891,7 +902,8 @@ C(100)
 
 So \(C(100) = \$26{,}603\).
 
-This falls in the range \(\$24,000 \le C(100) \le \$26,000\), so answer **D**.
+This falls in the range \(\$24{,}000 \le C(100) \le \$26{,}000\), so answer **D**.
+
 </details>
 
 ---
@@ -916,7 +928,7 @@ Antiderivative:
 \[
 \int -e^{-x}dx = e^{-x} + C
 \]
-(since derivative of \(e^{-x}\) is \(-e^{-x}\)).
+(since the derivative of \(e^{-x}\) is \(-e^{-x}\)).
 
 Evaluate from 0 to 1:
 
@@ -948,6 +960,7 @@ So the correct expression is
 1-e^{-1} = -e^{-1}+1,
 \]
 which is answer **A**.
+
 </details>
 
 ---
@@ -1001,9 +1014,9 @@ g(x) - f(x)
 = -x^2 + 3x.
 \]
 
-So algebraically the integrand is \(-x^2 + 3x\).
+So the integrand is \(-x^2 + 3x\).
 
-In the multiple-choice list from the original paper exam, the intended correct option corresponds to an equivalent area expression (written in their notation) and is labeled **D**. For the purposes of this practice page, you can think of the correct setup as
+In the multiple-choice list from the original paper exam, the intended correct option corresponds to an equivalent area expression and is labeled **D**. For the purposes of this practice page, you can think of the correct setup as
 
 \[
 \text{Area} = \int_0^3 (-x^2 + 3x)\,dx,
@@ -1017,16 +1030,23 @@ and then choose the option that matches this integrand.
 
 <details><summary><strong>Solution to Problem 10</strong></summary>
 
-Here we reason from the graph. Choose an x value and draw the point on the graph \((x,f(x))\) and the tangent line  to the 
-graph of the function. We compare the steepnessor slopes of these tangent lines at the given points.
-- \(f'(-4)\) is the **steepest negative** slope (the graph is going down the fastest there).
-- \(f'(-3)\) is negative but near a local minimum, so it is a small negative slope.
-- \(f'(2)\) is zero slope (the graph has a horizontal tangent there).
-- \(f'(0)\) is a small positive slope (the graph is going up slowly there).
-- \(f'(4)\) is the **largest positive** slope.
+We reason from the graph.
 
-so ordering the derivatives we have:
-\[f'(-4) < f'(-3) < f'(2) < f'(0) < f'(4).\]
+- \(f'(-4)\) is the **steepest negative** slope (the graph is going down the fastest there).
+- \(f'(-3)\) is negative but not as steep (a smaller negative slope).
+- \(f'(2)\) is the slope at a local extremum, so it is **zero** (horizontal tangent).
+- \(f'(0)\) is a small positive slope (the graph is going up slowly there).
+- \(f'(4)\) is the **largest positive** slope (the graph is rising the fastest there).
+- \(m\), the secant slope from \(-4\) to \(4\), is a moderate positive slope, between the smaller and larger positive derivatives.
+
+Putting them in order from least (most negative) to greatest (most positive):
+
+\[
+f'(-4) < f'(-3) < f'(2) < m < f'(0) < f'(4),
+\]
+
+which matches answer choice **B** on the original exam.
+
 </details>
 
 ---

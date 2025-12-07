@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Practice-Exam on A minimal Hugo website</title>
-    <link>http://localhost:1313/InfiniteCuteLoop/tags/practice-exam/</link>
+    <link>http://localhost:44853/InfiniteCuteLoop/tags/practice-exam/</link>
     <description>Recent content in Practice-Exam on A minimal Hugo website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Dec 2025 10:30:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/InfiniteCuteLoop/tags/practice-exam/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:44853/InfiniteCuteLoop/tags/practice-exam/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MATH 116 – Final Exam Practice (Fall 2024)</title>
-      <link>http://localhost:1313/InfiniteCuteLoop/posts/math116-final-exam/</link>
+      <link>http://localhost:44853/InfiniteCuteLoop/posts/math116-final-exam/</link>
       <pubDate>Sun, 07 Dec 2025 10:30:00 -0700</pubDate>
-      <guid>http://localhost:1313/InfiniteCuteLoop/posts/math116-final-exam/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to use this page&lt;/strong&gt;&lt;br&gt;&#xA;Try each problem first, then expand &lt;strong&gt;Hint&lt;/strong&gt; or &lt;strong&gt;Solution&lt;/strong&gt; as needed.&lt;br&gt;&#xA;Make mistakes &lt;em&gt;now&lt;/em&gt; — not on the test! 🎯&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formulas-provided-on-the-exam&#34;&gt;Formulas Provided on the Exam&lt;/h2&gt;&#xA;&lt;!-- Add any formula sheet content here --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;problems&#34;&gt;Problems&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-absolute-maximum-revenue&#34;&gt;1. Absolute maximum revenue&lt;/h2&gt;&#xA;&lt;p&gt;A manufacturer determines the demand and cost by&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;p = 120 - 0.25x, \qquad C(x) = 0.5x^2 - 375&#xA;\]&lt;p&gt;&#xA;where \(p\) is the price in dollars and \(x\) is the quantity.&lt;/p&gt;</description>
+      <guid>http://localhost:44853/InfiniteCuteLoop/posts/math116-final-exam/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to use this page&lt;/strong&gt;&lt;br&gt;&#xA;Try each problem first, then expand Hint 1, Hint 2, and the Solution only when needed.&lt;br&gt;&#xA;Make mistakes &lt;em&gt;now&lt;/em&gt; — not on the test!&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>MATH 116 Test 1 Practice (Fall 2024)</title>
-      <link>http://localhost:1313/InfiniteCuteLoop/posts/math116-exam-1/</link>
+      <link>http://localhost:44853/InfiniteCuteLoop/posts/math116-exam-1/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/InfiniteCuteLoop/posts/math116-exam-1/</guid>
+      <guid>http://localhost:44853/InfiniteCuteLoop/posts/math116-exam-1/</guid>
       <description>&lt;h2 id=&#34;problems&#34;&gt;Problems&lt;/h2&gt;&#xA;&lt;p&gt;Problems 1 and 2 refer to the function&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;f(x) = \frac{7x+2}{3-5x}.&#xA;\]&lt;h3 id=&#34;problem-1&#34;&gt;Problem 1&lt;/h3&gt;&#xA;&lt;p&gt;Find the vertical asymptote, if any, for&#xA;&lt;/p&gt;&#xA;\[&#xA;f(x)=\frac{7x+2}{3-5x}.&#xA;\]&lt;p&gt;A. \(x=-\dfrac{7}{2}\)&lt;br&gt;&#xA;B. \(x=-\dfrac{2}{7}\)&lt;br&gt;&#xA;C. \(x=\dfrac{3}{5}\)&lt;br&gt;&#xA;D. \(x=0\)&lt;br&gt;&#xA;E. There is no vertical asymptote.&lt;/p&gt;&#xA;&lt;details&gt;&lt;summary&gt;&lt;strong&gt;Hint 1&lt;/strong&gt;&lt;/summary&gt;&#xA;&lt;p&gt;Vertical asymptotes happen where the &lt;strong&gt;denominator is zero&lt;/strong&gt; (and the numerator is not).&lt;/p&gt;&#xA;&lt;/details&gt;&#xA;&lt;details&gt;&lt;summary&gt;&lt;strong&gt;Hint 2&lt;/strong&gt;&lt;/summary&gt;&#xA;&lt;p&gt;Solve&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;3-5x=0&#xA;\]&lt;p&gt;&#xA;for \(x\), then check which choice matches.&lt;/p&gt;&#xA;&lt;/details&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;problem-2&#34;&gt;Problem 2&lt;/h3&gt;&#xA;&lt;p&gt;Find the \(y\)-intercept, if any, for \(f\).&lt;/p&gt;</description>
     </item>
   </channel>
