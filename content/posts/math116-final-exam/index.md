@@ -43,13 +43,22 @@ E. Revenue ≥ \$14,000
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Write revenue as \(R(x) = x(120 - 0.25x)\).
+Revenue is  
+\[
+R(x) = (\text{price})\cdot(\text{quantity}) 
+\]  
+Write it out and find critical points.
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Find the critical point and compare it to \(x=100\) and \(x=200\).
+To maximize \(R(x)\) on \([100,200]\):
+
+1. Compute \(R'(x)\).  
+2. Set \(R'(x)=0\) and solve for \(x\).  
+3. Check whether that critical point lies in \([100,200]\).  
+4. Evaluate \(R(100)\) and \(R(200)\), and compare with any critical point inside the interval.
 
 </details>
 
@@ -66,13 +75,25 @@ D. \(175 < x \le 200\)
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Break-even means revenue = cost.
+Break-even means **revenue = cost**.
+
+Use  
+\[
+R(x) = x(120 - 0.25x), \quad C(x) = 0.5x^2 - 375,
+\]  
+and set up the equation \(R(x) = C(x)\).
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Solve \(x(120 - 0.25x) = 0.5x^2 - 375\).
+1. Start from
+   \[
+   x(120 - 0.25x) = 0.5x^2 - 375.
+   \]
+2. Move everything to one side to get a quadratic \(ax^2 + bx + c = 0\).  
+3. Use the **quadratic formula** or calculator program to solve for \(x\).  
+4. Ignore any negative solution and keep the positive solution that fits one of the ranges.
 
 </details>
 
@@ -95,13 +116,28 @@ E. \(2\) min, \(0\) max
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Factor the derivative.
+Critical numbers happen when \(f'(x)=0\).
+
+1. Factorize two times:
+   \[
+   f'(x) = 3x^4 - 12x^2 = 3x^2(x^2 - 4) = \dots
+   \]
+2. Set this equal to zero and find all values of \(x\) that make it zero.
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Use a sign chart around each critical number.
+To decide max/min/neither:
+
+1. Make a **sign chart** for \(f'(x)\) using the critical numbers \(-2,0,2\).  
+2. Pick test points in  
+   \((-\infty,-2),\ (-2,0),\ (0,2),\ (2,\infty)\).  
+3. See where \(f'(x)\) is positive (increasing) or negative (decreasing).  
+4. Use:
+   - increasing → decreasing = **max**,  
+   - decreasing → increasing = **min**,  
+   - same sign on both sides = **neither**.
 
 </details>
 
@@ -121,13 +157,25 @@ E. 23
 
 <details><summary><strong>Hint 1</strong></summary>
 
-The width of each rectangle is \(\Delta x = 2\).
+Split \([0,8]\) into 4 equal pieces.
+
+Compute the width:
+\[
+\Delta x = \frac{8-0}{4} = 2.
+\]
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Use the left-endpoint heights at \(x=0,2,4,6\).
+For a left-endpoint sum:
+
+1. Use \(x=0,2,4,6\) as the bases of the rectangles.  
+2. From the graph, read \(f(0), f(2), f(4), f(6)\).  
+3. Compute
+   \[
+   \text{Area} \approx \Delta x\,[f(0)+f(2)+f(4)+f(6)].
+   \]
 
 </details>
 
@@ -148,13 +196,28 @@ C. Elastic at \(p=3\) because \(E(3) < 1\)
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Use \(E(p)=\frac{p}{x}\left|\frac{dx}{dp}\right|\).
+We use the elasticity formula
+\[
+E(p) = -\frac{p}{x}\frac{dx}{dp}.
+\]
+
+First differentiate \(x(p)=16-\frac{1}{3}p^2\) to find \(\dfrac{dx}{dp}\).
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Compute \(x\) and the derivative at \(p=3\).
+At \(p=3\):
+
+1. Find \(x(3)\).  
+2. Find \(\dfrac{dx}{dp}\big|_{p=3}\).  
+3. Plug into
+   \[
+   E(3) = -\frac{3}{x(3)}\cdot \frac{dx}{dp}\bigg|_{p=3}.
+   \]
+4. Compare \(|E(3)|\) with 1:  
+   - \(|E(3)|>1\) → elastic,  
+   - \(|E(3)|<1\) → inelastic.
 
 </details>
 
@@ -174,14 +237,25 @@ D. B better by < 0.05%
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Compute  
-\((1+\frac{0.036}{4})^4 - 1\) and \(e^{0.0355}-1\).
+Use effective-rate formulas:
+
+- For A (compounded \(n=4\) times/year):
+  \[
+  r_{\text{eff},A}
+  = \left(1+\frac{0.036}{4}\right)^4 - 1.
+  \]
+- For B (continuous compounding):
+  \[
+  r_{\text{eff},B} = e^{0.0355} - 1.
+  \]
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Compare the two effective rates.
+1. Approximate both effective rates (as decimals or percentages).  
+2. Compare them: which one is larger?  
+3. Check if the difference in rates is greater or less than \(0.0005\) (that’s 0.05%).
 
 </details>
 
@@ -205,13 +279,23 @@ E. > \$26,000
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Integrate \(C'(x)\) to get \(C(x)\).
+Since \(C'(x)\) is the derivative of \(C(x)\), integrate \(C'(x)\) to get \(C(x)\) plus a constant.
+
+Then use the fixed cost \(C(0)=7000\) to find that constant.
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Use \(C(0)=7000\).
+After you get
+\[
+C(x) = \text{(cubic in }x\text{)} + 7000,
+\]
+do the following:
+
+1. Plug in \(x=100\).  
+2. Compute each term carefully (do the powers and coefficients step by step).  
+3. Add everything and see which interval it falls into among the answer choices.
 
 </details>
 
@@ -228,13 +312,24 @@ D. \(e^{-1} - 1\)
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Integrate \(-e^{-x}\).
+Start with the definite integral
+\[
+\int_0^1 -e^{-x}\,dx.
+\]
+
+Find an antiderivative of \(-e^{-x}\).  
+(Recall: the derivative of \(e^{-x}\) is \(-e^{-x}\).)
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Use the antiderivative \(e^{-x}\).
+1. Evaluate
+   \[
+   \int_0^1 -e^{-x}dx = \left[e^{-x}\right]_0^1.
+   \]
+2. This gives a **negative** value (since the function is below the x-axis).  
+3. The geometric area is the positive value, so take the absolute value and then simplify the expression.
 
 </details>
 
@@ -258,13 +353,27 @@ E. \(\int_0^3 (x^2 + 3x)\,dx\)
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Decide which curve is on top on \([0,3]\).
+Area between curves is
+\[
+\int (\text{top} - \text{bottom})\,dx.
+\]
+
+Pick a point in the interval, e.g. \(x=1\), and compare \(f(1)\) and \(g(1)\) to see which is on top.
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Area = (top function) – (bottom function).
+1. Once you know which is top and bottom, write:
+   \[
+   \int_0^3 [\text{top} - \text{bottom}]\,dx.
+   \]
+2. Compute
+   \[
+   g(x) - f(x)
+   = (-x+2) - (x^2 - 4x + 2).
+   \]
+3. Simplify the integrand and match your result to one of the answer choices.
 
 </details>
 
@@ -286,13 +395,24 @@ A–E: options printed on the original exam.
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Estimate the tangent slopes visually.
+Remember:
+
+- \(f'(x)\) = slope of the **tangent** at that point.  
+- \(m\) is the slope of a **secant** line from \(-4\) to \(4\).
+
+For each point, decide if the tangent slope is negative, zero, or positive, and whether it’s steep or gentle.
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Be careful about which slopes are positive, which are negative, and which are steeper.
+1. Identify where the graph is going down fastest (most negative slope).  
+2. Identify a smaller negative slope.  
+3. Find where the tangent looks horizontal (slope \(=0\)).  
+4. Among positive slopes, see which is largest and which is smaller.  
+5. Estimate the secant slope \(m\): it should be a “middle” positive slope between some of the tangent values.
+
+Then order them from smallest (most negative) to largest (most positive).
 
 </details>
 
@@ -306,16 +426,28 @@ Use calculus to maximize yield.
 
 <details><summary><strong>Hint 1</strong></summary>
 
-Let \(x\) be the number of extra trees.
+Let \(x\) be the number of extra trees per acre.
+
+- Number of trees: \(30 + x\).  
+- Yield per tree: starts at 480 and drops by 12 for each extra tree:
+  \[
+  480 - 12x.
+  \]
+
+Total yield is “trees × yield per tree.”
 
 </details>
 
 <details><summary><strong>Hint 2</strong></summary>
 
-Total yield:  
-\[
-Y(x) = (30+x)(480 - 12x).
-\]
+1. Write the total yield function:
+   \[
+   Y(x) = (30 + x)(480 - 12x).
+   \]
+2. Expand \(Y(x)\) into standard quadratic form.  
+3. Differentiate to find \(Y'(x)\).  
+4. Solve \(Y'(x)=0\) to find the best \(x\).  
+5. Convert back to the actual number of trees: \(30 + x\).
 
 </details>
 
@@ -562,7 +694,7 @@ Critical numbers occur when \(f'(x) = 0\):
 
 This happens when
 \[
-x^2 = 0 \quad \text{or} \quad x-2=0 \quad \text{or} \quad x+2=0,
+x^2 = 0 \quad \text{or} \quad x-2=0 \quad \textor \quad x+2=0,
 \]
 so
 \[
@@ -670,6 +802,7 @@ Left Riemann sum:
 = 2\,[f(0) + f(2) + f(4) + f(6)].
 \]
 
+From the graph on the exam, you read the heights \(f(0), f(2), f(4), f(6)\). In this version they are approximately \(3,3,-2,6\), so
 
 \[
 \text{Area} \approx 2 [3+3-2+6] = 2[10] = 20.
@@ -901,7 +1034,7 @@ C(100)
 
 So \(C(100) = \$26{,}603\).
 
-This falls in the range \(\$24{,}000 \le C(100) \le \$26{,}000\), so answer **D**.
+This falls in the range \(\$24,000 \le C(100) \le \$26{,}000\), so answer **D**.
 
 </details>
 

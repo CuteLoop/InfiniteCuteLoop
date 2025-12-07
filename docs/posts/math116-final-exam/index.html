@@ -58,10 +58,21 @@ C. $11,000 &lt; revenue ≤ $12,500<br>
 D. $12,500 &lt; revenue ≤ $14,000<br>
 E. Revenue ≥ $14,000</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Write revenue as \(R(x) = x(120 - 0.25x)\).</p>
+<p>Revenue is<br>
+</p>
+\[
+R(x) = (\text{price})\cdot(\text{quantity}) 
+\]<p><br>
+Write it out and find critical points.</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Find the critical point and compare it to \(x=100\) and \(x=200\).</p>
+<p>To maximize \(R(x)\) on \([100,200]\):</p>
+<ol>
+<li>Compute \(R'(x)\).</li>
+<li>Set \(R'(x)=0\) and solve for \(x\).</li>
+<li>Check whether that critical point lies in \([100,200]\).</li>
+<li>Evaluate \(R(100)\) and \(R(200)\), and compare with any critical point inside the interval.</li>
+</ol>
 </details>
 <hr>
 <h2 id="problem-2"><strong>Problem 2</strong></h2>
@@ -71,10 +82,24 @@ B. \(125 < x \le 150\)<br>
 C. \(150 < x \le 175\)<br>
 D. \(175 < x \le 200\)</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Break-even means revenue = cost.</p>
+<p>Break-even means <strong>revenue = cost</strong>.</p>
+<p>Use<br>
+</p>
+\[
+R(x) = x(120 - 0.25x), \quad C(x) = 0.5x^2 - 375,
+\]<p><br>
+and set up the equation \(R(x) = C(x)\).</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Solve \(x(120 - 0.25x) = 0.5x^2 - 375\).</p>
+<ol>
+<li>Start from
+\[
+   x(120 - 0.25x) = 0.5x^2 - 375.
+   \]</li>
+<li>Move everything to one side to get a quadratic \(ax^2 + bx + c = 0\).</li>
+<li>Use the <strong>quadratic formula</strong> or calculator program to solve for \(x\).</li>
+<li>Ignore any negative solution and keep the positive solution that fits one of the ranges.</li>
+</ol>
 </details>
 <hr>
 <h2 id="problem-3"><strong>Problem 3</strong></h2>
@@ -89,10 +114,30 @@ C. \(-2\) max, \(2\) max, \(0\) neither<br>
 D. \(-2\) min, \(2\) min, \(0\) neither<br>
 E. \(2\) min, \(0\) max</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Factor the derivative.</p>
+<p>Critical numbers happen when \(f'(x)=0\).</p>
+<ol>
+<li>Factorize two times:
+\[
+   f'(x) = 3x^4 - 12x^2 = 3x^2(x^2 - 4) = \dots
+   \]</li>
+<li>Set this equal to zero and find all values of \(x\) that make it zero.</li>
+</ol>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Use a sign chart around each critical number.</p>
+<p>To decide max/min/neither:</p>
+<ol>
+<li>Make a <strong>sign chart</strong> for \(f'(x)\) using the critical numbers \(-2,0,2\).</li>
+<li>Pick test points in<br>
+\((-\infty,-2),\ (-2,0),\ (0,2),\ (2,\infty)\).</li>
+<li>See where \(f'(x)\) is positive (increasing) or negative (decreasing).</li>
+<li>Use:
+<ul>
+<li>increasing → decreasing = <strong>max</strong>,</li>
+<li>decreasing → increasing = <strong>min</strong>,</li>
+<li>same sign on both sides = <strong>neither</strong>.</li>
+</ul>
+</li>
+</ol>
 </details>
 <hr>
 <h2 id="problem-4"><strong>Problem 4</strong></h2>
@@ -104,10 +149,22 @@ C. 22<br>
 D. 19<br>
 E. 23</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>The width of each rectangle is \(\Delta x = 2\).</p>
-</details>
+<p>Split \([0,8]\) into 4 equal pieces.</p>
+<p>Compute the width:
+</p>
+\[
+\Delta x = \frac{8-0}{4} = 2.
+\]</details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Use the left-endpoint heights at \(x=0,2,4,6\).</p>
+<p>For a left-endpoint sum:</p>
+<ol>
+<li>Use \(x=0,2,4,6\) as the bases of the rectangles.</li>
+<li>From the graph, read \(f(0), f(2), f(4), f(6)\).</li>
+<li>Compute
+\[
+   \text{Area} \approx \Delta x\,[f(0)+f(2)+f(4)+f(6)].
+   \]</li>
+</ol>
 </details>
 <hr>
 <h2 id="problem-5"><strong>Problem 5</strong></h2>
@@ -120,10 +177,28 @@ x = 16 - \frac{1}{3}p^2.
 B. Inelastic at \(p=3\) because \(E(3) < 1\)<br>
 C. Elastic at \(p=3\) because \(E(3) < 1\)</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Use \(E(p)=\frac{p}{x}\left|\frac{dx}{dp}\right|\).</p>
+<p>We use the elasticity formula
+</p>
+\[
+E(p) = -\frac{p}{x}\frac{dx}{dp}.
+\]<p>First differentiate \(x(p)=16-\frac{1}{3}p^2\) to find \(\dfrac{dx}{dp}\).</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Compute \(x\) and the derivative at \(p=3\).</p>
+<p>At \(p=3\):</p>
+<ol>
+<li>Find \(x(3)\).</li>
+<li>Find \(\dfrac{dx}{dp}\big|_{p=3}\).</li>
+<li>Plug into
+\[
+   E(3) = -\frac{3}{x(3)}\cdot \frac{dx}{dp}\bigg|_{p=3}.
+   \]</li>
+<li>Compare \(|E(3)|\) with 1:
+<ul>
+<li>\(|E(3)|>1\) → elastic,</li>
+<li>\(|E(3)|<1\) → inelastic.</li>
+</ul>
+</li>
+</ol>
 </details>
 <hr>
 <h2 id="problem-6"><strong>Problem 6</strong></h2>
@@ -135,11 +210,25 @@ B. B better by &gt; 0.05%<br>
 C. A better by &lt; 0.05%<br>
 D. B better by &lt; 0.05%</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Compute<br>
-\((1+\frac{0.036}{4})^4 - 1\) and \(e^{0.0355}-1\).</p>
+<p>Use effective-rate formulas:</p>
+<ul>
+<li>For A (compounded \(n=4\) times/year):
+\[
+  r_{\text{eff},A}
+  = \left(1+\frac{0.036}{4}\right)^4 - 1.
+  \]</li>
+<li>For B (continuous compounding):
+\[
+  r_{\text{eff},B} = e^{0.0355} - 1.
+  \]</li>
+</ul>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Compare the two effective rates.</p>
+<ol>
+<li>Approximate both effective rates (as decimals or percentages).</li>
+<li>Compare them: which one is larger?</li>
+<li>Check if the difference in rates is greater or less than \(0.0005\) (that’s 0.05%).</li>
+</ol>
 </details>
 <hr>
 <h2 id="problem-7"><strong>Problem 7</strong></h2>
@@ -155,10 +244,21 @@ C. $22,000 ≤ \(C(100)\) ≤ $24,000<br>
 D. $24,000 ≤ \(C(100)\) ≤ $26,000<br>
 E. &gt; $26,000</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Integrate \(C'(x)\) to get \(C(x)\).</p>
+<p>Since \(C'(x)\) is the derivative of \(C(x)\), integrate \(C'(x)\) to get \(C(x)\) plus a constant.</p>
+<p>Then use the fixed cost \(C(0)=7000\) to find that constant.</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Use \(C(0)=7000\).</p>
+<p>After you get
+</p>
+\[
+C(x) = \text{(cubic in }x\text{)} + 7000,
+\]<p>
+do the following:</p>
+<ol>
+<li>Plug in \(x=100\).</li>
+<li>Compute each term carefully (do the powers and coefficients step by step).</li>
+<li>Add everything and see which interval it falls into among the answer choices.</li>
+</ol>
 </details>
 <hr>
 <h2 id="problem-8"><strong>Problem 8</strong></h2>
@@ -168,10 +268,22 @@ B. \(e^{-1} - 1\)<br>
 C. \(e^{-1} + 1\)<br>
 D. \(e^{-1} - 1\)</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Integrate \(-e^{-x}\).</p>
+<p>Start with the definite integral
+</p>
+\[
+\int_0^1 -e^{-x}\,dx.
+\]<p>Find an antiderivative of \(-e^{-x}\).<br>
+(Recall: the derivative of \(e^{-x}\) is \(-e^{-x}\).)</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Use the antiderivative \(e^{-x}\).</p>
+<ol>
+<li>Evaluate
+\[
+   \int_0^1 -e^{-x}dx = \left[e^{-x}\right]_0^1.
+   \]</li>
+<li>This gives a <strong>negative</strong> value (since the function is below the x-axis).</li>
+<li>The geometric area is the positive value, so take the absolute value and then simplify the expression.</li>
+</ol>
 </details>
 <hr>
 <h2 id="problem-9"><strong>Problem 9</strong></h2>
@@ -188,10 +300,25 @@ C. \(\int_0^3 (x^2 - 3x)\,dx\)<br>
 D. \(\int_0^3 (-x^2 + 5x - 4)\,dx\)<br>
 E. \(\int_0^3 (x^2 + 3x)\,dx\)</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Decide which curve is on top on \([0,3]\).</p>
+<p>Area between curves is
+</p>
+\[
+\int (\text{top} - \text{bottom})\,dx.
+\]<p>Pick a point in the interval, e.g. \(x=1\), and compare \(f(1)\) and \(g(1)\) to see which is on top.</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Area = (top function) – (bottom function).</p>
+<ol>
+<li>Once you know which is top and bottom, write:
+\[
+   \int_0^3 [\text{top} - \text{bottom}]\,dx.
+   \]</li>
+<li>Compute
+\[
+   g(x) - f(x)
+   = (-x+2) - (x^2 - 4x + 2).
+   \]</li>
+<li>Simplify the integrand and match your result to one of the answer choices.</li>
+</ol>
 </details>
 <hr>
 <h2 id="problem-10"><strong>Problem 10</strong></h2>
@@ -202,10 +329,22 @@ f'(-4),\ f'(-3),\ f'(2),\ m,\ f'(0),\ f'(4),
 \]<p>where \(m\) is the slope of the secant line from \(x=-4\) to \(x=4\).</p>
 <p>A–E: options printed on the original exam.</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Estimate the tangent slopes visually.</p>
+<p>Remember:</p>
+<ul>
+<li>\(f'(x)\) = slope of the <strong>tangent</strong> at that point.</li>
+<li>\(m\) is the slope of a <strong>secant</strong> line from \(-4\) to \(4\).</li>
+</ul>
+<p>For each point, decide if the tangent slope is negative, zero, or positive, and whether it’s steep or gentle.</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Be careful about which slopes are positive, which are negative, and which are steeper.</p>
+<ol>
+<li>Identify where the graph is going down fastest (most negative slope).</li>
+<li>Identify a smaller negative slope.</li>
+<li>Find where the tangent looks horizontal (slope \(=0\)).</li>
+<li>Among positive slopes, see which is largest and which is smaller.</li>
+<li>Estimate the secant slope \(m\): it should be a “middle” positive slope between some of the tangent values.</li>
+</ol>
+<p>Then order them from smallest (most negative) to largest (most positive).</p>
 </details>
 <hr>
 <h2 id="problem-11"><strong>Problem 11</strong></h2>
@@ -213,14 +352,28 @@ f'(-4),\ f'(-3),\ f'(2),\ m,\ f'(0),\ f'(4),
 Each extra tree reduces yield by 12 lb.<br>
 Use calculus to maximize yield.</p>
 <details><summary><strong>Hint 1</strong></summary>
-<p>Let \(x\) be the number of extra trees.</p>
+<p>Let \(x\) be the number of extra trees per acre.</p>
+<ul>
+<li>Number of trees: \(30 + x\).</li>
+<li>Yield per tree: starts at 480 and drops by 12 for each extra tree:
+\[
+  480 - 12x.
+  \]</li>
+</ul>
+<p>Total yield is “trees × yield per tree.”</p>
 </details>
 <details><summary><strong>Hint 2</strong></summary>
-<p>Total yield:<br>
-</p>
+<ol>
+<li>Write the total yield function:
 \[
-Y(x) = (30+x)(480 - 12x).
-\]</details>
+   Y(x) = (30 + x)(480 - 12x).
+   \]</li>
+<li>Expand \(Y(x)\) into standard quadratic form.</li>
+<li>Differentiate to find \(Y'(x)\).</li>
+<li>Solve \(Y'(x)=0\) to find the best \(x\).</li>
+<li>Convert back to the actual number of trees: \(30 + x\).</li>
+</ol>
+</details>
 <hr>
 <h1 id="answers">Answers</h1>
 <table>
@@ -434,7 +587,7 @@ f'(x) = 3x^2(x-2)(x+2).
 \]<p>This happens when
 </p>
 \[
-x^2 = 0 \quad \text{or} \quad x-2=0 \quad \text{or} \quad x+2=0,
+x^2 = 0 \quad \text{or} \quad x-2=0 \quad \textor \quad x+2=0,
 \]<p>
 so
 </p>
@@ -528,7 +681,8 @@ Decreasing followed by increasing means a <strong>relative minimum</strong> at \
 \[
 \text{Area} \approx \sum_{i=1}^4 f(x_{i-1})\Delta x
 = 2\,[f(0) + f(2) + f(4) + f(6)].
-\]\[
+\]<p>From the graph on the exam, you read the heights \(f(0), f(2), f(4), f(6)\). In this version they are approximately \(3,3,-2,6\), so</p>
+\[
 \text{Area} \approx 2 [3+3-2+6] = 2[10] = 20.
 \]<p>This corresponds to answer choice <strong>B</strong>.</p>
 </details>
@@ -697,7 +851,7 @@ C(100)
 = -397 + 27{,}000
 = 26{,}603.
 \]<p>So \(C(100) = \$26{,}603\).</p>
-<p>This falls in the range \(\$24{,}000 \le C(100) \le \$26{,}000\), so answer <strong>D</strong>.</p>
+<p>This falls in the range \(\$24,000 \le C(100) \le \$26{,}000\), so answer <strong>D</strong>.</p>
 </details>
 <hr>
 <details><summary><strong>Solution to Problem 8</strong></summary>
