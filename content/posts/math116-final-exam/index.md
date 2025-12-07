@@ -13,9 +13,51 @@ math: true
 
 <!--more-->
 
+
+
 ---
 
 ## Formulas Provided on the Exam
+
+## Formula Sheet
+
+### Chapter 3
+
+| | |
+|---|---|
+| \(\displaystyle \frac{d}{dx}\big(x^{n}\big) = n\,x^{n-1}\) | \(\displaystyle \frac{d}{dx}\big[(f(x))^{n}\big] = n\,(f(x))^{\,n-1}\,f'(x)\) |
+| \(\displaystyle \frac{d}{dx}[f(x)\,g(x)] = f'(x)\,g(x) + f(x)\,g'(x)\) | \(\displaystyle \frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)\,g(x) - f(x)\,g'(x)}{[g(x)]^{2}}\) |
+| \(\displaystyle \frac{d}{dx}[f(g(x))] = f'(g(x))\cdot g'(x)\) | \(\displaystyle E(p) = \frac{-p\,f'(p)}{f(p)}\) |
+
+---
+### Chapter 5
+
+| | |
+|---|---|
+| \(\displaystyle A = P\left(1 + \frac{r}{m}\right)^{mt}\) | \(\displaystyle A = Pe^{rt}\) |
+| \(\displaystyle r_E = \left(1 + \frac{r}{m}\right)^{m} - 1\) | \(\displaystyle r_E = e^{r} - 1\) |
+| \(\displaystyle \frac{d}{dx}\big(e^{x}\big) = e^{x}\) | \(\displaystyle \frac{d}{dx}\big(e^{f(x)}\big) = f'(x)\,e^{f(x)}\) |
+| \(\displaystyle \frac{d}{dx}[\ln(x)] = \frac{1}{x}\) | \(\displaystyle \frac{d}{dx}[\ln(f(x))] = \frac{f'(x)}{f(x)}\) |
+
+---
+
+### Chapter 6
+
+| | |
+|---|---|
+| \(\displaystyle \int x^{n}\,dx = \frac{x^{n+1}}{n+1} + C \quad (n\neq -1)\) | \(\displaystyle PS = \int_{0}^{\bar{x}}\big(\bar{p} - S(x)\big)\,dx\) |
+| \(\displaystyle \int \frac{k}{x}\,dx = k\,\ln\lvert x\rvert + C\) | \(\displaystyle CS = \int_{0}^{\bar{x}}\big(D(x) - \bar{p}\big)\,dx\) |
+| \(\displaystyle \int e^{kx}\,dx = \frac{e^{kx}}{k} + C\) | \(\displaystyle PV = \int_{0}^{T} R(t)\,e^{-rt}\,dt\) |
+|  | \(\displaystyle FV = e^{rT}\int_{0}^{T} R(t)\,e^{-rt}\,dt\) |
+ |
+
+---
+
+### Quadratic Formula
+
+\[
+x = \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a}
+\]
 
 <!-- Add formula sheet if needed -->
 
@@ -1287,4 +1329,690 @@ So the optimal number of trees is:
 
 Thus, to maximize total yield, the farmer should plant **35 trees per acre**.
 
+</details>
+
+
+
+# MATH 116 – Final Exam Practice Problems (Fall 2025)
+
+---
+
+## 1. Line through two points
+
+Find the equation of the line that goes through the points \((0,7)\) and \((2,-5)\).
+
+The equation is:  
+(A) \(y = 6x - 7\)  
+(B) \(y = 6x + 7\)  
+(C) \(y = 6x - 5\)  
+(D) \(y = 6x - 5\) (different constant)  
+(E) None of these  
+
+<details><summary><strong>Hint</strong></summary>
+
+Use the **slope formula**  
+\[
+m = \frac{y_2 - y_1}{x_2 - x_1}
+\]  
+with the two points, then plug \(m\) and one point into **point–slope form**:  
+\[
+y - y_1 = m(x - x_1).
+\]
+</details>
+
+---
+
+## 2. Marginal cost from two points
+
+The cost to produce 300 cups of coffee is \$78.55, and the cost to produce 500 cups is \$125.35. Assume \(C(x)\) is linear in \(x\).
+
+Find the **marginal cost** of a cup of coffee.
+
+<details><summary><strong>Hint</strong></summary>
+
+If \(C(x)\) is linear, then marginal cost is just the **slope of the line**:
+\[
+\frac{\Delta C}{\Delta x}
+= \frac{C(500) - C(300)}{500 - 300}.
+\]
+Compute that and interpret it as “dollars per cup.”
+</details>
+
+---
+
+## 3. Vertex of a quadratic
+
+Find the vertex of  
+\[
+f(x) = 3x^2 - 14x + 31.
+\]
+
+The \(x\)-coordinate of the vertex is:  
+(A) \(7/3\)  
+(B) \(-7/3\)  
+(C) \(14/3\)  
+(D) \(7\)  
+(E) None of these  
+
+<details><summary><strong>Hint</strong></summary>
+
+For a quadratic \(ax^2 + bx + c\), the vertex has
+\[
+x_{\text{vertex}} = -\frac{b}{2a}.
+\]
+Plug in \(a=3\), \(b=-14\).
+</details>
+
+---
+
+## 4. Horizontal asymptote
+
+Find the horizontal asymptote, if any, for  
+\[
+f(x) = \frac{3x - 5}{7x + 2}.
+\]
+
+<details><summary><strong>Hint</strong></summary>
+
+For rational functions where numerator and denominator have the **same degree**, the horizontal asymptote is
+\[
+y = \frac{\text{leading coefficient of numerator}}{\text{leading coefficient of denominator}}.
+\]
+</details>
+
+---
+
+## 5. Profit function
+
+Let \(C(x) = 35x + 200\) be the cost (dollars) and \(R(x) = -x^2 + 80x\) be the revenue (dollars). Find the profit function \(P(x)\).
+
+<details><summary><strong>Hint</strong></summary>
+
+Profit = Revenue − Cost:
+\[
+P(x) = R(x) - C(x).
+\]
+Just subtract the expressions carefully.
+</details>
+
+---
+
+## 6. Vertical asymptote
+
+Find the vertical asymptote, if any, for  
+\[
+f(x) = \frac{x^4 + 9}{3x - 5}.
+\]
+
+<details><summary><strong>Hint</strong></summary>
+
+Vertical asymptotes for a rational function occur where the **denominator is zero** (and the numerator is nonzero). Set the denominator equal to zero and solve for \(x\).
+</details>
+
+---
+
+## 7. Continuous compounding interest
+
+Find the interest earned on \$18,000 invested for 6 years at 2.1% interest compounded **continuously**.
+
+<details><summary><strong>Hint</strong></summary>
+
+Use the continuous compounding formula
+\[
+A = Pe^{rt}.
+\]
+Compute \(A\) and then interest = \(A - P\).
+</details>
+
+---
+
+## 8. Effective rate (nominal 8.2% quarterly)
+
+Find the **effective rate** corresponding to a nominal rate of 8.2% compounded quarterly.
+
+<details><summary><strong>Hint</strong></summary>
+
+Use
+\[
+r_{\text{eff}} = \left(1 + \frac{r_{\text{nom}}}{n}\right)^n - 1
+\]
+with \(r_{\text{nom}} = 0.082\) and \(n=4\). Then convert the decimal to a percent.
+</details>
+
+---
+
+## 9. Nominal rate from effective rate (continuous)
+
+The effective rate is 6.1%. Determine the nominal rate if interest is compounded **continuously**.
+
+<details><summary><strong>Hint</strong></summary>
+
+For continuous compounding,
+\[
+\text{effective} = e^r - 1.
+\]
+Set \(e^r - 1 = 0.061\) and solve for \(r\) using natural logs:
+\[
+r = \ln(1.061).
+\]
+</details>
+
+---
+
+## 10. Limit from a graph
+
+Given the graph of \(y = f(x)\), find \(\displaystyle\lim_{x\to 1} f(x).\)
+
+<details><summary><strong>Hint</strong></summary>
+
+Look at the **left-hand limit** and **right-hand limit** as \(x\) approaches 1 on the graph. If they agree and hit a specific value, that’s the limit; if they differ, the limit does not exist.
+</details>
+
+---
+
+## 11. Derivative from a graph
+
+Using the same graph, evaluate \(f'(2)\).
+
+<details><summary><strong>Hint</strong></summary>
+
+The derivative at \(x=2\) is the **slope of the tangent line** at that point. Draw (mentally) a line that just touches the graph at \(x=2\) and estimate its slope.
+</details>
+
+---
+
+## 12. Derivative of a rational function
+
+Find the derivative of
+\[
+f(x) = \frac{7x + 3}{2x - 5}.
+\]
+
+<details><summary><strong>Hint</strong></summary>
+
+Use the **quotient rule**:
+\[
+\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2},
+\]
+with \(u = 7x + 3\), \(v = 2x - 5\).
+</details>
+
+---
+
+## 13. Interpreting marginal profit
+
+Let \(P(x)\) be profit in dollars when \(x\) T-shirts are sold, and \(P'(x)\) is the marginal profit. Interpret \(P'(20) = 10\).
+
+<details><summary><strong>Hint</strong></summary>
+
+Remember: \(P'(x)\) is the **rate of change of profit w.r.t. \(x\)**. So \(P'(20)=10\) means at sales level \(x=20\), profit is changing by about \$10 **per additional T-shirt**.
+</details>
+
+---
+
+## 14. Derivative of a polynomial
+
+Find the derivative of
+\[
+f(x) = \frac{1}{2}x^4 - 3x^3 + x - 7
+\]
+(or similar structure as in the test).
+
+<details><summary><strong>Hint</strong></summary>
+
+Apply the **power rule** term by term:
+\[
+\frac{d}{dx}(ax^n) = anx^{n-1},
+\]
+and constant terms differentiate to zero.
+</details>
+
+---
+
+## 15. Marginal revenue
+
+Let
+\[
+R(q) = 800q - 0.05q^2
+\]
+be revenue in dollars when \(q\) units are sold. Find the marginal revenue when 3400 units are sold.
+
+<details><summary><strong>Hint</strong></summary>
+
+Marginal revenue is
+\[
+R'(q).
+\]
+Differentiate \(R(q)\) and then plug in \(q=3400\).
+</details>
+
+---
+
+## 16. Product rule with given values
+
+Suppose \(f\) and \(g\) are differentiable and you know
+\[
+f(3),\ f'(3),\ g(3),\ g'(3),
+\]
+and \(h(x) = f(x)g(x)\). Find \(h'(3)\).
+
+<details><summary><strong>Hint</strong></summary>
+
+Use the **product rule**:
+\[
+h'(x) = f'(x)g(x) + f(x)g'(x).
+\]
+Then evaluate at \(x=3\) using the given numbers.
+</details>
+
+---
+
+## 17. Derivative of a log function
+
+Find the derivative of
+\[
+f(x) = \ln(2x - 1).
+\]
+
+<details><summary><strong>Hint</strong></summary>
+
+Use chain rule with \(u = 2x-1\):
+\[
+\frac{d}{dx}\ln u = \frac{1}{u}\cdot u'.
+\]
+So you’ll get a fraction with denominator \(2x-1\).
+</details>
+
+---
+
+## 18. Derivative of a rational power function
+
+Let
+\[
+f(x) = \frac{x^6 + 4}{x^4}.
+\]
+
+<details><summary><strong>Hint</strong></summary>
+
+First **simplify**:
+\[
+f(x) = x^2 + 4x^{-4}.
+\]
+Then differentiate term by term using the power rule.
+</details>
+
+---
+
+## 19. Derivative of an exponential with function in exponent
+
+Let
+\[
+f(x) = e^{u(x)},
+\]
+where here \(u(x)\) is some expression like \(4x + 9\) or \(x^4 + 9\).
+
+<details><summary><strong>Hint</strong></summary>
+
+Use chain rule:
+\[
+\frac{d}{dx}e^{u(x)} = u'(x)e^{u(x)}.
+\]
+Differentiate the exponent, then multiply by the original exponential.
+</details>
+
+---
+
+## 20. Quotient rule with given values
+
+Given \(h(x) = \dfrac{f(x)}{g(x)}\) and values of \(f(3), f'(3), g(3), g'(3)\), find \(h'(3)\).
+
+<details><summary><strong>Hint</strong></summary>
+
+Use the **quotient rule**:
+\[
+h'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}.
+\]
+Then plug in \(x=3\).
+</details>
+
+---
+
+## 21. Ticket revenue with concessions
+
+A baseball team: ticket price \(p\), attendance changes linearly with price, each person also spends \$14 on concessions. Find the ticket price that maximizes revenue.
+
+<details><summary><strong>Hint</strong></summary>
+
+1. Write attendance \(N(p)\) as a **linear function** of \(p\) using the starting point and slope (change in people per \$1).  
+2. Revenue:
+   \[
+   R(p) = (\text{ticket revenue per person} + 14)\cdot N(p)
+         = (p + 14) N(p).
+   \]
+3. Expand to get a quadratic in \(p\), then maximize (vertex or derivative).
+</details>
+
+---
+
+## 22. Tangent line at \(x=0\) to an exponential
+
+Let \(g(x) = e^{3x} + 4\). Find the equation of the tangent line at \(x=0\).
+
+<details><summary><strong>Hint</strong></summary>
+
+1. Find the point: compute \(g(0)\).  
+2. Find the slope: \(g'(x) = 3e^{3x}\), so \(g'(0)=3\).  
+3. Use point–slope form:
+   \[
+   y - g(0) = g'(0)(x - 0).
+   \]
+</details>
+
+---
+
+## 23. Tangent line at \(x=5\)
+
+Let \(g(x) = x^4 + 5\) (structure similar to the exam). Find the tangent line at \(x=5\).
+
+<details><summary><strong>Hint</strong></summary>
+
+1. Compute the point on the curve: \(g(5)\).  
+2. Find the derivative \(g'(x)\) and evaluate \(g'(5)\).  
+3. Use \(y - g(5) = g'(5)(x-5)\).
+</details>
+
+---
+
+## 24. Absolute minimum of average cost
+
+Given a cost function \(C(x) = x^3 - 19x + 128\) on \(0 < x \le 10\), find the **absolute minimum** of the **average cost**.
+
+<details><summary><strong>Hint</strong></summary>
+
+Average cost:
+\[
+\bar C(x) = \frac{C(x)}{x}.
+\]
+1. Simplify \(\bar C(x)\).  
+2. Differentiate \(\bar C(x)\).  
+3. Find critical points in \((0,10]\) and compare values at those points and at \(x=10\).
+</details>
+
+---
+
+## 25. Critical numbers from a graph
+
+Given a graph of \(y = f(x)\), find the critical numbers.
+
+<details><summary><strong>Hint</strong></summary>
+
+Critical numbers are \(x\)-values where \(f'(x)=0\) (horizontal tangent) or where \(f'(x)\) **does not exist**, as long as \(f\) is defined there. Look for peaks, valleys, and sharp corners.
+</details>
+
+---
+
+## 26. Intervals of increase from a graph
+
+Using the same graph, determine where \(f(x)\) is increasing.
+
+<details><summary><strong>Hint</strong></summary>
+
+“\(f\) is increasing” where the graph is going **up as you move left to right**. Identify intervals in \(x\) where the curve rises.
+</details>
+
+---
+
+## 27. Relative extrema from derivative formula
+
+Suppose
+\[
+f'(x) = (x+2)(3x-1).
+\]
+Find the locations and types of relative extrema of \(f(x)\).
+
+<details><summary><strong>Hint</strong></summary>
+
+1. Solve \(f'(x)=0\) to get critical points.  
+2. Make a small **sign chart** for \(f'(x)\) around those points.  
+3. Use sign changes (+ to − or − to +) to determine max vs min.
+</details>
+
+---
+
+## 28. Relative extrema from graph of \(f'\)
+
+Given the **graph of \(f'(x)\)**, find the relative extrema of \(f(x)\).
+
+<details><summary><strong>Hint</strong></summary>
+
+Relative maxima/minima of \(f\) occur where **\(f'\) changes sign**:
+- \(f'\) goes + to − → local max in \(f\).
+- \(f'\) goes − to + → local min in \(f\).
+Look where the derivative graph crosses the \(x\)-axis.
+</details>
+
+---
+
+## 29. Elasticity of demand (polynomial demand)
+
+Demand:
+\[
+q = 12300 - 3p^2.
+\]
+Find \(E(p)\) at \(p=40\).
+
+<details><summary><strong>Hint</strong></summary>
+
+Use
+\[
+E(p) = \left|\frac{p}{q}\frac{dq}{dp}\right|.
+\]
+1. Differentiate \(q(p)\) to get \(dq/dp\).  
+2. Evaluate \(q(40)\) and \(\frac{dq}{dp}\big|_{p=40}\).  
+3. Plug into the formula.
+</details>
+
+---
+
+## 30. Elasticity of demand (exponential demand)
+
+Demand:
+\[
+q = 600 e^{-0.02p}.
+\]
+Find \(E(p)\) at \(p=42\).
+
+<details><summary><strong>Hint</strong></summary>
+
+Again
+\[
+E(p) = \left|\frac{p}{q}\frac{dq}{dp}\right|.
+\]
+Here \(dq/dp\) requires the chain rule on \(e^{-0.02p}\).
+</details>
+
+---
+
+## 31. Indefinite integral of a polynomial
+
+Evaluate
+\[
+\int (10x^4 + 12x^2 - 11)\,dx.
+\]
+
+<details><summary><strong>Hint</strong></summary>
+
+Use the **power rule for integrals**:
+\[
+\int x^n dx = \frac{x^{n+1}}{n+1} + C.
+\]
+Apply it term by term and remember the constant of integration \(C\).
+</details>
+
+---
+
+## 32. Another polynomial integral
+
+Evaluate
+\[
+\int (6x^5 - 9x^2 + 8)\,dx
+\]
+(or similar structure from the exam).
+
+<details><summary><strong>Hint</strong></summary>
+
+Again, integrate each term separately using the power rule, and add \(+C\) at the end.
+</details>
+
+---
+
+## 33. Left Riemann sum
+
+Approximate the area under
+\[
+f(x) = x^2 + 1
+\]
+from \(x=-2\) to \(x=4\) using **3 rectangles** and **left endpoints**.
+
+<details><summary><strong>Hint</strong></summary>
+
+1. Find the width:
+\[
+\Delta x = \frac{4 - (-2)}{3}.
+\]
+2. Left endpoints: \(x_0=-2\), \(x_1=-2+\Delta x\), \(x_2=-2+2\Delta x\).  
+3. Approximate:
+\[
+\text{Area} \approx \Delta x\,[f(x_0)+f(x_1)+f(x_2)].
+\]
+</details>
+
+---
+
+## 34. Cost from marginal cost
+
+Suppose marginal cost
+\[
+C'(x) = 3x^2 + 20x e^x/x \quad\text{(exam’s structure)}
+\]
+and fixed cost is \$70. Determine \(C(x)\).
+
+<details><summary><strong>Hint</strong></summary>
+
+1. Integrate \(C'(x)\) with respect to \(x\) to get \(C(x) + K\).  
+2. Use \(C(0) = 70\) (fixed cost) to solve for the constant \(K\).
+</details>
+
+---
+
+## 35. Area between two curves
+
+Find the area of the region between
+\[
+f(x) = x^2 + 1,\quad g(x) = x^3.
+\]
+
+<details><summary><strong>Hint</strong></summary>
+
+1. Find intersection points by solving \(x^2 + 1 = x^3\).  
+2. Decide which function is on top on that interval.  
+3. Area:
+\[
+\int_a^b [\text{top} - \text{bottom}]\,dx.
+\]
+</details>
+
+---
+
+## 36. FTC with exponential integrand
+
+Evaluate
+\[
+\int (2x + 8)e^{x^2 + 8x}\,dx
+\]
+(or the structurally similar exam integral).
+
+<details><summary><strong>Hint</strong></summary>
+
+Try substitution: let
+\[
+u = x^2 + 8x.
+\]
+Then \(du = (2x+8)\,dx\). The integrand becomes \(e^u\,du\).
+</details>
+
+---
+
+## 37. FTC with \(\int 4/x\,dx\) from 2 to 8
+
+Evaluate
+\[
+\int_2^8 \frac{4}{x}\,dx.
+\]
+
+<details><summary><strong>Hint</strong></summary>
+
+\[
+\int \frac{1}{x}\,dx = \ln|x| + C.
+\]
+So the definite integral is  
+\[
+4[\ln x]_2^8 = 4(\ln 8 - \ln 2).
+\]
+You can simplify using log properties.
+</details>
+
+---
+
+## 38. Present value of a continuous income stream
+
+A continuous money flow of \$45,000 per year lasts 8 years. Interest is 3.1% compounded continuously. Find the **present value**.
+
+<details><summary><strong>Hint</strong></summary>
+
+Use
+\[
+\text{PV} = \int_0^8 45000\,e^{-0.031 t}\,dt.
+\]
+Factor out 45000, integrate \(e^{-0.031t}\), and evaluate from 0 to 8.
+</details>
+
+---
+
+## 39. Consumers’ surplus
+
+Demand:
+\[
+D(q) = 7000 - 0.4q^2,
+\]
+and you’re given an equilibrium quantity \(q_0 = 50\). Find consumers’ surplus.
+
+<details><summary><strong>Hint</strong></summary>
+
+1. Find the equilibrium price \(p_0 = D(50)\).  
+2. Use
+\[
+\text{CS} = \int_0^{q_0} D(q)\,dq - p_0 q_0.
+\]
+Compute the integral, then subtract the rectangle.
+</details>
+
+---
+
+## 40. Producers’ surplus
+
+Supply:
+\[
+S(x) = 0.3x^2 + 500,
+\]
+with equilibrium quantity \(x_0 = 80\). Find producers’ surplus.
+
+<details><summary><strong>Hint</strong></summary>
+
+1. Find equilibrium price \(p_0 = S(80)\).  
+2. Producers’ surplus:
+\[
+\text{PS} = p_0 x_0 - \int_0^{x_0} S(x)\,dx.
+\]
+Integral first, then subtract from the big rectangle.
 </details>
