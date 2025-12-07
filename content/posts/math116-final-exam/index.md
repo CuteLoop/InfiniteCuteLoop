@@ -7,6 +7,8 @@ description: "Practice problems for the Math 116 Final Exam with hints and detai
 math: true
 ---
 
+#### This exam has a lot fewer problems than the number of problems on the actual final exam. Do most of your studying using the review material Steve provided.
+
 > **How to use this page**  
 > Try each problem first, then expand Hint 1, Hint 2, and the Solution only when needed.  
 > Make mistakes *now* — not on the test!
@@ -513,7 +515,7 @@ Total yield is “trees × yield per tree.”
 
 ---
 
-# Detailed Solutions
+Detailed Solutions
 
 <details><summary><strong>Solution to Problem 1</strong></summary>
 
@@ -2016,3 +2018,4 @@ with equilibrium quantity \(x_0 = 80\). Find producers’ surplus.
 \]
 Integral first, then subtract from the big rectangle.
 </details>
+# 

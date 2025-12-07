@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Calculus on A minimal Hugo website</title>
-    <link>http://localhost:36521/InfiniteCuteLoop/tags/calculus/</link>
+    <link>https://cuteloop.github.io/InfiniteCuteLoop/tags/calculus/</link>
     <description>Recent content in Calculus on A minimal Hugo website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:36521/InfiniteCuteLoop/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cuteloop.github.io/InfiniteCuteLoop/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MATH 116 Test 2 Practice (Fall 2024)</title>
-      <link>http://localhost:36521/InfiniteCuteLoop/posts/math116-exam-2/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-2/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:36521/InfiniteCuteLoop/posts/math116-exam-2/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-2/</guid>
       <description>&lt;h3 id=&#34;basic-rules&#34;&gt;Basic rules&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Constant rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[k] = 0&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Power rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[x^n] = n x^{n-1} \quad (\text{for any real } n)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Constant multiple rule&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[k\,f(x)] = k\,f&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sum &amp;amp; difference rules&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;\[&#xA;  \frac{d}{dx}[f(x) \pm g(x)] = f&#39;(x) \pm g&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;product--quotient-rules&#34;&gt;Product &amp;amp; quotient rules&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Product rule&lt;/strong&gt; – for \(h(x)=f(x)\,g(x)\):&#xA;&lt;/p&gt;&#xA;\[&#xA;  h&#39;(x) = f&#39;(x)\,g(x) + f(x)\,g&#39;(x)&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Quotient rule&lt;/strong&gt; – for \(h(x)=\dfrac{f(x)}{g(x)}\):&#xA;&lt;/p&gt;&#xA;\[&#xA;  h&#39;(x) =&#xA;  \frac{f&#39;(x)\,g(x) - f(x)\,g&#39;(x)}{[g(x)]^{2}}&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;chain-rule&#34;&gt;Chain rule&lt;/h3&gt;&#xA;&lt;p&gt;If \(h(x) = f(g(x))\) (a composition), then&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MATH 116 Test 3 Practice (Fall 2024)</title>
-      <link>http://localhost:36521/InfiniteCuteLoop/posts/math116-exam-3/</link>
+      <link>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-3/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:36521/InfiniteCuteLoop/posts/math116-exam-3/</guid>
+      <guid>https://cuteloop.github.io/InfiniteCuteLoop/posts/math116-exam-3/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to use this page&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is a practice version of &lt;strong&gt;MATH 116 – Test 3 (Fall 2024)&lt;/strong&gt; with&#xA;&lt;strong&gt;very detailed, step-by-step solutions&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For each problem:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Read the &lt;strong&gt;problem&lt;/strong&gt; and try it on your own.&lt;/li&gt;&#xA;&lt;li&gt;Open &lt;strong&gt;Hint 1&lt;/strong&gt; if you’re not sure which rule or idea to use.&lt;/li&gt;&#xA;&lt;li&gt;Open &lt;strong&gt;Hint 2&lt;/strong&gt; for more structure.&lt;/li&gt;&#xA;&lt;li&gt;Open the &lt;strong&gt;Solution&lt;/strong&gt; only when you’re ready to check your work.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;formula-sheet&#34;&gt;Formula Sheet&lt;/h2&gt;&#xA;&lt;h3 id=&#34;interest--exponential-growthdecay&#34;&gt;Interest &amp;amp; Exponential Growth/Decay&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Compound interest (m times per year)&lt;/strong&gt;&lt;br&gt;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
