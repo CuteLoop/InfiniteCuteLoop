@@ -328,7 +328,7 @@ Y(x) = (30+x)(480 - 12x).
 | 1 | D |
 | 2 | C |
 | 3 | B |
-| 4 | C |
+| 4 | B |
 | 5 | B |
 | 6 | C |
 | 7 | D |
@@ -670,13 +670,12 @@ Left Riemann sum:
 = 2\,[f(0) + f(2) + f(4) + f(6)].
 \]
 
-From the graph on the exam, you read the heights \(f(0), f(2), f(4), f(6)\), which (approximately) add up to 11. So
 
 \[
-\text{Area} \approx 2 \cdot 11 = 22.
+\text{Area} \approx 2 [3+3-2+6] = 2[10] = 20.
 \]
 
-This corresponds to answer choice **C**.
+This corresponds to answer choice **B**.
 
 </details>
 
