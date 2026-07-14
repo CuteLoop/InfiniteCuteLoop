@@ -10,5 +10,5 @@ tags:
   - Math116
 ---
 
-This is a website where I upload content about math education.
-Teaching maths and Teaching material.
+This website shares instructional content on math education.
+It includes teaching notes, study guides, and practice materials.

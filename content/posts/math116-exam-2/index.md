@@ -7,6 +7,15 @@ description: "Ultra-detailed, fully worked practice version of a MATH 116 Test 2
 math: true
 ---
 
+## How to use the hints
+
+Each problem has two hints that do different jobs.
+
+- Hint 1 asks the strategic question: what idea, formula, or interpretation should you use?
+- Hint 2 answers that question and helps you start the setup or first calculation step.
+
+Try to name the quantity being found and its units before you compute.
+
 
 ### Basic rules
 
@@ -77,15 +86,13 @@ Find the **marginal revenue** when \(1600\) units are sold, i.e.\ find \(R'(1600
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-You need the derivative of a product \(R(x) = x\cdot p(x)\).
-
-Look up the **product rule** for derivatives.
+What quantity is being asked for here: total revenue or marginal revenue, and which function must be differentiated before evaluating at \(x=1600\)?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 1. First write \(R(x)\) explicitly:
    \[
@@ -126,17 +133,13 @@ At \(p=30\) the elasticity is:
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-1. First find \(q'(p) = \dfrac{dq}{dp}\) using the **power rule**.  
-2. Then plug into the elasticity formula
-   \[
-   E(p) = -\frac{p}{q(p)}\,q'(p).
-   \]
+Before you can compute \(E(30)\), which values do you need at \(p=30\): \(q(30)\), \(q'(30)\), or both?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 1. Compute \(q(30)\).  
 2. Compute \(q'(30)\).  
@@ -172,14 +175,13 @@ Find \(j'(3)\).
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-This is a product of two functions: \(x^{2}\) and \(f(x)\).  
-Use the **product rule**.
+In \(j(x)=x^2f(x)\), what derivative rule handles multiplying two functions together?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 The product rule says:
 \[
@@ -218,14 +220,13 @@ Find \(h'(2)\).
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-\(h(x)\) is a **quotient** of two differentiable functions.  
-Use the **quotient rule**.
+Since \(h(x)=\dfrac{f(x)}{g(x)}\), which derivative rule should you use to find \(h'(2)\)?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Quotient rule:
 \[
@@ -261,15 +262,13 @@ C'(8) = 20 ?
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Marginal cost \(C'(x)\) is the **instantaneous rate of change of cost** with respect to units produced.
-
-It is measured in **dollars per additional bottle**.
+Does \(C'(8)=20\) describe a total cost, or a rate at which cost is changing near 8 bottles, and what are the units?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Think: When \(x=8\) bottles, what does “\(C'(8) = 20\)” say about how **total cost** changes if we increase production slightly?
 
@@ -298,17 +297,13 @@ Find \(g'(x)\).  (Assume the inside of the square root is positive on the domain
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Rewrite the square root as a **power** and use the **chain rule**.
-
-\[
-\sqrt{\text{stuff}} = (\text{stuff})^{1/2}.
-\]
+If \(g(x)=\sqrt{-5x^2+7x}\), what are the outer and inner functions, and which derivative rule connects them?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Write
 \[
@@ -347,18 +342,13 @@ Which statement correctly describes what happens to **revenue** when price incre
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Elasticity key idea:
-
-- If \(|E(p)| > 1\): **elastic**.  
-- If \(|E(p)| < 1\): **inelastic**.
-
-Inelastic demand behaves differently for revenue than elastic demand.
+Given \(E(p)=0.84\), is demand elastic or inelastic, and what does that predict about revenue when price increases slightly?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Here \(E(p) = 0.84\).
 
@@ -396,15 +386,13 @@ Find the locations of all **relative extrema** of \(f\), and say whether each po
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Relative extrema occur at **critical numbers** (where \(f'(x)=0\) or undefined).
-
-Solve \(f'(x)=0\) and then use a **sign chart** or second derivative to classify each critical number.
+Where can relative extrema occur, and what must you analyze after solving \(f'(x)=0\)?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 1. Factor or use the quadratic formula to solve
    \[
@@ -441,19 +429,13 @@ Determine the **interval of \(x\)** on which the profit function \(P(x)\) is **i
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-To find where a function is increasing, look at where its **derivative is positive**.
-
-So:
-
-1. Find \(P(x)\).  
-2. Compute \(P'(x)\).  
-3. Solve \(P'(x) > 0\).
+To find where profit is increasing, should you study \(P(x)\) itself, \(P'(x)\), or both?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 1. Subtract \(C(x)\) from \(R(x)\) to form \(P(x)\) and simplify.  
 2. Differentiate the resulting polynomial.  
@@ -482,15 +464,13 @@ Assuming this is the graph of \(f'(x)\), determine the interval(s) where **\(f'(
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-On the graph, where is \(f'(x)\) **below the x-axis**?
-
-Those x-values are where \(f'(x) < 0\).
+Because the picture is the graph of \(f'(x)\), what visual feature tells you exactly where \(f'(x)<0\)?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 1. Identify the x-values where the graph of \(f'(x)\) crosses the x-axis.  
 2. Check visually which regions are **below** the x-axis.  
@@ -521,13 +501,13 @@ Remember: critical numbers occur where \(g'(x)=0\) or where \(g'(x)\) does not e
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Compute the derivative \(g'(x)\) using the power rule, then solve \(g'(x) = 0\).
+What condition defines a critical number, and how does that condition apply to \(g(x)=x^3-6x^2\)?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 1. Differentiate:
    \[
@@ -555,16 +535,13 @@ f(x) = 2x^{3} - 9x^{2} - 86.
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-- Use the **power rule** to find \(f'(x)\).  
-- The tangent line at \(x=a\) uses the point-slope formula
-  \(y - f(a) = f'(a)(x-a)\).  
-- For the First Derivative Test, find where \(f'(x)\) changes sign.
+For the three tasks in this problem, what does each require first: a derivative formula, tangent-line ingredients, or a sign analysis of \(f'(x)\)?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 1. Differentiate \(2x^{3} - 9x^{2} - 86\).  
 2. Evaluate both \(f(1)\) and \(f'(1)\).  
@@ -598,15 +575,13 @@ h(x) = (5x^{2} + 3)(4x + 2).
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-- For (a), rewrite powers: \(x^{-2}\) and \(x^{1/2}\). Use the power rule.  
-- For (b), use the **chain rule** on \([\text{inside}]^{7}\).  
-- For (c), use the **product rule**.
+For each part \((a),(b),(c)\), which derivative rule should you choose before computing anything?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 (a) Rewrite:
 
@@ -649,15 +624,13 @@ Find the **marginal cost** when \(20\) units are produced. Round your answer to 
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Marginal cost is the derivative \(C'(x)\).
-
-Since \(C(x)\) is a ratio of two functions, use the **quotient rule**.
+If marginal cost means \(C'(x)\), what must you compute first for this quotient cost function before evaluating at 20 units?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Let
 
@@ -1201,3 +1174,4 @@ Rounded:
 \]
 
 </details>
+

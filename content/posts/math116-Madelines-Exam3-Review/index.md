@@ -6,7 +6,7 @@ draft: false
 description: "Madeline’s structured, slightly silly checklist for surviving (and maybe even crushing) MATH 116 Exam 3."
 math: true
 ---
-Here are **Madeline’s Exam 3 notes**, carefully crafted by someone who has a great eye to synthesize what you need to know for aceing your exams.
+Here are **Madeline’s Exam 3 notes**, organized to help you focus on the ideas most likely to appear on the test.
 
 📄 **PDF version:**  
 [Download *MATH 116 – EXAM 3* (Madeline’s Review Sheet)](https://cuteloop.github.io/InfiniteCuteLoop/pdfs/exam3/mad-math116-exam3.pdf)
@@ -24,7 +24,7 @@ Use them for **review and practice**:
 - Check each topic
 - Let yourself make mistakes now, not on the exam
  
-If you get stuck or something doesn’t quite click, message your TAs — that’s what we’re here for. Hope this helps and Enjoy Thanks giving.
+If you get stuck or something does not quite click, message your TAs. Hope this helps, and enjoy Thanksgiving break.
 
 
 ## 1. Exponential Functions
@@ -42,7 +42,7 @@ f(x) = b^x, \quad b>0,\ b\neq 1.
 
 **Key graph features:**
 
-- Horizontal asymptote: \(y = 0\). Normal exponential are never negative.
+- Horizontal asymptote: \(y = 0\). Basic exponential functions \(b^x\) are always positive.
 - Graph never touches the \(x\)-axis.
 - Always passes through \((0,1)\) because \(b^0 = 1\).
 
@@ -119,7 +119,7 @@ Typical strategy:
   $$
   \text{something} = \text{something else}
   $$
-- If the bases **do not** match nicely → use \(\ln\) (or \(\log\).
+- If the bases **do not** match nicely, use \(\ln\) (or \(\log\)).
 
 ---
 
@@ -253,11 +253,20 @@ Then area is approximately:
 
 The **height** depends on which method:
 
-- **Left endpoints:**  
- 
-- **Right endpoints:**  
-  
-- **Midpoints:**  
+- **Left endpoints:**
+  \[
+  L_n = \sum_{i=1}^{n} f(x_{i-1})\,\Delta x
+  \]
+
+- **Right endpoints:**
+  \[
+  R_n = \sum_{i=1}^{n} f(x_i)\,\Delta x
+  \]
+
+- **Midpoints:**
+  \[
+  M_n = \sum_{i=1}^{n} f\!\left(\frac{x_{i-1}+x_i}{2}\right)\,\Delta x
+  \]
 
 ---
 

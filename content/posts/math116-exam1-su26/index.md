@@ -1,6 +1,6 @@
 ---
-title: "MATH 116 Test 1 Practice (Fall 2024)"
-date: 2025-11-01
+title: "MATH 116 Test 1 Practice (Summer 2026)"
+date: 2026-07-13
 tags: ["study-guide", "practice-exam"]
 draft: false
 description: "Practice problems with hints and detailed solutions."

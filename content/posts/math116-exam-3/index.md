@@ -14,8 +14,8 @@ math: true
 >
 > For each problem:
 > 1. Read the **problem** and try it on your own.
-> 2. Open **Hint 1** if you’re not sure which rule or idea to use.
-> 3. Open **Hint 2** for more structure.
+> 2. Open **Hint 1** to ask the key strategic question.
+> 3. Open **Hint 2** to answer that question and start the setup.
 > 4. Open the **Solution** only when you’re ready to check your work.
 
 ---
@@ -143,14 +143,13 @@ D. \(\displaystyle f'(x) = \frac{1}{5x+7}\)
 
 E. \(\displaystyle f'(x) = \ln(5)\)
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-You have \(\ln(\text{something})\), not just \(\ln x\).  
-Look for the rule for the derivative of \(\ln(f(x))\).
+When differentiating \(\ln(5x+7)\), what role does the inside function play compared with differentiating \(\ln x\)?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Use
 \[
@@ -224,14 +223,13 @@ D. \(3 < x < 4.5\)
 
 E. \(x > 4.5\)
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-The bases on both sides are exponentials with base \(e\).  
-Try rewriting the right-hand side as \(e^{(\text{something})}\) so you can equate exponents.
+How can you rewrite both sides so they have the same exponential base, and what equation does that let you solve?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Use the fact that
 \[
@@ -320,14 +318,13 @@ D. between 50 billion and 60 billion
 
 E. less than 50 billion
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-You are given a **rate of change** \(f'(t)\) and an initial value \(f(0)\).  
-To recover \(f(t)\), integrate \(f'(t)\) and then use the initial value.
+If you know a rate function \(f'(t)\) and an initial value \(f(0)\), how do you recover the original quantity in a later year?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 1. Compute
    \[
@@ -417,16 +414,13 @@ D. \(y = -7x + 5\)
 
 E. \(y = 7x + 11\)
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-To get the equation of the tangent line to a point you need a slope
-and apoint the line goes trough.
-How can You use the derivative to find the slope you need?
-How can you find the point you need?
+What two ingredients do you always need for a tangent-line equation at \(x=0\)?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 for a point a=0
 1. Evaluate \(f(a)\), to get point
 2. Then compute \(f'(a)\) to 
@@ -516,16 +510,13 @@ D. Between 10.50% and 10.80%
 
 E. More than 10.80%
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Use the relationship between effective rate \(E\) and nominal rate \(r\) for **continuous compounding**:
-\[
-E = e^{r}-1.
-\]
+If the effective rate \(E\) is given for continuous compounding, which equation connects \(E\) and the nominal rate \(r\)?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Plug \(E=0.106\) into
 \[
@@ -593,17 +584,13 @@ D. \(f(x) = 5x^{2} + x^{2} + C\)
 
 E. \(f(x) = 10\)
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-You’re going **backwards** from derivative to function.  
-This is an **indefinite integral** / antiderivative problem:
-\[
-f(x) = \int (10x+2)\,dx.
-\]
+If \(f'(x)=10x+2\), what family of functions could produce that derivative?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Use the power rule for integrals:
 \[
@@ -656,19 +643,13 @@ Evaluate the indefinite integral:
 \int \left( e^{4x} + \frac{1}{x^{3}} \right)\,dx.
 \]
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Split the integral into two parts:
-\[
-\int e^{4x}\,dx + \int x^{-3}\,dx.
-\]
-Use:
-- exponential rule for \(e^{4x}\),
-- power rule for \(x^{-3}\).
+Which integration rule matches each term in this integrand: \(e^{4x}\) and \(x^{-3}\)?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Recall:
 \[
@@ -726,14 +707,13 @@ Determine the derivative of
 f(x) = \frac{x}{3 + \ln(x)}.
 \]
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-You have a **quotient**: numerator \(x\), denominator \(3+\ln x\).  
-Use the **quotient rule**.
+Since \(f(x)=\dfrac{x}{3+\ln x}\), what derivative rule is the best starting point?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Let
 \[
@@ -793,16 +773,13 @@ Using the Fundamental Theorem of Calculus, determine an expression equivalent to
 \int_{a}^{b} 5x^{4}\,dx.
 \]
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-First find an antiderivative \(F(x)\) of \(5x^{4}\), then use
-\[
-\int_{a}^{b} 5x^{4}\,dx = F(b)-F(a).
-\]
+To apply the Fundamental Theorem of Calculus here, what antiderivative do you need first?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Use the power rule:
 \[
@@ -852,18 +829,13 @@ C. \$25,000
 D. \$26,400  
 E. \$28,000  
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Use the compound interest formula
-\[
-A = P\left(1+\frac{r}{m}\right)^{mt},
-\]
-with  
-\(P = 20000,\ r = 0.024,\ m = 4,\ t = 8.\)
+Which quantities in the compound-interest formula represent principal, annual rate, compounding frequency, and time in this situation?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Compute
 \[
@@ -929,14 +901,13 @@ D. \(C(x) = 3x^{2} + 7x + 32\)
 
 E. \(C(x) = 3x^{2} + 7x + 80\)
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Marginal cost is \(C'(x)\).  
-To get actual cost \(C(x)\), integrate \(C'(x)\), then use \(C(3)=80\) to find the constant.
+How do you move from marginal cost \(C'(x)\) to total cost \(C(x)\), and where is the given value \(C(3)=80\) used?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 1. Compute
    \[
@@ -1001,21 +972,13 @@ Using the Fundamental Theorem of Calculus, evaluate the definite integral
 \int_{1}^{4} \left(2x + \frac{3}{x} + 7\right)\,dx.
 \]
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Split the integral into three parts:
-\[
-\int_{1}^{4} 2x\,dx + \int_{1}^{4} \frac{3}{x}\,dx + \int_{1}^{4} 7\,dx.
-\]
-
-Use:
-- power rule for \(2x\),
-- log rule for \(\frac{3}{x}\),
-- constant rule for \(7\).
+For \(\int_1^4\left(2x+\frac{3}{x}+7\right)dx\), why is it useful to split the integrand into separate pieces before integrating?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Find an antiderivative \(F(x)\) such that:
 \[
@@ -1103,14 +1066,13 @@ Find the derivatives of the following functions. Your answers do not need to be 
 
 #### (a) \(h(x) = x^{5}\ln x\)
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-This is a **product** of two functions: \(x^{5}\) and \(\ln x\).  
-Use the **product rule**.
+For \(h(x)=x^5\ln x\), which derivative rule combines these two factors?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Let
 \[
@@ -1155,17 +1117,13 @@ h'(x)
 
 #### (b) \(j(x) = e^{\sqrt{x} + 5x^{2}}\)
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-You have an exponential of a **function of \(x\)**.  
-Use the chain rule:
-\[
-\frac{d}{dx}e^{u(x)} = e^{u(x)} u'(x).
-\]
+For \(j(x)=e^{\sqrt{x}+5x^2}\), what is the outer function and what is the inner function of \(x\)?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 Let
 \[
@@ -1216,18 +1174,13 @@ Here \(x\) is measured in **hundreds of units**.
 
 How many units must be produced in order for the **average cost** to be an **absolute minimum**?
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Average cost is
-\[
-\overline{C}(x) = \frac{C(x)}{x}.
-\]
-
-First write \(\overline{C}(x)\), then minimize it using derivative tests.
+What expression represents average cost, and what condition identifies where that average cost can be minimized?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 1. Compute
    \[
@@ -1346,18 +1299,13 @@ Let \(x\) represent the **increase in ticket price above \$24** (in dollars).
 
 ---
 
-<details><summary><strong>Hint 1</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-You need to build a **revenue function** \(R(x)\) that includes:
-
-- Ticket revenue = (ticket price)(number of people),
-- Concession revenue = (average spending per person)(number of people).
-
-Both depend on \(x\).
+Which quantities change with \(x\), and how should ticket revenue and concession revenue be combined into one total revenue model?
 
 </details>
 
-<details><summary><strong>Hint 2</strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 
 1. Ticket price: \(24 + x\).  
 2. Number of people: \(20{,}000 - 400x\).  
@@ -1517,3 +1465,4 @@ So the maximum total revenue (tickets + concessions) is
 - (b) The **maximum revenue** is **\$640,000**.
 
 </details>
+

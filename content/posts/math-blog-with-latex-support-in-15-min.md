@@ -17,7 +17,10 @@ draft: false
 # Blog with LaTeX in 15 Minutes
 
 *Joel Maldonado*
-Welcome to this infinite **Cute Loop**! In this post, I’m going to share my journey of setting up a Hugo blog with full LaTeX support and deploying it to GitHub Pages—all in just 15 minutes. If you’re curious about how to get your blog up and running quickly, read on!Below is the updated, comprehensive tutorial that incorporates all the details—including creating your GitHub repository, initializing your Hugo site with your final configuration, adding LaTeX support via the custom footer partial, and deploying your site from a dedicated branch (gh‑pages) using ghp‑import. You can copy and paste this tutorial as your first post (for example, as a file named `content/posts/blog-with-latex-in-15-min.md`) and then customize it as needed.
+
+Welcome to Infinite Cute Loop. This post explains how to set up a Hugo blog with LaTeX support and deploy it to GitHub Pages in a short, practical workflow.
+
+The guide below includes the full sequence: creating the GitHub repository, initializing Hugo with the final configuration, enabling LaTeX with a custom footer partial, and deploying from a dedicated `gh-pages` branch using `ghp-import`.
 
 ---
 

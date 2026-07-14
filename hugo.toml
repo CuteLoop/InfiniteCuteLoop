@@ -31,8 +31,8 @@ post = "/post/:year/:month/:day/:slug/"
   weight = 3
 
   [[menu.main]]
-  name = "Tags"
-  url = "tags/"
+  name = "Posts"
+  url = "posts/"
   weight = 4
 
   [[menu.main]]

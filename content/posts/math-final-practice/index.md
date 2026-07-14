@@ -8,7 +8,7 @@ math: true
 ---
 
 > How to use this page  
-> Try each problem first, then expand Hint or Solution as needed. (this is a draft. Currently in the process of checking and reviewing the solutions are correct. I hope It Helps you in your study.)
+> Try each problem first, then open Hint 1, Hint 2, and the Solution only as needed. This page is a working draft, but each revised item is written to show setup, algebra, and interpretation clearly.
 
 - [Final Exam Practice Exam Answers](#answers)
 
@@ -64,12 +64,24 @@ D. \(C(x)=9x\)
 
 E. \(C(x)=0.91x\)
 
-<details><summary><strong>Hint</strong></summary>
-Add 9 % of the price to the price to the total cost. 
+<details><summary><strong>Hint 1: Start here</strong></summary>
+What does “9% sales tax” mean in terms of the original price \(x\): what amount is tax, and what amount is total cost? 
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Tax is \(0.09x\). Add that to the original price \(x\):
+\[
+C(x)=x+0.09x.
+\]
+Now simplify and match the choice.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
-9 % of \(x\) is \( \frac{9}{100}x = 0.09x\); total cost \(C(x) = x+0.09x = 1.09x\). Answer A.
+9 % of \(x\) is \(\frac{9}{100}x=0.09x\), so total cost is
+\[
+C(x)=x+0.09x=1.09x.
+\]
+This matches choice A.
 </details>
 
 ---
@@ -77,8 +89,12 @@ Add 9 % of the price to the price to the total cost.
 ### 2 Which Graph is a Function?
 
 ![Graph A](image2.png)
-<details><summary><strong>Hint</strong></summary>
-Use the vertical line test.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+What must be true for a graph to represent a function: can one input \(x\) produce more than one output \(y\)?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Use the vertical-line test. If any vertical line hits the graph more than once, the relation is not a function.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -100,20 +116,31 @@ D. \((-\infty,0.4)\)
 
 E. \([0,\infty)\)
 
-<details><summary><strong>Hint</strong></summary>
-input of a Square roots cannot be negative.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+For a square-root function, what condition must the radicand satisfy, and which inequality should you solve here?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Set the inside expression to be nonnegative:
+\[
+2-5x\ge 0.
+\]
+Solve that inequality and write the result in interval notation.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
-The inside of the squarer root cannot admit negative values. So we require
+The expression inside a square root must be nonnegative, so we require
 $$2-5x \geq 0.$$
-solve for x. 
+Now solve for \(x\): 
 $$\begin{align*}
 2 & \geq 5x \\
 \frac{2}{5} &\geq x
 \end{align*}$$
-Hence the domain of \( x \)  must be \( (-\infty, \frac{2}{5}) \).
-Which can be written as \( (-\infty,0.4] \). Answer B.
+Hence the domain is
+\[
+(-\infty,\tfrac{2}{5}].
+\]
+This can also be written as \(( -\infty,0.4 ]\), which matches choice B.
 </details>
 
 ---
@@ -133,8 +160,20 @@ D. \([3,\infty)\)
 
 E. \((0,3)\cup(3,\infty)\)
 
+<details><summary><strong>Hint 1: Start here</strong></summary>
+On which interval(s) does the graph rise as you move left to right, and how do you express that using interval notation?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Scan the curve from left to right and mark where the function values increase. Then match that interval to the answer choices.
+</details>
+
 <details><summary><strong>Solution</strong></summary>
-From the sketch the function rises for all \(x \geq 3 \) so the answer is \( [3, \infty) \).
+From the sketch, the function rises for all \(x \ge 3\). Therefore, the increasing interval is
+\[
+[3,\infty),
+\]
+which matches choice D.
 </details>
 
 ---
@@ -157,6 +196,18 @@ C. \(m = 4950\). The number of locations increases by **4950 per year**.
 D. \(m = 1650\). The number of locations increases by **1650 over 3 years**.  
 
 E. \(m = 1650\). The number of locations worldwide increases by **1650 per year**.  
+
+<details><summary><strong>Hint 1: Start here</strong></summary>
+What does slope measure in this table context: change in locations, change in years, or both?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Use two data points and compute
+\[
+m=\frac{\Delta y}{\Delta x}=\frac{\text{change in locations}}{\text{change in years}}.
+\]
+Then interpret the unit as locations per year.
+</details>
 
 <details><summary><strong>Solution</strong></summary>
 
@@ -187,12 +238,20 @@ D. \(S(t)=1650t+21\,366\)
 
 E. \(S(t)=3300t+21\,366\)
 
-<details><summary><strong>Solution – TODO</strong></summary>
-at \(t=0\) (2012), \(S(0)=18\,066\).
+<details><summary><strong>Hint 1: Start here</strong></summary>
+For a linear model \(S(t)=mt+b\), which two pieces of information from the table identify \(m\) and \(b\)?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Use the slope from the previous problem for \(m\), and use the value at \(t=0\) (year 2012) for \(b\).
+</details>
+
+<details><summary><strong>Solution</strong></summary>
+At \(t=0\) (year 2012), \(S(0)=18\,066\), so this is the initial value (the \(y\)-intercept).
 Slope \(m=1650\) locations per year.
 \[
 S(t)=1650t+18\,066\]
-So the answer is \(S(t)=1650t+18\,066\). Answer A.
+So the linear model is \(S(t)=1650t+18\,066\), which is choice A.
 </details>
 
 ---
@@ -212,16 +271,20 @@ Evaluate \(f(-3)\).
 
 A. 3 B. –1 C. –4 D. 1 E. undefined
 
-<details><summary><strong>Hint</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 In which branch does \( x= -3 \) fall?
 Use corresponding formula to compute \(f(-3)\).
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Because \(-3<-2\), use the first piece \(f(x)=2x+5\). Substitute \(x=-3\) and simplify.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
 Since \(-3<-2\), use the first branch:
 \[
 f(-3)=2(-3)+5=1.\]
-So the answer is \(f(-3)=1\). Answer D.
+So \(f(-3)=1\), which matches choice D.
 
 </details>
 
@@ -230,7 +293,7 @@ So the answer is \(f(-3)=1\). Answer D.
 ### 8 (*) Transformations of \(g(x)\)
 
 If \((2,5)\) lies on \(y=g(x)\), which point must lie on  
-\(y=\tfrac15\),  \(2g\!\bigl(\tfrac{1}{5}X\bigr)+3\)?
+\(y = 2g\!\left(\tfrac{x}{5}\right)+3\)?
 
 A. \(\bigl(\tfrac25,13\bigr)\)  
 B. \((4,4)\)  
@@ -238,9 +301,13 @@ C. \((10,13)\)
 D. \(\bigl(\tfrac{11}{10},2\bigr)\)  
 E. \((4,13)\)
 
-<details><summary><strong>Hint</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 
-Identify input and output of the function  and the transformations.
+What happens to the input and output of the known point \((2,5)\) under the transformations in \(y=2g(x/5)+3\)?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+For \(g(x/5)\), make \(x/5=2\) to find the new input. Then transform the output with \(2(5)+3\).
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -272,12 +339,12 @@ D. \((10,500)\)
  E. \((20,125)\)
 
 
-<details><summary><strong> Hint </strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 Identify input and output of the function.
 Which point is scaled by a factor of 2?
 </details>
 
-<details><summary><strong> Hint </strong></summary>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
 Originally \(10\) gal ⇒ \(250\) mi.  Doubling fuel efficiency means the same \(10\) gal ⇒ \(2\times250=500\) mi.  
 \[
 \boxed{(10,500)}.
@@ -311,7 +378,7 @@ E. \(\displaystyle (f\circ g)(x) = -\frac{7}{x - 2}\)
 ---
 
 
-<details><summary><strong>Hint</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 Identify the inner and outer functions:  
 \[
 (f\circ g)(x) = f\bigl(g(x)\bigr).
@@ -320,12 +387,8 @@ First compute \(g(x)\), then substitute that result into \(f\).
 </details>
 
 
-<details><summary><strong>Hint</strong></summary>
-Identify the inner and outer functions:  
-\[
-(f\circ g)(x) = f\bigl(g(x)\bigr).
-\]
-First compute \(g(x)\), then substitute into \(f\).
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Once you substitute \(g(x)\) into \(f\), simplify the complex fraction carefully by multiplying numerator and denominator by \(x+5\).
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -368,8 +431,16 @@ C. \((f\cdot g)(x)\)
 D. \((f+g)(x)\)  
 E. \((g-f)(x)\)
 
-<details><summary><strong>Hint</strong></summary>  
-Since the \(\$10\)‑off must be applied first, feed the original price \(x\) into \(f\), then take that result and feed it into \(g\).  
+<details><summary><strong>Hint 1: Start here</strong></summary>  
+If one coupon must be applied first, which composition reflects the order “first \(f\), then \(g\)”?  
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Start with \(f(x)=x-10\), then apply \(g\) to that result:
+\[
+g(f(x))=0.70(x-10).
+\]
+Choose the option with that order.
 </details>
 
 <details><summary><strong>Solution</strong></summary>  
@@ -399,12 +470,12 @@ D. \(f^{-1}(x) = \dfrac{-x+1}{x+2}\)
 
 E. None of these
 
-<details><summary><strong>Hint</strong></summary>
-solve for x.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+What is the standard first step for finding an inverse function algebraically after writing \(y=f(x)\)?
 </details>
 
 <details><summary><strong>Solution</strong></summary>
-solve for x.
+Start with
 \[
 y = \dfrac{x-1}{2x+3} \implies y(2x+3) = x-1 \implies 2xy + 3y = x - 1\]
 Put all \(x\) terms on one the same side and factor out \(x\):
@@ -414,8 +485,11 @@ x - 2xy = 3y + 1 \implies x(1-2y) = 3y + 1 \implies x = \dfrac{3y+1}{1-2y}
 Now switch \(x\) and \(y\):
 \[
 f^{-1}(x) = \dfrac{3x+1}{1-2x}\]
-So the answer is \(f^{-1}(x) = \dfrac{3x+1}{1-2x}\).
-Answer B.
+So
+\[
+f^{-1}(x)=\frac{3x+1}{1-2x}=\frac{-3x-1}{2x-1},
+\]
+which matches choice B.
 </details>
 
 ---
@@ -431,14 +505,18 @@ C. –2
 D. Undefined
 E. None of these
 
-<details><summary><strong>Hint</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 \(g(3) =2\)  means when the input is 3, the output is 2.
 The inverse function \(g^{-1}(2)\) asks: what is the input that gives an output of 2?
 </details>
 
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Look on the graph for the point whose \(y\)-value is 2. Its \(x\)-value is exactly \(g^{-1}(2)\).
+</details>
+
 <details><summary><strong>Solution</strong></summary>
 The graph shows that \(g(-2)=2\), so the inverse function \(g^{-1}(2)=-2\).
-Thus the answer is B.
+So the input that produces output 2 is \(-2\), which is choice C.
 </details>
 
 ---
@@ -457,8 +535,12 @@ D. \(y=-(x-2)(x-1)\)
 
 E. \(y=-(x+1)(x-2)-\)
 
-<details><summary><strong>Hint</strong></summary>
-Identify zeros & orientation.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+Which x-intercepts can you read from the graph, and does the parabola open upward or downward?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Write \(y=A(x-r_1)(x-r_2)\) using the intercepts. Then substitute one known point on the graph to solve for \(A\).
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -472,7 +554,7 @@ Now we evaluate the formula above at the point (0,2) to find \(A\):
 So the equation is
 \[
 y = -(x+1)(x-2).\]
-Thus the answer is \(y=-(x+1)(x-2)\). Answer B.
+Thus the matching equation is \(y=-(x+1)(x-2)\), choice B.
 </details>
 
 ---
@@ -492,15 +574,18 @@ D. 13–15 s
 
 E. > 15 s
 
-<details><summary><strong>Hint</strong></summary>
-Solve h(t) = 0.
-Use quadratic formula.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+What does “hits the ground” mean for height \(h(t)\), and which equation in \(t\) should that create?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Set \(h(t)=0\), solve the quadratic, and keep only the nonnegative time because negative time is not physically meaningful.
 </details>
 
 
 <details><summary><strong>Solution: Calculator version </strong></summary>
 
-There are two ways to solve this problem with the claculator.
+There are two ways to solve this problem with a calculator.
 
 **Version 1**: program > quad > "asks you for a? b? c? > gives you the roots.
 
@@ -540,7 +625,7 @@ t=\dfrac{-49+88.6}{-9.8}\approx-4.02\text{ (not valid)}\]
 \[
 t=\dfrac{-49-88.6}{-9.8}\approx14.05\text{ (valid)}\]
 So the stone hits the ground at about \(t=14\) seconds.
-Thus the answer is D
+This places the time in the interval 13-15 seconds, so the correct choice is D.
 </details>
 
 
@@ -561,11 +646,11 @@ D. 200 000
  
 E. 188 000
 
-<details><summary><strong>Hint.</strong></summary>
-Combine formulas to obtain an equation for the profit:
-Revenue = demand x price
-Profit = Revenue - cost.
-Obtain a parabola. find vertex.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+Which quantity should be maximized, and how do revenue and cost combine to produce that function?
+</details>
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Write \(R(x)=x\,p(x)\), then \(P(x)=R(x)-C(x)\). After simplifying, use the vertex of the quadratic profit model to find the maximizing \(x\).
 </details>
 <details><summary><strong>Solution</strong></summary>
 Revenue: \[
@@ -580,7 +665,7 @@ This is a downward-opening parabola. The maximum occurs at the vertex:
 \[
 x=-\dfrac{b}{2a}=-\dfrac{47}{2(-\dfrac{1}{4000})}=47\cdot2000=94000.\]
 Thus the maximum profit occurs at \(x=94\,000\) pairs.
-So the answer is C.
+So the maximizing production level is 94,000 pairs, which is choice C.
 </details>
 
 
@@ -600,8 +685,12 @@ C. \(f(1)=456.57\). In the year 2010, there were 456.57 million monthly Facebook
 D. \(f(1)=456.57\). In the year 2010, there were an average of 456.57 million Facebook users added each month.  
 E. \(f(1)=456.57\). To reach 1 million monthly Facebook users, it took 456.57 months.
 
-<details><summary><strong>Hint</strong></summary>
-Substitute \(t=1\) into the model. Remember that \(f(t)\) is in **millions** of users.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+If \(t\) is years since 2009, what calendar year does \(t=1\) represent, and what units does \(f(t)\) use?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Evaluate \(f(1)\) directly, then interpret the numerical result in **millions of monthly active users**.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -622,13 +711,32 @@ According to this model, in what year did the number of monthly active Facebook 
 
 A. 2011 B. 2012 C. 2013 D. 2014 E. 2015
 
-<details><summary><strong>Hint</strong></summary>
-Solve \(f(t)=1000\) (millions) for \(t\), then add that to 2009. or alternative use calculator and intersect f(t) with y=1000.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+What equation represents “reaches 1000 million users,” and how do you convert the resulting \(t\)-value into a calendar year?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Solve
+\[
+2.12t^3-27.43t^2+301.48t+180.4=1000
+\]
+with a calculator, then add the decimal \(t\)-value to 2009 and choose the nearest year option.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
-Use calculator.
-We obtain 
+Using a calculator to solve
+\[
+2.12t^3-27.43t^2+301.48t+180.4=1000,
+\]
+we get \(t\approx 3.55\).
+
+Since \(t\) is years after 2009, the year is
+\[
+2009+3.55\approx 2012.55,
+\]
+which corresponds to **2012** among the choices.
+
+**Answer B.**
 
 </details>
 
@@ -652,20 +760,28 @@ D. \((3x-1)\) and \((x+3)\)
 
 E. \((2x+1)\) and \((x+6)\)
 
-<details><summary><strong>Hint</strong></summary>
-Divide \(R(x)\) by \((x-1)\) to obtain a quadratic, try graphing such quadratic to find its roots.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+Given one known factor \((x-1)\), what should you do next to find the remaining linear factors?
 </details>
-<details><summary><strong>Hint</strong></summary>
-find roots of $$ \frac{2x^3 + 5x^2 - 6x - 1}{x-1}.$$
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Divide by \((x-1)\) to get a quadratic, then solve that quadratic (by factoring or graphing) to get the other roots.
 </details>
 
 
 <details><summary><strong>Solution</strong></summary>
-Graph $$R(x)= \frac{2x^3 + 5x^2 - 6x - 1}{x-1}$$  and find its intersection with $$y=0$$. 
+Graph the quotient
+\[
+\frac{2x^3 + 5x^2 - 6x - 1}{x-1}
+\]
+and find where it intersects \(y=0\). 
 
 The roots are \(x=-2\) and \(x=\frac{-3}{2}\).
-verify your answer:
-R(x) = (x-1)(2x+3)(x+2)
+Therefore, the remaining linear factors are \((2x+3)\) and \((x+2)\), which is choice A.
+
+Verify by reconstruction:
+\[
+R(x)=(x-1)(2x+3)(x+2).
+\]
 \[ 
 \text{Verify: } R(-2) = 0 \text{ and } R\left(-\frac{3}{2}\right) = 0
 \] 
@@ -688,13 +804,16 @@ D. \(f(t)\to6\)
 E. None of these  
 
 
-<details><summary><strong>Hint</strong></summary>  
-Take a look at the leading terms.
+<details><summary><strong>Hint 1: Start here</strong></summary>  
+For a rational function, what determines the horizontal asymptote when numerator and denominator have the same degree?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Compare the leading terms \(6t\) and \(t\). Their coefficient ratio gives the long-run value.
 </details>
 
 <details><summary><strong>Solution</strong></summary>  
-The leading terms are \(\(6t\) and \(t\)).
-so as \(t\to\infty\), 
+The leading terms are \(6t\) and \(t\), so as \(t\to\infty\), 
 
 \[
 \lim_{t\to\infty}\frac{6t}{t+1.2}
@@ -730,8 +849,12 @@ D. \(h^{-1}(5)=4.84\). After 5 years, the height is 4.84 ft.
 
 E. \(h^{-1}(5)=6\). After 5 years, the height is 6 ft.
 
-<details><summary><strong>Hint</strong></summary>  
-Solve \(h(t) = 5\).  
+<details><summary><strong>Hint 1: Start here</strong></summary>  
+What does \(h^{-1}(5)\) ask for in words: an input time or an output height?  
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Set \(h(t)=5\), solve for \(t\), and interpret the result as the number of years needed for the tree to reach 5 feet.
 </details>
 
 <details><summary><strong>Solution</strong></summary>  
@@ -776,8 +899,12 @@ D. \(y=\tfrac32\) 
 
 E. \(y=-1\)
 
-<details><summary><strong>Hint</strong></summary>
-For large \(\lvert x\rvert\), compare the leading terms \(-3x\) over \(x\).
+<details><summary><strong>Hint 1: Start here</strong></summary>
+When numerator and denominator have the same degree, what is the horizontal asymptote rule?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Use the ratio of leading coefficients: \(-3/1\). That value is the horizontal asymptote.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -799,10 +926,14 @@ D. \((-\infty,\infty)\)
 
 E. \((2,\infty)\)
 
-<details><summary><strong>Hint</strong></summary>
+<details><summary><strong>Hint 1: Start here</strong></summary>
 The function \((\tfrac13)^x\) is always positive. What does that tell you about the range of \(p(x)\)?
 What happens if \(x\) is very large or very small, negative?
 
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Because \((1/3)^x>0\), adding 2 shifts all outputs up by 2. Determine whether 2 is included by checking if \((1/3)^x\) can ever equal 0.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -837,8 +968,16 @@ D. \(C=\tfrac{16}{3},\;b=\tfrac32\)
 
 E. \(C=8,\;b=\tfrac32\)
 
-<details><summary><strong>Hint</strong></summary>
-Evaluate the function at points we know.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+How can two rows of the table give you two equations in the two unknowns \(C\) and \(b\)?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Use \(x=1\) and \(x=2\):
+\[
+Cb=8,\qquad Cb^2=12.
+\]
+Divide the second equation by the first to solve for \(b\), then back-substitute for \(C\).
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -862,8 +1001,7 @@ Since we know \(C\), we can substitute:
 \[
 12 = \left(\frac{8}{b}\right) b^2
 \]
-Cancel the \(b\) in the denominator:
-So we have
+Cancel one factor of \(b\):
 \[
 12 = 8b\]
 Hence
@@ -872,7 +1010,7 @@ b = \frac{12}{8} = \frac{3}{2}.\]
 Now substitute \(b\) back into the equation for \(C\):
 \[
 C = \frac{8}{b} = \frac{8}{\frac{3}{2}} = \frac{16}{3}.\]   
-So the answer is D.
+So \(C=\frac{16}{3}\) and \(b=\frac{3}{2}\), which matches choice D.
 </details>
 
 ---
@@ -891,8 +1029,12 @@ D. \$18 728.57
 
 E. \$12 013.73
 
-<details><summary><strong>Hint</strong></summary>
-Use \(A=Pe^{rt}\) with the given data.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+Which variable is unknown in \(A=Pe^{rt}\): the future amount \(A\), the principal \(P\), or the rate \(r\)?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Substitute \(A=15000\), \(r=0.037\), and \(t=6\), then isolate \(P\) by dividing both sides by \(e^{rt}\).
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -904,7 +1046,7 @@ A=Pe^{rt}\]
 15000=Pe^{0.037\cdot6}\]
 \[
 P=\frac{15000}{e^{6(0.037)}}\approx\frac{15000}{e^{0.222}}=\frac{15000}{1.248}\approx12013.73.\]
-So the answer is \(P\approx12013.73\).
+So the required initial investment is approximately \(\$12{,}013.73\), choice E.
 **Answer E.**
 </details>
 
@@ -925,8 +1067,12 @@ D. 30 000–40 000
 
 E. > 40 000
 
-<details><summary><strong>Hint</strong></summary>
-Set \(t=2020-1985=35\); compute \(P(35)\).
+<details><summary><strong>Hint 1: Start here</strong></summary>
+If \(t\) counts years after 1985, what \(t\)-value corresponds to the year 2020?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Compute \(t=2020-1985\), then evaluate \(P(t)=12500e^{0.02t}\) and compare with the answer intervals.
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -945,8 +1091,12 @@ which lies between 20 000 and 30 000.
 
 A. \(\tfrac13\) B. \(-3\) C. \(\tfrac14\) D. \(-4\) E. 0
 
-<details><summary><strong>Hint</strong></summary>
-Rewrite \(\tfrac18\) as a power of \(2\).
+<details><summary><strong>Hint 1: Start here</strong></summary>
+What exponent on 2 gives \(1/8\), and how does that connect to the definition of \(\log_2\)?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Write \(\tfrac18=2^{-3}\), then use \(\log_2(2^k)=k\).
 </details>
 
 
@@ -954,7 +1104,7 @@ Rewrite \(\tfrac18\) as a power of \(2\).
 \(\tfrac18=2^{-3}\), so
 \[
 \log_{2}\!\bigl(\tfrac18\bigr)=\log_{2}\!\bigl(2^{-3}\bigr)=-3.\]
-Thus the answer is \(-3\).
+Thus \(\log_2(1/8)=-3\), which is choice B.
 **Answer B.**
 </details>
 
@@ -972,8 +1122,12 @@ C. \(\log_{13}6 = N\)
 D. \(\log_{13}6 = N\)  
 
 E. \(\log_{6}13 = N\)
-<details><summary><strong>Hint</strong></summary>
-Look at the answers and see which base logarithm makes sense to try.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+In the equation \(6^N=13\), which number is the base and which number is the result?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Use the conversion rule \(a^b=c \iff \log_a(c)=b\). Match \(a=6\), \(b=N\), and \(c=13\).
 </details>
 
 <details><summary><strong>Solution</strong></summary>
@@ -989,7 +1143,7 @@ The logarithm is the inverse of the exponentiation, so we can cancel the \(6\) o
 to obtain.
 \[
 N = \log_{6} 13.\]  
-Thus the answer is **E.**
+So the logarithmic form is \(\log_6(13)=N\). In the listed options, this is labeled as choice E.
 </details>
 
 ---
@@ -998,9 +1152,12 @@ Thus the answer is **E.**
 
 A. \(x=\tfrac12\) B. \(x=\tfrac14\) C. \(x=\tfrac32\) D. \(x=\tfrac38\)
 
-<details><summary><strong>Hint</strong></summary>
-Review the rules for combining logarithms.
+<details><summary><strong>Hint 1: Start here</strong></summary>
+When two logs with the same base are subtracted, what single-log expression can you write?
 </details>  
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Combine the right side first, then use one-to-one behavior of logarithms to solve the resulting rational equation.
+</details>
 <details><summary><strong>Solution</strong></summary>
 Combine logs:
 \[
@@ -1022,7 +1179,7 @@ Subtract \(3x\) from both sides:
 Divide both sides by \(2\):
 \[
 x = \frac{3}{2}.\]
-Thus the answer is \(x=\frac{3}{2}\).
+Thus the solution is \(x=\frac{3}{2}\), which matches choice C.
 **Answer C.**
 </details>
 
@@ -1041,6 +1198,14 @@ B. \(t = 4\log_{1/2}\!(\tfrac52)\)
 C. \(t = 4\log_{5/2}(\tfrac12)\)
 
 D. \(t = 4\log_{5}(2)\)
+
+<details><summary><strong>Hint 1: Start here</strong></summary>
+After isolating the exponential expression, which logarithm base matches the answer choices most directly?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+First divide by 140 to get \((1/2)^{t/4}=5/2\). Then convert to logarithmic form to solve for \(t\).
+</details>
 
 <details><summary><strong>Solution</strong></summary>
 
@@ -1083,6 +1248,14 @@ C. \(\displaystyle t = -\ln\!\bigl(\tfrac{3}{20}\bigr)\)
 D. \(\displaystyle t = -3\ln\!\bigl(\tfrac{3}{100}\bigr)\)
 
 E. \(\displaystyle t = -\tfrac{1}{3}\ln\!\bigl(\tfrac{3}{100}\bigr)\)
+
+<details><summary><strong>Hint 1: Start here</strong></summary>
+What should your first algebra step be to remove the denominator and create a linear equation in the exponential term?
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Clear the denominator, isolate \(e^{-3t}\), then take \(\ln\) and solve for \(t\).
+</details>
 
 <details><summary><strong>Solution</strong></summary>
 
@@ -1138,12 +1311,12 @@ D. 19.74 years
 
 E. None of these  
 
-<details><summary><strong>Hint</strong></summary>  
-Use the formula for monthly compounding:  
-\[
-A = P\Bigl(1 + \frac{r}{n}\Bigr)^{nt},
-\]  
-with \(A=6000\), \(P=3000\), \(r=0.04\), \(n=12\). Solve for \(t\).
+<details><summary><strong>Hint 1: Start here</strong></summary>  
+What changes when an investment “doubles,” and which variable are you solving for in the compound-interest model? 
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Set \(A=2P\), substitute the given \(P,r,n\), and isolate \(t\) using logarithms.
 </details>
 
 <details><summary><strong>Solution</strong></summary>  
@@ -1179,11 +1352,12 @@ D. Between 6 and 8 months
 
 E. More than 8 months  
 
-<details><summary><strong>Hint</strong></summary>  
-Set \(P(t)=2000\) and solve for \(t\):  
-\[
-2000=\frac{10000}{1+9e^{-t/5}}.
-\]
+<details><summary><strong>Hint 1: Start here</strong></summary>  
+What equation represents “the population reaches 2000,” and what algebraic steps isolate the exponential term?  
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Set \(P(t)=2000\), clear denominators, isolate \(e^{-t/5}\), then apply natural log to solve for \(t\).
 </details>
 
 <details><summary><strong>Solution</strong></summary>  
@@ -1224,10 +1398,13 @@ D. 60–80 %
 
 E. More than 80 %  
 
-<details><summary><strong>Hint</strong></summary>  
-1. Use \(C e^{k\cdot18000}=\tfrac12C\) to find \(k\).  
-2. Compute \(e^{k\cdot1000}\times100\%\).
-</details>t
+<details><summary><strong>Hint 1: Start here</strong></summary>  
+How can the half-pressure condition at 18,000 ft determine the decay constant \(k\) in \(y=Ce^{kt}\)?  
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+From \(Ce^{18000k}=\tfrac12C\), solve for \(k\). Then evaluate \(y/C=e^{1000k}\) and convert to a percentage.
+</details>
 
 
 <details><summary><strong>Solution</strong></summary>  
@@ -1270,8 +1447,12 @@ D. 2013
 
 E. 2014  
 
-<details><summary><strong>Hint</strong></summary>  
-Set \(75\ln(t+1)+50=150\) and solve for \(t\), then add to 2010.
+<details><summary><strong>Hint 1: Start here</strong></summary>  
+If \(f(t)\) is in millions and \(t\) is years since 2010, what equation should you solve for “150 million users”?  
+</details>
+
+<details><summary><strong>Hint 2: Idea and first steps</strong></summary>
+Set \(f(t)=150\), isolate the logarithm, exponentiate to solve for \(t\), then convert \(t\) to a calendar year.
 </details>
 
 <details><summary><strong>Solution</strong></summary>  
@@ -1298,7 +1479,7 @@ Year \(=2010+2.79\approx2012.79\), i.e.\ late 2012.
 | 1 | A |
 | 2 | A |
 | 3 | B |
-| 4 | A |
+| 4 | D |
 | 5 | E |
 | 6 | A |
 | 7 | B |
@@ -1308,14 +1489,14 @@ Year \(=2010+2.79\approx2012.79\), i.e.\ late 2012.
 | 11 | A |
 | 12 | B |
 | 13 | C |
-| 14 | E |
+| 14 | B |
 | 15 | D |
 | 16 | C |
 | 17 | C |
 | 18 | B |
 | 19 | A |
 | 20 | D |
-| 21 | E |
+| 21 | C |
 | 22 | A |
 | 23 | E |
 | 24 | D |
